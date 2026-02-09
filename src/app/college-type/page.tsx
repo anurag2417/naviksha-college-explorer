@@ -1,6 +1,9 @@
 import { Suspense } from 'react';
 import CollegeTypeContent from './components/CollegeTypeContent';
 
+// Make this page dynamic to prevent static generation
+export const dynamic = 'force-dynamic';
+
 export default function CollegesPage() {
   return (
     <Suspense fallback={
