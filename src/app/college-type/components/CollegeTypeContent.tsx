@@ -2,7 +2,11 @@
 
 import { useSearchParams } from "next/navigation";
 
-export default function CollegeTypeContent() {
+type CollegeTypeContentProps = {
+  stream?: string | null;
+};
+
+export default function CollegeTypeContent({ stream: streamProp }: CollegeTypeContentProps) {
   const searchParams = useSearchParams();
   const stream = searchParams.get("stream");
 
