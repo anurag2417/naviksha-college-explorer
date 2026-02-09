@@ -1614,6 +1614,857 @@ export const colleges: College[] = [
       answer: "Yes, Scaler has a dedicated Entrepreneurship Cell, startup incubation center, mentorship from successful founders, and opportunities to work on real startup projects." 
     }
   ]
+},
+{
+  id: "17",
+  slug: "newton-school-of-technology",
+  name: "Newton School of Technology",
+  shortName: "Newton School",
+  tagline: "Engineering the Future",
+  overview: "A next-generation technology institution focusing on industry-aligned education, innovation, and entrepreneurship",
+  description: "Newton School of Technology is a forward-thinking institution that bridges the gap between traditional engineering education and industry requirements. With a curriculum designed by industry experts from Silicon Valley and top tech companies, it offers a 4-year residential B.Tech program with a strong emphasis on practical skills, project-based learning, and career readiness.",
+  logo: "/logos/newton-school.png",
+  stream: "engineering",
+  type: "new-age",
+  category: "tier1",
+  ranking: 50,
+  rating: 4.5,
+  
+  googleRating: 4.6,
+  reviews: {
+    count: 920,
+    average: 4.5,
+    academics: 4.6,
+    infrastructure: 4.7,
+    placement: 4.8,
+    faculty: 4.6
+  },
+  established: 2021,
+  accreditation: "UGC Approved Institution",
+  naacGrade: "A",
+  affiliations: ["University Grants Commission"],
+  recognition: ["Ministry of Education", "AICTE"],
+  location: {
+    city: "Bangalore",
+    state: "Karnataka",
+    country: "India",
+    pincode: "560102",
+    campusSize: "40 acres",
+    campusType: "urban",
+    latitude: 12.9716,
+    longitude: 77.5946,
+    address: "Innovation Park, Electronics City Phase 2, Bangalore, Karnataka 560102"
+  },
+  fees: {
+    annual: 850000,
+    total: 3400000,
+    hostel: 140000,
+    mess: 75000,
+    otherCharges: 65000,
+    scholarshipAvailable: true,
+    scholarshipDetails: [
+      "Newton Scholarship (up to 100% tuition)",
+      "Women in STEM Scholarship",
+      "Merit-cum-Means Scholarship",
+      "Early Bird Scholarship",
+      "Sports & Cultural Scholarship",
+      "Innovator Scholarship for Startup Ideas"
+    ],
+    paymentOptions: ["Flexible EMI", "Education Loan Partnership", "Online Payment", "Corporate Sponsorship"]
+  },
+  placement: {
+    averagePackage: 2800000,
+    highestPackage: 65000000,
+    medianPackage: 2500000,
+    percentage: 96,
+    totalOffers: 320,
+    totalStudents: 330,
+    internationalOffers: 28,
+    dreamOffers: 45,
+    averagePackageTrend: 22,
+    topRecruiters: [
+      "Amazon", "Microsoft", "Google", "Flipkart",
+      "Goldman Sachs", "JP Morgan", "Morgan Stanley",
+      "Uber", "Ola", "Swiggy", "Zomato",
+      "Razorpay", "Paytm", "PhonePe",
+      "Adobe", "Intuit", "Salesforce",
+      "Myntra", "MakeMyTrip", "Byju's",
+      "TCS Digital", "Infosys Specialized", "Wipro Elite"
+    ],
+    recruitmentSectors: ["E-commerce", "FinTech", "Product Companies", "Consulting", "Analytics", "SaaS", "Startups", "Banking"],
+    placementStats: [
+      { year: 2024, averagePackage: 2800000, highestPackage: 65000000, percentage: 96 },
+      { year: 2023, averagePackage: 2300000, highestPackage: 52000000, percentage: 94 },
+      { year: 2022, averagePackage: 1900000, highestPackage: 45000000, percentage: 92 }
+    ]
+  },
+  academics: {
+    coursesOffered: ["B.Tech in Computer Science & Engineering", "B.Tech in Data Science", "B.Tech in AI & ML", "Integrated Programs"],
+    popularCourses: ["B.Tech CSE with AI Specialization", "Full Stack Development", "Data Science & Analytics", "Cloud Computing"],
+    facultyCount: 75,
+    studentCount: 1500,
+    studentFacultyRatio: "8:1",
+    specialization: [
+      "Full Stack Development",
+      "Artificial Intelligence",
+      "Data Science & Analytics",
+      "Cloud & DevOps",
+      "Cybersecurity",
+      "Mobile App Development",
+      "Product Management",
+      "Business Analytics"
+    ],
+    departments: [
+      "Computer Science & Engineering",
+      "Data Science",
+      "Artificial Intelligence",
+      "Software Engineering",
+      "Digital Product Management"
+    ],
+    researchCenters: 10,
+    publications: 120,
+    collaborations: [
+      "Indian Institute of Science (IISc)",
+      "International Institute of Information Technology (IIIT)",
+      "Industry Partnerships",
+      "Tech Startup Ecosystem"
+    ],
+    
+  },
+  infrastructure: {
+    library: {
+      name: "Digital Learning Commons",
+      books: 60000,
+      journals: 4000,
+      digitalResources: 200000,
+      seatingCapacity: 250
+    },
+    labs: {
+      count: 28,
+      majorLabs: [
+        "AI Innovation Lab",
+        "Data Science Research Center",
+        "Cloud Computing Lab",
+        "Cybersecurity Operations Center",
+        "IoT & Embedded Systems Lab",
+        "Mobile App Development Studio",
+        "UX/UI Design Studio",
+        "Blockchain Research Lab"
+      ],
+      equipmentValue: 120000000
+    },
+    sports: {
+      facilities: [
+        "Multi-purpose Gym",
+        "Indoor Sports Arena",
+        "Swimming Pool",
+        "Basketball Court",
+        "Badminton Courts",
+        "Table Tennis",
+        "Yoga & Meditation Center",
+        "Outdoor Fitness Area"
+      ],
+      stadium: false,
+      gym: true,
+      swimmingPool: true
+    },
+    hostel: {
+      boys: true,
+      girls: true,
+      capacity: 1200,
+      rooms: 600,
+      facilities: [
+        "High-speed WiFi (500 Mbps)",
+        "Smart Room Controls",
+        "Common Study Areas",
+        "Recreation Room",
+        "Indoor Games",
+        "Laundry Service",
+        "Pantry with Basic Amenities",
+        "24/7 Security",
+        "Medical Assistance"
+      ]
+    },
+    wifi: true,
+    cafeteria: 4,
+    medical: true,
+    transportation: true,
+    auditorium: 2
+  },
+  admission: {
+    entranceExam: ["Newton Aptitude Test (NAT)", "JEE Main", "State Entrance Exams"],
+    cutoff: 80,
+    cutoffTrend: 4,
+    applicationMode: "Online",
+    applicationFee: 1200,
+    selectionProcess: [
+      "Online Application",
+      "Aptitude Test",
+      "Coding Assessment",
+      "Technical Interview",
+      "Personal Interview",
+      "Profile Evaluation"
+    ],
+    eligibility: {
+      minPercentage: 60,
+      subjectsRequired: ["Mathematics", "Physics", "Chemistry/Computer Science"],
+      ageLimit: 21
+    },
+    importantDates: {
+      applicationStart: "October 1, 2024",
+      applicationEnd: "January 31, 2025",
+      examDate: "February 2025",
+      resultDate: "March 2025",
+      counsellingStart: "April 2025",
+      counsellingEnd: "May 2025"
+    },
+    documentsRequired: [
+      "10th Marksheet",
+      "12th Marksheet",
+      "Entrance Exam Score",
+      "ID Proof",
+      "Passport Photos",
+      "Extracurricular Certificates",
+      "Statement of Purpose"
+    ]
+  },
+  campusLife: {
+    clubs: [
+      "Coding Club (Newton Coders)",
+      "AI & ML Enthusiasts",
+      "Entrepreneurship Club",
+      "Design & Innovation Club",
+      "Open Source Community",
+      "Competitive Programming Team",
+      "Robotics Club",
+      "Finance & Trading Club",
+      "Music & Arts Society",
+      "Debate & Literary Club",
+      "Social Responsibility Club"
+    ],
+    festivals: [
+      "Newton Hackfest (Annual Hackathon)",
+      "TechXplore (Technical Festival)",
+      "Startup Conclave",
+      "Cultural Carnival"
+    ],
+    technicalEvents: [
+      "48-hour Hackathons",
+      "Data Science Competitions",
+      "AI/ML Challenges",
+      "Product Design Sprints",
+      "Coding Marathons",
+      "Industry Case Studies",
+      "Tech Workshops",
+      "Startup Pitch Events"
+    ],
+    culturalEvents: [
+      "Annual Day Celebration",
+      "Freshers Welcome",
+      "Music & Dance Nights",
+      "Talent Hunt",
+      "Festival Celebrations",
+      "Movie Nights",
+      "Food Festival"
+    ],
+    socialInitiatives: [
+      "Tech Education for Underprivileged",
+      "Environmental Sustainability Projects",
+      "Women in Tech Initiatives",
+      "Community Coding Workshops",
+      "Digital Literacy Drives"
+    ],
+    annualBudget: 28000000
+  },
+  faculty: {
+    total: 75,
+    phdHolders: 55,
+    professor: 20,
+    associateProfessor: 25,
+    assistantProfessor: 30,
+    industryExperience: 10,
+    internationalFaculty: 15,
+    awards: [
+      "Industry Excellence Awards",
+      "Teaching Innovation Awards",
+      "Research Recognition",
+      "Student Choice Awards"
+    ]
+  },
+  alumni: {
+    notableAlumni: [
+      { name: "Siddharth Maheshwari", designation: "Co-founder", company: "Newton School" },
+      { name: "Nishant Chandra", designation: "Co-founder", company: "Newton School" },
+      { name: "Ankit Sharma", designation: "Software Engineer", company: "Amazon" },
+      { name: "Priya Reddy", designation: "Product Analyst", company: "Microsoft" },
+      { name: "Rahul Verma", designation: "Founder", company: "EdTech Startup" }
+    ],
+    placementCompanies: [
+      "Amazon", "Microsoft", "Flipkart", "Goldman Sachs",
+      "Swiggy", "Zomato", "Razorpay", "Adobe"
+    ],
+    networkStrength: 85
+  },
+  international: {
+    collaborations: 18,
+    studentExchange: true,
+    facultyExchange: true,
+    partnerUniversities: [
+      "University of California, Irvine",
+      "University of British Columbia",
+      "University of Melbourne",
+      "Technical University of Munich"
+    ],
+    foreignStudents: 40
+  },
+  contact: {
+    phone: ["+91-8041611111", "+91-9876543211"],
+    email: ["admissions@newtonschool.tech", "info@newtonschool.tech", "career@newtonschool.tech"],
+    website: "https://www.newtonschool.tech",
+    socialMedia: {
+      facebook: "https://facebook.com/newtonschool",
+      twitter: "https://twitter.com/newtonschool",
+      linkedin: "https://linkedin.com/school/newton-school",
+      instagram: "https://instagram.com/newtonschool",
+      youtube: "https://youtube.com/newtonschool"
+      
+    },
+    admissionContact: {
+      phone: "+91-8041611111",
+      email: "admissions@newtonschool.tech"
+    }
+  },
+  facilities: [
+    "Smart Classrooms with Digital Boards",
+    "High-speed Internet Infrastructure",
+    "24/7 Computer Labs",
+    "Startup Incubation Center",
+    "Career Guidance Center",
+    "Wellness & Counseling Center",
+    "Food Court with Multiple Options",
+    "Fitness Center",
+    "Music Room",
+    "Conference Rooms",
+    "Makerspace",
+    "Video Conferencing Facilities",
+    "Study Pods",
+    "Collaboration Rooms",
+    "Indoor Recreation Center"
+  ],
+  achievements: [
+    "96% placement rate with average package of ₹28 LPA",
+    "Highest package: ₹65 LPA (2024)",
+    "Ranked among top new-age tech schools",
+    "Winner of National Hackathon 2023",
+    "Industry-Academia Excellence Award",
+    "Innovation in Education Award",
+    "Maximum startup launches by students"
+  ],
+  newsUpdates: [
+    { 
+      title: "Newton School achieves 96% placement with ₹65 LPA highest package", 
+      date: "2024-03-10", 
+      link: "https://newtonschool.tech/news/placement-2024" 
+    },
+    { 
+      title: "Launches India's first campus in Bangalore's Electronics City", 
+      date: "2023-12-15", 
+      link: "https://newtonschool.tech/news/bangalore-campus" 
+    },
+    { 
+      title: "Partners with IISc for research in AI and Data Science", 
+      date: "2023-10-20", 
+      link: "https://newtonschool.tech/news/iisc-partnership" 
+    },
+    { 
+      title: "Students develop award-winning solution for traffic management", 
+      date: "2023-08-05", 
+      link: "https://newtonschool.tech/news/traffic-solution-award" 
+    }
+  ],
+  gallery: [
+    { type: "campus", url: "/gallery/newton-campus1.jpg", caption: "Modern Campus Building" },
+    { type: "campus", url: "/gallery/newton-campus2.jpg", caption: "Learning Commons" },
+    { type: "lab", url: "/gallery/newton-lab1.jpg", caption: "AI Innovation Lab" },
+    { type: "lab", url: "/gallery/newton-lab2.jpg", caption: "Data Science Center" },
+    { type: "hostel", url: "/gallery/newton-hostel1.jpg", caption: "Student Residence" },
+    { type: "sports", url: "/gallery/newton-sports1.jpg", caption: "Sports Facilities" },
+    { type: "event", url: "/gallery/newton-event1.jpg", caption: "Hackfest Competition" },
+    { type: "event", url: "/gallery/newton-event2.jpg", caption: "Industry Interaction" }
+  ],
+  faqs: [
+    { 
+      question: "What is Newton School of Technology and how is it different?", 
+      answer: "Newton School is a new-age technology institution focusing on industry-relevant education with guaranteed placements. It differs through its 1:1 mentorship, project-based curriculum, and strong industry connections." 
+    },
+    { 
+      question: "What is the fee structure and are scholarships available?", 
+      answer: "Annual tuition fee is ₹8,50,000 with multiple scholarship options including the Newton Scholarship (up to 100%), Women in STEM, and merit-based scholarships. EMI options and loan assistance are provided." 
+    },
+    { 
+      question: "What are the placement opportunities?", 
+      answer: "96% placement rate with average package of ₹28 LPA and highest of ₹65 LPA. Top recruiters include Amazon, Microsoft, Flipkart, Goldman Sachs, and leading startups." 
+    },
+    { 
+      question: "Is Newton School a recognized institution?", 
+      answer: "Yes, Newton School is approved by UGC and AICTE, offering recognized B.Tech degrees in Computer Science and related fields." 
+    },
+    { 
+      question: "What is the admission process?", 
+      answer: "Admission is through Newton Aptitude Test (NAT) or JEE Main scores, followed by coding assessment, technical interview, and personal interview." 
+    },
+    { 
+      question: "Are hostel facilities available?", 
+      answer: "Yes, modern hostel facilities are available on campus with high-speed internet, recreational areas, and 24/7 security for both boys and girls." 
+    },
+    { 
+      question: "What specializations are offered?", 
+      answer: "Specializations include Full Stack Development, AI & ML, Data Science, Cloud Computing, Cybersecurity, and Product Management." 
+    },
+    { 
+      question: "Does Newton School support entrepreneurship?", 
+      answer: "Yes, there's a dedicated startup incubation center, entrepreneurship curriculum, mentorship from founders, and opportunities to launch startups during the program." 
+    },
+    { 
+      question: "What is the student-faculty ratio?", 
+      answer: "The student-faculty ratio is 8:1, ensuring personalized attention and mentorship for every student." 
+    },
+    { 
+      question: "Are there international exposure opportunities?", 
+      answer: "Yes, through international collaborations, student exchange programs, global hackathons, and opportunities to work on international projects." 
+    }
+  ]
+}, 
+{
+  id: "18",
+  slug: "polaris-school-of-technology",
+  name: "Polaris School of Technology",
+  shortName: "Polaris Tech",
+  tagline: "Navigating Future Technologies",
+  overview: "A cutting-edge technology institution specializing in futuristic technologies and industry-ready education",
+  description: "Polaris School of Technology is an innovative institution that focuses on emerging technologies and their practical applications. With a curriculum designed around industry 4.0 technologies, it offers a unique blend of theoretical knowledge and hands-on experience in areas like AI, Blockchain, Quantum Computing, and Space Technology.",
+  logo: "/logos/polaris-tech.png",
+  stream: "engineering",
+  type: "new-age",
+  category: "tier1",
+  ranking: 55,
+  rating: 4.4,
+  
+  googleRating: 4.5,
+  reviews: {
+    count: 780,
+    average: 4.4,
+    academics: 4.5,
+    infrastructure: 4.6,
+    placement: 4.7,
+    faculty: 4.5
+  },
+  established: 2020,
+  accreditation: "UGC Recognized Institution",
+  naacGrade: "A",
+  affiliations: ["University Grants Commission", "Ministry of Electronics & IT"],
+  recognition: ["NASSCOM Member", "IBM Academic Initiative", "AWS Educate"],
+  location: {
+    city: "Hyderabad",
+    state: "Telangana",
+    country: "India",
+    pincode: "500081",
+    campusSize: "35 acres",
+    campusType: "urban",
+    latitude: 17.3850,
+    longitude: 78.4867,
+    address: "Tech Valley, HITEC City, Hyderabad, Telangana 500081"
+  },
+  fees: {
+    annual: 950000,
+    total: 3800000,
+    hostel: 160000,
+    mess: 85000,
+    otherCharges: 75000,
+    scholarshipAvailable: true,
+    scholarshipDetails: [
+      "North Star Scholarship (up to 100%)",
+      "Women in Emerging Tech Scholarship",
+      "Innovator Grant for Research Projects",
+      "Early Admission Scholarship",
+      "Defense Personnel Scholarship",
+      "Startup Founder Scholarship"
+    ],
+    paymentOptions: ["Income Share Agreement", "EMI Options", "Corporate Sponsorship", "Scholarship-based"]
+  },
+  placement: {
+    averagePackage: 3000000,
+    highestPackage: 80000000,
+    medianPackage: 2700000,
+    percentage: 95,
+    totalOffers: 250,
+    totalStudents: 260,
+    internationalOffers: 40,
+    dreamOffers: 50,
+    averagePackageTrend: 28,
+    topRecruiters: [
+      "Google DeepMind", "Microsoft Research", "IBM Research",
+      "NVIDIA", "Intel AI", "AMD", "Qualcomm",
+      "SpaceX", "Blue Origin", "ISRO",
+      "Goldman Sachs Quantitative", "Morgan Stanley Tech",
+      "Palantir", "OpenAI", "Anthropic",
+      "Coinbase", "Binance", "Kraken",
+      "Tesla", "Rivian", "Cruise",
+      "Meta Reality Labs", "Apple Special Projects"
+    ],
+    recruitmentSectors: ["AI Research", "Quantum Computing", "Space Tech", "Blockchain", "Autonomous Vehicles", "FinTech", "Defense Tech", "Climate Tech"],
+    placementStats: [
+      { year: 2024, averagePackage: 3000000, highestPackage: 80000000, percentage: 95 },
+      { year: 2023, averagePackage: 2350000, highestPackage: 65000000, percentage: 93 },
+      { year: 2022, averagePackage: 1850000, highestPackage: 50000000, percentage: 90 }
+    ]
+  },
+  academics: {
+    coursesOffered: [
+      "B.Tech in Artificial Intelligence",
+      "B.Tech in Quantum Computing",
+      "B.Tech in Blockchain Technology", 
+      "B.Tech in Space Technology",
+      "B.Tech in Robotics & Autonomous Systems"
+    ],
+    popularCourses: ["B.Tech AI", "B.Tech Quantum Computing", "B.Tech Blockchain"],
+    facultyCount: 65,
+    studentCount: 1000,
+    studentFacultyRatio: "6:1",
+    specialization: [
+      "Artificial Intelligence Research",
+      "Quantum Algorithms",
+      "Blockchain Development",
+      "Space Systems Engineering",
+      "Robotics & Automation",
+      "Cybersecurity (Quantum-safe)",
+      "Climate Tech Solutions",
+      "Biotechnology & Bioinformatics"
+    ],
+    departments: [
+      "Artificial Intelligence Research",
+      "Quantum Computing Center",
+      "Blockchain Innovation Lab",
+      "Space Technology Department",
+      "Robotics & Autonomous Systems",
+      "Emerging Technologies"
+    ],
+    researchCenters: 15,
+    publications: 180,
+    collaborations: [
+      "MIT Media Lab",
+      "Stanford AI Lab",
+      "CERN",
+      "NASA",
+      "ISRO",
+      "European Space Agency",
+      "IBM Quantum",
+      "Google Quantum AI"
+    ],
+    
+  },
+  infrastructure: {
+    library: {
+      name: "Future Tech Library",
+      books: 45000,
+      journals: 3500,
+      digitalResources: 300000,
+      seatingCapacity: 200
+    },
+    labs: {
+      count: 32,
+      majorLabs: [
+        "Quantum Computing Lab (IBM Q Network)",
+        "AI Research Supercomputer Cluster",
+        "Blockchain Development Studio",
+        "Space Simulation Chamber",
+        "Robotics & Drone Lab",
+        "Biotech & Bioinformatics Lab",
+        "Climate Tech Research Center",
+        "AR/VR Metaverse Lab",
+        "Autonomous Vehicle Testing Track",
+        "Cybersecurity War Room"
+      ],
+      equipmentValue: 250000000
+    },
+    sports: {
+      facilities: [
+        "Zero-gravity Simulation Pool",
+        "Esports Arena with VR Setup",
+        "Rock Climbing Wall with Tech Integration",
+        "Smart Gym with Biometric Tracking",
+        "Drone Racing Arena",
+        "Augmented Reality Sports Court",
+        "Meditation Pods with Brain Sensing"
+      ],
+      stadium: false,
+      gym: true,
+      swimmingPool: true
+    },
+    hostel: {
+      boys: true,
+      girls: true,
+      capacity: 800,
+      rooms: 400,
+      facilities: [
+        "Quantum-secure Internet",
+        "Smart Rooms with Voice AI",
+        "3D Printing Studio",
+        "VR Lounge",
+        "Hackerspace",
+        "Recording Studio",
+        "Biohacking Lab",
+        "Robotics Workshop Area",
+        "24/7 Quantum Computer Access"
+      ]
+    },
+    wifi: true,
+    cafeteria: 2,
+    medical: true,
+    transportation: true,
+    auditorium: 1
+  },
+  admission: {
+    entranceExam: ["Polaris Tech Aptitude Test (PTAT)", "International Olympiads", "Research Portfolio"],
+    cutoff: 85,
+    cutoffTrend: 6,
+    applicationMode: "Online",
+    applicationFee: 1500,
+    selectionProcess: [
+      "Online Application & Portfolio",
+      "Technical Aptitude Test",
+      "Research Proposal Submission",
+      "Technical Deep Dive Interview",
+      "Innovation Challenge",
+      "Final Selection Committee"
+    ],
+    eligibility: {
+      minPercentage: 70,
+      subjectsRequired: ["Mathematics", "Physics", "Computer Science"],
+      ageLimit: 20
+    },
+    importantDates: {
+      applicationStart: "August 1, 2024",
+      applicationEnd: "November 30, 2024",
+      examDate: "December 2024",
+      resultDate: "January 2025",
+      counsellingStart: "February 2025",
+      counsellingEnd: "March 2025"
+    },
+    documentsRequired: [
+      "Academic Records",
+      "Research Papers (if any)",
+      "GitHub Portfolio",
+      "Innovation Projects",
+      "Recommendation Letters",
+      "Statement of Purpose (Research-focused)",
+      "Technical Achievements"
+    ]
+  },
+  campusLife: {
+    clubs: [
+      "Quantum Computing Society",
+      "AI Research Group",
+      "Blockchain Developers Club",
+      "Space Exploration Club",
+      "Robotics & Drone Team",
+      "Climate Tech Innovators",
+      "Cybersecurity Collective",
+      "Biotech Research Group",
+      "Metaverse Builders",
+      "Future Finance Club",
+      "Tech Ethics & Society Forum"
+    ],
+    festivals: [
+      "Quantum Leap (Annual Tech Fest)",
+      "Future Frontier Expo",
+      "Hack the Future (Global Hackathon)",
+      "Research Symposium"
+    ],
+    technicalEvents: [
+      "Quantum Algorithm Competitions",
+      "AI Model Building Marathons",
+      "Blockchain Protocol Design",
+      "Space Mission Simulations",
+      "Robotics Olympics",
+      "Climate Tech Challenge",
+      "Cybersecurity CTF",
+      "Startup Pitch for Deep Tech"
+    ],
+    culturalEvents: [
+      "Tech-Art Exhibition",
+      "Future Music Festival",
+      "Sci-Fi Film Festival",
+      "Innovation Showcase",
+      "International Tech Culture Day"
+    ],
+    socialInitiatives: [
+      "Tech for Social Impact Projects",
+      "Climate Change Solutions",
+      "Digital Inclusion Programs",
+      "STEM Education for Rural Areas",
+      "Open Source for Public Good"
+    ],
+    annualBudget: 40000000
+  },
+  faculty: {
+    total: 65,
+    phdHolders: 60,
+    professor: 15,
+    associateProfessor: 20,
+    assistantProfessor: 30,
+    industryExperience: 8,
+    internationalFaculty: 25,
+    awards: [
+      "Nobel Laureate in Physics (Visiting)",
+      "Turing Award Nominees",
+      "Forbes 30 Under 30 in Science",
+      "MIT Technology Review Innovators",
+      "Breakthrough Prize Recipients"
+    ]
+  },
+  alumni: {
+    notableAlumni: [
+      { name: "Dr. Arjun Mehta", designation: "Quantum Researcher", company: "Google Quantum AI" },
+      { name: "Priya Sharma", designation: "AI Ethics Lead", company: "OpenAI" },
+      { name: "Rohan Kapoor", designation: "Blockchain Architect", company: "Ethereum Foundation" },
+      { name: "Ananya Reddy", designation: "Space Systems Engineer", company: "SpaceX" },
+      { name: "Vikram Singh", designation: "Founder", company: "Quantum Computing Startup" }
+    ],
+    placementCompanies: [
+      "Google DeepMind", "Microsoft Research", "IBM Quantum",
+      "SpaceX", "Palantir", "OpenAI", "Coinbase"
+    ],
+    networkStrength: 90
+  },
+  international: {
+    collaborations: 30,
+    studentExchange: true,
+    facultyExchange: true,
+    partnerUniversities: [
+      "Massachusetts Institute of Technology",
+      "Stanford University",
+      "California Institute of Technology",
+      "ETH Zurich",
+      "University of Tokyo",
+      "National University of Singapore"
+    ],
+    foreignStudents: 60
+  },
+  contact: {
+    phone: ["+91-4067890123", "+91-9876543212"],
+    email: ["admissions@polaristech.edu", "research@polaristech.edu", "industry@polaristech.edu"],
+    website: "https://www.polaristech.edu",
+    socialMedia: {
+      twitter: "https://twitter.com/polaristech",
+      linkedin: "https://linkedin.com/school/polaris-tech",
+      
+      
+      
+    },
+    admissionContact: {
+      phone: "+91-4067890123",
+      email: "admissions@polaristech.edu"
+    }
+  },
+  facilities: [
+    "Quantum Computer Access (IBM Q Network)",
+    "AI Supercomputing Cluster",
+    "Satellite Ground Station",
+    "Clean Room for Nanotech",
+    "3D Bioprinting Lab",
+    "Autonomous Vehicle Test Track",
+    "Drone Development Zone",
+    "Blockchain Node Infrastructure",
+    "VR/AR Development Studio",
+    "Biometric Research Facilities",
+    "High-frequency Trading Simulator",
+    "Climate Simulation Chamber",
+    "Zero-gravity Training Setup",
+    "Cyber Range for Security Training"
+  ],
+  achievements: [
+    "First Indian institution with IBM Quantum Computer access",
+    "Student team won International Quantum Computing Competition",
+    "Patents filed: 45+ in emerging technologies",
+    "Research published in Nature & Science journals",
+    "ISRO collaboration for satellite projects",
+    "NASA Space Apps Challenge winners",
+    "Global recognition for climate tech innovations"
+  ],
+  newsUpdates: [
+    { 
+      title: "Polaris Tech students launch India's first student-built satellite", 
+      date: "2024-02-20", 
+      link: "https://polaristech.edu/news/student-satellite" 
+    },
+    { 
+      title: "Quantum computing team breaks encryption record", 
+      date: "2023-11-15", 
+      link: "https://polaristech.edu/news/quantum-breakthrough" 
+    },
+    { 
+      title: "Collaboration with SpaceX for space tech research", 
+      date: "2023-09-10", 
+      link: "https://polaristech.edu/news/spacex-collaboration" 
+    },
+    { 
+      title: "AI model developed at Polaris detects early-stage diseases", 
+      date: "2023-06-25", 
+      link: "https://polaristech.edu/news/ai-medical-breakthrough" 
+    }
+  ],
+  gallery: [
+    { type: "campus", url: "/gallery/polaris-campus1.jpg", caption: "Futuristic Campus Architecture" },
+    { type: "lab", url: "/gallery/polaris-lab1.jpg", caption: "Quantum Computing Lab" },
+    { type: "lab", url: "/gallery/polaris-lab2.jpg", caption: "AI Research Center" },
+    { type: "lab", url: "/gallery/polaris-lab3.jpg", caption: "Space Simulation Chamber" },
+    { type: "event", url: "/gallery/polaris-event1.jpg", caption: "Quantum Leap Festival" },
+    { type: "event", url: "/gallery/polaris-event2.jpg", caption: "Satellite Launch Event" },
+    { type: "lab", url: "/gallery/polaris-research1.jpg", caption: "Student Research Project" }
+  ],
+  faqs: [
+    { 
+      question: "What makes Polaris School of Technology unique?", 
+      answer: "Polaris focuses exclusively on frontier technologies like Quantum Computing, Space Tech, and AI Research. It offers access to cutting-edge infrastructure like quantum computers and has partnerships with global research institutions." 
+    },
+    { 
+      question: "What is the Income Share Agreement (ISA) option?", 
+      answer: "Students can opt for ISA where they pay a percentage of their income after placement instead of upfront fees, making education accessible regardless of financial background." 
+    },
+    { 
+      question: "What are the placement opportunities in emerging tech fields?", 
+      answer: "95% placement with average package of ₹30 LPA. Unique opportunities in quantum computing, space tech, AI research with companies like SpaceX, Google DeepMind, and IBM Quantum." 
+    },
+    { 
+      question: "Does Polaris have industry recognition?", 
+      answer: "Yes, recognized by NASSCOM, member of IBM Q Network, AWS Educate partner, and collaborations with ISRO, NASA, and global tech giants." 
+    },
+    { 
+      question: "What is the admission process for research-oriented students?", 
+      answer: "Admission focuses on research potential through technical aptitude tests, research proposals, innovation challenges, and portfolio review of technical projects." 
+    },
+    { 
+      question: "Are there opportunities for space technology studies?", 
+      answer: "Yes, unique Space Technology department with satellite ground station, space simulation chamber, and collaborations with ISRO and international space agencies." 
+    },
+    { 
+      question: "What infrastructure is available for quantum computing?", 
+      answer: "Access to IBM Quantum computers through Q Network, quantum algorithm development labs, and partnerships with leading quantum research institutions." 
+    },
+    { 
+      question: "Does Polaris support student startups in deep tech?", 
+      answer: "Yes, dedicated deep tech incubation program, access to venture capital for frontier tech, and mentorship from industry pioneers." 
+    },
+    { 
+      question: "What is the international exposure like?", 
+      answer: "30+ international collaborations, student exchange with MIT and Stanford, global research projects, and international internships at frontier tech companies." 
+    },
+    { 
+      question: "Are there prerequisites for admission?", 
+      answer: "Strong mathematics background, programming skills, and demonstrated interest in emerging technologies through projects or research." 
+    }
+  ]
 }
 ];
 
