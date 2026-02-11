@@ -236,6 +236,9 @@ export interface College {
 }
 
 export const colleges: College[] = [
+
+  // Top - 10 Government Engineering Colleges
+
   {
     id: "1101",
     slug: "iit-madras",
@@ -5295,6 +5298,569 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1110",
+    "slug": "iit-bhu-varanasi",
+    "name": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+    "shortName": "IIT BHU",
+    "tagline": "ज्ञान परमं ध्येयम् (Knowledge is the supreme goal)",
+    "overview": "India's first-century-old IIT, blending a 1919 pre-independence legacy with modern IIT dynamism, ranked #10 in NIRF Engineering 2025, and home to the PARAM SHIVAY supercomputer.",
+    "description": "Indian Institute of Technology (BHU) Varanasi, founded in 1919 as the Banaras Engineering College (BENCO), is a testament to Mahamana Pandit Madan Mohan Malaviya's vision. It is the only IIT that existed before Indian independence, merging a centurion heritage with the IIT system's prestige since its conversion in 2012. Spread across a sprawling 1,300-acre campus within the Banaras Hindu University enclave, IIT BHU is not just an engineering college but a cultural and research ecosystem. The institute made headlines in 2025 by smashing its own decade-old placement records, achieving a domestic highest package of ₹2.2 crore and an average of ₹22.8 LPA [citation:1][citation:10]. Prime Minister Shri Narendra Modi inaugurated the PARAM SHIVAY Supercomputer here in 2019, a testament to its research prowess. Known for its unique 'Minor' and 'Second Major' flexible curriculum and the discontinuation of branch change to ensure merit-based specialization, IIT BHU stands as a bridge between ancient wisdom and cutting-edge technology [citation:6].",
+    "logo": "/logos/iit-bhu.png",
+    "stream": "engineering",
+    "type": "government",
+    "category": "premier",
+    "ranking": 10,
+    "rating": 4.3,
+    "nirfRank": 10,
+    "googleRating": 4.2,
+    "reviews": {
+        "count": 4100,
+        "average": 4.3,
+        "academics": 4.3,
+        "infrastructure": 3.9,
+        "placement": 4.5,
+        "faculty": 4.2
+    },
+    "established": 1919,
+    "accreditation": "Institute of National Importance",
+    "naacGrade": "A++",
+    "affiliations": ["Institute of National Importance"],
+    "recognition": ["UGC", "AICTE", "Ministry of Education"],
+    "location": {
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "country": "India",
+        "pincode": "221005",
+        "campusSize": "1300 acres",
+        "campusType": "urban",
+        "latitude": 25.3176,
+        "longitude": 82.9739,
+        "address": "Indian Institute of Technology (BHU), Hindu University Campus, Varanasi, Uttar Pradesh 221005"
+    },
+    "fees": {
+        "annual": 227300,
+        "total": 909200,
+        "hostel": 10200,
+        "mess": 30000,
+        "otherCharges": 6350,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "100% Tuition Fee Waiver (Family Income < ₹1L) for GEN/OBC",
+            "2/3rd Tuition Fee Waiver (Family Income ₹1-5L) for GEN/OBC",
+            "SC/ST/PH: Full tuition reimbursement + pocket money",
+            "Merit-Cum-Means (MCM): 25% of UG/PG students, full tuition waiver (Income < ₹5L, 12th >60%)",
+            "Top Class Education Scheme for SC Students",
+            "NFSHE for ST Students (formerly Rajiv Gandhi National Fellowship)",
+            "Endowment & State Scholarships",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech"
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 2280000,
+        "highestPackage": 22000000,
+        "medianPackage": 1576000,
+        "percentage": 88.50,
+        "totalOffers": 1128,
+        "totalStudents": 1280,
+        "internationalOffers": 11,
+        "dreamOffers": 25,
+        "averagePackageTrend": 36,
+        "topRecruiters": [
+            "Google",
+            "Microsoft",
+            "Goldman Sachs",
+            "Qualcomm",
+            "Uber",
+            "Amazon",
+            "JP Morgan",
+            "Paytm",
+            "Walmart",
+            "Oracle",
+            "Samsung",
+            "Cisco",
+            "EXL Services",
+            "ZS Associates",
+            "Bosch",
+            "Adani",
+            "TCS",
+            "Infosys",
+            "L&T",
+            "Tata Motors"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Quantitative Finance",
+            "Core Engineering",
+            "Consulting",
+            "Product Management",
+            "R&D",
+            "Manufacturing",
+            "Pharmaceuticals"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 2280000,
+                "highestPackage": 22000000,
+                "percentage": 88.5
+            },
+            {
+                "year": 2024,
+                "averagePackage": 2256000,
+                "highestPackage": 16800000,
+                "percentage": 88.9
+            },
+            {
+                "year": 2023,
+                "averagePackage": 1200000,
+                "highestPackage": 12000000,
+                "percentage": 85.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 1150000,
+                "highestPackage": 21500000,
+                "percentage": 84.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "B.Arch",
+            "M.Tech",
+            "M.Pharm",
+            "M.Sc",
+            "PhD",
+            "Integrated Dual Degree (IDD) B.Tech+M.Tech"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Electronics Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech Mechanical Engineering",
+            "B.Tech Mathematics & Computing",
+            "IDD in Biochemical Engineering"
+        ],
+        "facultyCount": 353,
+        "studentCount": 6030,
+        "studentFacultyRatio": "17:1",
+        "specialization": [
+            "Ceramic Engineering (Legacy)",
+            "Pharmaceutical Engineering & Technology",
+            "Mining Engineering",
+            "Metallurgical Engineering",
+            "Biomedical Engineering",
+            "Materials Science & Technology",
+            "Industrial Chemistry"
+        ],
+        "departments": [
+            "Ceramic Engineering",
+            "Chemical Engineering & Technology",
+            "Civil Engineering",
+            "Computer Science & Engineering",
+            "Electrical Engineering",
+            "Electronics Engineering",
+            "Mechanical Engineering",
+            "Metallurgical Engineering",
+            "Mining Engineering",
+            "Pharmaceutical Engineering & Technology",
+            "Biochemical Engineering (School)",
+            "Biomedical Engineering (School)",
+            "Materials Science & Technology (School)",
+            "Chemistry",
+            "Mathematical Sciences",
+            "Physics",
+            "Humanistic Studies",
+            "Architecture, Planning & Design"
+        ],
+        "researchCenters": 18,
+        "publications": 1800,
+        "collaborations": [
+            "Technical University of Munich (Germany)",
+            "Max Planck Institute (Germany)",
+            "University of Applied Sciences (Germany)",
+            "Technical University Dresden (Germany)",
+            "IMEM-CNR, Parma (Italy)",
+            "Rutherford Appleton Laboratory (UK)",
+            "EMAT-University of Antwerp (Belgium)",
+            "Paul Scherrer Institute (Switzerland)",
+            "Kyushu Institute of Technology (Japan)"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Shreenivas Deshpande Library",
+            "books": 150000,
+            "journals": 15000,
+            "digitalResources": 22000,
+            "seatingCapacity": 700
+        },
+        "labs": {
+            "count": 60,
+            "majorLabs": [
+                "PARAM SHIVAY Supercomputing Centre (833 TeraFLOPS)",
+                "Central Instrumentation Facility (CIF)",
+                "VLSI Design Lab",
+                "Advanced Manufacturing Lab",
+                "Biomedical Instrumentation Lab",
+                "High Voltage Engineering Lab",
+                "Main Workshop"
+            ],
+            "equipmentValue": 450000000
+        },
+        "sports": {
+            "facilities": [
+                "ADV Athletic Ground",
+                "Football Ground",
+                "Cricket Ground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Courts",
+                "Volleyball Court",
+                "Table Tennis Room",
+                "Gymnasium"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 4500,
+            "rooms": 2200,
+            "facilities": [
+                "Single/Double occupancy rooms",
+                "Prafulla Chandra Ray Hostel (Boys)",
+                "GSMC Extension Hostel (Girls)",
+                "High-speed WiFi",
+                "Common rooms with TV",
+                "Indoor games",
+                "Laundry service",
+                "24/7 medical assistance (BHU Student Health Centre)",
+                "CCTV security"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 6,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 3
+    },
+    "admission": {
+        "entranceExam": ["JEE Advanced", "GATE", "JAM", "GPAT", "CSIR-NET", "UGC-NET"],
+        "cutoff": 1364,
+        "cutoffTrend": 2,
+        "applicationMode": "Online",
+        "applicationFee": 2500,
+        "selectionProcess": [
+            "JEE Advanced Score",
+            "JoSAA Counseling",
+            "COAP for M.Tech",
+            "GPAT + Interview for M.Pharm",
+            "IIT JAM for M.Sc"
+        ],
+        "eligibility": {
+            "minPercentage": 75,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "April 1, 2026",
+            "applicationEnd": "April 30, 2026",
+            "examDate": "May 17, 2026",
+            "resultDate": "June 15, 2026",
+            "counsellingStart": "June 20, 2026",
+            "counsellingEnd": "July 30, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "JEE Advanced Scorecard",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "OBC(NCL) Affidavit (₹10 Stamp Paper)"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Astronomy Club",
+            "Quizzing Club"
+        ],
+        "festivals": [
+            "Kashiyatra (Annual Socio-Cultural Festival)",
+            "Technex (Annual Techno-Management Festival)",
+            "Spardha (Annual Sports Festival)"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Research Conclave",
+            "Industry Conclave"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events",
+            "Heritage Walks (Varanasi)"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Teach for Varanasi",
+            "Sustainability Cell",
+            "Blood Connect"
+        ],
+        "annualBudget": 35000000
+    },
+    "faculty": {
+        "total": 353,
+        "phdHolders": 330,
+        "professor": 120,
+        "associateProfessor": 115,
+        "assistantProfessor": 118,
+        "industryExperience": 5,
+        "internationalFaculty": 20,
+        "awards": [
+            "Shanti Swarup Bhatnagar Prize",
+            "J.C. Bose Fellowship",
+            "Ramanujan Fellowship",
+            "Swarnajayanti Fellowship",
+            "SERB Distinguished Fellowship",
+            "Young Scientist Award"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Nikesh Arora",
+                "designation": "CEO & Chairman",
+                "company": "Palo Alto Networks"
+            },
+            {
+                "name": "Krishan Kant",
+                "designation": "10th Vice President of India",
+                "company": "Government of India"
+            },
+            {
+                "name": "Pawan Kumar",
+                "designation": "CTO",
+                "company": "Adobe"
+            },
+            {
+                "name": "Sanjay Nayak",
+                "designation": "CEO & Co-founder",
+                "company": "Tejas Networks"
+            },
+            {
+                "name": "Rajeev Madhavan",
+                "designation": "Founder",
+                "company": "Magma Design Automation"
+            },
+            {
+                "name": "Rajnish Kumar",
+                "designation": "Non-Executive Chairman",
+                "company": "BharatPe"
+            },
+            {
+                "name": "Vibha Parthasarathi",
+                "designation": "Former Ambassador",
+                "company": "Indian Foreign Service"
+            },
+            {
+                "name": "Shantanu Narayen",
+                "designation": "Chairman & CEO",
+                "company": "Adobe (Honorary)"
+            }
+        ],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Goldman Sachs",
+            "Qualcomm",
+            "Amazon",
+            "Uber"
+        ],
+        "networkStrength": 89
+    },
+    "international": {
+        "collaborations": 25,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "Technical University of Munich",
+            "Max Planck Institute",
+            "Kyushu Institute of Technology",
+            "University of Antwerp"
+        ],
+        "foreignStudents": 80
+    },
+    "contact": {
+        "phone": [
+            "+91-542-2367042",
+            "+91-542-2368428 (Fax)"
+        ],
+        "email": [
+            "doaa@iitbhu.ac.in",
+            "academics@iitbhu.ac.in",
+            "placement@iitbhu.ac.in",
+            "admission@iitbhu.ac.in"
+        ],
+        "website": "https://www.iitbhu.ac.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/iitbhu",
+            "twitter": "https://twitter.com/IITBHU",
+            "linkedin": "https://linkedin.com/school/iit-bhu",
+            "instagram": "https://instagram.com/iitbhu",
+            "youtube": "https://youtube.com/IITBHU"
+        },
+        "admissionContact": {
+            "phone": "+91-542-2367042",
+            "email": "doaa@iitbhu.ac.in"
+        }
+    },
+    "facilities": [
+        "1,300-acre heritage campus within BHU",
+        "PARAM SHIVAY Supercomputer (833 TFLOPS)",
+        "Central Instrumentation Facility (CIF)",
+        "High-speed WiFi campus",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic (BHU Student Health Centre)",
+        "Banking complex",
+        "Shopping center",
+        "Shreenivas Deshpande Library with 1.5L+ books",
+        "Sustainability initiatives: Rainwater harvesting",
+        "Supercomputing Centre under National Supercomputing Mission",
+        "Lecture Theatre Complexes (LT-1, LT-3)"
+    ],
+    "achievements": [
+        "Only IIT established pre-independence (1919); Centenary celebrated in 2019",
+        "Record-breaking highest domestic package: ₹2.2 crore (2025)",
+        "11 students secured offers above ₹1 crore in 2025",
+        "Average package surge to ₹22.8 LPA (2025) - highest in a decade",
+        "Ranked #10 in NIRF Engineering Rankings 2025 (consistent top 10)",
+        "Home to PARAM SHIVAY Supercomputer inaugurated by PM Modi",
+        "First IIT to have dedicated departments in Ceramic, Mining, and Pharmaceutical Engineering",
+        "Only IIT physically located within a Central University (BHU) campus",
+        "NIRF Overall Rank #31 (2025), QS World Rank #531 (2025)"
+    ],
+    "newsUpdates": [
+        {
+            "title": "IIT BHU achieves record-breaking ₹2.2 crore highest package and ₹22.8 LPA average package in 2025 placements",
+            "date": "2025-11-14",
+            "link": "https://www.getmyuni.com/college/indian-institute-of-technology-iit-varanasi"
+        },
+        {
+            "title": "IIT BHU maintains 10th rank in NIRF Engineering 2025, 31st Overall",
+            "date": "2025-09-04",
+            "link": "https://education.indianexpress.com"
+        },
+        {
+            "title": "JoSAA 2025: IIT BHU CSE closing rank at 1364, Mathematics & Computing at 1842",
+            "date": "2025-07-25",
+            "link": "https://josaa.admissions.nic.in"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/iitbhu-campus1.jpg",
+            "caption": "Main Building - IIT BHU"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/iitbhu-campus2.jpg",
+            "caption": "Swantantrata Bhawan"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/iitbhu-lab1.jpg",
+            "caption": "PARAM SHIVAY Supercomputing Centre"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/iitbhu-sports1.jpg",
+            "caption": "ADV Athletic Ground"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/iitbhu-hostel1.jpg",
+            "caption": "Prafulla Chandra Ray Hostel"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/iitbhu-event1.jpg",
+            "caption": "Kashiyatra - Cultural Festival"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is IIT BHU a 'real' IIT or part of BHU?",
+            "answer": "IIT BHU is a full-fledged Indian Institute of Technology, designated by an Act of Parliament in 2012. While it is physically located within the Banaras Hindu University campus and shares some facilities (like the health centre), it is an autonomous institute of national importance with its own director, senate, and administration, distinct from BHU [citation:4][citation:6]."
+        },
+        {
+            "question": "What is the highest package at IIT BHU in 2025?",
+            "answer": "The highest domestic package in 2025 is ₹2.2 crore per annum, surpassing the previous record of ₹2.15 crore (2021). This marks the best placement performance in the past decade [citation:1][citation:10]."
+        },
+        {
+            "question": "What is the average package at IIT BHU?",
+            "answer": "As of 2025, the average CTC stands at ₹22.8 Lakh per annum, a significant jump from previous years [citation:1][citation:10]."
+        },
+        {
+            "question": "What is the JEE Advanced cutoff for IIT BHU?",
+            "answer": "For 2025 (Round 4), the closing rank for CSE was 1364, Mathematics & Computing 1842, Electronics Engineering 2511, Electrical Engineering 3493, and Mechanical Engineering 6697. IIT BHU discontinued branch change from 2025-26, so cutoffs are now more rigid [citation:3][citation:6]."
+        },
+        {
+            "question": "What is the campus size of IIT BHU?",
+            "answer": "There is conflicting data: most official and recent sources state 400+ acres, but several sources and FAQs claim 1,300 acres. The discrepancy arises because IIT BHU is situated *within* the 1,300-acre BHU campus, while the IIT's exclusive academic/residential zone is approximately 400 acres. The institute utilizes the larger BHU ecosystem [citation:2][citation:8][citation:10]."
+        },
+        {
+            "question": "Can I change my branch at IIT BHU?",
+            "answer": "No. As per the JoSAA 2025 official profile, the 'Branch Change option for UG Programme is discontinued from the session 2025-26'. Students must now choose their specialization at admission [citation:6]."
+        },
+        {
+            "question": "What is unique about IIT BHU's curriculum?",
+            "answer": "IIT BHU offers a highly flexible curriculum with options for 'Minor' in another discipline, 'Second Major' (extending degree by 1 year), and Integrated Dual Degree (IDD) B.Tech+M.Tech in 5 years. The 6th semester is reserved for industrial/research internships [citation:6]."
+        },
+        {
+            "question": "What is PARAM SHIVAY?",
+            "answer": "PARAM SHIVAY is a supercomputer at IIT BHU with a peak processing speed of 833 TeraFLOPS, inaugurated by Prime Minister Narendra Modi in February 2019. It was built under the 'Make in India' initiative and is utilized by researchers across the country [citation:6]."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "IIT BHU has strong legacy departments. Qualcomm, Texas Instruments, and Samsung hire from Electronics/Electrical. Tata Motors, L&T, and Bosch recruit from Mechanical/Civil. Adani, Jindal, and Hindalco recruit heavily from Metallurgical and Mining Engineering [citation:2][citation:7]."
+        },
+        {
+            "question": "What is the fee waiver scheme at IIT BHU?",
+            "answer": "Students with family income < ₹1L get 100% tuition fee exemption. Students with income ₹1-5L get 2/3rd fee exemption. SC/ST/PH students are fully exempted from tuition fees regardless of income. Additionally, 25% of students receive Merit-cum-Means (MCM) scholarships [citation:1][citation:6]."
+        }
+    ]
+},
+
+  // Top 10 - Semi Government Engineering Colleges
   {
     id: "2",
     slug: "aiims-delhi",
