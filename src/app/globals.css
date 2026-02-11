@@ -1,210 +1,309 @@
 @import "tailwindcss";
 
-/* 1. DEFINING THEME VARIABLES 
-   Using the extracted hex codes: #374151 (Slate Blue) and #f3f4f6 (Cool White)
-*/
-:root {
-  /* Light Mode */
-  --background: #f3f4f6; /* Cool White from image */
-  --foreground: #374151; /* Slate Blue from image */
-  
-  /* Primary Brand Color */
-  --primary: #374151; 
-  --primary-foreground: #f3f4f6;
+    /* 1. DEFINING THEME VARIABLES – extended with glow parameters */
+    :root {
+      /* Light Mode (used as base, but we force dark by preference – later override) */
+      --background: #f3f4f6;
+      --foreground: #374151;
+      --primary: #374151;
+      --primary-foreground: #f3f4f6;
+      --border: #d1d5db;
+      --muted: #6b7280;
+      
+      /* ✦ CUSTOM GLOW / LIGHT EFFECT VARIABLES ✦ */
+      --glow-color: rgba(147, 197, 253, 0.35);      /* soft blue-white light */
+      --glow-strong: rgba(255, 255, 255, 0.25);
+      --accent-glow: rgba(55, 65, 81, 0.2);          /* slate with transparency */
+    }
 
-  /* UI Borders & Muted Text */
-  --border: #d1d5db; /* Balanced gray for light mode */
-  --muted: #6b7280;
-}
+    /* 2. DARK MODE OVERRIDES – your deep slate & inverted palette */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #111827;      /* deep slate */
+        --foreground: #f3f4f6;      /* cool white */
+        --primary: #9ca3af;         /* lighter slate */
+        --primary-foreground: #111827;
+        --border: #374151;          /* slate blue as border */
+        --muted: #9ca3af;
 
-/* 2. DARK MODE OVERRIDES 
-   Inverting the palette for a deep UI experience
-*/
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #111827; /* Deep slate background */
-    --foreground: #f3f4f6; /* White text */
-    
-    --primary: #9ca3af;    /* Lighter slate for primary actions */
-    --primary-foreground: #111827;
+        /* enhanced light‑effect colors for dark mode – luminous, ethereal */
+        --glow-color: rgba(156, 163, 175, 0.2);    /* muted slate glow */
+        --glow-strong: rgba(243, 244, 246, 0.2);   /* cool white shimmer */
+        --accent-glow: rgba(55, 65, 81, 0.4);
+      }
+    }
 
-    --border: #374151;     /* Using your slate blue as the border color */
-    --muted: #9ca3af;
-  }
-}
+    /* 3. BASE STYLES – with subtle light layer */
+    @layer base {
+      html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
 
-/* 3. BASE STYLES */
-@layer base {
-  html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+      body {
+        background: var(--background);
+        color: var(--foreground);
+        line-height: 1.6;
+        min-height: 100vh;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        position: relative;
+      }
 
-  body {
-    background: var(--background);
-    color: var(--foreground);
-    line-height: 1.6;
-    min-height: 100vh;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
+      /* ✦ LIGHT OVERLAY – moving gradient that creates "light effect on page" ✦ */
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        background: radial-gradient(circle at 30% 40%, rgba(255,255,255,0.04) 0%, transparent 40%),
+                    radial-gradient(circle at 80% 70%, rgba(147,197,253,0.03) 0%, transparent 45%),
+                    radial-gradient(circle at 10% 80%, rgba(156,163,175,0.02) 0%, transparent 50%);
+        animation: light-drift 24s infinite alternate ease-in-out;
+        z-index: 0;
+      }
 
-  /* Professional text selection color using your palette */
-  ::selection {
-    background-color: var(--primary);
-    color: var(--primary-foreground);
-  }
-}
+      /* additional floating orbs – more light effects */
+      body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        background: radial-gradient(ellipse at 70% 20%, rgba(255,255,255,0.02) 0%, transparent 35%),
+                    radial-gradient(ellipse at 20% 90%, rgba(100,116,139,0.03) 0%, transparent 40%);
+        animation: light-shift 20s infinite alternate;
+        z-index: 0;
+      }
 
-/* 4. UTILITIES */
-@layer utilities {
-  .flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .glass-panel {
-    /* Subtle transparency using the slate color */
-    background: rgba(55, 65, 81, 0.05); 
-    backdrop-filter: blur(12px);
-    border: 1px solid var(--border);
-  }
+      /* ensure content sits above light layers */
+      body > * {
+        position: relative;
+        z-index: 10;
+      }
 
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+      ::selection {
+        background-color: var(--primary);
+        color: var(--primary-foreground);
+      }
+    }
 
-/* 5. CUSTOM ANIMATIONS FOR COLLEGE COMPASS */
+    /* 4. UTILITIES – your exact classes + extra light utils */
+    @layer utilities {
+      .flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-@keyframes gradient-x {
-  0%, 100% { 
-    background-position: 0% 50%; 
-  }
-  50% { 
-    background-position: 100% 50%; 
-  }
-}
+      .glass-panel {
+        background: rgba(55, 65, 81, 0.05);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--border);
+        /* add soft glow on glass */
+        box-shadow: 0 8px 20px -6px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.02) inset;
+        transition: box-shadow 0.3s, border-color 0.2s;
+      }
 
-@keyframes shimmer {
-  0% { 
-    opacity: 0.3; 
-    transform: scaleX(0.8); 
-  }
-  50% { 
-    opacity: 1; 
-    transform: scaleX(1); 
-  }
-  100% { 
-    opacity: 0.3; 
-    transform: scaleX(0.8); 
-  }
-}
+      .glass-panel:hover {
+        border-color: rgba(156, 163, 175, 0.5);
+        box-shadow: 0 12px 28px -8px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.05) inset;
+      }
 
-@keyframes fade-in {
-  from { 
-    opacity: 0; 
-    transform: translateY(-20px); 
-  }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
-  }
-}
+      .text-balance {
+        text-wrap: balance;
+      }
 
-@keyframes slide-up {
-  from { 
-    opacity: 0; 
-    transform: translateY(30px); 
-  }
-  to { 
-    opacity: 1; 
-    transform: translateY(0); 
-  }
-}
+      /* ✦ NEW LIGHT EFFECT UTILITIES ✦ */
+      .light-glow {
+        box-shadow: 0 0 18px var(--glow-color);
+      }
 
-@keyframes border-flow {
-  0% { 
-    transform: translateX(-100%); 
-  }
-  100% { 
-    transform: translateX(100%); 
-  }
-}
+      .light-glow-strong {
+        box-shadow: 0 0 30px var(--glow-strong);
+      }
 
-@keyframes bounce-right {
-  0%, 100% { 
-    transform: translateX(0); 
-  }
-  50% { 
-    transform: translateX(4px); 
-  }
-}
+      .border-light {
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow: 0 0 8px rgba(156,163,175,0.1);
+      }
 
-@keyframes float {
-  0%, 100% { 
-    transform: translateY(0) translateX(0); 
-    opacity: 0; 
-  }
-  50% { 
-    transform: translateY(-20px) translateX(10px); 
-    opacity: 1; 
-  }
-}
+      .animate-aurora {
+        background: linear-gradient(120deg, rgba(55,65,81,0.1) 0%, rgba(156,163,175,0.05) 50%, rgba(55,65,81,0.1) 100%);
+        background-size: 200% 200%;
+        animation: aurora-wave 12s ease infinite;
+      }
+    }
 
-/* Animation Classes */
+    /* 5. YOUR EXACT ANIMATIONS – preserved, plus NEW light animations */
+    @keyframes gradient-x {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
 
-.animate-gradient-x {
-  background-size: 200% 200%;
-  animation: gradient-x 8s ease infinite;
-}
+    @keyframes shimmer {
+      0% { opacity: 0.3; transform: scaleX(0.8); }
+      50% { opacity: 1; transform: scaleX(1); }
+      100% { opacity: 0.3; transform: scaleX(0.8); }
+    }
 
-.animate-shimmer {
-  animation: shimmer 3s ease-in-out infinite;
-}
+    @keyframes fade-in {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
-.animate-fade-in {
-  animation: fade-in 0.8s ease-out forwards;
-}
+    @keyframes slide-up {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
-.animate-fade-in-delay {
-  opacity: 0;
-  animation: fade-in 0.8s ease-out 0.3s forwards;
-}
+    @keyframes border-flow {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
 
-.animate-fade-in-delay-long {
-  opacity: 0;
-  animation: fade-in 0.8s ease-out 0.6s forwards;
-}
+    @keyframes bounce-right {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(4px); }
+    }
 
-.animate-slide-up {
-  opacity: 0;
-  animation: slide-up 0.6s ease-out forwards;
-}
+    @keyframes float {
+      0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+      50% { transform: translateY(-20px) translateX(10px); opacity: 1; }
+    }
 
-.animate-border-flow {
-  animation: border-flow 3s linear infinite;
-}
+    /* ✦ BRAND NEW LIGHT-DRIVEN ANIMATIONS – for maximum professional sheen ✦ */
+    @keyframes light-drift {
+      0% { opacity: 0.6; background-position: 0% 0%; }
+      25% { opacity: 0.8; background-position: 20% 30%; }
+      50% { opacity: 0.7; background-position: 70% 40%; }
+      75% { opacity: 0.9; background-position: 40% 80%; }
+      100% { opacity: 0.6; background-position: 90% 60%; }
+    }
 
-.animate-bounce-right {
-  animation: bounce-right 1s ease-in-out infinite;
-}
+    @keyframes light-shift {
+      0% { opacity: 0.3; transform: scale(1); }
+      100% { opacity: 0.7; transform: scale(1.2); }
+    }
 
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
+    @keyframes aurora-wave {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
 
-/* Delay Classes */
+    @keyframes pulse-glow {
+      0%, 100% { box-shadow: 0 0 10px var(--glow-color), 0 0 20px rgba(147,197,253,0.1); }
+      50% { box-shadow: 0 0 25px var(--glow-strong), 0 0 40px rgba(156,163,175,0.2); }
+    }
 
-.delay-300 {
-  animation-delay: 300ms;
-}
+    @keyframes border-pulse-light {
+      0% { border-color: rgba(55,65,81,0.6); }
+      50% { border-color: rgba(156,163,175,0.8); }
+      100% { border-color: rgba(55,65,81,0.6); }
+    }
 
-.delay-500 {
-  animation-delay: 500ms;
-}
+    @keyframes soft-float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
 
-.delay-1000 {
-  animation-delay: 1000ms;
-}
+    @keyframes scale-light {
+      0% { opacity: 0.2; transform: scale(0.95); }
+      100% { opacity: 0.6; transform: scale(1.05); }
+    }
+
+    /* Animation Classes – all yours, plus new light classes */
+    .animate-gradient-x {
+      background-size: 200% 200%;
+      animation: gradient-x 8s ease infinite;
+    }
+
+    .animate-shimmer {
+      animation: shimmer 3s ease-in-out infinite;
+    }
+
+    .animate-fade-in {
+      animation: fade-in 0.8s ease-out forwards;
+    }
+
+    .animate-fade-in-delay {
+      opacity: 0;
+      animation: fade-in 0.8s ease-out 0.3s forwards;
+    }
+
+    .animate-fade-in-delay-long {
+      opacity: 0;
+      animation: fade-in 0.8s ease-out 0.6s forwards;
+    }
+
+    .animate-slide-up {
+      opacity: 0;
+      animation: slide-up 0.6s ease-out forwards;
+    }
+
+    .animate-border-flow {
+      animation: border-flow 3s linear infinite;
+    }
+
+    .animate-bounce-right {
+      animation: bounce-right 1s ease-in-out infinite;
+    }
+
+    .animate-float {
+      animation: float 3s ease-in-out infinite;
+    }
+
+    /* ✦ ADDITIONAL LIGHT ANIMATIONS – attached to classes ✦ */
+    .animate-pulse-glow {
+      animation: pulse-glow 4s infinite alternate;
+    }
+
+    .animate-border-pulse {
+      animation: border-pulse-light 5s infinite;
+    }
+
+    .animate-soft-float {
+      animation: soft-float 5s ease-in-out infinite;
+    }
+
+    .animate-scale-light {
+      animation: scale-light 6s infinite alternate;
+    }
+
+    .animate-light-drift {
+      animation: light-drift 18s infinite alternate;
+    }
+
+    /* Delay Classes */
+    .delay-300 { animation-delay: 300ms; }
+    .delay-500 { animation-delay: 500ms; }
+    .delay-1000 { animation-delay: 1000ms; }
+    .delay-1500 { animation-delay: 1500ms; }
+    .delay-2000 { animation-delay: 2000ms; }
+
+    /* additional hover light effects */
+    .hover-lift {
+      transition: transform 0.25s ease, box-shadow 0.3s;
+    }
+    .hover-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 28px -12px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.06) inset;
+    }
+
+    /* custom card style */
+    .compass-card {
+      background: rgba(17, 24, 39, 0.5);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(55, 65, 81, 0.7);
+      transition: all 0.3s;
+    }
+    .compass-card:hover {
+      border-color: rgba(156,163,175,0.6);
+      background: rgba(25, 34, 48, 0.7);
+    }
