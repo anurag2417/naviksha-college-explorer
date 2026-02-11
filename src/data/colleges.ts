@@ -239,7 +239,7 @@ export const colleges: College[] = [
   
 
   {
-    id: "1001",
+    id: "1101",
     slug: "iit-madras",
     name: "Indian Institute of Technology Madras",
     shortName: "IIT Madras",
@@ -847,7 +847,7 @@ export const colleges: College[] = [
     ],
   },
   {
-    id: "1002",
+    id: "1102",
     slug: "iit-delhi",
     name: "Indian Institute of Technology Delhi",
     shortName: "IIT Delhi",
@@ -1393,7 +1393,7 @@ export const colleges: College[] = [
     ],
   },
   {
-    id: "1003",
+    id: "1103",
     slug: "iit-bombay",
     name: "Indian Institute of Technology Bombay",
     shortName: "IIT Bombay",
@@ -1750,7 +1750,7 @@ export const colleges: College[] = [
     ],
   },
   {
-  id: "1004",
+  id: "1104",
   slug: "iit-kanpur",
   name: "Indian Institute of Technology Kanpur",
   shortName: "IIT Kanpur",
@@ -2198,7 +2198,7 @@ export const colleges: College[] = [
   ]
 },
 {
-  id: "1005",
+  id: "1105",
   slug: "iit-kharagpur",
   name: "Indian Institute of Technology Kharagpur",
   shortName: "IIT Kharagpur",
@@ -2695,6 +2695,414 @@ export const colleges: College[] = [
     { 
       question: "What research opportunities are available for undergraduates?", 
       answer: "IIT Kharagpur offers extensive undergraduate research opportunities through the Undergraduate Research Program (URP), summer internships with faculty, and access to state-of-the-art research facilities including supercomputing infrastructure." 
+    }
+  ]
+},
+{
+  id: "1106",
+  slug: "iit-roorkee",
+  name: "Indian Institute of Technology Roorkee",
+  shortName: "IIT Roorkee",
+  tagline: "श्रमं विना न किमपि साध्यम् (Nothing is achievable without hard work)",
+  overview: "India's oldest engineering institution, a premier Institute of National Importance blending 175+ years of heritage with cutting-edge technological research and innovation.",
+  description: "Indian Institute of Technology Roorkee stands as the oldest technical institution in Asia, established in 1847 as the Thomason College of Civil Engineering. Elevated to IIT status in 2001, it seamlessly integrates a rich colonial heritage with modern, world-class research facilities. Located in the foothills of the Himalayas, the institute is renowned for its pioneering contributions to civil engineering, hydrology, and now, advanced computing and management. It continues to be a top-5 ranked engineering institution in India, producing leaders who have shaped the nation's infrastructure and industrial policy [citation:1][citation:5][citation:6].",
+  logo: "/logos/iit-roorkee.png",
+  stream: "engineering",
+  type: "government",
+  category: "premier",
+  ranking: 6,
+  rating: 4.6,
+  nirfRank: 5,
+  googleRating: 4.5,
+  reviews: {
+    count: 10800,
+    average: 4.6,
+    academics: 4.7,
+    infrastructure: 4.6,
+    placement: 4.7,
+    faculty: 4.6
+  },
+  established: 1847,
+  accreditation: "Institute of National Importance",
+  naacGrade: "A++",
+  affiliations: ["Institute of National Importance"],
+  recognition: ["UGC", "AICTE", "MHRD"],
+  location: {
+    city: "Roorkee",
+    state: "Uttarakhand",
+    country: "India",
+    pincode: "247667",
+    campusSize: "365 acres",
+    campusType: "suburban",
+    latitude: 29.8651,
+    longitude: 77.8960,
+    address: "IIT Roorkee, Roorkee, Haridwar District, Uttarakhand 247667"
+  },
+  fees: {
+    annual: 200000,
+    total: 800000,
+    hostel: 15000,
+    mess: 52500,
+    otherCharges: 12750,
+    scholarshipAvailable: true,
+    scholarshipDetails: [
+      "100% Tuition Fee Waiver (Family Income < ₹1L)",
+      "2/3rd Tuition Fee Waiver (Family Income ₹1-5L)",
+      "SC/ST Scholarship (Full Tuition Reimbursement)",
+      "Institute Merit-cum-Means Scholarship",
+      "Ministry of Education (MoE) Scholarships"
+    ],
+    paymentOptions: ["Online Payment (SBI Collect)", "Demand Draft", "Bank Transfer", "Semester-wise Installments"]
+  },
+  placement: {
+    averagePackage: 1791000,
+    highestPackage: 24000000,
+    medianPackage: 1764000,
+    percentage: 92,
+    totalOffers: 555,
+    totalStudents: 600,
+    internationalOffers: 8,
+    dreamOffers: 45,
+    averagePackageTrend: 11,
+    topRecruiters: [
+      "Amazon", "Google", "Microsoft", "NVIDIA", "Qualcomm",
+      "Texas Instruments", "Oracle", "Rubrik India", "SAP Labs",
+      "D.E. Shaw", "Squarepoint Capital", "iRageCapital", "Databricks",
+      "McKinsey & Company", "Accenture", "VISA", "American Express",
+      "Mastercard", "Deutsche Bank", "NatWest Group",
+      "Flipkart", "Meesho", "Zomato", "Urban Company",
+      "BEL", "HPCL", "BPCL", "Bajaj Auto", "OLA Electric",
+      "Adani", "IndianOil", "GAIL", "Petronet LNG",
+      "Coca-Cola", "Wipro", "Vedanta"
+    ],
+    recruitmentSectors: ["Information Technology", "Quantitative Finance", "Consulting", "Core Engineering (PSU)", "Semiconductors", "E-commerce", "Energy & Infrastructure", "Analytics"],
+    placementStats: [
+      { year: 2025, averagePackage: 1791000, highestPackage: 24000000, percentage: 92 },
+      { year: 2024, averagePackage: 1650000, highestPackage: 21000000, percentage: 91 },
+      { year: 2023, averagePackage: 1550000, highestPackage: 20000000, percentage: 90 }
+    ]
+  },
+  academics: {
+    coursesOffered: [
+      "B.Tech", "B.Arch", "Integrated M.Tech", "M.Tech",
+      "M.Arch", "M.Sc", "M.Des", "MURP", "MBA", "PhD"
+    ],
+    popularCourses: [
+      "B.Tech Computer Science & Engineering",
+      "B.Tech Electrical Engineering",
+      "B.Tech Mechanical Engineering",
+      "B.Arch Architecture",
+      "MBA (Department of Management Studies)"
+    ],
+    facultyCount: 550,
+    studentCount: 9000,
+    studentFacultyRatio: "9:1",
+    specialization: [
+      "Computer Science",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering (Flagship)",
+      "Chemical Engineering",
+      "Earth Sciences (Hydrology)",
+      "Architecture & Planning",
+      "Applied Physics & Material Sciences"
+    ],
+    departments: [
+      "Computer Science & Engineering",
+      "Electrical Engineering",
+      "Mechanical & Industrial Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Earth Sciences",
+      "Architecture & Planning",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Humanities & Social Sciences",
+      "Management Studies (DoMS)",
+      "Water Resources Development & Management"
+    ],
+    researchCenters: 60,
+    publications: 3800,
+    collaborations: [
+      "University of Illinois at Urbana-Champaign",
+      "ETH Zurich",
+      "University of Leeds",
+      "National University of Singapore",
+      "British Geological Survey"
+    ],
+    teachingMode: "offline"
+  },
+  infrastructure: {
+    library: {
+      name: "Mahatma Gandhi Central Library",
+      books: 275000,
+      journals: 1000,
+      digitalResources: 2000000,
+      seatingCapacity: 800
+    },
+    labs: {
+      count: 200,
+      majorLabs: [
+        "Param Ganga Supercomputer Facility",
+        "National Centre for Disaster Mitigation",
+        "Centre of Excellence in Disaster Management",
+        "Water Resources & Hydrology Labs",
+        "Institute Computer Centre (ICC)",
+        "Centre for Nanotechnology",
+        "Centre for Transportation Systems"
+      ],
+      equipmentValue: 350000000
+    },
+    sports: {
+      facilities: [
+        "Swimming Pool",
+        "Sports Stadium",
+        "Cricket Ground",
+        "Football Field",
+        "Hockey Field",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Squash Courts",
+        "Table Tennis Hall",
+        "Indoor Gymnasium",
+        "Volleyball Court",
+        "Running/Jogging Track",
+        "Billiards Room",
+        "Boat Club"
+      ],
+      stadium: true,
+      gym: true,
+      swimmingPool: true
+    },
+    hostel: {
+      boys: true,
+      girls: true,
+      capacity: 7000,
+      rooms: 3500,
+      facilities: [
+        "Wi-Fi Enabled Campuses",
+        "Common Rooms",
+        "Study Rooms",
+        "Indoor Games Room",
+        "Cyber Cafe",
+        "Laundry Service",
+        "Medical Facility",
+        "Cafeteria"
+      ]
+    },
+    wifi: true,
+    cafeteria: 10,
+    medical: true,
+    transportation: true,
+    auditorium: 4
+  },
+  admission: {
+    entranceExam: ["JEE Advanced", "GATE", "CEED", "JAM", "CAT"],
+    cutoff: 97.5,
+    cutoffTrend: 0.2,
+    applicationMode: "Online",
+    applicationFee: 2500,
+    selectionProcess: ["JEE Advanced Score", "JoSAA Counseling", "Seat Allocation", "Document Verification"],
+    eligibility: {
+      minPercentage: 75,
+      subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+      ageLimit: 25
+    },
+    importantDates: {
+      applicationStart: "January 1, 2026",
+      applicationEnd: "April 30, 2026",
+      examDate: "June 2026",
+      resultDate: "July 2026",
+      counsellingStart: "July 15, 2026",
+      counsellingEnd: "August 30, 2026"
+    },
+    documentsRequired: [
+      "10th Marksheet",
+      "12th Marksheet",
+      "JEE Advanced Scorecard",
+      "Category Certificate",
+      "Income Certificate (Scholarship)",
+      "Domicile Certificate",
+      "Medical Fitness Certificate"
+    ]
+  },
+  campusLife: {
+    clubs: [
+      "Programming Club",
+      "Robotics Club",
+      "Entrepreneurship Cell (E-Cell)",
+      "Himalayan Explorers Club",
+      "Boat Club",
+      "Hobbies Club",
+      "Music Club",
+      "Dance Club",
+      "Dramatics Society",
+      "Photography Club",
+      "Debating Society",
+      "Literary Society"
+    ],
+    festivals: [
+      "Thomso (Annual Cultural Festival)",
+      "Cognizance (Technical Festival)",
+      "Zeitgeist (Department of Management Studies)"
+    ],
+    technicalEvents: [
+      "Hackathons",
+      "Coding Competitions",
+      "Robotics Wars",
+      "Research Conclaves",
+      "Industry Interaction Summits"
+    ],
+    culturalEvents: [
+      "Music Nights",
+      "Dance Performances",
+      "Drama Competitions",
+      "Art Exhibitions",
+      "Quizzes"
+    ],
+    socialInitiatives: [
+      "National Service Scheme (NSS)",
+      "National Cadet Corps (NCC)",
+      "Blood Donation Camps",
+      "Rural Development Projects"
+    ],
+    annualBudget: 40000000
+  },
+  faculty: {
+    total: 550,
+    phdHolders: 530,
+    professor: 200,
+    associateProfessor: 210,
+    assistantProfessor: 140,
+    industryExperience: 7,
+    internationalFaculty: 40,
+    awards: [
+      "Shanti Swarup Bhatnagar Prize (8 recipients)",
+      "J.C. Bose Fellowship",
+      "Ramanujan Fellowship",
+      "Swarnajayanti Fellowship"
+    ]
+  },
+  alumni: {
+    notableAlumni: [
+      { name: "Kamal Kishore", designation: "Assistant Secretary-General", company: "United Nations (UNDRR)" },
+      { name: "Pankaj Agarwal", designation: "Secretary", company: "Ministry of Power, Govt. of India" },
+      { name: "Sushil Kumar", designation: "Managing Director", company: "U.P. Metro Rail Corporation" },
+      { name: "Jai Prakash Srivastava", designation: "Director (Engineering, R&D)", company: "BHEL" },
+      { name: "Karthik Reddy", designation: "Co-founder & Managing Partner", company: "Blume Ventures" },
+      { name: "Rishi Das", designation: "Founder", company: "CareerNet, IndiQube" },
+      { name: "Amit Garg", designation: "Founder & CEO", company: "HiLabs" },
+      { name: "Late Ar. Pradeep Sachdeva", designation: "Principal Architect", company: "PSDA" }
+    ],
+    placementCompanies: [
+      "Google", "Microsoft", "Amazon", "Goldman Sachs",
+      "McKinsey", "BCG", "Bain", "JP Morgan",
+      "Intel", "Qualcomm", "Samsung"
+    ],
+    networkStrength: 93
+  },
+  international: {
+    collaborations: 80,
+    studentExchange: true,
+    facultyExchange: true,
+    partnerUniversities: [
+      "ETH Zurich",
+      "University of Illinois",
+      "University of Leeds",
+      "National University of Singapore"
+    ],
+    foreignStudents: 150
+  },
+  contact: {
+    phone: ["+91-1332-285311", "+91-1332-285309"],
+    email: ["registrar@iitr.ac.in", "placement@iitr.ac.in", "admission@iitr.ac.in"],
+    website: "https://www.iitr.ac.in",
+    socialMedia: {
+      facebook: "https://facebook.com/iitroorkee",
+      twitter: "https://twitter.com/iitroorkee",
+      linkedin: "https://linkedin.com/school/iit-roorkee",
+      instagram: "https://instagram.com/iitroorkee",
+      youtube: "https://youtube.com/iitroorkee"
+    },
+    admissionContact: {
+      phone: "+91-1332-284520",
+      email: "admission@iitr.ac.in"
+    }
+  },
+  facilities: [
+    "24x7 Mahatma Gandhi Central Library",
+    "Param Ganga Supercomputer",
+    "Wi-Fi Campus",
+    "Sports Stadium",
+    "Swimming Pool",
+    "Boat Club",
+    "Himalayan Explorers Club",
+    "Wellness Centre",
+    "SBI & PNB Bank with ATM",
+    "Post Office",
+    "Railway Reservation Centre",
+    "Guest House"
+  ],
+  achievements: [
+    "India's Oldest Engineering College (est. 1847)",
+    "Institution of National Importance",
+    "Ranked #5 in Engineering (NIRF 2024) [citation:6]",
+    "175+ Years of Academic Excellence",
+    "Produces highest number of Civil Services & PSU leaders",
+    "Strongest Alumni Network in Government & Infrastructure"
+  ],
+  newsUpdates: [
+    {
+      title: "IIT Roorkee records 555 offers in first two days of Placement 2025-26 season",
+      date: "2025-12-01",
+      link: "https://www.hindustantimes.com/education/employment-news"
+    },
+    {
+      title: "IIT Roorkee Honors Distinguished Alumni 2024 & 2025 at Foundation Day",
+      date: "2025-11-25",
+      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2194141"
+    },
+    {
+      title: "Kamal Kishore (B.Arch) appointed Assistant Secretary-General of the United Nations",
+      date: "2024-03-27",
+      link: "https://iitr.ac.in"
+    }
+  ],
+  gallery: [
+    { type: "campus", url: "/gallery/iitr-campus1.jpg", caption: "Main Building (Renaissance Style Architecture)" },
+    { type: "campus", url: "/gallery/iitr-campus2.jpg", caption: "Mahatma Gandhi Central Library" },
+    { type: "campus", url: "/gallery/iitr-campus3.jpg", caption: "Institute Computer Centre" },
+    { type: "lab", url: "/gallery/iitr-lab1.jpg", caption: "Param Ganga Supercomputer" },
+    { type: "sports", url: "/gallery/iitr-sports1.jpg", caption: "Sports Stadium & Swimming Pool" },
+    { type: "event", url: "/gallery/iitr-event1.jpg", caption: "Thomso Cultural Festival" },
+    { type: "event", url: "/gallery/iitr-event2.jpg", caption: "Cognizance Technical Festival" }
+  ],
+  faqs: [
+    {
+      question: "What is IIT Roorkee famous for?",
+      answer: "IIT Roorkee is India's oldest technical institution (est. 1847). It is globally renowned for Civil Engineering, Hydrology, Water Resources, and Earthquake Engineering. It also has a very strong legacy in Architecture (B.Arch) and is the alma mater of numerous Secretaries to the Government of India and PSU Chairmen [citation:5][citation:10]."
+    },
+    {
+      question: "What is the JEE Advanced cutoff for IIT Roorkee?",
+      answer: "For General category, the cutoff for CSE is typically around 98+ percentile. For other branches, closing ranks range from 97-99 percentile. Being an older IIT, it is slightly more competitive than NITs but offers excellent ROI due to lower fees [citation:6][citation:8]."
+    },
+    {
+      question: "Is IIT Roorkee good for MBA?",
+      answer: "Yes. The DoMS (Department of Management Studies) has shown exceptional growth. In 2025, the average CTC was ₹17.91 LPA with the highest at ₹24 LPA. Marketing specialization paid the highest at ₹21.33 LPA. Recruiters include Accenture, Deloitte, Bank of America, and Coca-Cola [citation:7]."
+    },
+    {
+      question: "What are the hostel fees and facilities?",
+      answer: "UG hostel fees are approximately ₹7,500 per semester. Mess charges are around ₹20,250 - ₹26,250 per semester. There are 10 Boys Hostels and 3 Girls Hostels with Wi-Fi, common rooms, and cyber cafes [citation:4][citation:8]."
+    },
+    {
+      question: "Which IIT is better: Roorkee or Bombay/Delhi?",
+      answer: "For high-finance/consulting roles and city life, IIT Bombay/Delhi have an edge. However, IIT Roorkee offers a more affordable education, a distraction-free campus, and is exceptionally strong for core engineering, PSU jobs, and research in Earth Sciences. It offers a better ROI for budget-conscious students [citation:6]."
+    },
+    {
+      question: "Who are some famous alumni from IIT Roorkee?",
+      answer: "Distinguished alumni include Kamal Kishore (UN Assistant Secretary-General), Pankaj Agarwal (Secretary, Ministry of Power), Sushil Kumar (MD, U.P. Metro), and Karthik Reddy (Blume Ventures) [citation:5][citation:10]."
     }
   ]
 },
