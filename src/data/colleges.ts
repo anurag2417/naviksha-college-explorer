@@ -236,8 +236,6 @@ export interface College {
 }
 
 export const colleges: College[] = [
-  
-
   {
     id: "1101",
     slug: "iit-madras",
@@ -1750,1361 +1748,3552 @@ export const colleges: College[] = [
     ],
   },
   {
-  id: "1104",
-  slug: "iit-kanpur",
-  name: "Indian Institute of Technology Kanpur",
-  shortName: "IIT Kanpur",
-  tagline: "तमसो मा ज्योतिर्गमय (Lead me from darkness to light)",
-  overview: "Premier engineering institute known for its academic excellence, research innovation, and strong industry connections",
-  description: "Indian Institute of Technology Kanpur is one of the top engineering institutions in India, established in 1959 with assistance from a consortium of nine US research universities. Known for its pioneering academic programs, cutting-edge research, and strong emphasis on innovation, IIT Kanpur has consistently been among the top-ranked engineering institutes in India.",
-  logo: "/logos/iit-kanpur.png",
-  stream: "engineering",
-  type: "government",
-  category: "premier",
-  ranking: 4,
-  rating: 4.7,
-  nirfRank: 4,
-  googleRating: 4.6,
-  reviews: {
-    count: 11200,
-    average: 4.7,
-    academics: 4.8,
-    infrastructure: 4.6,
-    placement: 4.8,
-    faculty: 4.7
-  },
-  established: 1959,
-  accreditation: "Institute of National Importance",
-  naacGrade: "A++",
-  affiliations: ["Institute of National Importance"],
-  recognition: ["UGC", "AICTE", "MHRD"],
-  location: {
-    city: "Kanpur",
-    state: "Uttar Pradesh",
-    country: "India",
-    pincode: "208016",
-    campusSize: "1055 acres",
-    campusType: "suburban",
-    latitude: 26.5123,
-    longitude: 80.2329,
-    address: "IIT Kanpur, Kalyanpur, Kanpur, Uttar Pradesh 208016"
-  },
-  fees: {
-    annual: 230000,
-    total: 920000,
-    hostel: 70000,
-    mess: 45000,
-    otherCharges: 15000,
-    scholarshipAvailable: true,
-    scholarshipDetails: [
-      "Institute Merit-cum-Means Scholarship",
-      "SC/ST Scholarship",
-      "Free Studentship",
-      "Ministry of Education Scholarships",
-      "Private Trust Scholarships",
-      "Sports & Cultural Scholarships",
-      "Research Fellowships"
-    ],
-    paymentOptions: ["Online Payment", "Demand Draft", "Bank Transfer", "Scholarship Deduction"]
-  },
-  placement: {
-    averagePackage: 2400000,
-    highestPackage: 41000000,
-    medianPackage: 2150000,
-    percentage: 93,
-    totalOffers: 1150,
-    totalStudents: 1200,
-    internationalOffers: 95,
-    dreamOffers: 170,
-    averagePackageTrend: 11,
-    topRecruiters: [
-      "Microsoft", "Google", "Amazon", "Goldman Sachs",
-      "McKinsey & Company", "Boston Consulting Group", "Bain & Company",
-      "Intel", "Texas Instruments", "Qualcomm", "Samsung",
-      "JP Morgan", "Morgan Stanley", "Barclays",
-      "Tata Consultancy Services", "Infosys", "Wipro",
-      "Adobe", "Oracle", "IBM", "Cisco", "NVIDIA"
-    ],
-    recruitmentSectors: ["Information Technology", "Finance & Consulting", "Core Engineering", "Research & Development", "Analytics", "Product Management", "Manufacturing"],
-    placementStats: [
-      { year: 2024, averagePackage: 2400000, highestPackage: 41000000, percentage: 93 },
-      { year: 2023, averagePackage: 2150000, highestPackage: 38000000, percentage: 92 },
-      { year: 2022, averagePackage: 1950000, highestPackage: 35000000, percentage: 91 },
-      { year: 2021, averagePackage: 1750000, highestPackage: 32000000, percentage: 90 }
-    ]
-  },
-  academics: {
-    coursesOffered: ["B.Tech", "M.Tech", "PhD", "Dual Degree", "M.Sc", "MBA", "M.Des", "Executive Programs"],
-    popularCourses: ["B.Tech Computer Science", "B.Tech Electrical Engineering", "B.Tech Mechanical Engineering", "MBA", "M.Tech"],
-    facultyCount: 550,
-    studentCount: 9000,
-    studentFacultyRatio: "9:1",
-    specialization: [
-      "Computer Science",
-      "Electrical Engineering",
-      "Mechanical Engineering",
-      "Civil Engineering",
-      "Chemical Engineering",
-      "Aerospace Engineering",
-      "Materials Science",
-      "Biological Sciences"
-    ],
-    departments: [
-      "Computer Science & Engineering",
-      "Electrical Engineering",
-      "Mechanical Engineering",
-      "Civil Engineering",
-      "Chemical Engineering",
-      "Aerospace Engineering",
-      "Materials Science & Engineering",
-      "Biological Sciences & Bioengineering",
-      "Physics",
-      "Chemistry",
-      "Mathematics & Statistics",
-      "Humanities & Social Sciences",
-      "Management Sciences"
-    ],
-    researchCenters: 110,
-    publications: 4500,
-    collaborations: [
-      "Massachusetts Institute of Technology (MIT)",
-      "Stanford University",
-      "University of California, Berkeley",
-      "Purdue University",
-      "University of Michigan",
-      "National University of Singapore",
-      "University of Tokyo"
-    ],
-    teachingMode: "offline"
-  },
-  infrastructure: {
-    library: {
-      name: "Central Library",
-      books: 450000,
-      journals: 11000,
-      digitalResources: 130000,
-      seatingCapacity: 1000
+    id: "1104",
+    slug: "iit-kanpur",
+    name: "Indian Institute of Technology Kanpur",
+    shortName: "IIT Kanpur",
+    tagline: "तमसो मा ज्योतिर्गमय (Lead me from darkness to light)",
+    overview:
+      "Premier engineering institute known for its academic excellence, research innovation, and strong industry connections",
+    description:
+      "Indian Institute of Technology Kanpur is one of the top engineering institutions in India, established in 1959 with assistance from a consortium of nine US research universities. Known for its pioneering academic programs, cutting-edge research, and strong emphasis on innovation, IIT Kanpur has consistently been among the top-ranked engineering institutes in India.",
+    logo: "/logos/iit-kanpur.png",
+    stream: "engineering",
+    type: "government",
+    category: "premier",
+    ranking: 4,
+    rating: 4.7,
+    nirfRank: 4,
+    googleRating: 4.6,
+    reviews: {
+      count: 11200,
+      average: 4.7,
+      academics: 4.8,
+      infrastructure: 4.6,
+      placement: 4.8,
+      faculty: 4.7,
     },
-    labs: {
-      count: 280,
-      majorLabs: [
-        "Advanced Centre for Materials Science",
-        "Centre for Mechatronics",
-        "National Centre for Flexible Electronics",
-        "Centre for Lasers & Photonics",
-        "Samtel Centre for Display Technologies",
-        "Centre for Environmental Science & Engineering",
-        "P K Kelkar Library"
+    established: 1959,
+    accreditation: "Institute of National Importance",
+    naacGrade: "A++",
+    affiliations: ["Institute of National Importance"],
+    recognition: ["UGC", "AICTE", "MHRD"],
+    location: {
+      city: "Kanpur",
+      state: "Uttar Pradesh",
+      country: "India",
+      pincode: "208016",
+      campusSize: "1055 acres",
+      campusType: "suburban",
+      latitude: 26.5123,
+      longitude: 80.2329,
+      address: "IIT Kanpur, Kalyanpur, Kanpur, Uttar Pradesh 208016",
+    },
+    fees: {
+      annual: 230000,
+      total: 920000,
+      hostel: 70000,
+      mess: 45000,
+      otherCharges: 15000,
+      scholarshipAvailable: true,
+      scholarshipDetails: [
+        "Institute Merit-cum-Means Scholarship",
+        "SC/ST Scholarship",
+        "Free Studentship",
+        "Ministry of Education Scholarships",
+        "Private Trust Scholarships",
+        "Sports & Cultural Scholarships",
+        "Research Fellowships",
       ],
-      equipmentValue: 480000000
-    },
-    sports: {
-      facilities: [
-        "Swimming Pool",
-        "Cricket Stadium",
-        "Football Ground",
-        "Tennis Courts",
-        "Basketball Courts",
-        "Badminton Courts",
-        "Squash Courts",
-        "Table Tennis Hall",
-        "Gymnasium",
-        "Athletics Track",
-        "Hockey Field",
-        "Volleyball Courts",
-        "Yoga Center"
+      paymentOptions: [
+        "Online Payment",
+        "Demand Draft",
+        "Bank Transfer",
+        "Scholarship Deduction",
       ],
-      stadium: true,
-      gym: true,
-      swimmingPool: true
     },
-    hostel: {
-      boys: true,
-      girls: true,
-      capacity: 7500,
-      rooms: 3750,
-      facilities: [
-        "High-speed WiFi",
-        "Laundry Service",
-        "Common Rooms with TV",
-        "Study Rooms (24x7)",
-        "Gym",
-        "Indoor Games Room",
-        "Music Room",
-        "Dance Room",
-        "Guest Rooms",
-        "Medical Facility",
-        "Cafeteria & Canteen",
-        "Cooperative Stores"
-      ]
-    },
-    wifi: true,
-    cafeteria: 12,
-    medical: true,
-    transportation: true,
-    auditorium: 4
-  },
-  admission: {
-    entranceExam: ["JEE Advanced"],
-    cutoff: 97.8,
-    cutoffTrend: 0.3,
-    applicationMode: "Online",
-    applicationFee: 2500,
-    selectionProcess: ["JEE Advanced Score", "JoSAA Counseling", "Seat Allocation", "Document Verification"],
-    eligibility: {
-      minPercentage: 75,
-      subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
-      ageLimit: 25
-    },
-    importantDates: {
-      applicationStart: "January 1, 2024",
-      applicationEnd: "April 30, 2024",
-      examDate: "June 2024",
-      resultDate: "July 2024",
-      counsellingStart: "July 15, 2024",
-      counsellingEnd: "August 30, 2024"
-    },
-    documentsRequired: [
-      "10th Marksheet & Certificate",
-      "12th Marksheet & Certificate",
-      "JEE Advanced Scorecard",
-      "JEE Main Scorecard",
-      "Category Certificate (if applicable)",
-      "Income Certificate (for scholarship)",
-      "Domicile Certificate",
-      "Passport-size Photographs",
-      "Medical Fitness Certificate"
-    ]
-  },
-  campusLife: {
-    clubs: [
-      "Programming Club",
-      "Robotics Club",
-      "Entrepreneurship Cell",
-      "Music Club (Dandiya)",
-      "Dance Club (Footloose)",
-      "Drama Club (Dramatics Society)",
-      "Photography Club",
-      "Debating Society",
-      "Literary Society",
-      "Astronomy Club",
-      "Environmental Club",
-      "Quiz Club",
-      "Film Club",
-      "Fine Arts Club"
-    ],
-    festivals: [
-      "Antaragni (Annual Cultural Festival)",
-      "Techkriti (Technical Festival)",
-      "Udghosh (Sports Fest)"
-    ],
-    technicalEvents: [
-      "Hackathons",
-      "Coding Competitions",
-      "Robotics Competitions",
-      "Business Plan Competitions",
-      "Research Symposiums",
-      "Industry Interaction Programs",
-      "Innovation Challenges"
-    ],
-    culturalEvents: [
-      "Music Concerts",
-      "Dance Performances",
-      "Drama Nights",
-      "Art Exhibitions",
-      "Literary Events",
-      "Film Screenings",
-      "Comedy Shows"
-    ],
-    socialInitiatives: [
-      "National Service Scheme (NSS)",
-      "Teach for India Program",
-      "Blood Donation Camps",
-      "Environmental Awareness Drives",
-      "Community Development Programs",
-      "Women Empowerment Initiatives",
-      "Rural Development Projects"
-    ],
-    annualBudget: 45000000
-  },
-  faculty: {
-    total: 550,
-    phdHolders: 520,
-    professor: 200,
-    associateProfessor: 220,
-    assistantProfessor: 130,
-    industryExperience: 8,
-    internationalFaculty: 45,
-    awards: [
-      "Padma Awards (4 recipients)",
-      "Shanti Swarup Bhatnagar Prize (12 recipients)",
-      "Infosys Prize",
-      "TWAS Prize",
-      "J.C. Bose Fellowship",
-      "Swarnajayanti Fellowship",
-      "Ramanujan Fellowship"
-    ]
-  },
-  alumni: {
-    notableAlumni: [
-      { name: "N. R. Narayana Murthy", designation: "Founder", company: "Infosys" },
-      { name: "Manohar Parrikar", designation: "Former Defence Minister", company: "Government of India" },
-      { name: "Kumar Mangalam Birla", designation: "Chairman", company: "Aditya Birla Group" },
-      { name: "Arvind Kejriwal", designation: "Chief Minister", company: "Government of Delhi" },
-      { name: "Rajat Sharma", designation: "Chairman", company: "India TV" },
-      { name: "Vijay Shekhar Sharma", designation: "Founder", company: "Paytm" },
-      { name: "Kunal Bahl", designation: "Co-founder", company: "Snapdeal" }
-    ],
-    placementCompanies: [
-      "Google", "Microsoft", "Amazon", "Goldman Sachs",
-      "McKinsey", "BCG", "Bain", "JP Morgan",
-      "Morgan Stanley", "Intel", "Qualcomm", "Samsung"
-    ],
-    networkStrength: 94
-  },
-  international: {
-    collaborations: 130,
-    studentExchange: true,
-    facultyExchange: true,
-    partnerUniversities: [
-      "Massachusetts Institute of Technology (MIT)",
-      "Stanford University",
-      "University of California, Berkeley",
-      "Purdue University",
-      "National University of Singapore",
-      "University of Tokyo",
-      "University of Sydney"
-    ],
-    foreignStudents: 280
-  },
-  contact: {
-    phone: ["+91-512-2590151", "+91-512-2590152"],
-    email: ["deanacad@iitk.ac.in", "registrar@iitk.ac.in", "placement@iitk.ac.in"],
-    website: "https://www.iitk.ac.in",
-    socialMedia: {
-      facebook: "https://facebook.com/iitkanpur",
-      twitter: "https://twitter.com/iitkanpur",
-      linkedin: "https://linkedin.com/school/iit-kanpur",
-      instagram: "https://instagram.com/iitkanpur",
-      youtube: "https://youtube.com/iitkanpur"
-    },
-    admissionContact: {
-      phone: "+91-512-2597631",
-      email: "admission@iitk.ac.in"
-    }
-  },
-  facilities: [
-    "24x7 Central Library",
-    "High-speed WiFi Campus",
-    "Sports Complex with Stadium",
-    "Medical Center with Ambulance",
-    "Multiple Banks & ATMs",
-    "Post Office",
-    "Shopping Complex",
-    "Book Store & Stationery",
-    "Food Court with Multiple Cuisines",
-    "Guest House",
-    "Auditorium & Conference Halls",
-    "Research Parks",
-    "Incubation Center (Startup Incubation and Innovation Centre)",
-    "Career Development Center",
-    "Transportation Services",
-    "Recreational Centers"
-  ],
-  achievements: [
-    "Ranked #4 among Engineering Institutes in India (NIRF 2024)",
-    "QS World University Rankings: 264 (2024)",
-    "Times Higher Education: 301-350 band (2024)",
-    "Institute of Eminence (IoE) status",
-    "Pioneer in computer science education in India",
-    "Excellence in Sports (Multiple Inter-IIT trophies)",
-    "Leading research output in engineering",
-    "Strongest alumni network among IITs"
-  ],
-  newsUpdates: [
-    { 
-      title: "IIT Kanpur develops India's first hyperloop prototype", 
-      date: "2024-01-20", 
-      link: "https://iitk.ac.in/news/hyperloop-prototype" 
-    },
-    { 
-      title: "Record placement season with highest package of ₹4.1 crore", 
-      date: "2023-12-15", 
-      link: "https://iitk.ac.in/news/placement-2023" 
-    },
-    { 
-      title: "IIT Kanpur partners with MIT for AI and robotics research", 
-      date: "2023-11-10", 
-      link: "https://iitk.ac.in/news/mit-partnership" 
-    },
-    { 
-      title: "Students develop low-cost water purification system for rural areas", 
-      date: "2023-09-18", 
-      link: "https://iitk.ac.in/news/water-purification-project" 
-    }
-  ],
-  gallery: [
-    { type: "campus", url: "/gallery/iitk-campus1.jpg", caption: "Main Building" },
-    { type: "campus", url: "/gallery/iitk-campus2.jpg", caption: "Central Library" },
-    { type: "campus", url: "/gallery/iitk-campus3.jpg", caption: "Convocation Hall" },
-    { type: "lab", url: "/gallery/iitk-lab1.jpg", caption: "Advanced Materials Lab" },
-    { type: "lab", url: "/gallery/iitk-lab2.jpg", caption: "Robotics Research Center" },
-    { type: "hostel", url: "/gallery/iitk-hostel1.jpg", caption: "Student Hostels" },
-    { type: "sports", url: "/gallery/iitk-sports1.jpg", caption: "Sports Complex" },
-    { type: "event", url: "/gallery/iitk-event1.jpg", caption: "Antaragni Cultural Festival" },
-    { type: "event", url: "/gallery/iitk-event2.jpg", caption: "Techkriti Technical Festival" }
-  ],
-  faqs: [
-    { 
-      question: "What is the JEE Advanced cutoff for IIT Kanpur?", 
-      answer: "The cutoff varies by branch and category. For General category, Computer Science typically requires 98.5+ percentile, while other branches range from 96-98 percentile. The exact cutoff changes annually based on competition." 
-    },
-    { 
-      question: "What are the most popular branches at IIT Kanpur?", 
-      answer: "Computer Science & Engineering is the most sought-after, followed by Electrical Engineering, Mechanical Engineering, and Aerospace Engineering. The institute is also known for its strong programs in Materials Science and Biological Sciences." 
-    },
-    { 
-      question: "Does IIT Kanpur have a dedicated incubation center?", 
-      answer: "Yes, IIT Kanpur has the Startup Incubation and Innovation Centre (SIIC), one of India's oldest and most successful incubation centers. It has incubated over 200 startups with significant funding and success stories." 
-    },
-    { 
-      question: "What is special about IIT Kanpur campus?", 
-      answer: "The 1055-acre campus is one of the largest among IITs and features state-of-the-art infrastructure. The campus is known for its academic freedom, research facilities, and vibrant student life." 
-    },
-    { 
-      question: "What research opportunities are available for undergraduates?", 
-      answer: "IIT Kanpur offers extensive undergraduate research opportunities through the Undergraduate Research Opportunities Program (UROP), summer internships with faculty, and access to state-of-the-art research facilities." 
-    },
-    { 
-      question: "How is the hostel accommodation at IIT Kanpur?", 
-      answer: "The institute provides excellent hostel accommodation for all students. There are 11 hostels (including 2 for girls) with modern amenities. Hostels are equipped with high-speed internet and recreational facilities." 
-    },
-    { 
-      question: "What are the major festivals at IIT Kanpur?", 
-      answer: "Antaragni is the annual cultural festival (one of North India's largest), Techkriti is the technical festival (focusing on innovation and technology), and Udghosh is the sports festival." 
-    },
-    { 
-      question: "Does IIT Kanpur offer interdisciplinary programs?", 
-      answer: "Yes, IIT Kanpur offers several interdisciplinary programs including Materials Science, Biological Sciences & Bioengineering, Environmental Engineering, and Data Science." 
-    },
-    { 
-      question: "What is the student-faculty ratio?", 
-      answer: "The student-faculty ratio is approximately 9:1, ensuring personalized attention and strong mentorship opportunities for students." 
-    },
-    { 
-      question: "How strong is the alumni network?", 
-      answer: "IIT Kanpur has one of the strongest alumni networks globally, with prominent leaders in technology, business, politics, and entrepreneurship across the world including founders of Infosys, Paytm, and Snapdeal." 
-    }
-  ]
-},
-{
-  id: "1105",
-  slug: "iit-kharagpur",
-  name: "Indian Institute of Technology Kharagpur",
-  shortName: "IIT Kharagpur",
-  tagline: "योगः कर्मसु कौशलम् (Excellence in action is Yoga)",
-  overview: "India's first and largest IIT, a premier institution known for its rich heritage, diverse academic programs, and pioneering research",
-  description: "Indian Institute of Technology Kharagpur is the oldest and largest IIT in India, established in 1951 by the Government of India. Founded with assistance from UNESCO, it was the first IIT to be established and has since grown into a premier institution of national importance. Located in the historic Hijli Detention Camp, the institute combines a rich history with cutting-edge research and innovation across engineering, science, technology, law, and management.",
-  logo: "/logos/iit-kharagpur.png",
-  stream: "engineering",
-  type: "government",
-  category: "premier",
-  ranking: 5,
-  rating: 4.7,
-  nirfRank: 3,
-  googleRating: 4.6,
-  reviews: {
-    count: 12500,
-    average: 4.7,
-    academics: 4.8,
-    infrastructure: 4.7,
-    placement: 4.7,
-    faculty: 4.7
-  },
-  established: 1951,
-  accreditation: "Institute of National Importance",
-  naacGrade: "A++",
-  affiliations: ["Institute of National Importance"],
-  recognition: ["UGC", "AICTE", "MHRD"],
-  location: {
-    city: "Kharagpur",
-    state: "West Bengal",
-    country: "India",
-    pincode: "721302",
-    campusSize: "2100 acres",
-    campusType: "rural",
-    latitude: 22.3460,
-    longitude: 87.2320,
-    address: "IIT Kharagpur, Kharagpur, West Bengal 721302"
-  },
-  fees: {
-    annual: 225000,
-    total: 900000,
-    hostel: 65000,
-    mess: 42000,
-    otherCharges: 18000,
-    scholarshipAvailable: true,
-    scholarshipDetails: [
-      "Institute Merit-cum-Means Scholarship",
-      "SC/ST Scholarship",
-      "Free Studentship",
-      "Ministry of Education Scholarships",
-      "Private Trust Scholarships",
-      "Sports & Cultural Scholarships",
-      "Research Fellowships",
-      "Alumni Endowed Scholarships"
-    ],
-    paymentOptions: ["Online Payment", "Demand Draft", "Bank Transfer", "Scholarship Deduction"]
-  },
-  placement: {
-    averagePackage: 2350000,
-    highestPackage: 42000000,
-    medianPackage: 2100000,
-    percentage: 92,
-    totalOffers: 1450,
-    totalStudents: 1500,
-    internationalOffers: 105,
-    dreamOffers: 185,
-    averagePackageTrend: 10.5,
-    topRecruiters: [
-      "Microsoft", "Google", "Amazon", "Goldman Sachs",
-      "McKinsey & Company", "Boston Consulting Group", "Bain & Company",
-      "Intel", "Texas Instruments", "Qualcomm", "Samsung",
-      "JP Morgan", "Morgan Stanley", "Deutsche Bank",
-      "Tata Consultancy Services", "Infosys", "Wipro",
-      "Adobe", "Oracle", "IBM", "Cisco", "NVIDIA",
-      "SAP Labs", "VMware", "Salesforce"
-    ],
-    recruitmentSectors: ["Information Technology", "Finance & Consulting", "Core Engineering", "Research & Development", "Analytics", "Product Management", "Manufacturing", "Law"],
-    placementStats: [
-      { year: 2024, averagePackage: 2350000, highestPackage: 42000000, percentage: 92 },
-      { year: 2023, averagePackage: 2100000, highestPackage: 39000000, percentage: 91 },
-      { year: 2022, averagePackage: 1900000, highestPackage: 36000000, percentage: 90 },
-      { year: 2021, averagePackage: 1700000, highestPackage: 33000000, percentage: 89 }
-    ]
-  },
-  academics: {
-    coursesOffered: [
-      "B.Tech", "M.Tech", "PhD", "Dual Degree",
-      "M.Sc", "MBA", "M.Sc in Economics",
-      "LLB (Hons)", "LLM", "MS", "Executive Programs"
-    ],
-    popularCourses: [
-      "B.Tech Computer Science", "B.Tech Electrical Engineering",
-      "B.Tech Mechanical Engineering", "MBA", "LLB (Hons)"
-    ],
-    facultyCount: 720,
-    studentCount: 12000,
-    studentFacultyRatio: "8:1",
-    specialization: [
-      "Computer Science",
-      "Electrical Engineering",
-      "Mechanical Engineering",
-      "Civil Engineering",
-      "Chemical Engineering",
-      "Aerospace Engineering",
-      "Ocean Engineering & Naval Architecture",
-      "Metallurgical & Materials Engineering",
-      "Biotechnology",
-      "Geology & Geophysics",
-      "Agriculture & Food Engineering"
-    ],
-    departments: [
-      "Computer Science & Engineering",
-      "Electrical Engineering",
-      "Mechanical Engineering",
-      "Civil Engineering",
-      "Chemical Engineering",
-      "Aerospace Engineering",
-      "Ocean Engineering & Naval Architecture",
-      "Metallurgical & Materials Engineering",
-      "Biotechnology",
-      "Geology & Geophysics",
-      "Agricultural & Food Engineering",
-      "Physics",
-      "Chemistry",
-      "Mathematics",
-      "Humanities & Social Sciences",
-      "Management Studies",
-      "Law",
-      "Medical Science & Technology",
-      "Ranbir & Chitra Gupta School of Infrastructure",
-      "Rajendra Mishra School of Engineering Entrepreneurship"
-    ],
-    researchCenters: 135,
-    publications: 5000,
-    collaborations: [
-      "Massachusetts Institute of Technology (MIT)",
-      "Stanford University",
-      "University of California, Berkeley",
-      "University of Cambridge",
-      "Technical University of Munich",
-      "National University of Singapore",
-      "University of Tokyo",
-      "University of Illinois at Urbana-Champaign"
-    ],
-    teachingMode: "offline"
-  },
-  infrastructure: {
-    library: {
-      name: "Central Library",
-      books: 550000,
-      journals: 15000,
-      digitalResources: 180000,
-      seatingCapacity: 1500
-    },
-    labs: {
-      count: 350,
-      majorLabs: [
-        "Advanced Technology Development Centre",
-        "Cryogenic Engineering Centre",
-        "Rubber Technology Centre",
-        "Reliability Engineering Centre",
-        "Centre for Oceans, Rivers, Atmosphere and Land Sciences",
-        "Centre for Theoretical Studies",
-        "Kalpana Chawla Space Technology Cell",
-        "G. S. Sanyal School of Telecommunications",
-        "Subir Chowdhury School of Quality & Reliability"
+    placement: {
+      averagePackage: 2400000,
+      highestPackage: 41000000,
+      medianPackage: 2150000,
+      percentage: 93,
+      totalOffers: 1150,
+      totalStudents: 1200,
+      internationalOffers: 95,
+      dreamOffers: 170,
+      averagePackageTrend: 11,
+      topRecruiters: [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Goldman Sachs",
+        "McKinsey & Company",
+        "Boston Consulting Group",
+        "Bain & Company",
+        "Intel",
+        "Texas Instruments",
+        "Qualcomm",
+        "Samsung",
+        "JP Morgan",
+        "Morgan Stanley",
+        "Barclays",
+        "Tata Consultancy Services",
+        "Infosys",
+        "Wipro",
+        "Adobe",
+        "Oracle",
+        "IBM",
+        "Cisco",
+        "NVIDIA",
       ],
-      equipmentValue: 600000000
-    },
-    sports: {
-      facilities: [
-        "Olympic-size Swimming Pool",
-        "Cricket Stadium",
-        "Football Ground (Astroturf)",
-        "Hockey Field",
-        "Tennis Courts (Clay & Hard)",
-        "Basketball Courts (Indoor & Outdoor)",
-        "Badminton Courts (International Standard)",
-        "Squash Courts",
-        "Table Tennis Hall",
-        "Gymnasium (Multi-level)",
-        "Athletics Track (Synthetic)",
-        "Volleyball Courts",
-        "Yoga & Meditation Center",
-        "Indoor Sports Complex"
+      recruitmentSectors: [
+        "Information Technology",
+        "Finance & Consulting",
+        "Core Engineering",
+        "Research & Development",
+        "Analytics",
+        "Product Management",
+        "Manufacturing",
       ],
-      stadium: true,
-      gym: true,
-      swimmingPool: true
-    },
-    hostel: {
-      boys: true,
-      girls: true,
-      capacity: 10000,
-      rooms: 5000,
-      facilities: [
-        "High-speed WiFi (1 Gbps)",
-        "Laundry Service",
-        "Common Rooms with LCD TV",
-        "Study Rooms (24x7)",
-        "Gym",
-        "Indoor Games Room",
-        "Music Room",
-        "Dance Room",
-        "Guest Rooms",
-        "Medical Facility",
-        "Cafeteria & Canteen",
-        "Cooperative Stores",
-        "ATM",
-        "Cycling Track"
-      ]
-    },
-    wifi: true,
-    cafeteria: 20,
-    medical: true,
-    transportation: true,
-    auditorium: 6
-  },
-  admission: {
-    entranceExam: ["JEE Advanced"],
-    cutoff: 97.5,
-    cutoffTrend: 0.2,
-    applicationMode: "Online",
-    applicationFee: 2500,
-    selectionProcess: ["JEE Advanced Score", "JoSAA Counseling", "Seat Allocation", "Document Verification"],
-    eligibility: {
-      minPercentage: 75,
-      subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
-      ageLimit: 25
-    },
-    importantDates: {
-      applicationStart: "January 1, 2024",
-      applicationEnd: "April 30, 2024",
-      examDate: "June 2024",
-      resultDate: "July 2024",
-      counsellingStart: "July 15, 2024",
-      counsellingEnd: "August 30, 2024"
-    },
-    documentsRequired: [
-      "10th Marksheet & Certificate",
-      "12th Marksheet & Certificate",
-      "JEE Advanced Scorecard",
-      "JEE Main Scorecard",
-      "Category Certificate (if applicable)",
-      "Income Certificate (for scholarship)",
-      "Domicile Certificate",
-      "Passport-size Photographs",
-      "Medical Fitness Certificate"
-    ]
-  },
-  campusLife: {
-    clubs: [
-      "Programming Club (Kharagpur Open Source Society)",
-      "Robotics Club",
-      "Entrepreneurship Cell (E-Cell)",
-      "Music Club (Srijan)",
-      "Dance Club (Choreo)",
-      "Drama Club (Dramatics Society)",
-      "Photography Club",
-      "Debating Society",
-      "Literary Society (Expressions)",
-      "Astronomy Club",
-      "Environmental Club",
-      "Quiz Club",
-      "Film Club (Cine)",
-      "Fine Arts Club",
-      "AI & ML Club",
-      "Blockchain Society"
-    ],
-    festivals: [
-      "Spring Fest (Annual Cultural Festival)",
-      "Kshitij (Asia's Largest Techno-Management Festival)",
-      "Sports Fest"
-    ],
-    technicalEvents: [
-      "Hackathons",
-      "Coding Competitions",
-      "Robotics Competitions",
-      "Business Plan Competitions",
-      "Research Symposiums",
-      "Industry Interaction Programs",
-      "Innovation Challenges",
-      "Quizzing Events"
-    ],
-    culturalEvents: [
-      "Music Concerts",
-      "Dance Performances",
-      "Drama Nights",
-      "Art Exhibitions",
-      "Literary Events",
-      "Film Screenings",
-      "Comedy Shows",
-      "Fashion Show"
-    ],
-    socialInitiatives: [
-      "National Service Scheme (NSS)",
-      "National Cadet Corps (NCC)",
-      "Teach for India Program",
-      "Blood Donation Camps",
-      "Environmental Awareness Drives",
-      "Community Development Programs",
-      "Women Empowerment Initiatives",
-      "Rural Development Projects",
-      "Literacy Programs"
-    ],
-    annualBudget: 60000000
-  },
-  faculty: {
-    total: 720,
-    phdHolders: 690,
-    professor: 280,
-    associateProfessor: 260,
-    assistantProfessor: 180,
-    industryExperience: 7.5,
-    internationalFaculty: 60,
-    awards: [
-      "Padma Awards (6 recipients)",
-      "Shanti Swarup Bhatnagar Prize (18 recipients)",
-      "Infosys Prize",
-      "TWAS Prize",
-      "J.C. Bose Fellowship",
-      "Swarnajayanti Fellowship",
-      "Ramanujan Fellowship",
-      "National Design Award"
-    ]
-  },
-  alumni: {
-    notableAlumni: [
-      { name: "Arjun Malhotra", designation: "Co-founder", company: "HCL Technologies" },
-      { name: "Subrata Roy", designation: "Founder & Chairman", company: "Sahara India Pariwar" },
-      { name: "Vinod Dham", designation: "Father of Pentium Processor", company: "Intel" },
-      { name: "S. Damodaran", designation: "Former Chairman", company: "SEBI" },
-      { name: "Ajit Balakrishnan", designation: "Founder & CEO", company: "Rediff.com" },
-      { name: "Purnendu Chatterjee", designation: "Chairman", company: "The Chatterjee Group" },
-      { name: "Rajeev Chandrasekhar", designation: "Union Minister", company: "Government of India" },
-      { name: "S. Shankar Sastry", designation: "Dean", company: "UC Berkeley Engineering" },
-      { name: "Gopal Krishna Pillai", designation: "Former Home Secretary", company: "Government of India" }
-    ],
-    placementCompanies: [
-      "Google", "Microsoft", "Amazon", "Goldman Sachs",
-      "McKinsey", "BCG", "Bain", "JP Morgan",
-      "Morgan Stanley", "Intel", "Qualcomm", "Samsung"
-    ],
-    networkStrength: 97
-  },
-  international: {
-    collaborations: 160,
-    studentExchange: true,
-    facultyExchange: true,
-    partnerUniversities: [
-      "Massachusetts Institute of Technology (MIT)",
-      "Stanford University",
-      "University of Cambridge",
-      "National University of Singapore",
-      "University of Tokyo",
-      "Technical University of Munich",
-      "University of Sydney",
-      "University of Waterloo",
-      "Georgia Institute of Technology"
-    ],
-    foreignStudents: 350
-  },
-  contact: {
-    phone: ["+91-3222-282221", "+91-3222-282222"],
-    email: ["deanacad@iitkgp.ac.in", "registrar@iitkgp.ac.in", "placement@iitkgp.ac.in"],
-    website: "https://www.iitkgp.ac.in",
-    socialMedia: {
-      facebook: "https://facebook.com/iitkharagpur",
-      twitter: "https://twitter.com/iitkgp",
-      linkedin: "https://linkedin.com/school/iit-kharagpur",
-      instagram: "https://instagram.com/iitkgp",
-      youtube: "https://youtube.com/iitkgp"
-    },
-    admissionContact: {
-      phone: "+91-3222-282091",
-      email: "admission@iitkgp.ac.in"
-    }
-  },
-  facilities: [
-    "24x7 Central Library",
-    "High-speed WiFi Campus (1 Gbps)",
-    "Sports Complex with Olympic Pool",
-    "Medical Center with Hospital",
-    "Multiple Banks & ATMs",
-    "Post Office",
-    "Shopping Complex",
-    "Book Store & Stationery",
-    "Food Court with Multiple Cuisines",
-    "Guest House",
-    "Auditorium & Conference Halls",
-    "Technology Business Incubator",
-    "Science & Technology Entrepreneurs' Park",
-    "Career Development Center",
-    "Transportation Services",
-    "Recreational Centers",
-    "Temple & Prayer Halls",
-    "Community Radio Station"
-  ],
-  achievements: [
-    "India's First IIT (Established 1951)",
-    "Ranked #3 among Engineering Institutes in India (NIRF 2024)",
-    "QS World University Rankings: 270 (2024)",
-    "Times Higher Education: 301-350 band (2024)",
-    "Institute of Eminence (IoE) status",
-    "Largest Campus among all IITs (2100 acres)",
-    "Asia's Largest Techno-Management Festival (Kshitij)",
-    "First IIT to offer Law, Medical Science & Entrepreneurship programs",
-    "Highest number of alumni in leadership positions"
-  ],
-  newsUpdates: [
-    { 
-      title: "IIT Kharagpur celebrates 75 years of excellence in technical education", 
-      date: "2024-02-15", 
-      link: "https://iitkgp.ac.in/news/75th-anniversary" 
-    },
-    { 
-      title: "Record placement season with highest package of ₹4.2 crore", 
-      date: "2023-12-20", 
-      link: "https://iitkgp.ac.in/news/placement-2023" 
-    },
-    { 
-      title: "IIT Kharagpur launches India's first undergraduate program in Medical Science & Technology", 
-      date: "2023-11-25", 
-      link: "https://iitkgp.ac.in/news/medical-program" 
-    },
-    { 
-      title: "Students develop indigenous technology for clean water in rural Bengal", 
-      date: "2023-10-10", 
-      link: "https://iitkgp.ac.in/news/clean-water-project" 
-    },
-    { 
-      title: "IIT Kharagpur partners with MIT for joint research in sustainable energy", 
-      date: "2023-09-05", 
-      link: "https://iitkgp.ac.in/news/mit-partnership" 
-    }
-  ],
-  gallery: [
-    { type: "campus", url: "/gallery/iitkgp-campus1.jpg", caption: "Main Building" },
-    { type: "campus", url: "/gallery/iitkgp-campus2.jpg", caption: "Central Library" },
-    { type: "campus", url: "/gallery/iitkgp-campus3.jpg", caption: "B C Roy Hall of Residence" },
-    { type: "campus", url: "/gallery/iitkgp-campus4.jpg", caption: "Heritage Building" },
-    { type: "lab", url: "/gallery/iitkgp-lab1.jpg", caption: "Advanced Technology Development Centre" },
-    { type: "lab", url: "/gallery/iitkgp-lab2.jpg", caption: "Cryogenic Engineering Lab" },
-    { type: "hostel", url: "/gallery/iitkgp-hostel1.jpg", caption: "Student Hostels" },
-    { type: "sports", url: "/gallery/iitkgp-sports1.jpg", caption: "Sports Complex" },
-    { type: "event", url: "/gallery/iitkgp-event1.jpg", caption: "Spring Fest" },
-    { type: "event", url: "/gallery/iitkgp-event2.jpg", caption: "Kshitij" }
-  ],
-  faqs: [
-    { 
-      question: "What makes IIT Kharagpur unique among IITs?", 
-      answer: "IIT Kharagpur is the oldest and largest IIT with the biggest campus (2100 acres). It offers the widest range of programs including unique courses in Law, Medical Science, Entrepreneurship, and Architecture. It also has Asia's largest techno-management festival, Kshitij." 
-    },
-    { 
-      question: "What is the JEE Advanced cutoff for IIT Kharagpur?", 
-      answer: "The cutoff varies by branch and category. For General category, Computer Science typically requires 98+ percentile, Electrical around 97, and other branches range from 95-97 percentile. Cutoffs are generally lower than IIT Bombay and Delhi due to location." 
-    },
-    { 
-      question: "What are the most popular branches at IIT Kharagpur?", 
-      answer: "Computer Science & Engineering is the most sought-after, followed by Electrical Engineering, Mechanical Engineering, and Aerospace Engineering. The institute is also known for its unique programs in Ocean Engineering, Metallurgical Engineering, and Agricultural & Food Engineering." 
-    },
-    { 
-      question: "Does IIT Kharagpur have a dedicated incubation center?", 
-      answer: "Yes, IIT Kharagpur has the Technology Business Incubator (TBI) and the Science & Technology Entrepreneurs' Park (STEP). These centers have incubated over 300 startups with significant funding and success stories." 
-    },
-    { 
-      question: "What is special about IIT Kharagpur campus?", 
-      answer: "The 2100-acre campus is India's largest educational campus. It has its own township with 21 hostels, schools, hospitals, banks, post office, community radio station, and even a railway station within the campus. The campus is known for its heritage buildings and deer park." 
-    },
-    { 
-      question: "What unique academic programs does IIT Kharagpur offer?", 
-      answer: "IIT Kharagpur is the only IIT offering LLB (Hons) and LLM programs through its Rajiv Gandhi School of Intellectual Property Law. It also offers unique programs in Medical Science & Technology, Entrepreneurship, Architecture & Regional Planning, and Quality & Reliability." 
-    },
-    { 
-      question: "How is the hostel accommodation at IIT Kharagpur?", 
-      answer: "The institute has 21 halls of residence (including 3 for girls) accommodating over 10,000 students. Hostels are equipped with high-speed internet, recreational facilities, gyms, and 24x7 study rooms. Each hall has its own mess and cultural identity." 
-    },
-    { 
-      question: "What are the major festivals at IIT Kharagpur?", 
-      answer: "Spring Fest is the annual cultural festival (one of India's oldest and largest), Kshitij is Asia's largest techno-management festival, and the institute also hosts Sports Fest and Illumi (social fest)." 
-    },
-    { 
-      question: "Does IIT Kharagpur offer interdisciplinary programs?", 
-      answer: "Yes, IIT Kharagpur offers several interdisciplinary programs including Artificial Intelligence, Data Science, Climate Science, Cognitive Science, and Sustainable Energy Engineering. It also has flexible dual degree programs." 
-    },
-    { 
-      question: "What is the student-faculty ratio?", 
-      answer: "The student-faculty ratio is approximately 8:1, with over 720 faculty members and 12,000 students. This ensures personalized attention and strong mentorship opportunities." 
-    },
-    { 
-      question: "How strong is the alumni network?", 
-      answer: "IIT Kharagpur has one of the strongest and most diverse alumni networks globally. Notable alumni include founders of HCL Technologies, 'Father of Pentium Processor', former SEBI chairman, and leaders across industry, government, and academia." 
-    },
-    { 
-      question: "What research opportunities are available for undergraduates?", 
-      answer: "IIT Kharagpur offers extensive undergraduate research opportunities through the Undergraduate Research Program (URP), summer internships with faculty, and access to state-of-the-art research facilities including supercomputing infrastructure." 
-    }
-  ]
-},
-{
-  id: "1106",
-  slug: "iit-roorkee",
-  name: "Indian Institute of Technology Roorkee",
-  shortName: "IIT Roorkee",
-  tagline: "श्रमं विना न किमपि साध्यम् (Nothing is achievable without hard work)",
-  overview: "India's oldest engineering institution, a premier Institute of National Importance blending 175+ years of heritage with cutting-edge technological research and innovation.",
-  description: "Indian Institute of Technology Roorkee stands as the oldest technical institution in Asia, established in 1847 as the Thomason College of Civil Engineering. Elevated to IIT status in 2001, it seamlessly integrates a rich colonial heritage with modern, world-class research facilities. Located in the foothills of the Himalayas, the institute is renowned for its pioneering contributions to civil engineering, hydrology, and now, advanced computing and management. It continues to be a top-5 ranked engineering institution in India, producing leaders who have shaped the nation's infrastructure and industrial policy [citation:1][citation:5][citation:6].",
-  logo: "/logos/iit-roorkee.png",
-  stream: "engineering",
-  type: "government",
-  category: "premier",
-  ranking: 6,
-  rating: 4.6,
-  nirfRank: 5,
-  googleRating: 4.5,
-  reviews: {
-    count: 10800,
-    average: 4.6,
-    academics: 4.7,
-    infrastructure: 4.6,
-    placement: 4.7,
-    faculty: 4.6
-  },
-  established: 1847,
-  accreditation: "Institute of National Importance",
-  naacGrade: "A++",
-  affiliations: ["Institute of National Importance"],
-  recognition: ["UGC", "AICTE", "MHRD"],
-  location: {
-    city: "Roorkee",
-    state: "Uttarakhand",
-    country: "India",
-    pincode: "247667",
-    campusSize: "365 acres",
-    campusType: "suburban",
-    latitude: 29.8651,
-    longitude: 77.8960,
-    address: "IIT Roorkee, Roorkee, Haridwar District, Uttarakhand 247667"
-  },
-  fees: {
-    annual: 200000,
-    total: 800000,
-    hostel: 15000,
-    mess: 52500,
-    otherCharges: 12750,
-    scholarshipAvailable: true,
-    scholarshipDetails: [
-      "100% Tuition Fee Waiver (Family Income < ₹1L)",
-      "2/3rd Tuition Fee Waiver (Family Income ₹1-5L)",
-      "SC/ST Scholarship (Full Tuition Reimbursement)",
-      "Institute Merit-cum-Means Scholarship",
-      "Ministry of Education (MoE) Scholarships"
-    ],
-    paymentOptions: ["Online Payment (SBI Collect)", "Demand Draft", "Bank Transfer", "Semester-wise Installments"]
-  },
-  placement: {
-    averagePackage: 1791000,
-    highestPackage: 24000000,
-    medianPackage: 1764000,
-    percentage: 92,
-    totalOffers: 555,
-    totalStudents: 600,
-    internationalOffers: 8,
-    dreamOffers: 45,
-    averagePackageTrend: 11,
-    topRecruiters: [
-      "Amazon", "Google", "Microsoft", "NVIDIA", "Qualcomm",
-      "Texas Instruments", "Oracle", "Rubrik India", "SAP Labs",
-      "D.E. Shaw", "Squarepoint Capital", "iRageCapital", "Databricks",
-      "McKinsey & Company", "Accenture", "VISA", "American Express",
-      "Mastercard", "Deutsche Bank", "NatWest Group",
-      "Flipkart", "Meesho", "Zomato", "Urban Company",
-      "BEL", "HPCL", "BPCL", "Bajaj Auto", "OLA Electric",
-      "Adani", "IndianOil", "GAIL", "Petronet LNG",
-      "Coca-Cola", "Wipro", "Vedanta"
-    ],
-    recruitmentSectors: ["Information Technology", "Quantitative Finance", "Consulting", "Core Engineering (PSU)", "Semiconductors", "E-commerce", "Energy & Infrastructure", "Analytics"],
-    placementStats: [
-      { year: 2025, averagePackage: 1791000, highestPackage: 24000000, percentage: 92 },
-      { year: 2024, averagePackage: 1650000, highestPackage: 21000000, percentage: 91 },
-      { year: 2023, averagePackage: 1550000, highestPackage: 20000000, percentage: 90 }
-    ]
-  },
-  academics: {
-    coursesOffered: [
-      "B.Tech", "B.Arch", "Integrated M.Tech", "M.Tech",
-      "M.Arch", "M.Sc", "M.Des", "MURP", "MBA", "PhD"
-    ],
-    popularCourses: [
-      "B.Tech Computer Science & Engineering",
-      "B.Tech Electrical Engineering",
-      "B.Tech Mechanical Engineering",
-      "B.Arch Architecture",
-      "MBA (Department of Management Studies)"
-    ],
-    facultyCount: 550,
-    studentCount: 9000,
-    studentFacultyRatio: "9:1",
-    specialization: [
-      "Computer Science",
-      "Electrical Engineering",
-      "Mechanical Engineering",
-      "Civil Engineering (Flagship)",
-      "Chemical Engineering",
-      "Earth Sciences (Hydrology)",
-      "Architecture & Planning",
-      "Applied Physics & Material Sciences"
-    ],
-    departments: [
-      "Computer Science & Engineering",
-      "Electrical Engineering",
-      "Mechanical & Industrial Engineering",
-      "Civil Engineering",
-      "Chemical Engineering",
-      "Earth Sciences",
-      "Architecture & Planning",
-      "Physics",
-      "Chemistry",
-      "Mathematics",
-      "Humanities & Social Sciences",
-      "Management Studies (DoMS)",
-      "Water Resources Development & Management"
-    ],
-    researchCenters: 60,
-    publications: 3800,
-    collaborations: [
-      "University of Illinois at Urbana-Champaign",
-      "ETH Zurich",
-      "University of Leeds",
-      "National University of Singapore",
-      "British Geological Survey"
-    ],
-    teachingMode: "offline"
-  },
-  infrastructure: {
-    library: {
-      name: "Mahatma Gandhi Central Library",
-      books: 275000,
-      journals: 1000,
-      digitalResources: 2000000,
-      seatingCapacity: 800
-    },
-    labs: {
-      count: 200,
-      majorLabs: [
-        "Param Ganga Supercomputer Facility",
-        "National Centre for Disaster Mitigation",
-        "Centre of Excellence in Disaster Management",
-        "Water Resources & Hydrology Labs",
-        "Institute Computer Centre (ICC)",
-        "Centre for Nanotechnology",
-        "Centre for Transportation Systems"
+      placementStats: [
+        {
+          year: 2024,
+          averagePackage: 2400000,
+          highestPackage: 41000000,
+          percentage: 93,
+        },
+        {
+          year: 2023,
+          averagePackage: 2150000,
+          highestPackage: 38000000,
+          percentage: 92,
+        },
+        {
+          year: 2022,
+          averagePackage: 1950000,
+          highestPackage: 35000000,
+          percentage: 91,
+        },
+        {
+          year: 2021,
+          averagePackage: 1750000,
+          highestPackage: 32000000,
+          percentage: 90,
+        },
       ],
-      equipmentValue: 350000000
     },
-    sports: {
-      facilities: [
-        "Swimming Pool",
-        "Sports Stadium",
-        "Cricket Ground",
-        "Football Field",
-        "Hockey Field",
-        "Tennis Courts",
-        "Basketball Courts",
-        "Badminton Courts",
-        "Squash Courts",
-        "Table Tennis Hall",
-        "Indoor Gymnasium",
-        "Volleyball Court",
-        "Running/Jogging Track",
-        "Billiards Room",
-        "Boat Club"
+    academics: {
+      coursesOffered: [
+        "B.Tech",
+        "M.Tech",
+        "PhD",
+        "Dual Degree",
+        "M.Sc",
+        "MBA",
+        "M.Des",
+        "Executive Programs",
       ],
-      stadium: true,
-      gym: true,
-      swimmingPool: true
+      popularCourses: [
+        "B.Tech Computer Science",
+        "B.Tech Electrical Engineering",
+        "B.Tech Mechanical Engineering",
+        "MBA",
+        "M.Tech",
+      ],
+      facultyCount: 550,
+      studentCount: 9000,
+      studentFacultyRatio: "9:1",
+      specialization: [
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Aerospace Engineering",
+        "Materials Science",
+        "Biological Sciences",
+      ],
+      departments: [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Aerospace Engineering",
+        "Materials Science & Engineering",
+        "Biological Sciences & Bioengineering",
+        "Physics",
+        "Chemistry",
+        "Mathematics & Statistics",
+        "Humanities & Social Sciences",
+        "Management Sciences",
+      ],
+      researchCenters: 110,
+      publications: 4500,
+      collaborations: [
+        "Massachusetts Institute of Technology (MIT)",
+        "Stanford University",
+        "University of California, Berkeley",
+        "Purdue University",
+        "University of Michigan",
+        "National University of Singapore",
+        "University of Tokyo",
+      ],
+      teachingMode: "offline",
     },
-    hostel: {
-      boys: true,
-      girls: true,
-      capacity: 7000,
-      rooms: 3500,
-      facilities: [
-        "Wi-Fi Enabled Campuses",
-        "Common Rooms",
-        "Study Rooms",
-        "Indoor Games Room",
-        "Cyber Cafe",
-        "Laundry Service",
-        "Medical Facility",
-        "Cafeteria"
-      ]
+    infrastructure: {
+      library: {
+        name: "Central Library",
+        books: 450000,
+        journals: 11000,
+        digitalResources: 130000,
+        seatingCapacity: 1000,
+      },
+      labs: {
+        count: 280,
+        majorLabs: [
+          "Advanced Centre for Materials Science",
+          "Centre for Mechatronics",
+          "National Centre for Flexible Electronics",
+          "Centre for Lasers & Photonics",
+          "Samtel Centre for Display Technologies",
+          "Centre for Environmental Science & Engineering",
+          "P K Kelkar Library",
+        ],
+        equipmentValue: 480000000,
+      },
+      sports: {
+        facilities: [
+          "Swimming Pool",
+          "Cricket Stadium",
+          "Football Ground",
+          "Tennis Courts",
+          "Basketball Courts",
+          "Badminton Courts",
+          "Squash Courts",
+          "Table Tennis Hall",
+          "Gymnasium",
+          "Athletics Track",
+          "Hockey Field",
+          "Volleyball Courts",
+          "Yoga Center",
+        ],
+        stadium: true,
+        gym: true,
+        swimmingPool: true,
+      },
+      hostel: {
+        boys: true,
+        girls: true,
+        capacity: 7500,
+        rooms: 3750,
+        facilities: [
+          "High-speed WiFi",
+          "Laundry Service",
+          "Common Rooms with TV",
+          "Study Rooms (24x7)",
+          "Gym",
+          "Indoor Games Room",
+          "Music Room",
+          "Dance Room",
+          "Guest Rooms",
+          "Medical Facility",
+          "Cafeteria & Canteen",
+          "Cooperative Stores",
+        ],
+      },
+      wifi: true,
+      cafeteria: 12,
+      medical: true,
+      transportation: true,
+      auditorium: 4,
     },
-    wifi: true,
-    cafeteria: 10,
-    medical: true,
-    transportation: true,
-    auditorium: 4
+    admission: {
+      entranceExam: ["JEE Advanced"],
+      cutoff: 97.8,
+      cutoffTrend: 0.3,
+      applicationMode: "Online",
+      applicationFee: 2500,
+      selectionProcess: [
+        "JEE Advanced Score",
+        "JoSAA Counseling",
+        "Seat Allocation",
+        "Document Verification",
+      ],
+      eligibility: {
+        minPercentage: 75,
+        subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+        ageLimit: 25,
+      },
+      importantDates: {
+        applicationStart: "January 1, 2024",
+        applicationEnd: "April 30, 2024",
+        examDate: "June 2024",
+        resultDate: "July 2024",
+        counsellingStart: "July 15, 2024",
+        counsellingEnd: "August 30, 2024",
+      },
+      documentsRequired: [
+        "10th Marksheet & Certificate",
+        "12th Marksheet & Certificate",
+        "JEE Advanced Scorecard",
+        "JEE Main Scorecard",
+        "Category Certificate (if applicable)",
+        "Income Certificate (for scholarship)",
+        "Domicile Certificate",
+        "Passport-size Photographs",
+        "Medical Fitness Certificate",
+      ],
+    },
+    campusLife: {
+      clubs: [
+        "Programming Club",
+        "Robotics Club",
+        "Entrepreneurship Cell",
+        "Music Club (Dandiya)",
+        "Dance Club (Footloose)",
+        "Drama Club (Dramatics Society)",
+        "Photography Club",
+        "Debating Society",
+        "Literary Society",
+        "Astronomy Club",
+        "Environmental Club",
+        "Quiz Club",
+        "Film Club",
+        "Fine Arts Club",
+      ],
+      festivals: [
+        "Antaragni (Annual Cultural Festival)",
+        "Techkriti (Technical Festival)",
+        "Udghosh (Sports Fest)",
+      ],
+      technicalEvents: [
+        "Hackathons",
+        "Coding Competitions",
+        "Robotics Competitions",
+        "Business Plan Competitions",
+        "Research Symposiums",
+        "Industry Interaction Programs",
+        "Innovation Challenges",
+      ],
+      culturalEvents: [
+        "Music Concerts",
+        "Dance Performances",
+        "Drama Nights",
+        "Art Exhibitions",
+        "Literary Events",
+        "Film Screenings",
+        "Comedy Shows",
+      ],
+      socialInitiatives: [
+        "National Service Scheme (NSS)",
+        "Teach for India Program",
+        "Blood Donation Camps",
+        "Environmental Awareness Drives",
+        "Community Development Programs",
+        "Women Empowerment Initiatives",
+        "Rural Development Projects",
+      ],
+      annualBudget: 45000000,
+    },
+    faculty: {
+      total: 550,
+      phdHolders: 520,
+      professor: 200,
+      associateProfessor: 220,
+      assistantProfessor: 130,
+      industryExperience: 8,
+      internationalFaculty: 45,
+      awards: [
+        "Padma Awards (4 recipients)",
+        "Shanti Swarup Bhatnagar Prize (12 recipients)",
+        "Infosys Prize",
+        "TWAS Prize",
+        "J.C. Bose Fellowship",
+        "Swarnajayanti Fellowship",
+        "Ramanujan Fellowship",
+      ],
+    },
+    alumni: {
+      notableAlumni: [
+        {
+          name: "N. R. Narayana Murthy",
+          designation: "Founder",
+          company: "Infosys",
+        },
+        {
+          name: "Manohar Parrikar",
+          designation: "Former Defence Minister",
+          company: "Government of India",
+        },
+        {
+          name: "Kumar Mangalam Birla",
+          designation: "Chairman",
+          company: "Aditya Birla Group",
+        },
+        {
+          name: "Arvind Kejriwal",
+          designation: "Chief Minister",
+          company: "Government of Delhi",
+        },
+        { name: "Rajat Sharma", designation: "Chairman", company: "India TV" },
+        {
+          name: "Vijay Shekhar Sharma",
+          designation: "Founder",
+          company: "Paytm",
+        },
+        { name: "Kunal Bahl", designation: "Co-founder", company: "Snapdeal" },
+      ],
+      placementCompanies: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "McKinsey",
+        "BCG",
+        "Bain",
+        "JP Morgan",
+        "Morgan Stanley",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+      ],
+      networkStrength: 94,
+    },
+    international: {
+      collaborations: 130,
+      studentExchange: true,
+      facultyExchange: true,
+      partnerUniversities: [
+        "Massachusetts Institute of Technology (MIT)",
+        "Stanford University",
+        "University of California, Berkeley",
+        "Purdue University",
+        "National University of Singapore",
+        "University of Tokyo",
+        "University of Sydney",
+      ],
+      foreignStudents: 280,
+    },
+    contact: {
+      phone: ["+91-512-2590151", "+91-512-2590152"],
+      email: [
+        "deanacad@iitk.ac.in",
+        "registrar@iitk.ac.in",
+        "placement@iitk.ac.in",
+      ],
+      website: "https://www.iitk.ac.in",
+      socialMedia: {
+        facebook: "https://facebook.com/iitkanpur",
+        twitter: "https://twitter.com/iitkanpur",
+        linkedin: "https://linkedin.com/school/iit-kanpur",
+        instagram: "https://instagram.com/iitkanpur",
+        youtube: "https://youtube.com/iitkanpur",
+      },
+      admissionContact: {
+        phone: "+91-512-2597631",
+        email: "admission@iitk.ac.in",
+      },
+    },
+    facilities: [
+      "24x7 Central Library",
+      "High-speed WiFi Campus",
+      "Sports Complex with Stadium",
+      "Medical Center with Ambulance",
+      "Multiple Banks & ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Book Store & Stationery",
+      "Food Court with Multiple Cuisines",
+      "Guest House",
+      "Auditorium & Conference Halls",
+      "Research Parks",
+      "Incubation Center (Startup Incubation and Innovation Centre)",
+      "Career Development Center",
+      "Transportation Services",
+      "Recreational Centers",
+    ],
+    achievements: [
+      "Ranked #4 among Engineering Institutes in India (NIRF 2024)",
+      "QS World University Rankings: 264 (2024)",
+      "Times Higher Education: 301-350 band (2024)",
+      "Institute of Eminence (IoE) status",
+      "Pioneer in computer science education in India",
+      "Excellence in Sports (Multiple Inter-IIT trophies)",
+      "Leading research output in engineering",
+      "Strongest alumni network among IITs",
+    ],
+    newsUpdates: [
+      {
+        title: "IIT Kanpur develops India's first hyperloop prototype",
+        date: "2024-01-20",
+        link: "https://iitk.ac.in/news/hyperloop-prototype",
+      },
+      {
+        title: "Record placement season with highest package of ₹4.1 crore",
+        date: "2023-12-15",
+        link: "https://iitk.ac.in/news/placement-2023",
+      },
+      {
+        title: "IIT Kanpur partners with MIT for AI and robotics research",
+        date: "2023-11-10",
+        link: "https://iitk.ac.in/news/mit-partnership",
+      },
+      {
+        title:
+          "Students develop low-cost water purification system for rural areas",
+        date: "2023-09-18",
+        link: "https://iitk.ac.in/news/water-purification-project",
+      },
+    ],
+    gallery: [
+      {
+        type: "campus",
+        url: "/gallery/iitk-campus1.jpg",
+        caption: "Main Building",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitk-campus2.jpg",
+        caption: "Central Library",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitk-campus3.jpg",
+        caption: "Convocation Hall",
+      },
+      {
+        type: "lab",
+        url: "/gallery/iitk-lab1.jpg",
+        caption: "Advanced Materials Lab",
+      },
+      {
+        type: "lab",
+        url: "/gallery/iitk-lab2.jpg",
+        caption: "Robotics Research Center",
+      },
+      {
+        type: "hostel",
+        url: "/gallery/iitk-hostel1.jpg",
+        caption: "Student Hostels",
+      },
+      {
+        type: "sports",
+        url: "/gallery/iitk-sports1.jpg",
+        caption: "Sports Complex",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitk-event1.jpg",
+        caption: "Antaragni Cultural Festival",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitk-event2.jpg",
+        caption: "Techkriti Technical Festival",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the JEE Advanced cutoff for IIT Kanpur?",
+        answer:
+          "The cutoff varies by branch and category. For General category, Computer Science typically requires 98.5+ percentile, while other branches range from 96-98 percentile. The exact cutoff changes annually based on competition.",
+      },
+      {
+        question: "What are the most popular branches at IIT Kanpur?",
+        answer:
+          "Computer Science & Engineering is the most sought-after, followed by Electrical Engineering, Mechanical Engineering, and Aerospace Engineering. The institute is also known for its strong programs in Materials Science and Biological Sciences.",
+      },
+      {
+        question: "Does IIT Kanpur have a dedicated incubation center?",
+        answer:
+          "Yes, IIT Kanpur has the Startup Incubation and Innovation Centre (SIIC), one of India's oldest and most successful incubation centers. It has incubated over 200 startups with significant funding and success stories.",
+      },
+      {
+        question: "What is special about IIT Kanpur campus?",
+        answer:
+          "The 1055-acre campus is one of the largest among IITs and features state-of-the-art infrastructure. The campus is known for its academic freedom, research facilities, and vibrant student life.",
+      },
+      {
+        question:
+          "What research opportunities are available for undergraduates?",
+        answer:
+          "IIT Kanpur offers extensive undergraduate research opportunities through the Undergraduate Research Opportunities Program (UROP), summer internships with faculty, and access to state-of-the-art research facilities.",
+      },
+      {
+        question: "How is the hostel accommodation at IIT Kanpur?",
+        answer:
+          "The institute provides excellent hostel accommodation for all students. There are 11 hostels (including 2 for girls) with modern amenities. Hostels are equipped with high-speed internet and recreational facilities.",
+      },
+      {
+        question: "What are the major festivals at IIT Kanpur?",
+        answer:
+          "Antaragni is the annual cultural festival (one of North India's largest), Techkriti is the technical festival (focusing on innovation and technology), and Udghosh is the sports festival.",
+      },
+      {
+        question: "Does IIT Kanpur offer interdisciplinary programs?",
+        answer:
+          "Yes, IIT Kanpur offers several interdisciplinary programs including Materials Science, Biological Sciences & Bioengineering, Environmental Engineering, and Data Science.",
+      },
+      {
+        question: "What is the student-faculty ratio?",
+        answer:
+          "The student-faculty ratio is approximately 9:1, ensuring personalized attention and strong mentorship opportunities for students.",
+      },
+      {
+        question: "How strong is the alumni network?",
+        answer:
+          "IIT Kanpur has one of the strongest alumni networks globally, with prominent leaders in technology, business, politics, and entrepreneurship across the world including founders of Infosys, Paytm, and Snapdeal.",
+      },
+    ],
   },
-  admission: {
-    entranceExam: ["JEE Advanced", "GATE", "CEED", "JAM", "CAT"],
-    cutoff: 97.5,
-    cutoffTrend: 0.2,
-    applicationMode: "Online",
-    applicationFee: 2500,
-    selectionProcess: ["JEE Advanced Score", "JoSAA Counseling", "Seat Allocation", "Document Verification"],
-    eligibility: {
-      minPercentage: 75,
-      subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
-      ageLimit: 25
+  {
+    id: "1105",
+    slug: "iit-kharagpur",
+    name: "Indian Institute of Technology Kharagpur",
+    shortName: "IIT Kharagpur",
+    tagline: "योगः कर्मसु कौशलम् (Excellence in action is Yoga)",
+    overview:
+      "India's first and largest IIT, a premier institution known for its rich heritage, diverse academic programs, and pioneering research",
+    description:
+      "Indian Institute of Technology Kharagpur is the oldest and largest IIT in India, established in 1951 by the Government of India. Founded with assistance from UNESCO, it was the first IIT to be established and has since grown into a premier institution of national importance. Located in the historic Hijli Detention Camp, the institute combines a rich history with cutting-edge research and innovation across engineering, science, technology, law, and management.",
+    logo: "/logos/iit-kharagpur.png",
+    stream: "engineering",
+    type: "government",
+    category: "premier",
+    ranking: 5,
+    rating: 4.7,
+    nirfRank: 3,
+    googleRating: 4.6,
+    reviews: {
+      count: 12500,
+      average: 4.7,
+      academics: 4.8,
+      infrastructure: 4.7,
+      placement: 4.7,
+      faculty: 4.7,
     },
-    importantDates: {
-      applicationStart: "January 1, 2026",
-      applicationEnd: "April 30, 2026",
-      examDate: "June 2026",
-      resultDate: "July 2026",
-      counsellingStart: "July 15, 2026",
-      counsellingEnd: "August 30, 2026"
+    established: 1951,
+    accreditation: "Institute of National Importance",
+    naacGrade: "A++",
+    affiliations: ["Institute of National Importance"],
+    recognition: ["UGC", "AICTE", "MHRD"],
+    location: {
+      city: "Kharagpur",
+      state: "West Bengal",
+      country: "India",
+      pincode: "721302",
+      campusSize: "2100 acres",
+      campusType: "rural",
+      latitude: 22.346,
+      longitude: 87.232,
+      address: "IIT Kharagpur, Kharagpur, West Bengal 721302",
     },
-    documentsRequired: [
-      "10th Marksheet",
-      "12th Marksheet",
-      "JEE Advanced Scorecard",
-      "Category Certificate",
-      "Income Certificate (Scholarship)",
-      "Domicile Certificate",
-      "Medical Fitness Certificate"
-    ]
+    fees: {
+      annual: 225000,
+      total: 900000,
+      hostel: 65000,
+      mess: 42000,
+      otherCharges: 18000,
+      scholarshipAvailable: true,
+      scholarshipDetails: [
+        "Institute Merit-cum-Means Scholarship",
+        "SC/ST Scholarship",
+        "Free Studentship",
+        "Ministry of Education Scholarships",
+        "Private Trust Scholarships",
+        "Sports & Cultural Scholarships",
+        "Research Fellowships",
+        "Alumni Endowed Scholarships",
+      ],
+      paymentOptions: [
+        "Online Payment",
+        "Demand Draft",
+        "Bank Transfer",
+        "Scholarship Deduction",
+      ],
+    },
+    placement: {
+      averagePackage: 2350000,
+      highestPackage: 42000000,
+      medianPackage: 2100000,
+      percentage: 92,
+      totalOffers: 1450,
+      totalStudents: 1500,
+      internationalOffers: 105,
+      dreamOffers: 185,
+      averagePackageTrend: 10.5,
+      topRecruiters: [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Goldman Sachs",
+        "McKinsey & Company",
+        "Boston Consulting Group",
+        "Bain & Company",
+        "Intel",
+        "Texas Instruments",
+        "Qualcomm",
+        "Samsung",
+        "JP Morgan",
+        "Morgan Stanley",
+        "Deutsche Bank",
+        "Tata Consultancy Services",
+        "Infosys",
+        "Wipro",
+        "Adobe",
+        "Oracle",
+        "IBM",
+        "Cisco",
+        "NVIDIA",
+        "SAP Labs",
+        "VMware",
+        "Salesforce",
+      ],
+      recruitmentSectors: [
+        "Information Technology",
+        "Finance & Consulting",
+        "Core Engineering",
+        "Research & Development",
+        "Analytics",
+        "Product Management",
+        "Manufacturing",
+        "Law",
+      ],
+      placementStats: [
+        {
+          year: 2024,
+          averagePackage: 2350000,
+          highestPackage: 42000000,
+          percentage: 92,
+        },
+        {
+          year: 2023,
+          averagePackage: 2100000,
+          highestPackage: 39000000,
+          percentage: 91,
+        },
+        {
+          year: 2022,
+          averagePackage: 1900000,
+          highestPackage: 36000000,
+          percentage: 90,
+        },
+        {
+          year: 2021,
+          averagePackage: 1700000,
+          highestPackage: 33000000,
+          percentage: 89,
+        },
+      ],
+    },
+    academics: {
+      coursesOffered: [
+        "B.Tech",
+        "M.Tech",
+        "PhD",
+        "Dual Degree",
+        "M.Sc",
+        "MBA",
+        "M.Sc in Economics",
+        "LLB (Hons)",
+        "LLM",
+        "MS",
+        "Executive Programs",
+      ],
+      popularCourses: [
+        "B.Tech Computer Science",
+        "B.Tech Electrical Engineering",
+        "B.Tech Mechanical Engineering",
+        "MBA",
+        "LLB (Hons)",
+      ],
+      facultyCount: 720,
+      studentCount: 12000,
+      studentFacultyRatio: "8:1",
+      specialization: [
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Aerospace Engineering",
+        "Ocean Engineering & Naval Architecture",
+        "Metallurgical & Materials Engineering",
+        "Biotechnology",
+        "Geology & Geophysics",
+        "Agriculture & Food Engineering",
+      ],
+      departments: [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Aerospace Engineering",
+        "Ocean Engineering & Naval Architecture",
+        "Metallurgical & Materials Engineering",
+        "Biotechnology",
+        "Geology & Geophysics",
+        "Agricultural & Food Engineering",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Humanities & Social Sciences",
+        "Management Studies",
+        "Law",
+        "Medical Science & Technology",
+        "Ranbir & Chitra Gupta School of Infrastructure",
+        "Rajendra Mishra School of Engineering Entrepreneurship",
+      ],
+      researchCenters: 135,
+      publications: 5000,
+      collaborations: [
+        "Massachusetts Institute of Technology (MIT)",
+        "Stanford University",
+        "University of California, Berkeley",
+        "University of Cambridge",
+        "Technical University of Munich",
+        "National University of Singapore",
+        "University of Tokyo",
+        "University of Illinois at Urbana-Champaign",
+      ],
+      teachingMode: "offline",
+    },
+    infrastructure: {
+      library: {
+        name: "Central Library",
+        books: 550000,
+        journals: 15000,
+        digitalResources: 180000,
+        seatingCapacity: 1500,
+      },
+      labs: {
+        count: 350,
+        majorLabs: [
+          "Advanced Technology Development Centre",
+          "Cryogenic Engineering Centre",
+          "Rubber Technology Centre",
+          "Reliability Engineering Centre",
+          "Centre for Oceans, Rivers, Atmosphere and Land Sciences",
+          "Centre for Theoretical Studies",
+          "Kalpana Chawla Space Technology Cell",
+          "G. S. Sanyal School of Telecommunications",
+          "Subir Chowdhury School of Quality & Reliability",
+        ],
+        equipmentValue: 600000000,
+      },
+      sports: {
+        facilities: [
+          "Olympic-size Swimming Pool",
+          "Cricket Stadium",
+          "Football Ground (Astroturf)",
+          "Hockey Field",
+          "Tennis Courts (Clay & Hard)",
+          "Basketball Courts (Indoor & Outdoor)",
+          "Badminton Courts (International Standard)",
+          "Squash Courts",
+          "Table Tennis Hall",
+          "Gymnasium (Multi-level)",
+          "Athletics Track (Synthetic)",
+          "Volleyball Courts",
+          "Yoga & Meditation Center",
+          "Indoor Sports Complex",
+        ],
+        stadium: true,
+        gym: true,
+        swimmingPool: true,
+      },
+      hostel: {
+        boys: true,
+        girls: true,
+        capacity: 10000,
+        rooms: 5000,
+        facilities: [
+          "High-speed WiFi (1 Gbps)",
+          "Laundry Service",
+          "Common Rooms with LCD TV",
+          "Study Rooms (24x7)",
+          "Gym",
+          "Indoor Games Room",
+          "Music Room",
+          "Dance Room",
+          "Guest Rooms",
+          "Medical Facility",
+          "Cafeteria & Canteen",
+          "Cooperative Stores",
+          "ATM",
+          "Cycling Track",
+        ],
+      },
+      wifi: true,
+      cafeteria: 20,
+      medical: true,
+      transportation: true,
+      auditorium: 6,
+    },
+    admission: {
+      entranceExam: ["JEE Advanced"],
+      cutoff: 97.5,
+      cutoffTrend: 0.2,
+      applicationMode: "Online",
+      applicationFee: 2500,
+      selectionProcess: [
+        "JEE Advanced Score",
+        "JoSAA Counseling",
+        "Seat Allocation",
+        "Document Verification",
+      ],
+      eligibility: {
+        minPercentage: 75,
+        subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+        ageLimit: 25,
+      },
+      importantDates: {
+        applicationStart: "January 1, 2024",
+        applicationEnd: "April 30, 2024",
+        examDate: "June 2024",
+        resultDate: "July 2024",
+        counsellingStart: "July 15, 2024",
+        counsellingEnd: "August 30, 2024",
+      },
+      documentsRequired: [
+        "10th Marksheet & Certificate",
+        "12th Marksheet & Certificate",
+        "JEE Advanced Scorecard",
+        "JEE Main Scorecard",
+        "Category Certificate (if applicable)",
+        "Income Certificate (for scholarship)",
+        "Domicile Certificate",
+        "Passport-size Photographs",
+        "Medical Fitness Certificate",
+      ],
+    },
+    campusLife: {
+      clubs: [
+        "Programming Club (Kharagpur Open Source Society)",
+        "Robotics Club",
+        "Entrepreneurship Cell (E-Cell)",
+        "Music Club (Srijan)",
+        "Dance Club (Choreo)",
+        "Drama Club (Dramatics Society)",
+        "Photography Club",
+        "Debating Society",
+        "Literary Society (Expressions)",
+        "Astronomy Club",
+        "Environmental Club",
+        "Quiz Club",
+        "Film Club (Cine)",
+        "Fine Arts Club",
+        "AI & ML Club",
+        "Blockchain Society",
+      ],
+      festivals: [
+        "Spring Fest (Annual Cultural Festival)",
+        "Kshitij (Asia's Largest Techno-Management Festival)",
+        "Sports Fest",
+      ],
+      technicalEvents: [
+        "Hackathons",
+        "Coding Competitions",
+        "Robotics Competitions",
+        "Business Plan Competitions",
+        "Research Symposiums",
+        "Industry Interaction Programs",
+        "Innovation Challenges",
+        "Quizzing Events",
+      ],
+      culturalEvents: [
+        "Music Concerts",
+        "Dance Performances",
+        "Drama Nights",
+        "Art Exhibitions",
+        "Literary Events",
+        "Film Screenings",
+        "Comedy Shows",
+        "Fashion Show",
+      ],
+      socialInitiatives: [
+        "National Service Scheme (NSS)",
+        "National Cadet Corps (NCC)",
+        "Teach for India Program",
+        "Blood Donation Camps",
+        "Environmental Awareness Drives",
+        "Community Development Programs",
+        "Women Empowerment Initiatives",
+        "Rural Development Projects",
+        "Literacy Programs",
+      ],
+      annualBudget: 60000000,
+    },
+    faculty: {
+      total: 720,
+      phdHolders: 690,
+      professor: 280,
+      associateProfessor: 260,
+      assistantProfessor: 180,
+      industryExperience: 7.5,
+      internationalFaculty: 60,
+      awards: [
+        "Padma Awards (6 recipients)",
+        "Shanti Swarup Bhatnagar Prize (18 recipients)",
+        "Infosys Prize",
+        "TWAS Prize",
+        "J.C. Bose Fellowship",
+        "Swarnajayanti Fellowship",
+        "Ramanujan Fellowship",
+        "National Design Award",
+      ],
+    },
+    alumni: {
+      notableAlumni: [
+        {
+          name: "Arjun Malhotra",
+          designation: "Co-founder",
+          company: "HCL Technologies",
+        },
+        {
+          name: "Subrata Roy",
+          designation: "Founder & Chairman",
+          company: "Sahara India Pariwar",
+        },
+        {
+          name: "Vinod Dham",
+          designation: "Father of Pentium Processor",
+          company: "Intel",
+        },
+        {
+          name: "S. Damodaran",
+          designation: "Former Chairman",
+          company: "SEBI",
+        },
+        {
+          name: "Ajit Balakrishnan",
+          designation: "Founder & CEO",
+          company: "Rediff.com",
+        },
+        {
+          name: "Purnendu Chatterjee",
+          designation: "Chairman",
+          company: "The Chatterjee Group",
+        },
+        {
+          name: "Rajeev Chandrasekhar",
+          designation: "Union Minister",
+          company: "Government of India",
+        },
+        {
+          name: "S. Shankar Sastry",
+          designation: "Dean",
+          company: "UC Berkeley Engineering",
+        },
+        {
+          name: "Gopal Krishna Pillai",
+          designation: "Former Home Secretary",
+          company: "Government of India",
+        },
+      ],
+      placementCompanies: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "McKinsey",
+        "BCG",
+        "Bain",
+        "JP Morgan",
+        "Morgan Stanley",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+      ],
+      networkStrength: 97,
+    },
+    international: {
+      collaborations: 160,
+      studentExchange: true,
+      facultyExchange: true,
+      partnerUniversities: [
+        "Massachusetts Institute of Technology (MIT)",
+        "Stanford University",
+        "University of Cambridge",
+        "National University of Singapore",
+        "University of Tokyo",
+        "Technical University of Munich",
+        "University of Sydney",
+        "University of Waterloo",
+        "Georgia Institute of Technology",
+      ],
+      foreignStudents: 350,
+    },
+    contact: {
+      phone: ["+91-3222-282221", "+91-3222-282222"],
+      email: [
+        "deanacad@iitkgp.ac.in",
+        "registrar@iitkgp.ac.in",
+        "placement@iitkgp.ac.in",
+      ],
+      website: "https://www.iitkgp.ac.in",
+      socialMedia: {
+        facebook: "https://facebook.com/iitkharagpur",
+        twitter: "https://twitter.com/iitkgp",
+        linkedin: "https://linkedin.com/school/iit-kharagpur",
+        instagram: "https://instagram.com/iitkgp",
+        youtube: "https://youtube.com/iitkgp",
+      },
+      admissionContact: {
+        phone: "+91-3222-282091",
+        email: "admission@iitkgp.ac.in",
+      },
+    },
+    facilities: [
+      "24x7 Central Library",
+      "High-speed WiFi Campus (1 Gbps)",
+      "Sports Complex with Olympic Pool",
+      "Medical Center with Hospital",
+      "Multiple Banks & ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Book Store & Stationery",
+      "Food Court with Multiple Cuisines",
+      "Guest House",
+      "Auditorium & Conference Halls",
+      "Technology Business Incubator",
+      "Science & Technology Entrepreneurs' Park",
+      "Career Development Center",
+      "Transportation Services",
+      "Recreational Centers",
+      "Temple & Prayer Halls",
+      "Community Radio Station",
+    ],
+    achievements: [
+      "India's First IIT (Established 1951)",
+      "Ranked #3 among Engineering Institutes in India (NIRF 2024)",
+      "QS World University Rankings: 270 (2024)",
+      "Times Higher Education: 301-350 band (2024)",
+      "Institute of Eminence (IoE) status",
+      "Largest Campus among all IITs (2100 acres)",
+      "Asia's Largest Techno-Management Festival (Kshitij)",
+      "First IIT to offer Law, Medical Science & Entrepreneurship programs",
+      "Highest number of alumni in leadership positions",
+    ],
+    newsUpdates: [
+      {
+        title:
+          "IIT Kharagpur celebrates 75 years of excellence in technical education",
+        date: "2024-02-15",
+        link: "https://iitkgp.ac.in/news/75th-anniversary",
+      },
+      {
+        title: "Record placement season with highest package of ₹4.2 crore",
+        date: "2023-12-20",
+        link: "https://iitkgp.ac.in/news/placement-2023",
+      },
+      {
+        title:
+          "IIT Kharagpur launches India's first undergraduate program in Medical Science & Technology",
+        date: "2023-11-25",
+        link: "https://iitkgp.ac.in/news/medical-program",
+      },
+      {
+        title:
+          "Students develop indigenous technology for clean water in rural Bengal",
+        date: "2023-10-10",
+        link: "https://iitkgp.ac.in/news/clean-water-project",
+      },
+      {
+        title:
+          "IIT Kharagpur partners with MIT for joint research in sustainable energy",
+        date: "2023-09-05",
+        link: "https://iitkgp.ac.in/news/mit-partnership",
+      },
+    ],
+    gallery: [
+      {
+        type: "campus",
+        url: "/gallery/iitkgp-campus1.jpg",
+        caption: "Main Building",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitkgp-campus2.jpg",
+        caption: "Central Library",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitkgp-campus3.jpg",
+        caption: "B C Roy Hall of Residence",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitkgp-campus4.jpg",
+        caption: "Heritage Building",
+      },
+      {
+        type: "lab",
+        url: "/gallery/iitkgp-lab1.jpg",
+        caption: "Advanced Technology Development Centre",
+      },
+      {
+        type: "lab",
+        url: "/gallery/iitkgp-lab2.jpg",
+        caption: "Cryogenic Engineering Lab",
+      },
+      {
+        type: "hostel",
+        url: "/gallery/iitkgp-hostel1.jpg",
+        caption: "Student Hostels",
+      },
+      {
+        type: "sports",
+        url: "/gallery/iitkgp-sports1.jpg",
+        caption: "Sports Complex",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitkgp-event1.jpg",
+        caption: "Spring Fest",
+      },
+      { type: "event", url: "/gallery/iitkgp-event2.jpg", caption: "Kshitij" },
+    ],
+    faqs: [
+      {
+        question: "What makes IIT Kharagpur unique among IITs?",
+        answer:
+          "IIT Kharagpur is the oldest and largest IIT with the biggest campus (2100 acres). It offers the widest range of programs including unique courses in Law, Medical Science, Entrepreneurship, and Architecture. It also has Asia's largest techno-management festival, Kshitij.",
+      },
+      {
+        question: "What is the JEE Advanced cutoff for IIT Kharagpur?",
+        answer:
+          "The cutoff varies by branch and category. For General category, Computer Science typically requires 98+ percentile, Electrical around 97, and other branches range from 95-97 percentile. Cutoffs are generally lower than IIT Bombay and Delhi due to location.",
+      },
+      {
+        question: "What are the most popular branches at IIT Kharagpur?",
+        answer:
+          "Computer Science & Engineering is the most sought-after, followed by Electrical Engineering, Mechanical Engineering, and Aerospace Engineering. The institute is also known for its unique programs in Ocean Engineering, Metallurgical Engineering, and Agricultural & Food Engineering.",
+      },
+      {
+        question: "Does IIT Kharagpur have a dedicated incubation center?",
+        answer:
+          "Yes, IIT Kharagpur has the Technology Business Incubator (TBI) and the Science & Technology Entrepreneurs' Park (STEP). These centers have incubated over 300 startups with significant funding and success stories.",
+      },
+      {
+        question: "What is special about IIT Kharagpur campus?",
+        answer:
+          "The 2100-acre campus is India's largest educational campus. It has its own township with 21 hostels, schools, hospitals, banks, post office, community radio station, and even a railway station within the campus. The campus is known for its heritage buildings and deer park.",
+      },
+      {
+        question: "What unique academic programs does IIT Kharagpur offer?",
+        answer:
+          "IIT Kharagpur is the only IIT offering LLB (Hons) and LLM programs through its Rajiv Gandhi School of Intellectual Property Law. It also offers unique programs in Medical Science & Technology, Entrepreneurship, Architecture & Regional Planning, and Quality & Reliability.",
+      },
+      {
+        question: "How is the hostel accommodation at IIT Kharagpur?",
+        answer:
+          "The institute has 21 halls of residence (including 3 for girls) accommodating over 10,000 students. Hostels are equipped with high-speed internet, recreational facilities, gyms, and 24x7 study rooms. Each hall has its own mess and cultural identity.",
+      },
+      {
+        question: "What are the major festivals at IIT Kharagpur?",
+        answer:
+          "Spring Fest is the annual cultural festival (one of India's oldest and largest), Kshitij is Asia's largest techno-management festival, and the institute also hosts Sports Fest and Illumi (social fest).",
+      },
+      {
+        question: "Does IIT Kharagpur offer interdisciplinary programs?",
+        answer:
+          "Yes, IIT Kharagpur offers several interdisciplinary programs including Artificial Intelligence, Data Science, Climate Science, Cognitive Science, and Sustainable Energy Engineering. It also has flexible dual degree programs.",
+      },
+      {
+        question: "What is the student-faculty ratio?",
+        answer:
+          "The student-faculty ratio is approximately 8:1, with over 720 faculty members and 12,000 students. This ensures personalized attention and strong mentorship opportunities.",
+      },
+      {
+        question: "How strong is the alumni network?",
+        answer:
+          "IIT Kharagpur has one of the strongest and most diverse alumni networks globally. Notable alumni include founders of HCL Technologies, 'Father of Pentium Processor', former SEBI chairman, and leaders across industry, government, and academia.",
+      },
+      {
+        question:
+          "What research opportunities are available for undergraduates?",
+        answer:
+          "IIT Kharagpur offers extensive undergraduate research opportunities through the Undergraduate Research Program (URP), summer internships with faculty, and access to state-of-the-art research facilities including supercomputing infrastructure.",
+      },
+    ],
   },
-  campusLife: {
-    clubs: [
-      "Programming Club",
-      "Robotics Club",
-      "Entrepreneurship Cell (E-Cell)",
-      "Himalayan Explorers Club",
+  {
+    id: "1106",
+    slug: "iit-roorkee",
+    name: "Indian Institute of Technology Roorkee",
+    shortName: "IIT Roorkee",
+    tagline:
+      "श्रमं विना न किमपि साध्यम् (Nothing is achievable without hard work)",
+    overview:
+      "India's oldest engineering institution, a premier Institute of National Importance blending 175+ years of heritage with cutting-edge technological research and innovation.",
+    description:
+      "Indian Institute of Technology Roorkee stands as the oldest technical institution in Asia, established in 1847 as the Thomason College of Civil Engineering. Elevated to IIT status in 2001, it seamlessly integrates a rich colonial heritage with modern, world-class research facilities. Located in the foothills of the Himalayas, the institute is renowned for its pioneering contributions to civil engineering, hydrology, and now, advanced computing and management. It continues to be a top-5 ranked engineering institution in India, producing leaders who have shaped the nation's infrastructure and industrial policy [citation:1][citation:5][citation:6].",
+    logo: "/logos/iit-roorkee.png",
+    stream: "engineering",
+    type: "government",
+    category: "premier",
+    ranking: 6,
+    rating: 4.6,
+    nirfRank: 5,
+    googleRating: 4.5,
+    reviews: {
+      count: 10800,
+      average: 4.6,
+      academics: 4.7,
+      infrastructure: 4.6,
+      placement: 4.7,
+      faculty: 4.6,
+    },
+    established: 1847,
+    accreditation: "Institute of National Importance",
+    naacGrade: "A++",
+    affiliations: ["Institute of National Importance"],
+    recognition: ["UGC", "AICTE", "MHRD"],
+    location: {
+      city: "Roorkee",
+      state: "Uttarakhand",
+      country: "India",
+      pincode: "247667",
+      campusSize: "365 acres",
+      campusType: "suburban",
+      latitude: 29.8651,
+      longitude: 77.896,
+      address: "IIT Roorkee, Roorkee, Haridwar District, Uttarakhand 247667",
+    },
+    fees: {
+      annual: 200000,
+      total: 800000,
+      hostel: 15000,
+      mess: 52500,
+      otherCharges: 12750,
+      scholarshipAvailable: true,
+      scholarshipDetails: [
+        "100% Tuition Fee Waiver (Family Income < ₹1L)",
+        "2/3rd Tuition Fee Waiver (Family Income ₹1-5L)",
+        "SC/ST Scholarship (Full Tuition Reimbursement)",
+        "Institute Merit-cum-Means Scholarship",
+        "Ministry of Education (MoE) Scholarships",
+      ],
+      paymentOptions: [
+        "Online Payment (SBI Collect)",
+        "Demand Draft",
+        "Bank Transfer",
+        "Semester-wise Installments",
+      ],
+    },
+    placement: {
+      averagePackage: 1791000,
+      highestPackage: 24000000,
+      medianPackage: 1764000,
+      percentage: 92,
+      totalOffers: 555,
+      totalStudents: 600,
+      internationalOffers: 8,
+      dreamOffers: 45,
+      averagePackageTrend: 11,
+      topRecruiters: [
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "NVIDIA",
+        "Qualcomm",
+        "Texas Instruments",
+        "Oracle",
+        "Rubrik India",
+        "SAP Labs",
+        "D.E. Shaw",
+        "Squarepoint Capital",
+        "iRageCapital",
+        "Databricks",
+        "McKinsey & Company",
+        "Accenture",
+        "VISA",
+        "American Express",
+        "Mastercard",
+        "Deutsche Bank",
+        "NatWest Group",
+        "Flipkart",
+        "Meesho",
+        "Zomato",
+        "Urban Company",
+        "BEL",
+        "HPCL",
+        "BPCL",
+        "Bajaj Auto",
+        "OLA Electric",
+        "Adani",
+        "IndianOil",
+        "GAIL",
+        "Petronet LNG",
+        "Coca-Cola",
+        "Wipro",
+        "Vedanta",
+      ],
+      recruitmentSectors: [
+        "Information Technology",
+        "Quantitative Finance",
+        "Consulting",
+        "Core Engineering (PSU)",
+        "Semiconductors",
+        "E-commerce",
+        "Energy & Infrastructure",
+        "Analytics",
+      ],
+      placementStats: [
+        {
+          year: 2025,
+          averagePackage: 1791000,
+          highestPackage: 24000000,
+          percentage: 92,
+        },
+        {
+          year: 2024,
+          averagePackage: 1650000,
+          highestPackage: 21000000,
+          percentage: 91,
+        },
+        {
+          year: 2023,
+          averagePackage: 1550000,
+          highestPackage: 20000000,
+          percentage: 90,
+        },
+      ],
+    },
+    academics: {
+      coursesOffered: [
+        "B.Tech",
+        "B.Arch",
+        "Integrated M.Tech",
+        "M.Tech",
+        "M.Arch",
+        "M.Sc",
+        "M.Des",
+        "MURP",
+        "MBA",
+        "PhD",
+      ],
+      popularCourses: [
+        "B.Tech Computer Science & Engineering",
+        "B.Tech Electrical Engineering",
+        "B.Tech Mechanical Engineering",
+        "B.Arch Architecture",
+        "MBA (Department of Management Studies)",
+      ],
+      facultyCount: 550,
+      studentCount: 9000,
+      studentFacultyRatio: "9:1",
+      specialization: [
+        "Computer Science",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering (Flagship)",
+        "Chemical Engineering",
+        "Earth Sciences (Hydrology)",
+        "Architecture & Planning",
+        "Applied Physics & Material Sciences",
+      ],
+      departments: [
+        "Computer Science & Engineering",
+        "Electrical Engineering",
+        "Mechanical & Industrial Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Earth Sciences",
+        "Architecture & Planning",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Humanities & Social Sciences",
+        "Management Studies (DoMS)",
+        "Water Resources Development & Management",
+      ],
+      researchCenters: 60,
+      publications: 3800,
+      collaborations: [
+        "University of Illinois at Urbana-Champaign",
+        "ETH Zurich",
+        "University of Leeds",
+        "National University of Singapore",
+        "British Geological Survey",
+      ],
+      teachingMode: "offline",
+    },
+    infrastructure: {
+      library: {
+        name: "Mahatma Gandhi Central Library",
+        books: 275000,
+        journals: 1000,
+        digitalResources: 2000000,
+        seatingCapacity: 800,
+      },
+      labs: {
+        count: 200,
+        majorLabs: [
+          "Param Ganga Supercomputer Facility",
+          "National Centre for Disaster Mitigation",
+          "Centre of Excellence in Disaster Management",
+          "Water Resources & Hydrology Labs",
+          "Institute Computer Centre (ICC)",
+          "Centre for Nanotechnology",
+          "Centre for Transportation Systems",
+        ],
+        equipmentValue: 350000000,
+      },
+      sports: {
+        facilities: [
+          "Swimming Pool",
+          "Sports Stadium",
+          "Cricket Ground",
+          "Football Field",
+          "Hockey Field",
+          "Tennis Courts",
+          "Basketball Courts",
+          "Badminton Courts",
+          "Squash Courts",
+          "Table Tennis Hall",
+          "Indoor Gymnasium",
+          "Volleyball Court",
+          "Running/Jogging Track",
+          "Billiards Room",
+          "Boat Club",
+        ],
+        stadium: true,
+        gym: true,
+        swimmingPool: true,
+      },
+      hostel: {
+        boys: true,
+        girls: true,
+        capacity: 7000,
+        rooms: 3500,
+        facilities: [
+          "Wi-Fi Enabled Campuses",
+          "Common Rooms",
+          "Study Rooms",
+          "Indoor Games Room",
+          "Cyber Cafe",
+          "Laundry Service",
+          "Medical Facility",
+          "Cafeteria",
+        ],
+      },
+      wifi: true,
+      cafeteria: 10,
+      medical: true,
+      transportation: true,
+      auditorium: 4,
+    },
+    admission: {
+      entranceExam: ["JEE Advanced", "GATE", "CEED", "JAM", "CAT"],
+      cutoff: 97.5,
+      cutoffTrend: 0.2,
+      applicationMode: "Online",
+      applicationFee: 2500,
+      selectionProcess: [
+        "JEE Advanced Score",
+        "JoSAA Counseling",
+        "Seat Allocation",
+        "Document Verification",
+      ],
+      eligibility: {
+        minPercentage: 75,
+        subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+        ageLimit: 25,
+      },
+      importantDates: {
+        applicationStart: "January 1, 2026",
+        applicationEnd: "April 30, 2026",
+        examDate: "June 2026",
+        resultDate: "July 2026",
+        counsellingStart: "July 15, 2026",
+        counsellingEnd: "August 30, 2026",
+      },
+      documentsRequired: [
+        "10th Marksheet",
+        "12th Marksheet",
+        "JEE Advanced Scorecard",
+        "Category Certificate",
+        "Income Certificate (Scholarship)",
+        "Domicile Certificate",
+        "Medical Fitness Certificate",
+      ],
+    },
+    campusLife: {
+      clubs: [
+        "Programming Club",
+        "Robotics Club",
+        "Entrepreneurship Cell (E-Cell)",
+        "Himalayan Explorers Club",
+        "Boat Club",
+        "Hobbies Club",
+        "Music Club",
+        "Dance Club",
+        "Dramatics Society",
+        "Photography Club",
+        "Debating Society",
+        "Literary Society",
+      ],
+      festivals: [
+        "Thomso (Annual Cultural Festival)",
+        "Cognizance (Technical Festival)",
+        "Zeitgeist (Department of Management Studies)",
+      ],
+      technicalEvents: [
+        "Hackathons",
+        "Coding Competitions",
+        "Robotics Wars",
+        "Research Conclaves",
+        "Industry Interaction Summits",
+      ],
+      culturalEvents: [
+        "Music Nights",
+        "Dance Performances",
+        "Drama Competitions",
+        "Art Exhibitions",
+        "Quizzes",
+      ],
+      socialInitiatives: [
+        "National Service Scheme (NSS)",
+        "National Cadet Corps (NCC)",
+        "Blood Donation Camps",
+        "Rural Development Projects",
+      ],
+      annualBudget: 40000000,
+    },
+    faculty: {
+      total: 550,
+      phdHolders: 530,
+      professor: 200,
+      associateProfessor: 210,
+      assistantProfessor: 140,
+      industryExperience: 7,
+      internationalFaculty: 40,
+      awards: [
+        "Shanti Swarup Bhatnagar Prize (8 recipients)",
+        "J.C. Bose Fellowship",
+        "Ramanujan Fellowship",
+        "Swarnajayanti Fellowship",
+      ],
+    },
+    alumni: {
+      notableAlumni: [
+        {
+          name: "Kamal Kishore",
+          designation: "Assistant Secretary-General",
+          company: "United Nations (UNDRR)",
+        },
+        {
+          name: "Pankaj Agarwal",
+          designation: "Secretary",
+          company: "Ministry of Power, Govt. of India",
+        },
+        {
+          name: "Sushil Kumar",
+          designation: "Managing Director",
+          company: "U.P. Metro Rail Corporation",
+        },
+        {
+          name: "Jai Prakash Srivastava",
+          designation: "Director (Engineering, R&D)",
+          company: "BHEL",
+        },
+        {
+          name: "Karthik Reddy",
+          designation: "Co-founder & Managing Partner",
+          company: "Blume Ventures",
+        },
+        {
+          name: "Rishi Das",
+          designation: "Founder",
+          company: "CareerNet, IndiQube",
+        },
+        { name: "Amit Garg", designation: "Founder & CEO", company: "HiLabs" },
+        {
+          name: "Late Ar. Pradeep Sachdeva",
+          designation: "Principal Architect",
+          company: "PSDA",
+        },
+      ],
+      placementCompanies: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "McKinsey",
+        "BCG",
+        "Bain",
+        "JP Morgan",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+      ],
+      networkStrength: 93,
+    },
+    international: {
+      collaborations: 80,
+      studentExchange: true,
+      facultyExchange: true,
+      partnerUniversities: [
+        "ETH Zurich",
+        "University of Illinois",
+        "University of Leeds",
+        "National University of Singapore",
+      ],
+      foreignStudents: 150,
+    },
+    contact: {
+      phone: ["+91-1332-285311", "+91-1332-285309"],
+      email: [
+        "registrar@iitr.ac.in",
+        "placement@iitr.ac.in",
+        "admission@iitr.ac.in",
+      ],
+      website: "https://www.iitr.ac.in",
+      socialMedia: {
+        facebook: "https://facebook.com/iitroorkee",
+        twitter: "https://twitter.com/iitroorkee",
+        linkedin: "https://linkedin.com/school/iit-roorkee",
+        instagram: "https://instagram.com/iitroorkee",
+        youtube: "https://youtube.com/iitroorkee",
+      },
+      admissionContact: {
+        phone: "+91-1332-284520",
+        email: "admission@iitr.ac.in",
+      },
+    },
+    facilities: [
+      "24x7 Mahatma Gandhi Central Library",
+      "Param Ganga Supercomputer",
+      "Wi-Fi Campus",
+      "Sports Stadium",
+      "Swimming Pool",
       "Boat Club",
-      "Hobbies Club",
-      "Music Club",
-      "Dance Club",
-      "Dramatics Society",
-      "Photography Club",
-      "Debating Society",
-      "Literary Society"
+      "Himalayan Explorers Club",
+      "Wellness Centre",
+      "SBI & PNB Bank with ATM",
+      "Post Office",
+      "Railway Reservation Centre",
+      "Guest House",
     ],
-    festivals: [
-      "Thomso (Annual Cultural Festival)",
-      "Cognizance (Technical Festival)",
-      "Zeitgeist (Department of Management Studies)"
+    achievements: [
+      "India's Oldest Engineering College (est. 1847)",
+      "Institution of National Importance",
+      "Ranked #5 in Engineering (NIRF 2024) [citation:6]",
+      "175+ Years of Academic Excellence",
+      "Produces highest number of Civil Services & PSU leaders",
+      "Strongest Alumni Network in Government & Infrastructure",
     ],
-    technicalEvents: [
-      "Hackathons",
-      "Coding Competitions",
-      "Robotics Wars",
-      "Research Conclaves",
-      "Industry Interaction Summits"
+    newsUpdates: [
+      {
+        title:
+          "IIT Roorkee records 555 offers in first two days of Placement 2025-26 season",
+        date: "2025-12-01",
+        link: "https://www.hindustantimes.com/education/employment-news",
+      },
+      {
+        title:
+          "IIT Roorkee Honors Distinguished Alumni 2024 & 2025 at Foundation Day",
+        date: "2025-11-25",
+        link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2194141",
+      },
+      {
+        title:
+          "Kamal Kishore (B.Arch) appointed Assistant Secretary-General of the United Nations",
+        date: "2024-03-27",
+        link: "https://iitr.ac.in",
+      },
     ],
-    culturalEvents: [
-      "Music Nights",
-      "Dance Performances",
-      "Drama Competitions",
-      "Art Exhibitions",
-      "Quizzes"
+    gallery: [
+      {
+        type: "campus",
+        url: "/gallery/iitr-campus1.jpg",
+        caption: "Main Building (Renaissance Style Architecture)",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitr-campus2.jpg",
+        caption: "Mahatma Gandhi Central Library",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitr-campus3.jpg",
+        caption: "Institute Computer Centre",
+      },
+      {
+        type: "lab",
+        url: "/gallery/iitr-lab1.jpg",
+        caption: "Param Ganga Supercomputer",
+      },
+      {
+        type: "sports",
+        url: "/gallery/iitr-sports1.jpg",
+        caption: "Sports Stadium & Swimming Pool",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitr-event1.jpg",
+        caption: "Thomso Cultural Festival",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitr-event2.jpg",
+        caption: "Cognizance Technical Festival",
+      },
     ],
-    socialInitiatives: [
-      "National Service Scheme (NSS)",
-      "National Cadet Corps (NCC)",
-      "Blood Donation Camps",
-      "Rural Development Projects"
+    faqs: [
+      {
+        question: "What is IIT Roorkee famous for?",
+        answer:
+          "IIT Roorkee is India's oldest technical institution (est. 1847). It is globally renowned for Civil Engineering, Hydrology, Water Resources, and Earthquake Engineering. It also has a very strong legacy in Architecture (B.Arch) and is the alma mater of numerous Secretaries to the Government of India and PSU Chairmen [citation:5][citation:10].",
+      },
+      {
+        question: "What is the JEE Advanced cutoff for IIT Roorkee?",
+        answer:
+          "For General category, the cutoff for CSE is typically around 98+ percentile. For other branches, closing ranks range from 97-99 percentile. Being an older IIT, it is slightly more competitive than NITs but offers excellent ROI due to lower fees [citation:6][citation:8].",
+      },
+      {
+        question: "Is IIT Roorkee good for MBA?",
+        answer:
+          "Yes. The DoMS (Department of Management Studies) has shown exceptional growth. In 2025, the average CTC was ₹17.91 LPA with the highest at ₹24 LPA. Marketing specialization paid the highest at ₹21.33 LPA. Recruiters include Accenture, Deloitte, Bank of America, and Coca-Cola [citation:7].",
+      },
+      {
+        question: "What are the hostel fees and facilities?",
+        answer:
+          "UG hostel fees are approximately ₹7,500 per semester. Mess charges are around ₹20,250 - ₹26,250 per semester. There are 10 Boys Hostels and 3 Girls Hostels with Wi-Fi, common rooms, and cyber cafes [citation:4][citation:8].",
+      },
+      {
+        question: "Which IIT is better: Roorkee or Bombay/Delhi?",
+        answer:
+          "For high-finance/consulting roles and city life, IIT Bombay/Delhi have an edge. However, IIT Roorkee offers a more affordable education, a distraction-free campus, and is exceptionally strong for core engineering, PSU jobs, and research in Earth Sciences. It offers a better ROI for budget-conscious students [citation:6].",
+      },
+      {
+        question: "Who are some famous alumni from IIT Roorkee?",
+        answer:
+          "Distinguished alumni include Kamal Kishore (UN Assistant Secretary-General), Pankaj Agarwal (Secretary, Ministry of Power), Sushil Kumar (MD, U.P. Metro), and Karthik Reddy (Blume Ventures) [citation:5][citation:10].",
+      },
     ],
-    annualBudget: 40000000
   },
-  faculty: {
-    total: 550,
-    phdHolders: 530,
-    professor: 200,
-    associateProfessor: 210,
-    assistantProfessor: 140,
-    industryExperience: 7,
-    internationalFaculty: 40,
-    awards: [
-      "Shanti Swarup Bhatnagar Prize (8 recipients)",
-      "J.C. Bose Fellowship",
-      "Ramanujan Fellowship",
-      "Swarnajayanti Fellowship"
+  {
+    id: "1107",
+    slug: "iit-guwahati",
+    name: "Indian Institute of Technology Guwahati",
+    shortName: "IIT Guwahati",
+    tagline: "ज्ञानार्थं बुद्धि: (Wisdom for Knowledge)",
+    overview:
+      "India's premier institute in the Northeast, renowned for its scenic campus, rapid academic rise, and exceptional research output",
+    description:
+      "Indian Institute of Technology Guwahati, established in 1994, is the sixth IIT to be established in India. Despite being one of the younger IITs, it has rapidly ascended to become a top-tier institution, consistently ranked among the top 10 engineering institutes in the country. Located on the banks of the Brahmaputra River, its 700+ acre campus is widely regarded as one of the most beautiful in India. Known for its strong research culture, innovative curriculum, and vibrant student life, IIT Guwahati has produced successful entrepreneurs and global tech leaders in just three decades of existence [citation:3][citation:5][citation:9].",
+    logo: "/logos/iit-guwahati.png",
+    stream: "engineering",
+    type: "government",
+    category: "premier",
+    ranking: 7,
+    rating: 4.5,
+    nirfRank: 7,
+    googleRating: 4.4,
+    reviews: {
+      count: 8900,
+      average: 4.5,
+      academics: 4.6,
+      infrastructure: 4.8,
+      placement: 4.5,
+      faculty: 4.5,
+    },
+    established: 1994,
+    accreditation: "Institute of National Importance",
+    naacGrade: "A++",
+    affiliations: ["Institute of National Importance"],
+    recognition: ["UGC", "AICTE", "MHRD"],
+    location: {
+      city: "Guwahati",
+      state: "Assam",
+      country: "India",
+      pincode: "781039",
+      campusSize: "700+ acres",
+      campusType: "suburban",
+      latitude: 26.1938,
+      longitude: 91.6913,
+      address: "IIT Guwahati, Amingaon, North Guwahati, Assam 781039",
+    },
+    fees: {
+      annual: 260000,
+      total: 1040000,
+      hostel: 119000,
+      mess: 52500,
+      otherCharges: 59700,
+      scholarshipAvailable: true,
+      scholarshipDetails: [
+        "Institute Merit-cum-Means Scholarship",
+        "SC/ST Scholarship (Full Tuition Reimbursement)",
+        "Ministry of Education (MoE) Scholarships",
+        "NE-SIHM Scholarship for Northeast Students",
+        "Private Trust Scholarships",
+      ],
+      paymentOptions: [
+        "Online Payment",
+        "NEFT/RTGS",
+        "Demand Draft",
+        "Credit/Debit Card",
+      ],
+    },
+    placement: {
+      averagePackage: 2000000,
+      highestPackage: 13100000,
+      medianPackage: 1800000,
+      percentage: 90,
+      totalOffers: 1200,
+      totalStudents: 1300,
+      internationalOffers: 45,
+      dreamOffers: 120,
+      averagePackageTrend: 12,
+      topRecruiters: [
+        "Amazon",
+        "Google",
+        "Microsoft",
+        "Adobe",
+        "Cisco",
+        "Deloitte",
+        "Goldman Sachs",
+        "JP Morgan",
+        "Flipkart",
+        "Directi",
+        "Texas Instruments",
+        "Analog Devices",
+        "Air Bus",
+        "Cummins India",
+        "BEL",
+        "DRDO",
+        "Cognizant",
+        "Dell",
+        "Ericsson",
+        "EXL Services",
+        "Samsung",
+        "Qualcomm",
+        "Bank of India",
+        "Capital IQ",
+      ],
+      recruitmentSectors: [
+        "Information Technology",
+        "Core Engineering",
+        "Consulting",
+        "Finance & Banking",
+        "Research & Development",
+        "E-commerce",
+        "Semiconductors",
+      ],
+      placementStats: [
+        {
+          year: 2023,
+          averagePackage: 2000000,
+          highestPackage: 13100000,
+          percentage: 90,
+        },
+        {
+          year: 2022,
+          averagePackage: 1800000,
+          highestPackage: 12000000,
+          percentage: 89,
+        },
+        {
+          year: 2021,
+          averagePackage: 1650000,
+          highestPackage: 11000000,
+          percentage: 88,
+        },
+      ],
+    },
+    academics: {
+      coursesOffered: [
+        "B.Tech",
+        "B.Des",
+        "M.Tech",
+        "M.Des",
+        "M.Sc",
+        "MBA",
+        "MA",
+        "PhD",
+      ],
+      popularCourses: [
+        "B.Tech Computer Science & Engineering",
+        "B.Tech Electronics & Communication Engineering",
+        "B.Tech Mechanical Engineering",
+        "B.Des (Design)",
+        "MBA (Department of Management Studies)",
+      ],
+      facultyCount: 450,
+      studentCount: 6500,
+      studentFacultyRatio: "9:1",
+      specialization: [
+        "Computer Science",
+        "Electronics & Communication",
+        "Mechanical Engineering",
+        "Design (Premier Program)",
+        "Data Science & AI",
+        "Aerodynamics",
+        "Petroleum Science",
+        "Water Resources",
+      ],
+      departments: [
+        "Computer Science & Engineering",
+        "Electronics & Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Biosciences & Bioengineering",
+        "Design",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Humanities & Social Sciences",
+        "Management Studies",
+      ],
+      researchCenters: 45,
+      publications: 3200,
+      collaborations: [
+        "Clemson University",
+        "National University of Singapore",
+        "University of Leeds",
+        "Technical University of Munich",
+      ],
+      teachingMode: "offline",
+    },
+    infrastructure: {
+      library: {
+        name: "Lakshminath Bezbaroa Central Library",
+        books: 154564,
+        journals: 2291,
+        digitalResources: 500000,
+        seatingCapacity: 800,
+      },
+      labs: {
+        count: 180,
+        majorLabs: [
+          "Centre for Nanotechnology",
+          "Centre for the Environment",
+          "Centre for Linguistic Science & Technology",
+          "Speech Signal Processing Lab",
+          "Electromedical & Speech Technology Lab",
+          "VLSI Design Lab",
+          "5G NR Wireless Access Lab",
+          "Language Learning Lab",
+        ],
+        equipmentValue: 300000000,
+      },
+      sports: {
+        facilities: [
+          "8-lane 50-metre Olympic-size Swimming Pool",
+          "Indoor Sports Stadium",
+          "Football Ground",
+          "Cricket Ground",
+          "Hockey Field",
+          "Tennis Courts",
+          "Basketball Courts",
+          "Badminton Courts",
+          "Squash Courts",
+          "Table Tennis Hall",
+          "Gymnasium",
+          "Volleyball Court",
+        ],
+        stadium: true,
+        gym: true,
+        swimmingPool: true,
+      },
+      hostel: {
+        boys: true,
+        girls: true,
+        capacity: 3000,
+        rooms: 1500,
+        facilities: [
+          "Single-seater accommodation",
+          "High-speed WiFi (Gigabit Ethernet)",
+          "Institute LAN connectivity in each room",
+          "Multipurpose Common Room",
+          "TV Room",
+          "Table Tennis Room",
+          "Gym",
+          "Volleyball Court",
+          "Badminton Court",
+          "Reading Room with Magazines & Newspapers",
+          "Mess with round-the-clock canteen",
+          "Washing Machines on each floor",
+          "Water Coolers",
+        ],
+      },
+      wifi: true,
+      cafeteria: 8,
+      medical: true,
+      transportation: true,
+      auditorium: 3,
+    },
+    admission: {
+      entranceExam: ["JEE Advanced", "GATE", "CEED", "JAM", "CAT"],
+      cutoff: 92.5,
+      cutoffTrend: 0.5,
+      applicationMode: "Online",
+      applicationFee: 2500,
+      selectionProcess: [
+        "JEE Advanced Score",
+        "JoSAA Counseling",
+        "Seat Allocation",
+        "Document Verification",
+      ],
+      eligibility: {
+        minPercentage: 75,
+        subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+        ageLimit: 25,
+      },
+      importantDates: {
+        applicationStart: "January 1, 2026",
+        applicationEnd: "April 30, 2026",
+        examDate: "June 2026",
+        resultDate: "July 2026",
+        counsellingStart: "July 15, 2026",
+        counsellingEnd: "August 30, 2026",
+      },
+      documentsRequired: [
+        "10th Marksheet",
+        "12th Marksheet",
+        "JEE Advanced Scorecard",
+        "Category Certificate",
+        "Income Certificate",
+        "Domicile Certificate",
+        "Medical Fitness Certificate",
+      ],
+    },
+    campusLife: {
+      clubs: [
+        "Programming Club",
+        "Robotics Club",
+        "Entrepreneurship Cell (E-Cell)",
+        "Music Club",
+        "Dance Club",
+        "Dramatics Society",
+        "Photography Club",
+        "Debating Society",
+        "Literary Society",
+        "Astronomy Club",
+        "Environmental Club",
+        "Quiz Club",
+        "Fine Arts Club",
+      ],
+      festivals: [
+        "Alcheringa (Annual Cultural Festival)",
+        "Techniche (Annual Technical Festival)",
+      ],
+      technicalEvents: [
+        "Hackathons",
+        "Coding Competitions",
+        "Robotics Competitions",
+        "Business Plan Competitions",
+        "Research Symposiums",
+        "Industry Interaction Programs",
+      ],
+      culturalEvents: [
+        "Music Nights",
+        "Dance Performances",
+        "Drama Nights",
+        "Art Exhibitions",
+        "Literary Events",
+        "Film Screenings",
+      ],
+      socialInitiatives: [
+        "National Service Scheme (NSS)",
+        "National Cadet Corps (NCC)",
+        "Blood Donation Camps",
+        "Environmental Awareness Drives",
+        "Rural Development Projects",
+        "Tech for Northeast Initiative",
+      ],
+      annualBudget: 35000000,
+    },
+    faculty: {
+      total: 450,
+      phdHolders: 430,
+      professor: 150,
+      associateProfessor: 180,
+      assistantProfessor: 120,
+      industryExperience: 6,
+      internationalFaculty: 35,
+      awards: [
+        "Shanti Swarup Bhatnagar Prize (3 recipients)",
+        "J.C. Bose Fellowship",
+        "Ramanujan Fellowship",
+        "Swarnajayanti Fellowship",
+      ],
+    },
+    alumni: {
+      notableAlumni: [
+        {
+          name: "Archit Gupta",
+          designation: "Founder & CEO",
+          company: "ClearTax",
+        },
+        {
+          name: "Jaspreet Singh",
+          designation: "Founder & CEO",
+          company: "Druva Inc.",
+        },
+        {
+          name: "Ankit Nagori",
+          designation: "Co-founder",
+          company: "Cure.fit",
+        },
+        {
+          name: "Richa Singh",
+          designation: "Co-founder & CEO",
+          company: "YourDOST",
+        },
+        {
+          name: "Saurabh Nangia",
+          designation: "Co-founder & CEO",
+          company: "Mesh.ai",
+        },
+        {
+          name: "Aditya Singh",
+          designation: "Quantitative Trader",
+          company: "Citadel LLC",
+        },
+        {
+          name: "Prabhat Gupta",
+          designation: "Co-founder",
+          company: "TravelTriangle",
+        },
+        {
+          name: "Prof. Prateek Mittal",
+          designation: "Professor",
+          company: "Princeton University",
+        },
+        {
+          name: "Dr. Siva Teja Kakileti",
+          designation: "Director",
+          company: "Niramai Health Analytix",
+        },
+        {
+          name: "Aayush Thakur",
+          designation: "CEO & Co-founder",
+          company: "FR8relay",
+        },
+        {
+          name: "Atanu Guchhait",
+          designation: "5G NR Wireless Access Developer",
+          company: "Samsung",
+        },
+        {
+          name: "Ritwik Tewari",
+          designation: "Engineering Manager",
+          company: "Facebook Inc.",
+        },
+      ],
+      placementCompanies: [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "McKinsey",
+        "BCG",
+        "Citadel",
+        "Facebook",
+        "Samsung",
+        "Qualcomm",
+        "Texas Instruments",
+      ],
+      networkStrength: 89,
+    },
+    international: {
+      collaborations: 55,
+      studentExchange: true,
+      facultyExchange: true,
+      partnerUniversities: [
+        "Clemson University",
+        "National University of Singapore",
+        "University of Leeds",
+        "Technical University of Munich",
+      ],
+      foreignStudents: 120,
+    },
+    contact: {
+      phone: ["+91-361-2583000", "+91-361-2690761"],
+      email: [
+        "acadoff@iitg.ernet.in",
+        "registrar@iitg.ac.in",
+        "placement@iitg.ac.in",
+      ],
+      website: "https://www.iitg.ac.in",
+      socialMedia: {
+        facebook: "https://facebook.com/iitguwahati",
+        twitter: "https://twitter.com/iitguwahati",
+        linkedin: "https://linkedin.com/school/iit-guwahati",
+        instagram: "https://instagram.com/iitguwahati",
+        youtube: "https://youtube.com/iitguwahati",
+      },
+      admissionContact: {
+        phone: "+91-361-2583000",
+        email: "admission@iitg.ac.in",
+      },
+    },
+    facilities: [
+      "24x7 Lakshminath Bezbaroa Central Library",
+      "High-speed WiFi Campus (Gigabit Ethernet)",
+      "8-lane 50-metre Olympic-size Swimming Pool",
+      "Indoor Sports Stadium",
+      "Well-equipped Gymnasium",
+      "30-bed In-campus Hospital",
+      "Commercial Complex",
+      "Guest House with 72 rooms",
+      "Conference Centre with 4 halls",
+      "Auditorium with 1500 seating capacity",
+      "250-seat Lecture Halls",
+      "Solar Power Plant",
+      "Rainwater Harvesting System",
+      "Platinum-rated Green Buildings",
+    ],
+    achievements: [
+      "Ranked #7 among Engineering Institutes in India (NIRF 2024) [citation:1][citation:6]",
+      "Ranked #9 in 'Overall' Category (NIRF 2024) [citation:6]",
+      "Ranked #10 in 'Research' Category (NIRF 2024) [citation:6]",
+      "QS World University Rankings 2026: 334th globally [citation:6]",
+      "QS Rankings 2026: 42nd globally in Research Citations per Faculty [citation:6]",
+      "India Today Engineering Ranking 2025: #5 out of 269 in India [citation:2]",
+      "The Week Engineering Ranking 2025: #6 out of 286 in India [citation:2]",
+      "Outlook Engineering Ranking 2025: #7 out of 25 in India [citation:2]",
+      "First IIT to establish Mehta School of Data Science and Artificial Intelligence [citation:6]",
+      "Most beautiful campus among all IITs [citation:3][citation:9]",
+      "17+ MoUs signed in research, education, and innovation [citation:6]",
+    ],
+    newsUpdates: [
+      {
+        title:
+          "IIT Guwahati celebrates 27th Convocation; 2093 graduates receive degrees",
+        date: "2025-07-13",
+        link: "https://www.hindustantimes.com/education/news/iit-guwahati-celebrates-27th-convocation-2093-graduates-receive-degrees-101752480226857.html",
+      },
+      {
+        title:
+          "First B.Tech batch graduates from Mehta School of Data Science and Artificial Intelligence",
+        date: "2025-07-12",
+        link: "https://m.economictimes.com/news/india/iit-guwahati-celebrates-27th-convocation-with-2093-graduating-students",
+      },
+      {
+        title:
+          "IIT Guwahati launches new hybrid M.Tech program in Flood and Water Resources Management",
+        date: "2025-07-12",
+        link: "https://m.economictimes.com/news/india/iit-guwahati-celebrates-27th-convocation-with-2093-graduating-students",
+      },
+      {
+        title:
+          "Prof. Prateek Mittal (2006 batch) receives Grace Murray Hopper Award 2024",
+        date: "2024-06-01",
+        link: "https://iitg.ac.in/aer/index_list_awardees.php",
+      },
+    ],
+    gallery: [
+      {
+        type: "campus",
+        url: "/gallery/iitg-campus1.jpg",
+        caption: "Scenic Campus on Brahmaputra Banks",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitg-campus2.jpg",
+        caption: "Main Academic Complex",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iitg-campus3.jpg",
+        caption: "Lakshminath Bezbaroa Central Library",
+      },
+      {
+        type: "lab",
+        url: "/gallery/iitg-lab1.jpg",
+        caption: "Centre for Nanotechnology",
+      },
+      {
+        type: "sports",
+        url: "/gallery/iitg-sports1.jpg",
+        caption: "8-lane Olympic-size Swimming Pool",
+      },
+      {
+        type: "hostel",
+        url: "/gallery/iitg-hostel1.jpg",
+        caption: "Student Hostels",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitg-event1.jpg",
+        caption: "Alcheringa Cultural Festival",
+      },
+      {
+        type: "event",
+        url: "/gallery/iitg-event2.jpg",
+        caption: "Techniche Technical Festival",
+      },
+    ],
+    faqs: [
+      {
+        question: "How is IIT Guwahati ranked among IITs?",
+        answer:
+          "IIT Guwahati is consistently ranked among the top 10 engineering institutes in India. In NIRF 2024, it secured 7th position in Engineering, 9th position in Overall, and 10th position in Research categories. Globally, it is ranked 334th in QS World University Rankings 2026 and an impressive 42nd globally in Research Citations per Faculty [citation:1][citation:6].",
+      },
+      {
+        question: "What is the campus of IIT Guwahati like?",
+        answer:
+          "IIT Guwahati is widely regarded as the most beautiful IIT campus in India. Spread over 700+ acres on the banks of the Brahmaputra River, it features lush greenery, lakes, and world-class infrastructure. The campus has Platinum-rated green buildings, a solar power plant, and rainwater harvesting systems. It offers single-seater hostel accommodation, an 8-lane Olympic-size swimming pool, indoor sports stadium, and a 30-bed hospital [citation:4][citation:9].",
+      },
+      {
+        question: "What is unique about IIT Guwahati's academic programs?",
+        answer:
+          "IIT Guwahati is the first IIT to establish the Mehta School of Data Science and Artificial Intelligence, whose inaugural B.Tech batch graduated in 2025. It has strong programs in Design (B.Des), Electronics & Communication Engineering, and recently launched a hybrid M.Tech program in Flood and Water Resources Management. The institute has signed over 17 MoUs for research and education collaborations [citation:6].",
+      },
+      {
+        question: "What is the placement scenario at IIT Guwahati?",
+        answer:
+          "IIT Guwahati has excellent placement records. In 2023, the highest package was ₹1.31 CPA (crore per annum) and the average package was around ₹20 LPA. Top recruiters include Amazon, Google, Microsoft, Adobe, Goldman Sachs, Texas Instruments, and Analog Devices. M.Tech Aerodynamics students received an average package of ₹11.98 LPA in 2025 [citation:2][citation:3][citation:8].",
+      },
+      {
+        question: "Who are some notable alumni of IIT Guwahati?",
+        answer:
+          "Despite being established only in 1994, IIT Guwahati has produced remarkable alumni including Archit Gupta (Founder, ClearTax), Jaspreet Singh (Founder, Druva Inc.), Ankit Nagori (Co-founder, Cure.fit), Richa Singh (Co-founder, YourDOST), Prof. Prateek Mittal (Princeton University, Grace Murray Hopper Awardee), Aditya Singh (Quantitative Trader, Citadel LLC), and Dr. Siva Teja Kakileti (Director, Niramai Health Analytix) [citation:5][citation:10].",
+      },
+      {
+        question: "What is the JEE Advanced cutoff for IIT Guwahati?",
+        answer:
+          "The opening rank for IIT Guwahati admission typically ranges from 500-650, while the closing rank ranges from 9000-9500 for general category students. For Computer Science, the cutoff is significantly higher. Students need a valid score in JEE Advanced along with 75% marks in XII (65% for reserved categories) [citation:3].",
+      },
+      {
+        question: "What are the hostel facilities at IIT Guwahati?",
+        answer:
+          "IIT Guwahati has 12 hostels (10 for boys, 2 for girls) accommodating over 3,000 students with single-seater rooms. Each hostel is equipped with high-speed WiFi, LAN connectivity, multipurpose common rooms, TV rooms, table tennis, gym, volleyball/badminton courts, reading rooms, and mess facilities with round-the-clock canteen. Each floor has washing machines and water coolers [citation:4][citation:9].",
+      },
+      {
+        question: "What research facilities does IIT Guwahati offer?",
+        answer:
+          "IIT Guwahati has state-of-the-art research facilities including the Centre for Nanotechnology, Centre for the Environment, Centre for Linguistic Science & Technology, Speech Signal Processing Lab, VLSI Design Lab, and 5G NR Wireless Access Lab. It ranks 10th in India for research output and 42nd globally for Research Citations per Faculty in QS Rankings 2026 [citation:4][citation:6][citation:9].",
+      },
+      {
+        question: "Is IIT Guwahati good for MBA?",
+        answer:
+          "Yes, the Department of Management Studies at IIT Guwahati offers a 2-year MBA program with total fees of approximately ₹9.69 Lakhs. Admission is through CAT score, followed by GD-PI. The program has strong industry connections with recruiters like Deloitte, Cognizant, Amazon, and Adobe [citation:8].",
+      },
+      {
+        question: "What is the biggest drawback of IIT Guwahati?",
+        answer:
+          "According to student reviews, the primary drawback of IIT Guwahati is its location. Being in Northeast India, it is relatively remote compared to other IITs, which can affect travel connectivity and accessibility for students from other parts of the country. However, students consistently rate the campus beauty, academic quality, and placement opportunities as outstanding, making it a top choice despite this factor [citation:3][citation:8].",
+      },
+    ],
+  },
+  {
+    id: "1108",
+    slug: "iit-hyderabad",
+    name: "Indian Institute of Technology Hyderabad",
+    shortName: "IITH",
+    tagline: "तमसो मा ज्योतिर्गमय (Lead me from darkness to light)",
+    overview:
+      "India's youngest top-tier IIT, renowned for record-breaking placement packages, interdisciplinary research, and a modern 1000-acre campus.",
+    description:
+      "Indian Institute of Technology Hyderabad (IITH) was established in 2008 as part of the eighth IIT. In less than two decades, it has rocketed to the top echelons of engineering education, consistently ranking in the top 10 of the NIRF rankings. Known for its 'Open House' culture, flexible curriculum, and strong industry linkages, IITH made global headlines in 2026 when a student secured a ₹2.5 crore international package, the highest ever in its history. The institute is currently transitioning to its permanent 1000-acre campus, featuring sustainable architecture and cutting-edge research facilities [citation:2][citation:7][citation:4].",
+    logo: "/logos/iit-hyderabad.png",
+    stream: "engineering",
+    type: "government",
+    category: "premier",
+    ranking: 8,
+    rating: 4.5,
+    nirfRank: 7,
+    googleRating: 4.4,
+    reviews: {
+      count: 5200,
+      average: 4.5,
+      academics: 4.6,
+      infrastructure: 4.5,
+      placement: 4.8,
+      faculty: 4.5,
+    },
+    established: 2008,
+    accreditation: "Institute of National Importance",
+    naacGrade: "A++",
+    affiliations: ["Institute of National Importance"],
+    recognition: ["UGC", "AICTE", "Ministry of Education"],
+    location: {
+      city: "Hyderabad",
+      state: "Telangana",
+      country: "India",
+      pincode: "502285",
+      campusSize: "1000 acres",
+      campusType: "suburban",
+      latitude: 17.5935,
+      longitude: 78.1235,
+      address: "IITH Main Road, Sangareddy, Kandi, Hyderabad, Telangana 502285",
+    },
+    fees: {
+      annual: 235750,
+      total: 943000,
+      hostel: 60000,
+      mess: 52500,
+      otherCharges: 34250,
+      scholarshipAvailable: true,
+      scholarshipDetails: [
+        "100% Tuition Fee Waiver (Family Income < ₹1L)",
+        "2/3rd Tuition Fee Waiver (Family Income ₹1-5L)",
+        "SC/ST: Full tuition reimbursement + pocket money",
+        "MCM Scholarship for deserving students",
+        "GATE: Monthly stipend of ₹12,400 for M.Tech",
+      ],
+      paymentOptions: [
+        "Online Payment (SBI Collect)",
+        "NEFT/RTGS",
+        "Demand Draft",
+        "Semester Installments",
+      ],
+    },
+    placement: {
+      averagePackage: 3020000,
+      highestPackage: 25000000,
+      medianPackage: 2100000,
+      percentage: 62.42,
+      totalOffers: 304,
+      totalStudents: 487,
+      internationalOffers: 24,
+      dreamOffers: 7,
+      averagePackageTrend: 75,
+      topRecruiters: [
+        "Optiver (Netherlands)",
+        "Google",
+        "Amazon",
+        "Microsoft",
+        "Goldman Sachs",
+        "Texas Instruments",
+        "Intel",
+        "NVIDIA",
+        "Qualcomm",
+        "Uber",
+        "Airbus",
+        "Siemens",
+        "Tata Elxsi",
+        "JPMorgan Chase",
+        "Deutsche Bank",
+      ],
+      recruitmentSectors: [
+        "Quantitative Finance",
+        "FAANG",
+        "Core Engineering",
+        "Consulting",
+        "Product Management",
+        "Semiconductors",
+        "Robotics",
+      ],
+      placementStats: [
+        {
+          year: 2026,
+          averagePackage: 3020000,
+          highestPackage: 25000000,
+          percentage: 62.4,
+        },
+        {
+          year: 2025,
+          averagePackage: 2080000,
+          highestPackage: 6613000,
+          percentage: 74.0,
+        },
+        {
+          year: 2024,
+          averagePackage: 2000000,
+          highestPackage: 9000000,
+          percentage: 72.0,
+        },
+        {
+          year: 2023,
+          averagePackage: 1726000,
+          highestPackage: 4098000,
+          percentage: 70.0,
+        },
+      ],
+    },
+    academics: {
+      coursesOffered: [
+        "B.Tech",
+        "M.Tech",
+        "PhD",
+        "MS by Research",
+        "M.Sc",
+        "MA",
+        "MBA",
+        "Executive M.Tech",
+      ],
+      popularCourses: [
+        "B.Tech Computer Science & Engineering",
+        "B.Tech Artificial Intelligence (Flagship)",
+        "B.Tech Mathematics & Computing",
+        "B.Tech Engineering Science",
+        "M.Tech Communication and Signal Processing",
+      ],
+      facultyCount: 550,
+      studentCount: 4600,
+      studentFacultyRatio: "14:1",
+      specialization: [
+        "Artificial Intelligence",
+        "Computer Science",
+        "Mathematics & Computing",
+        "Biomedical Engineering",
+        "IC Design and Technology",
+        "Climate Science",
+        "Robotics",
+        "Computational Engineering",
+      ],
+      departments: [
+        "Computer Science & Engineering",
+        "Artificial Intelligence",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Biotechnology",
+        "Biomedical Engineering",
+        "Materials Science & Metallurgical Engineering",
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Liberal Arts",
+        "Design",
+      ],
+      researchCenters: 45,
+      publications: 2800,
+      collaborations: [
+        "University of British Columbia",
+        "Technical University of Munich",
+        "University of Melbourne",
+        "Nanyang Technological University",
+        "KAIST",
+      ],
+      teachingMode: "offline",
+    },
+    infrastructure: {
+      library: {
+        name: "IITH Central Library",
+        books: 20000,
+        journals: 10000,
+        digitalResources: 500000,
+        seatingCapacity: 600,
+      },
+      labs: {
+        count: 60,
+        majorLabs: [
+          "Advanced Computing Lab",
+          "IC Design Lab",
+          "Robotics & Automation Lab",
+          "Biomedical Instrumentation Lab",
+          "High Performance Computing Facility",
+          "Smart Materials Lab",
+          "Water Purification Research Center",
+        ],
+        equipmentValue: 250000000,
+      },
+      sports: {
+        facilities: [
+          "Swimming Pool",
+          "Football Ground",
+          "Cricket Ground",
+          "Tennis Court",
+          "Basketball Court",
+          "Badminton Courts",
+          "Volleyball Court",
+          "Table Tennis Room",
+          "Gymnasium",
+        ],
+        stadium: false,
+        gym: true,
+        swimmingPool: true,
+      },
+      hostel: {
+        boys: true,
+        girls: true,
+        capacity: 3000,
+        rooms: 1500,
+        facilities: [
+          "Single occupancy rooms",
+          "High-speed WiFi (1 Gbps)",
+          "Radiant cooling technology",
+          "Common rooms with TV",
+          "Indoor games",
+          "Laundry service",
+          "24/7 medical assistance",
+          "CCTV security",
+        ],
+      },
+      wifi: true,
+      cafeteria: 4,
+      medical: true,
+      transportation: true,
+      auditorium: 2,
+    },
+    admission: {
+      entranceExam: ["JEE Advanced", "GATE", "JAM", "CAT", "COAP"],
+      cutoff: 667,
+      cutoffTrend: -5,
+      applicationMode: "Online",
+      applicationFee: 2500,
+      selectionProcess: [
+        "JEE Advanced Score",
+        "JoSAA Counseling",
+        "Document Verification",
+        "COAP for M.Tech",
+      ],
+      eligibility: {
+        minPercentage: 75,
+        subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+        ageLimit: 25,
+      },
+      importantDates: {
+        applicationStart: "April 1, 2026",
+        applicationEnd: "April 30, 2026",
+        examDate: "May 17, 2026",
+        resultDate: "June 15, 2026",
+        counsellingStart: "June 20, 2026",
+        counsellingEnd: "July 30, 2026",
+      },
+      documentsRequired: [
+        "10th Marksheet",
+        "12th Marksheet",
+        "JEE Advanced Scorecard",
+        "Category Certificate",
+        "Income Certificate",
+        "Domicile Certificate",
+        "Medical Fitness Certificate",
+      ],
+    },
+    campusLife: {
+      clubs: [
+        "Programming Club",
+        "Robotics Club",
+        "E-Cell",
+        "AI & ML Club",
+        "Music Club (Raag)",
+        "Dance Club (Nritya)",
+        "Dramatics Society (Abhinaya)",
+        "Photography Club (Chhayachitra)",
+        "Debating Society (Vaad-Vivaad)",
+        "Astronomy Club",
+        "Quizzing Club",
+      ],
+      festivals: [
+        "Elan (Annual Techno-Cultural Festival)",
+        "Abhinaya (Cultural Fest)",
+        "E-Summit (Entrepreneurship Summit)",
+      ],
+      technicalEvents: [
+        "Hackathons",
+        "Coding Competitions",
+        "Robotics Wars",
+        "Research Conclave",
+        "Industry Summit",
+      ],
+      culturalEvents: [
+        "Pro Shows (Celebrity nights)",
+        "Dance & Music Competitions",
+        "Drama Fest",
+        "Fashion Show",
+      ],
+      socialInitiatives: [
+        "National Service Scheme (NSS)",
+        "Blood Connect",
+        "Teach for Telangana",
+        "Sustainability Cell",
+      ],
+      annualBudget: 30000000,
+    },
+    faculty: {
+      total: 550,
+      phdHolders: 520,
+      professor: 180,
+      associateProfessor: 200,
+      assistantProfessor: 170,
+      industryExperience: 6,
+      internationalFaculty: 60,
+      awards: [
+        "Shanti Swarup Bhatnagar Prize",
+        "J.C. Bose Fellowship",
+        "Ramanujan Fellowship",
+        "Swarnajayanti Fellowship",
+        "SERB Distinguished Fellowship",
+        "IEEE Control Systems Award",
+      ],
+    },
+    alumni: {
+      notableAlumni: [
+        {
+          name: "Edward Nathan Varghese",
+          designation: "Software Engineer",
+          company: "Optiver (Netherlands)",
+        },
+        {
+          name: "Rahul Ramesh",
+          designation: "Co-founder & CEO",
+          company: "Yellow Messenger",
+        },
+        {
+          name: "Gaurav Gupta",
+          designation: "Co-founder",
+          company: "Navia Life Care",
+        },
+        {
+          name: "Ankit Rathi",
+          designation: "Co-founder",
+          company: "Adloid Technologies",
+        },
+        {
+          name: "Pratik Vaidya",
+          designation: "Machine Learning Scientist",
+          company: "Amazon",
+        },
+        {
+          name: "Aditi Ramesh",
+          designation: "Data Scientist",
+          company: "Microsoft",
+        },
+        {
+          name: "Ashwin Hebbar",
+          designation: "Research Scientist",
+          company: "NVIDIA",
+        },
+        {
+          name: "Praveen Dhankani",
+          designation: "Research Scientist",
+          company: "IBM Research",
+        },
+        { name: "Harika Gurram", designation: "Founder", company: "H Labs" },
+        {
+          name: "Naveen Chintamaneni",
+          designation: "Associate Director",
+          company: "NestAway",
+        },
+      ],
+      placementCompanies: [
+        "Optiver",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "Intel",
+        "NVIDIA",
+        "Texas Instruments",
+      ],
+      networkStrength: 86,
+    },
+    international: {
+      collaborations: 65,
+      studentExchange: true,
+      facultyExchange: true,
+      partnerUniversities: [
+        "Technical University of Munich",
+        "University of British Columbia",
+        "University of Melbourne",
+        "Nanyang Technological University",
+      ],
+      foreignStudents: 90,
+    },
+    contact: {
+      phone: ["+91-40-23016001", "+91-40-23016002"],
+      email: [
+        "deanacad@iith.ac.in",
+        "registrar@iith.ac.in",
+        "placement@iith.ac.in",
+        "admission@iith.ac.in",
+      ],
+      website: "https://www.iith.ac.in",
+      socialMedia: {
+        facebook: "https://facebook.com/iithyderabad",
+        twitter: "https://twitter.com/IITHyderabad",
+        linkedin: "https://linkedin.com/school/iit-hyderabad",
+        instagram: "https://instagram.com/iithyderabad",
+        youtube: "https://youtube.com/IITHyderabad",
+      },
+      admissionContact: {
+        phone: "+91-40-23016666",
+        email: "admission@iith.ac.in",
+      },
+    },
+    facilities: [
+      "1000-acre green campus",
+      "Radiant cooling hostels (energy efficient)",
+      "High-speed WiFi (1 Gbps backbone)",
+      "Olympic-size swimming pool",
+      "State-of-the-art gym",
+      "24x7 Medical clinic",
+      "Banking & ATM complex",
+      "Shopping center",
+      "Central library with digital repository",
+      "Sustainability initiatives: Rainwater harvesting, solar panels",
+    ],
+    achievements: [
+      "Youngest IIT to break into top 10 NIRF rankings",
+      "Highest ever international package in IITH history: ₹2.5 crore (2026)",
+      "Average package surge: 75% increase in one year (2025-26)",
+      "Ranked #7 in NIRF Engineering Rankings 2025",
+      "1st IIT to have dedicated B.Tech in Artificial Intelligence",
+      "India's first 'Open House' research exposition",
+      "24 international offers in a single placement season (2026)",
+    ],
+    newsUpdates: [
+      {
+        title:
+          "IIT Hyderabad student Edward Nathan Varghese secures record ₹2.5 crore package from Optiver, Netherlands",
+        date: "2026-01-01",
+        link: "https://economictimes.indiatimes.com/jobs/fresher/iit-hyderabad-student-makes-history",
+      },
+      {
+        title:
+          "304 of 487 B.Tech students placed in Phase I; average CTC exceeds ₹30 lakh",
+        date: "2026-01-05",
+        link: "https://www.thehindu.com/news/national/telangana/iit-hyderabad-reports-6242-placement-rate",
+      },
+      {
+        title: "JEE Advanced 2026 exam date announced: May 17",
+        date: "2025-12-06",
+        link: "https://jeeadv.ac.in",
+      },
+    ],
+    gallery: [
+      {
+        type: "campus",
+        url: "/gallery/iith-campus1.jpg",
+        caption: "Permanent Campus Entrance",
+      },
+      {
+        type: "campus",
+        url: "/gallery/iith-campus2.jpg",
+        caption: "Academic Block",
+      },
+      { type: "lab", url: "/gallery/iith-lab1.jpg", caption: "IC Design Lab" },
+      {
+        type: "sports",
+        url: "/gallery/iith-sports1.jpg",
+        caption: "Swimming Pool",
+      },
+      {
+        type: "hostel",
+        url: "/gallery/iith-hostel1.jpg",
+        caption: "Radiant Cooling Hostels",
+      },
+      {
+        type: "event",
+        url: "/gallery/iith-event1.jpg",
+        caption: "Elan Festival",
+      },
+    ],
+    faqs: [
+      {
+        question: "Is IIT Hyderabad better than IIIT Hyderabad?",
+        answer:
+          "This is a common confusion. IIT Hyderabad (est. 2008) and IIIT Hyderabad (est. 1998) are different institutes. IIT Hyderabad is an Institute of National Importance with NIRF rank #7 in engineering. IIIT Hyderabad is a private autonomous institute (NIRF #38). IITH generally has higher cutoffs and is the preferred choice for JEE Advanced rankers [citation:1][citation:3].",
+      },
+      {
+        question: "What is the highest package at IIT Hyderabad in 2026?",
+        answer:
+          "The highest international package is ₹2.5 crore per annum, secured by Edward Nathan Varghese (CSE) at Optiver, Netherlands. The highest domestic package is ₹1.1 crore [citation:2][citation:7].",
+      },
+      {
+        question: "What is the average package at IIT Hyderabad?",
+        answer:
+          "As of January 2026, the average CTC for B.Tech students stands at over ₹30 lakh per annum. This represents a 75% increase from the previous year's average of ₹20.8 lakh [citation:2][citation:7].",
+      },
+      {
+        question: "What is the JEE Advanced cutoff for IIT Hyderabad?",
+        answer:
+          "For general category, the closing rank in 2025 was approximately 6,000-10,000 depending on the branch. Computer Science requires ~1,000-1,500 rank, Artificial Intelligence ~1,500-2,000 [citation:3].",
+      },
+      {
+        question: "What is the campus size of IIT Hyderabad?",
+        answer:
+          "The permanent campus is 1000 acres in Kandi, Sangareddy. The temporary campus in Gachibowli is 66 acres and houses some research facilities [citation:4].",
+      },
+      {
+        question: "Does IIT Hyderabad have hostel guarantee?",
+        answer:
+          "Yes, all B.Tech and M.Tech students are guaranteed single-seat hostel accommodation. The hostels feature radiant cooling technology, which is unique among IITs [citation:4].",
+      },
+      {
+        question: "Who is the most famous faculty at IIT Hyderabad?",
+        answer:
+          "Prof. Mathukumalli Vidyasagar is a Distinguished Professor and Fellow of the Royal Society (FRS). He has won the IEEE Control Systems Award and the Rufus Oldenburger Medal, and has an Erdős number of 2 and an Einstein number of 3 [citation:5].",
+      },
+      {
+        question: "What is unique about IIT Hyderabad's curriculum?",
+        answer:
+          "IITH follows a flexible credit system with an 'Open House' culture where students can work on interdisciplinary projects across departments. It was the first IIT to introduce a dedicated B.Tech in Artificial Intelligence [citation:3].",
+      },
+      {
+        question: "What are the internship opportunities at IIT Hyderabad?",
+        answer:
+          "The B.Tech 2027 internship season saw 279 offers with stipends up to ₹7.5 lakh per month, including 15 international internships [citation:2].",
+      },
+      {
+        question: "Who are the top recruiters for core engineering branches?",
+        answer:
+          "Texas Instruments, Intel, NVIDIA, Airbus, Siemens, and Tata Elxys actively recruit from Mechanical, Electrical, and Civil departments [citation:2][citation:3].",
+      },
+    ],
+  },
+  {
+    "id": "1109",
+    "slug": "nit-trichy",
+    "name": "National Institute of Technology Tiruchirappalli",
+    "shortName": "NITT",
+    "tagline": "सिद्धिर्भवति कर्मजा (Success is born of action)",
+    "overview": "India's premier NIT, consistently ranked the #1 NIT in India and the only non-IIT institution in the NIRF Engineering top 10, renowned for its 1964 legacy, vast alumni network, and 777-acre green campus.",
+    "description": "National Institute of Technology Tiruchirappalli (NIT Trichy), formerly known as Regional Engineering College (REC), was established in 1964 through a collaboration between the Government of India and the Government of Tamil Nadu. In less than six decades, it has established itself as the undisputed leader among all NITs, earning the title of 'Rank 1 NIT' nationwide. NIT Trichy stands as the only non-IIT institution to break into the elite top 10 of the NIRF Engineering rankings, securing the 9th position in 2025 and consistently outperforming several IITs. The institute is celebrated for its remarkable alumni network, producing leaders like N. Chandrasekaran (Chairperson of Tata Group) and K. R. Sridhar (CEO of Bloom Energy). Spread across a sprawling 777.77-acre campus, NIT Trichy features sustainable infrastructure including Miyawaki forests, teak wood farms, sewage treatment plants, and dual-source power supply. Alumni contributions have funded transformative projects like the ₹150 crore innovation hub, reflecting the institute's enduring impact [citation:2][citation:5][citation:6].",
+    "logo": "/logos/nit-trichy.png",
+    "stream": "engineering",
+    "type": "government",
+    "category": "premier",
+    "ranking": 9,
+    "rating": 4.4,
+    "nirfRank": 9,
+    "googleRating": 4.3,
+    "reviews": {
+        "count": 3100,
+        "average": 4.4,
+        "academics": 4.5,
+        "infrastructure": 4.3,
+        "placement": 4.6,
+        "faculty": 4.4
+    },
+    "established": 1964,
+    "accreditation": "Institute of National Importance",
+    "naacGrade": "A++",
+    "affiliations": ["Institute of National Importance"],
+    "recognition": ["UGC", "AICTE", "Ministry of Education"],
+    "location": {
+        "city": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "pincode": "620015",
+        "campusSize": "777.77 acres",
+        "campusType": "suburban",
+        "latitude": 10.7589,
+        "longitude": 78.7132,
+        "address": "National Institute of Technology, Tanjore Main Road, National Highway 83, Thuvakudi, Tiruchirappalli, Tamil Nadu 620015"
+    },
+    "fees": {
+        "annual": 165000,
+        "total": 660000,
+        "hostel": 40000,
+        "mess": 45000,
+        "otherCharges": 25000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "100% Tuition Fee Waiver for SC/ST students",
+            "Full tuition reimbursement for economically weaker sections",
+            "Merit-cum-Means Scholarship for deserving students",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech",
+            "Alumni-funded scholarships through RECAL"
+        ],
+        "paymentOptions": [
+            "Online Payment",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 1576000,
+        "highestPackage": 40000000,
+        "medianPackage": 1576000,
+        "percentage": 88.90,
+        "totalOffers": 809,
+        "totalStudents": 910,
+        "internationalOffers": 15,
+        "dreamOffers": 24,
+        "averagePackageTrend": 46,
+        "topRecruiters": [
+            "Microsoft",
+            "Google",
+            "Intel",
+            "Oracle",
+            "Infosys",
+            "Samsung",
+            "Sony",
+            "Volvo",
+            "ITC",
+            "Yahoo",
+            "HONEYWELL",
+            "Wipro",
+            "Aricent",
+            "Ashok Leyland",
+            "PepsiCo"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Product Management",
+            "Automobile",
+            "Manufacturing",
+            "FMCG"
+        ],
+        "placementStats": [
+            {
+                "year": 2024,
+                "averagePackage": 1576000,
+                "highestPackage": 2700000,
+                "percentage": 88.9
+            },
+            {
+                "year": 2023,
+                "averagePackage": 1576000,
+                "highestPackage": 4000000,
+                "percentage": 90.6
+            },
+            {
+                "year": 2022,
+                "averagePackage": 1200000,
+                "highestPackage": 4000000,
+                "percentage": 90.9
+            },
+            {
+                "year": 2021,
+                "averagePackage": 1080000,
+                "highestPackage": 4000000,
+                "percentage": 89.5
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "M.Tech",
+            "PhD",
+            "MCA",
+            "MBA",
+            "M.Sc",
+            "M.Arch",
+            "B.Arch"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Electrical & Electronics Engineering",
+            "B.Tech Mechanical Engineering",
+            "B.Tech Instrumentation & Control Engineering"
+        ],
+        "facultyCount": 400,
+        "studentCount": 6500,
+        "studentFacultyRatio": "16:1",
+        "specialization": [
+            "Computer Science",
+            "Electronics & Communication",
+            "Electrical & Electronics",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Chemical Engineering",
+            "Instrumentation & Control",
+            "Metallurgical & Materials Engineering"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Electronics & Communication Engineering",
+            "Electrical & Electronics Engineering",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Chemical Engineering",
+            "Metallurgical & Materials Engineering",
+            "Production Engineering",
+            "Instrumentation & Control Engineering",
+            "Architecture",
+            "Management Studies",
+            "Sciences",
+            "Humanities & Social Sciences"
+        ],
+        "researchCenters": 25,
+        "publications": 2200,
+        "collaborations": [
+            "Technical University of Munich",
+            "University of British Columbia",
+            "Nanyang Technological University",
+            "KAIST"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 150000,
+            "journals": 500,
+            "digitalResources": 300000,
+            "seatingCapacity": 800
+        },
+        "labs": {
+            "count": 75,
+            "majorLabs": [
+                "High Voltage Engineering Lab",
+                "VLSI Design Lab",
+                "Robotics & Automation Lab",
+                "Advanced Computing Lab",
+                "Materials Characterization Lab",
+                "Fluid Mechanics Lab",
+                "Control Systems Lab"
+            ],
+            "equipmentValue": 350000000
+        },
+        "sports": {
+            "facilities": [
+                "Football Ground",
+                "Cricket Ground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Courts",
+                "Volleyball Court",
+                "Hockey Field",
+                "Table Tennis Room",
+                "Gymnasium",
+                "Athletic Track"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 4000,
+            "rooms": 2000,
+            "facilities": [
+                "Single and double occupancy rooms",
+                "High-speed WiFi",
+                "Common rooms with TV",
+                "Indoor games",
+                "Laundry service",
+                "24/7 medical assistance",
+                "CCTV security",
+                "Mess with diverse cuisine"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 6,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 3
+    },
+    "admission": {
+        "entranceExam": ["JEE Main", "GATE", "JAM", "CAT", "CMAT"],
+        "cutoff": 5362,
+        "cutoffTrend": -8,
+        "applicationMode": "Online",
+        "applicationFee": 2500,
+        "selectionProcess": [
+            "JEE Main Score",
+            "JoSAA Counseling",
+            "Document Verification",
+            "COAP for M.Tech",
+            "CCMT for Central Counselling"
+        ],
+        "eligibility": {
+            "minPercentage": 75,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "March 1, 2026",
+            "applicationEnd": "April 15, 2026",
+            "examDate": "May 5, 2026",
+            "resultDate": "June 10, 2026",
+            "counsellingStart": "June 15, 2026",
+            "counsellingEnd": "July 25, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "JEE Main Scorecard",
+            "Category Certificate",
+            "Income Certificate",
+            "Domicile Certificate",
+            "Medical Fitness Certificate"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Astronomy Club",
+            "Quizzing Club",
+            "Fine Arts Club"
+        ],
+        "festivals": [
+            "Festember (Annual Cultural Festival)",
+            "Pragyan (Annual Techno-Management Festival)",
+            "Sportsem (Annual Sports Festival)"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Research Conclave",
+            "Industry Conclave"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Spastics Society of Tamil Nadu Collaboration",
+            "Sustainability Cell",
+            "Green Campus Initiative"
+        ],
+        "annualBudget": 45000000
+    },
+    "faculty": {
+        "total": 400,
+        "phdHolders": 380,
+        "professor": 140,
+        "associateProfessor": 130,
+        "assistantProfessor": 130,
+        "industryExperience": 5,
+        "internationalFaculty": 25,
+        "awards": [
+            "Shanti Swarup Bhatnagar Prize",
+            "J.C. Bose Fellowship",
+            "Ramanujan Fellowship",
+            "Swarnajayanti Fellowship",
+            "SERB Distinguished Fellowship",
+            "Young Scientist Award"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "N. Chandrasekaran",
+                "designation": "Chairperson",
+                "company": "Tata Group"
+            },
+            {
+                "name": "K. R. Sridhar",
+                "designation": "CEO & Co-founder",
+                "company": "Bloom Energy"
+            },
+            {
+                "name": "Ravi Shankar",
+                "designation": "Senior Vice President",
+                "company": "Microsoft"
+            },
+            {
+                "name": "Vijay Govindarajan",
+                "designation": "Professor",
+                "company": "Tuck School of Business, Dartmouth"
+            },
+            {
+                "name": "Sriram Rajamani",
+                "designation": "Distinguished Scientist",
+                "company": "Microsoft Research India"
+            },
+            {
+                "name": "Sundararajan Mahalingam",
+                "designation": "Executive Vice President",
+                "company": "Oracle"
+            },
+            {
+                "name": "Shankar Narayanan",
+                "designation": "Managing Director",
+                "company": "Goldman Sachs"
+            },
+            {
+                "name": "Venkatesh Subramaniam",
+                "designation": "Senior Vice President",
+                "company": "Infosys"
+            },
+            {
+                "name": "Thillaikarasi Ranganathan",
+                "designation": "Director",
+                "company": "Amazon"
+            },
+            {
+                "name": "Ganesh Natarajan",
+                "designation": "Founder & Chairman",
+                "company": "5F World"
+            }
+        ],
+        "placementCompanies": [
+            "Microsoft",
+            "Google",
+            "Intel",
+            "Oracle",
+            "Samsung",
+            "Volvo",
+            "Sony"
+        ],
+        "networkStrength": 92
+    },
+    "international": {
+        "collaborations": 40,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "Technical University of Munich",
+            "University of British Columbia",
+            "Nanyang Technological University",
+            "KAIST"
+        ],
+        "foreignStudents": 120
+    },
+    "contact": {
+        "phone": [
+            "+91-431-2503XXX",
+            "+91-431-2504135 (Boys Hostel)",
+            "+91-431-2503907 (Girls Hostel)",
+            "+91-431-2503846 (Power House - Emergency)"
+        ],
+        "email": [
+            "director@nitt.edu",
+            "registrar@nitt.edu",
+            "placement@nitt.edu",
+            "admission@nitt.edu",
+            "cworks@nitt.edu (Chief of Works)",
+            "ee@nitt.edu (Executive Engineer)"
+        ],
+        "website": "https://www.nitt.edu",
+        "socialMedia": {
+            "facebook": "https://facebook.com/NITTrichy",
+            "twitter": "https://twitter.com/NITT_Official",
+            "linkedin": "https://linkedin.com/school/nit-trichy",
+            "instagram": "https://instagram.com/nittrichy",
+            "youtube": "https://youtube.com/NITTrichy"
+        },
+        "admissionContact": {
+            "phone": "+91-431-2503666",
+            "email": "admission@nitt.edu"
+        }
+    },
+    "facilities": [
+        "777.77-acre green campus with Miyawaki forest",
+        "Dual-source 11 kV power supply with 3072.5 kVA DG backup",
+        "24 lifts with electro-mechanical maintenance",
+        "1600+ split air conditioners across campus",
+        "Sewage Treatment Plants (300 KLD and 800 KLD)",
+        "Reverse Osmosis plant",
+        "Water supply with overhead tanks (4-5 lakh litres capacity)",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic",
+        "Banking complex",
+        "613 staff quarters with full maintenance",
+        "Shopping center",
+        "Central library with digital repository",
+        "Sustainability initiatives: Rainwater harvesting, solar panels, compost yard",
+        "Teak wood farm and coconut farm"
+    ],
+    "achievements": [
+        "Ranked #1 NIT in India consistently across all rankings",
+        "Only non-IIT institution in NIRF Engineering Top 10 (Rank #9 in 2025)",
+        "Alumni Chairperson of Tata Group: N. Chandrasekaran",
+        "Alumni CEO of Bloom Energy (NASA Mars mission technologist): K. R. Sridhar",
+        "₹150 crore innovation hub funded by alumni network through RECAL",
+        "Over 80% placement rate sustained for two decades",
+        "BTech median package growth: ₹10.8 LPA (2021) → ₹15.76 LPA (2023)",
+        "One of the oldest RECs established in 1964, transforming to NIT in 2002",
+        "Home State cutoff for CSE: Rank 5362 (2025)",
+        "MSc students offered packages up to ₹27 LPA in 2024"
+    ],
+    "newsUpdates": [
+        {
+            "title": "NIT Trichy remains only non-IIT in NIRF Engineering Top 10, secures 9th rank in 2025",
+            "date": "2025-09-04",
+            "link": "https://indianexpress.com/article/education/nirf-ranking-2025"
+        },
+        {
+            "title": "NIT Trichy BTech placements 2024: 88.9% students placed, median package holds at ₹15.76 LPA",
+            "date": "2024-12-15",
+            "link": "https://www.nitt.edu/placement"
+        },
+        {
+            "title": "Alumni-funded ₹150 crore innovation hub project underway at NIT Trichy",
+            "date": "2025-01-03",
+            "link": "https://www.linkedin.com/posts/dr-rajmohan-palanivelu"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/nitt-campus1.jpg",
+            "caption": "Main Building - Administrative Block"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/nitt-campus2.jpg",
+            "caption": "Academic Complex"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/nitt-lab1.jpg",
+            "caption": "High Voltage Engineering Lab"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/nitt-sports1.jpg",
+            "caption": "Cricket Ground"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/nitt-hostel1.jpg",
+            "caption": "Boys Hostel Complex"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/nitt-event1.jpg",
+            "caption": "Festember Cultural Festival"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is NIT Trichy better than other NITs?",
+            "answer": "Yes, NIT Trichy is consistently ranked as the #1 NIT in India. In NIRF 2025, it is the only NIT in the top 10 engineering colleges (ranked 9th), outperforming NIT Surathkal, NIT Warangal, and NIT Rourkela. It has the highest cutoffs, strongest alumni network (Tata Group Chairperson), and highest placement median among all NITs [citation:2][citation:4][citation:8]."
+        },
+        {
+            "question": "What is the highest package at NIT Trichy?",
+            "answer": "The highest international package recorded is ₹40 LPA (2022-23). The highest package for MSc students reached ₹27 LPA in 2024. The median BTech package is ₹15.76 LPA (2023) [citation:9]."
+        },
+        {
+            "question": "What is the average package at NIT Trichy?",
+            "answer": "The median package for BTech is ₹15.76 LPA (2023). For MTech, the median package is ₹10 LPA. For MBA, the median package is ₹8.70 LPA. The CSE branch consistently achieves the highest placements with 98% placement rate [citation:9]."
+        },
+        {
+            "question": "What is the JEE Main cutoff for NIT Trichy?",
+            "answer": "For CSE (Home State, Open Gender-Neutral), the closing rank was 5362 in 2025. For ECE: 8127, EEE: 9826, Mechanical: 11347. For Other State quota, CSE closes around Rank 1200. These are the highest among all NITs [citation:4][citation:10]."
+        },
+        {
+            "question": "What is the campus size of NIT Trichy?",
+            "answer": "The campus is spread over 777.77 acres in Thuvakudi, Trichy. It features Miyawaki forest, teak wood farms, coconut farms, dual-source power supply, sewage treatment plants (300 KLD + 800 KLD), and 613 staff quarters. It is one of the largest NIT campuses [citation:5]."
+        },
+        {
+            "question": "Does NIT Trichy have hostel guarantee?",
+            "answer": "Yes, NIT Trichy provides on-campus hostel accommodation for boys and girls with a capacity of over 4000 students. Facilities include Wi-Fi, mess, common rooms, indoor games, and 24/7 medical assistance. Hostel fees are approximately ₹40,000 per annum [citation:8][citation:9]."
+        },
+        {
+            "question": "Who are the most famous alumni of NIT Trichy?",
+            "answer": "N. Chandrasekaran (Chairperson, Tata Group), K. R. Sridhar (CEO, Bloom Energy - former NASA scientist), Ravi Shankar (SVP, Microsoft), Sriram Rajamani (Distinguished Scientist, Microsoft Research India). NIT Trichy's alumni network (RECAL) is considered the strongest among all NITs and funds major institute projects including a ₹150 crore innovation hub [citation:6]."
+        },
+        {
+            "question": "What is unique about NIT Trichy's curriculum?",
+            "answer": "NIT Trichy offers 10 undergraduate, 28 postgraduate, and doctoral programs. It is known for its flexible credit system, strong industry collaborations, and emphasis on core engineering disciplines. The institute has maintained over 85% placement rates consistently and has one of the oldest engineering traditions among NITs (est. 1964) [citation:9][citation:10]."
+        },
+        {
+            "question": "What is the fee structure at NIT Trichy?",
+            "answer": "Annual tuition fees for BTech range from ₹1.5-2 Lakhs. Total course fees for MTech (Construction Technology) are ₹2.18 Lakhs. SC/ST students receive full tuition fee waiver. Hostel and mess fees are additional (approx ₹85,000 per annum) [citation:3][citation:8]."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "Intel, Texas Instruments, Volvo, Ashok Leyland, Samsung, Sony, Honeywell, Aricent, and ITC actively recruit from Mechanical, ECE, EEE, and Civil departments. Microsoft, Google, Oracle, and Infosys recruit from CSE and IT branches [citation:9]."
+        }
     ]
-  },
-  alumni: {
-    notableAlumni: [
-      { name: "Kamal Kishore", designation: "Assistant Secretary-General", company: "United Nations (UNDRR)" },
-      { name: "Pankaj Agarwal", designation: "Secretary", company: "Ministry of Power, Govt. of India" },
-      { name: "Sushil Kumar", designation: "Managing Director", company: "U.P. Metro Rail Corporation" },
-      { name: "Jai Prakash Srivastava", designation: "Director (Engineering, R&D)", company: "BHEL" },
-      { name: "Karthik Reddy", designation: "Co-founder & Managing Partner", company: "Blume Ventures" },
-      { name: "Rishi Das", designation: "Founder", company: "CareerNet, IndiQube" },
-      { name: "Amit Garg", designation: "Founder & CEO", company: "HiLabs" },
-      { name: "Late Ar. Pradeep Sachdeva", designation: "Principal Architect", company: "PSDA" }
-    ],
-    placementCompanies: [
-      "Google", "Microsoft", "Amazon", "Goldman Sachs",
-      "McKinsey", "BCG", "Bain", "JP Morgan",
-      "Intel", "Qualcomm", "Samsung"
-    ],
-    networkStrength: 93
-  },
-  international: {
-    collaborations: 80,
-    studentExchange: true,
-    facultyExchange: true,
-    partnerUniversities: [
-      "ETH Zurich",
-      "University of Illinois",
-      "University of Leeds",
-      "National University of Singapore"
-    ],
-    foreignStudents: 150
-  },
-  contact: {
-    phone: ["+91-1332-285311", "+91-1332-285309"],
-    email: ["registrar@iitr.ac.in", "placement@iitr.ac.in", "admission@iitr.ac.in"],
-    website: "https://www.iitr.ac.in",
-    socialMedia: {
-      facebook: "https://facebook.com/iitroorkee",
-      twitter: "https://twitter.com/iitroorkee",
-      linkedin: "https://linkedin.com/school/iit-roorkee",
-      instagram: "https://instagram.com/iitroorkee",
-      youtube: "https://youtube.com/iitroorkee"
-    },
-    admissionContact: {
-      phone: "+91-1332-284520",
-      email: "admission@iitr.ac.in"
-    }
-  },
-  facilities: [
-    "24x7 Mahatma Gandhi Central Library",
-    "Param Ganga Supercomputer",
-    "Wi-Fi Campus",
-    "Sports Stadium",
-    "Swimming Pool",
-    "Boat Club",
-    "Himalayan Explorers Club",
-    "Wellness Centre",
-    "SBI & PNB Bank with ATM",
-    "Post Office",
-    "Railway Reservation Centre",
-    "Guest House"
-  ],
-  achievements: [
-    "India's Oldest Engineering College (est. 1847)",
-    "Institution of National Importance",
-    "Ranked #5 in Engineering (NIRF 2024) [citation:6]",
-    "175+ Years of Academic Excellence",
-    "Produces highest number of Civil Services & PSU leaders",
-    "Strongest Alumni Network in Government & Infrastructure"
-  ],
-  newsUpdates: [
-    {
-      title: "IIT Roorkee records 555 offers in first two days of Placement 2025-26 season",
-      date: "2025-12-01",
-      link: "https://www.hindustantimes.com/education/employment-news"
-    },
-    {
-      title: "IIT Roorkee Honors Distinguished Alumni 2024 & 2025 at Foundation Day",
-      date: "2025-11-25",
-      link: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2194141"
-    },
-    {
-      title: "Kamal Kishore (B.Arch) appointed Assistant Secretary-General of the United Nations",
-      date: "2024-03-27",
-      link: "https://iitr.ac.in"
-    }
-  ],
-  gallery: [
-    { type: "campus", url: "/gallery/iitr-campus1.jpg", caption: "Main Building (Renaissance Style Architecture)" },
-    { type: "campus", url: "/gallery/iitr-campus2.jpg", caption: "Mahatma Gandhi Central Library" },
-    { type: "campus", url: "/gallery/iitr-campus3.jpg", caption: "Institute Computer Centre" },
-    { type: "lab", url: "/gallery/iitr-lab1.jpg", caption: "Param Ganga Supercomputer" },
-    { type: "sports", url: "/gallery/iitr-sports1.jpg", caption: "Sports Stadium & Swimming Pool" },
-    { type: "event", url: "/gallery/iitr-event1.jpg", caption: "Thomso Cultural Festival" },
-    { type: "event", url: "/gallery/iitr-event2.jpg", caption: "Cognizance Technical Festival" }
-  ],
-  faqs: [
-    {
-      question: "What is IIT Roorkee famous for?",
-      answer: "IIT Roorkee is India's oldest technical institution (est. 1847). It is globally renowned for Civil Engineering, Hydrology, Water Resources, and Earthquake Engineering. It also has a very strong legacy in Architecture (B.Arch) and is the alma mater of numerous Secretaries to the Government of India and PSU Chairmen [citation:5][citation:10]."
-    },
-    {
-      question: "What is the JEE Advanced cutoff for IIT Roorkee?",
-      answer: "For General category, the cutoff for CSE is typically around 98+ percentile. For other branches, closing ranks range from 97-99 percentile. Being an older IIT, it is slightly more competitive than NITs but offers excellent ROI due to lower fees [citation:6][citation:8]."
-    },
-    {
-      question: "Is IIT Roorkee good for MBA?",
-      answer: "Yes. The DoMS (Department of Management Studies) has shown exceptional growth. In 2025, the average CTC was ₹17.91 LPA with the highest at ₹24 LPA. Marketing specialization paid the highest at ₹21.33 LPA. Recruiters include Accenture, Deloitte, Bank of America, and Coca-Cola [citation:7]."
-    },
-    {
-      question: "What are the hostel fees and facilities?",
-      answer: "UG hostel fees are approximately ₹7,500 per semester. Mess charges are around ₹20,250 - ₹26,250 per semester. There are 10 Boys Hostels and 3 Girls Hostels with Wi-Fi, common rooms, and cyber cafes [citation:4][citation:8]."
-    },
-    {
-      question: "Which IIT is better: Roorkee or Bombay/Delhi?",
-      answer: "For high-finance/consulting roles and city life, IIT Bombay/Delhi have an edge. However, IIT Roorkee offers a more affordable education, a distraction-free campus, and is exceptionally strong for core engineering, PSU jobs, and research in Earth Sciences. It offers a better ROI for budget-conscious students [citation:6]."
-    },
-    {
-      question: "Who are some famous alumni from IIT Roorkee?",
-      answer: "Distinguished alumni include Kamal Kishore (UN Assistant Secretary-General), Pankaj Agarwal (Secretary, Ministry of Power), Sushil Kumar (MD, U.P. Metro), and Karthik Reddy (Blume Ventures) [citation:5][citation:10]."
-    }
-  ]
 },
   {
     id: "2",
@@ -3588,7 +5777,7 @@ export const colleges: College[] = [
       foreignStudents: undefined,
     },
   },
-  
+
   {
     id: "16",
     slug: "scaler-school-of-technology",
