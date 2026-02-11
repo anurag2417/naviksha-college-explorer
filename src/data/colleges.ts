@@ -236,8 +236,461 @@ export interface College {
 }
 
 export const colleges: College[] = [
+
+  // Engineering - Government College 
+
   {
-    id: "1",
+  id: "1001",
+  slug: "iit-madras",
+  name: "Indian Institute of Technology Madras",
+  shortName: "IIT Madras",
+  tagline: "सत्यमेव जयते (Truth Alone Triumphs)",
+  overview: "India's top-ranked engineering institute and a premier center for technical education and research",
+  description: "Indian Institute of Technology Madras is one of the foremost institutes of national importance for higher technical education in India. Established in 1959 with technical assistance from the Government of West Germany, it has grown into a premier center of teaching, research, and industrial consultancy. The institute is located in a beautiful wooded land of about 250 hectares, and has a self-contained campus with all amenities.",
+  logo: "/logos/iit-madras.png",
+  stream: "engineering",
+  type: "government",
+  category: "premier",
+  ranking: 1,
+  rating: 4.8,
+  nirfRank: 1,
+  googleRating: 4.7,
+  reviews: {
+    count: 13200,
+    average: 4.8,
+    academics: 4.9,
+    infrastructure: 4.7,
+    placement: 4.8,
+    faculty: 4.8
+  },
+  established: 1959,
+  accreditation: "Institute of National Importance",
+  naacGrade: "A++",
+  affiliations: ["Institute of National Importance"],
+  recognition: ["UGC", "AICTE", "MHRD"],
+  location: {
+    city: "Chennai",
+    state: "Tamil Nadu",
+    country: "India",
+    pincode: "600036",
+    campusSize: "617 acres",
+    campusType: "urban",
+    latitude: 12.9915,
+    longitude: 80.2337,
+    address: "IIT Madras, Chennai, Tamil Nadu 600036"
+  },
+  fees: {
+    annual: 235000,
+    total: 940000,
+    hostel: 72000,
+    mess: 48000,
+    otherCharges: 15000,
+    scholarshipAvailable: true,
+    scholarshipDetails: [
+      "Institute Merit-cum-Means Scholarship",
+      "SC/ST Scholarship",
+      "Free Studentship for Economically Weaker Sections",
+      "Ministry of Education Scholarships",
+      "Private Trust Scholarships",
+      "Sports & Cultural Scholarships",
+      "Research Fellowships"
+    ],
+    paymentOptions: ["Online Payment", "Demand Draft", "Bank Transfer", "Scholarship Deduction"]
+  },
+  placement: {
+    averagePackage: 2450000,
+    highestPackage: 43000000,
+    medianPackage: 2200000,
+    percentage: 94,
+    totalOffers: 1300,
+    totalStudents: 1350,
+    internationalOffers: 110,
+    dreamOffers: 190,
+    averagePackageTrend: 10.5,
+    topRecruiters: [
+      "Microsoft", "Google", "Amazon", "Goldman Sachs",
+      "McKinsey & Company", "Boston Consulting Group", "Bain & Company",
+      "Intel", "Texas Instruments", "Qualcomm", "Samsung",
+      "JP Morgan", "Morgan Stanley", "Deutsche Bank",
+      "Tata Consultancy Services", "Infosys", "Wipro",
+      "Adobe", "Oracle", "IBM", "Cisco", "NVIDIA"
+    ],
+    recruitmentSectors: ["Information Technology", "Finance & Consulting", "Core Engineering", "Research & Development", "Analytics", "Product Management", "Manufacturing"],
+    placementStats: [
+      { year: 2024, averagePackage: 2450000, highestPackage: 43000000, percentage: 94 },
+      { year: 2023, averagePackage: 2200000, highestPackage: 40000000, percentage: 93 },
+      { year: 2022, averagePackage: 2000000, highestPackage: 38000000, percentage: 92 },
+      { year: 2021, averagePackage: 1800000, highestPackage: 35000000, percentage: 91 }
+    ]
+  },
+  academics: {
+    coursesOffered: ["B.Tech", "M.Tech", "PhD", "Dual Degree", "M.Sc", "MBA", "MS", "Executive Programs"],
+    popularCourses: ["B.Tech Computer Science", "B.Tech Electrical Engineering", "B.Tech Mechanical Engineering", "MBA", "M.Tech"],
+    facultyCount: 680,
+    studentCount: 10500,
+    studentFacultyRatio: "8:1",
+    specialization: [
+      "Computer Science",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Aerospace Engineering",
+      "Ocean Engineering",
+      "Metallurgical Engineering",
+      "Biotechnology"
+    ],
+    departments: [
+      "Computer Science & Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Aerospace Engineering",
+      "Ocean Engineering",
+      "Metallurgical & Materials Engineering",
+      "Biotechnology",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Humanities & Social Sciences",
+      "Management Studies"
+    ],
+    researchCenters: 125,
+    publications: 4800,
+    collaborations: [
+      "Massachusetts Institute of Technology (MIT)",
+      "Stanford University",
+      "University of California, Berkeley",
+      "University of Cambridge",
+      "Technical University of Munich",
+      "National University of Singapore",
+      "University of Tokyo"
+    ],
+    teachingMode: "offline"
+  },
+  infrastructure: {
+    library: {
+      name: "Central Library",
+      books: 500000,
+      journals: 12000,
+      digitalResources: 140000,
+      seatingCapacity: 1200
+    },
+    labs: {
+      count: 300,
+      majorLabs: [
+        "Supercomputer Education and Research Centre",
+        "National Centre for Catalysis Research",
+        "Centre for Nondestructive Evaluation",
+        "Robert Bosch Centre for Data Science and AI",
+        "Centre for Innovation",
+        "Healthcare Technology Innovation Centre",
+        "Advanced Manufacturing Technology Development Centre"
+      ],
+      equipmentValue: 520000000
+    },
+    sports: {
+      facilities: [
+        "Swimming Pool (Olympic-size)",
+        "Cricket Stadium",
+        "Football Ground",
+        "Tennis Courts (Clay & Synthetic)",
+        "Basketball Courts",
+        "Badminton Courts (Wooden)",
+        "Squash Courts",
+        "Table Tennis Hall",
+        "Gymnasium (Multi-level)",
+        "Athletics Track",
+        "Hockey Field",
+        "Volleyball Courts",
+        "Yoga Center"
+      ],
+      stadium: true,
+      gym: true,
+      swimmingPool: true
+    },
+    hostel: {
+      boys: true,
+      girls: true,
+      capacity: 8500,
+      rooms: 4250,
+      facilities: [
+        "High-speed WiFi",
+        "Laundry Service",
+        "Common Rooms with TV",
+        "Study Rooms (24x7)",
+        "Gym",
+        "Indoor Games Room",
+        "Music Room",
+        "Dance Room",
+        "Guest Rooms",
+        "Medical Facility",
+        "Cafeteria & Canteen",
+        "Cooperative Stores"
+      ]
+    },
+    wifi: true,
+    cafeteria: 15,
+    medical: true,
+    transportation: true,
+    auditorium: 5
+  },
+  admission: {
+    entranceExam: ["JEE Advanced"],
+    cutoff: 98.0,
+    cutoffTrend: 0.3,
+    applicationMode: "Online",
+    applicationFee: 2500,
+    selectionProcess: ["JEE Advanced Score", "JoSAA Counseling", "Seat Allocation", "Document Verification"],
+    eligibility: {
+      minPercentage: 75,
+      subjectsRequired: ["Physics", "Chemistry", "Mathematics"],
+      ageLimit: 25
+    },
+    importantDates: {
+      applicationStart: "January 1, 2024",
+      applicationEnd: "April 30, 2024",
+      examDate: "June 2024",
+      resultDate: "July 2024",
+      counsellingStart: "July 15, 2024",
+      counsellingEnd: "August 30, 2024"
+    },
+    documentsRequired: [
+      "10th Marksheet & Certificate",
+      "12th Marksheet & Certificate",
+      "JEE Advanced Scorecard",
+      "JEE Main Scorecard",
+      "Category Certificate (if applicable)",
+      "Income Certificate (for scholarship)",
+      "Domicile Certificate",
+      "Passport-size Photographs",
+      "Medical Fitness Certificate"
+    ]
+  },
+  campusLife: {
+    clubs: [
+      "Programming Club",
+      "Robotics Club",
+      "Entrepreneurship Cell",
+      "Music Club (Octaves)",
+      "Dance Club (Abhinaya)",
+      "Drama Club (Madras Players)",
+      "Photography Club (Shutterbug)",
+      "Debating Society",
+      "Literary Society (Literati)",
+      "Astronomy Club",
+      "Environmental Club",
+      "Quiz Club",
+      "Film Club",
+      "Fine Arts Club"
+    ],
+    festivals: [
+      "Saarang (Annual Cultural Festival)",
+      "Shaastra (Technical Festival)",
+      "Sports Fest"
+    ],
+    technicalEvents: [
+      "Hackathons",
+      "Coding Competitions",
+      "Robotics Competitions",
+      "Business Plan Competitions",
+      "Research Symposiums",
+      "Industry Interaction Programs",
+      "Innovation Challenges"
+    ],
+    culturalEvents: [
+      "Music Concerts",
+      "Dance Performances",
+      "Drama Nights",
+      "Art Exhibitions",
+      "Literary Events",
+      "Film Screenings",
+      "Comedy Shows"
+    ],
+    socialInitiatives: [
+      "National Service Scheme (NSS)",
+      "Teach for India Program",
+      "Blood Donation Camps",
+      "Environmental Awareness Drives",
+      "Community Development Programs",
+      "Women Empowerment Initiatives",
+      "Rural Development Projects"
+    ],
+    annualBudget: 50000000
+  },
+  faculty: {
+    total: 680,
+    phdHolders: 650,
+    professor: 240,
+    associateProfessor: 260,
+    assistantProfessor: 180,
+    industryExperience: 8,
+    internationalFaculty: 50,
+    awards: [
+      "Padma Awards (5 recipients)",
+      "Shanti Swarup Bhatnagar Prize (15 recipients)",
+      "Infosys Prize",
+      "TWAS Prize",
+      "J.C. Bose Fellowship",
+      "Swarnajayanti Fellowship",
+      "Ramanujan Fellowship"
+    ]
+  },
+  alumni: {
+    notableAlumni: [
+      { name: "Kris Gopalakrishnan", designation: "Co-founder", company: "Infosys" },
+      { name: "V. G. Siddhartha", designation: "Founder", company: "Cafe Coffee Day" },
+      { name: "N. Chandrasekaran", designation: "Chairman", company: "Tata Sons" },
+      { name: "Sachin Bansal", designation: "Co-founder", company: "Flipkart" },
+      { name: "Binny Bansal", designation: "Co-founder", company: "Flipkart" },
+      { name: "K. Sivan", designation: "Former Chairman", company: "ISRO" },
+      { name: "T. V. Mohandas Pai", designation: "Former CFO", company: "Infosys" }
+    ],
+    placementCompanies: [
+      "Google", "Microsoft", "Amazon", "Goldman Sachs",
+      "McKinsey", "BCG", "Bain", "JP Morgan",
+      "Morgan Stanley", "Intel", "Qualcomm", "Samsung"
+    ],
+    networkStrength: 96
+  },
+  international: {
+    collaborations: 150,
+    studentExchange: true,
+    facultyExchange: true,
+    partnerUniversities: [
+      "Massachusetts Institute of Technology (MIT)",
+      "Stanford University",
+      "University of Cambridge",
+      "National University of Singapore",
+      "University of Tokyo",
+      "Technical University of Munich",
+      "University of Sydney"
+    ],
+    foreignStudents: 320
+  },
+  contact: {
+    phone: ["+91-44-22578500", "+91-44-22578501"],
+    email: ["deanacad@iitm.ac.in", "registrar@iitm.ac.in", "placement@iitm.ac.in"],
+    website: "https://www.iitm.ac.in",
+    socialMedia: {
+      facebook: "https://facebook.com/iitmadras",
+      twitter: "https://twitter.com/iitmadras",
+      linkedin: "https://linkedin.com/school/iit-madras",
+      instagram: "https://instagram.com/iitmadras",
+      youtube: "https://youtube.com/iitmadras"
+    },
+    admissionContact: {
+      phone: "+91-44-22578570",
+      email: "admission@iitm.ac.in"
+    }
+  },
+  facilities: [
+    "24x7 Central Library",
+    "High-speed WiFi Campus",
+    "Sports Complex with Stadium",
+    "Medical Center with Ambulance",
+    "Multiple Banks & ATMs",
+    "Post Office",
+    "Shopping Complex",
+    "Book Store & Stationery",
+    "Food Court with Multiple Cuisines",
+    "Guest House",
+    "Auditorium & Conference Halls",
+    "Research Parks",
+    "Incubation Center (IITM Incubation Cell)",
+    "Career Development Center",
+    "Transportation Services",
+    "Recreational Centers"
+  ],
+  achievements: [
+    "Ranked #1 among Engineering Institutes in India (NIRF 2024)",
+    "QS World University Rankings: 250 (2024)",
+    "Times Higher Education: 251-300 band (2024)",
+    "Institute of Eminence (IoE) status",
+    "Highest number of patents among IITs",
+    "Excellence in Sports (Multiple Inter-IIT trophies)",
+    "Leading research output in engineering",
+    "Strongest alumni network among IITs"
+  ],
+  newsUpdates: [
+    { 
+      title: "IIT Madras launches India's first medical drone delivery network", 
+      date: "2024-01-25", 
+      link: "https://iitm.ac.in/news/medical-drone-delivery" 
+    },
+    { 
+      title: "Record placement season with highest package of ₹4.3 crore", 
+      date: "2023-12-18", 
+      link: "https://iitm.ac.in/news/placement-2023" 
+    },
+    { 
+      title: "IIT Madras partners with Stanford for AI research collaboration", 
+      date: "2023-11-12", 
+      link: "https://iitm.ac.in/news/stanford-partnership" 
+    },
+    { 
+      title: "Students develop low-cost water purification system for rural areas", 
+      date: "2023-09-20", 
+      link: "https://iitm.ac.in/news/water-purification-project" 
+    }
+  ],
+  gallery: [
+    { type: "campus", url: "/gallery/iitm-campus1.jpg", caption: "Main Building" },
+    { type: "campus", url: "/gallery/iitm-campus2.jpg", caption: "Central Library" },
+    { type: "campus", url: "/gallery/iitm-campus3.jpg", caption: "Gajendra Circle" },
+    { type: "lab", url: "/gallery/iitm-lab1.jpg", caption: "Supercomputer Centre" },
+    { type: "lab", url: "/gallery/iitm-lab2.jpg", caption: "Research Laboratory" },
+    { type: "hostel", url: "/gallery/iitm-hostel1.jpg", caption: "Student Hostels" },
+    { type: "sports", url: "/gallery/iitm-sports1.jpg", caption: "Sports Complex" },
+    { type: "event", url: "/gallery/iitm-event1.jpg", caption: "Saarang Cultural Festival" },
+    { type: "event", url: "/gallery/iitm-event2.jpg", caption: "Shaastra Technical Festival" }
+  ],
+  faqs: [
+    { 
+      question: "What is the JEE Advanced cutoff for IIT Madras?", 
+      answer: "The cutoff varies by branch and category. For General category, Computer Science typically requires 99+ percentile, while other branches range from 97-99 percentile. The exact cutoff changes annually based on competition." 
+    },
+    { 
+      question: "What are the most popular branches at IIT Madras?", 
+      answer: "Computer Science & Engineering is the most sought-after, followed by Electrical Engineering, Mechanical Engineering, and Engineering Design. The institute is also known for its unique programs in Ocean Engineering and Metallurgical Engineering." 
+    },
+    { 
+      question: "Does IIT Madras have a dedicated incubation center?", 
+      answer: "Yes, IIT Madras has one of India's largest and most successful incubation ecosystems - the IITM Incubation Cell. It has incubated over 300 startups with a cumulative valuation of over $10 billion." 
+    },
+    { 
+      question: "What is special about IIT Madras campus?", 
+      answer: "The 617-acre campus is India's largest IIT campus and is known as a 'deer park' due to its abundant green cover and wildlife. It's a self-contained township with all facilities within the campus." 
+    },
+    { 
+      question: "What research opportunities are available for undergraduates?", 
+      answer: "IIT Madras offers extensive undergraduate research opportunities through the Undergraduate Research Opportunities Program (UROP), summer internships with faculty, and access to state-of-the-art research facilities." 
+    },
+    { 
+      question: "How is the hostel accommodation at IIT Madras?", 
+      answer: "The institute provides excellent hostel accommodation for all students. There are 19 hostels (including 3 for girls) with modern amenities. First-year students typically get single rooms." 
+    },
+    { 
+      question: "What are the major festivals at IIT Madras?", 
+      answer: "Saarang is the annual cultural festival (one of Asia's largest), Shaastra is the technical festival (India's first ISO-certified student-run tech fest), and the institute also hosts Sports Fest." 
+    },
+    { 
+      question: "Does IIT Madras offer online degree programs?", 
+      answer: "Yes, IIT Madras offers online B.Sc degree in Programming and Data Science through its online portal. It's India's first online B.Sc degree from an IIT." 
+    },
+    { 
+      question: "What is the student-faculty ratio?", 
+      answer: "The student-faculty ratio is approximately 8:1, ensuring personalized attention and strong mentorship opportunities for students." 
+    },
+    { 
+      question: "How strong is the alumni network?", 
+      answer: "IIT Madras has one of the strongest alumni networks globally, with prominent leaders in technology, business, research, and entrepreneurship across the world." 
+    }
+  ]
+},
+  {
+    id: "1002",
     slug: "iit-bombay",
     name: "Indian Institute of Technology Bombay",
     shortName: "IIT Bombay",
