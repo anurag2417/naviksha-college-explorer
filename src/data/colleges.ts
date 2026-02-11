@@ -6345,566 +6345,418 @@ export const colleges: College[] = [
   },
 
   {
-    id: "16",
-    slug: "scaler-school-of-technology",
-    name: "Scaler School of Technology",
-    shortName: "Scaler",
-    tagline: "Learn. Build. Lead.",
-    overview:
-      "A new-age technology institution focusing on software engineering, entrepreneurship, and future-ready education",
-    description:
-      "Scaler School of Technology is an innovative, outcome-focused institution that combines academic rigor with industry relevance. Offering a 4-year residential undergraduate program in Computer Science, it focuses on building world-class software engineers and technology leaders through a curriculum designed in collaboration with industry experts and academic leaders.",
-    logo: "/logos/scaler-school.png",
-    stream: "engineering",
-    type: "new-age",
-    category: "premier",
-    ranking: 45,
-    rating: 4.6,
-
-    googleRating: 4.7,
-    reviews: {
-      count: 850,
-      average: 4.6,
-      academics: 4.7,
-      infrastructure: 4.8,
-      placement: 4.9,
-      faculty: 4.7,
+    "id": "16",
+    "slug": "scaler-school-of-technology",
+    "name": "Scaler School of Technology",
+    "shortName": "SST",
+    "tagline": "India's first Ivy League of Computer Science",
+    "overview": "A new-age, industry-integrated technology institution focusing on practical software engineering and future-ready education",
+    "description": "Scaler School of Technology is an innovative, outcome-focused institution launched in 2023. Offering a 4-year residential undergraduate program in Computer Science and AI, it focuses on building world-class software engineers through a '2+1+1' model: fundamentals, mandatory 1-year industry internship, and specializations. The curriculum is designed and delivered by industry experts from Google, Meta, Microsoft, and Uber.",
+    "logo": "/logos/scaler-school.png",
+    "stream": "engineering",
+    "type": "new-age",
+    "category": "tier2",
+    "ranking": 0,
+    "rating": 4.6,
+    //"nirfRank": 0,
+    "googleRating": 4.7,
+    "reviews": {
+        "count": 120,
+        "average": 4.6,
+        "academics": 4.7,
+        "infrastructure": 4.0,
+        "placement": 4.5,
+        "faculty": 4.9
     },
-    established: 2022,
-    accreditation: "Institution of Eminence (Proposed)",
-    naacGrade: "A",
-    affiliations: ["UGC Approved"],
-    recognition: ["Ministry of Education", "AICTE"],
-    location: {
-      city: "Greater Noida",
-      state: "Uttar Pradesh",
-      country: "India",
-      pincode: "201310",
-      campusSize: "50 acres",
-      campusType: "urban",
-      latitude: 28.4744,
-      longitude: 77.504,
-      address:
-        "Plot No. 1, Knowledge Park III, Greater Noida, Uttar Pradesh 201310",
+    "established": 2023,
+    "accreditation": "Recognized through Partner University (BITS Pilani/Woolf)",
+    //"naacGrade": "A",
+    "affiliations": [],
+    "recognition": [],
+    "location": {
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "country": "India",
+        "pincode": "560100",
+        "campusSize": "Compact Urban Campus",
+        "campusType": "urban",
+        "latitude": 12.8455,
+        "longitude": 77.6718,
+        "address": "14, 3rd cross, Parappana Agrahar, Electronic City Phase 1, Bengaluru, Karnataka 560100"
     },
-    fees: {
-      annual: 900000,
-      total: 3600000,
-      hostel: 150000,
-      mess: 80000,
-      otherCharges: 70000,
-      scholarshipAvailable: true,
-      scholarshipDetails: [
-        "Merit-based Scholarships (up to 100%)",
-        "Need-based Scholarships",
-        "Women in Tech Scholarship",
-        "Entrepreneurship Scholarship",
-        "Early Admission Scholarship",
-        "Industry-sponsored Scholarships",
-      ],
-      paymentOptions: [
-        "EMI Options",
-        "Education Loan Assistance",
-        "Online Payment",
-        "Bank Transfer",
-      ],
-    },
-    placement: {
-      averagePackage: 3200000,
-      highestPackage: 75000000,
-      medianPackage: 2800000,
-      percentage: 98,
-      totalOffers: 280,
-      totalStudents: 285,
-      internationalOffers: 35,
-      dreamOffers: 60,
-      averagePackageTrend: 25,
-      topRecruiters: [
-        "Google",
-        "Microsoft",
-        "Amazon",
-        "Meta",
-        "Uber",
-        "Airbnb",
-        "Stripe",
-        "Goldman Sachs",
-        "JP Morgan",
-        "McKinsey Digital",
-        "Boston Consulting Group",
-        "Adobe",
-        "Atlassian",
-        "Directi",
-        "Swiggy",
-        "Zomato",
-        "Razorpay",
-        "Flipkart",
-        "Myntra",
-        "Ola",
-        "Paytm",
-      ],
-      recruitmentSectors: [
-        "Tech Startups",
-        "FAANG Companies",
-        "FinTech",
-        "E-commerce",
-        "Consulting",
-        "Product Companies",
-        "Investment Banks",
-      ],
-      placementStats: [
-        {
-          year: 2025,
-          averagePackage: 3200000,
-          highestPackage: 75000000,
-          percentage: 98,
-        },
-        {
-          year: 2024,
-          averagePackage: 2800000,
-          highestPackage: 65000000,
-          percentage: 96,
-        },
-        {
-          year: 2023,
-          averagePackage: 2400000,
-          highestPackage: 55000000,
-          percentage: 95,
-        },
-      ],
-    },
-    academics: {
-      coursesOffered: [
-        "B.Tech in Computer Science & Engineering",
-        "Integrated M.Tech Programs",
-        "Executive Programs",
-      ],
-      popularCourses: [
-        "B.Tech Computer Science",
-        "Specialization in AI & ML",
-        "Blockchain Technology",
-        "Full Stack Development",
-      ],
-      facultyCount: 85,
-      studentCount: 1200,
-      studentFacultyRatio: "6:1",
-      specialization: [
-        "Artificial Intelligence & Machine Learning",
-        "Data Science",
-        "Full Stack Development",
-        "DevOps & Cloud Computing",
-        "Cybersecurity",
-        "Blockchain & Web3",
-        "Product Management",
-        "Entrepreneurship",
-      ],
-      departments: [
-        "Computer Science & Engineering",
-        "Artificial Intelligence",
-        "Data Science",
-        "Software Engineering",
-        "Entrepreneurship & Innovation",
-      ],
-      researchCenters: 12,
-      publications: 150,
-      collaborations: [
-        "Carnegie Mellon University",
-        "Stanford University",
-        "University of California, Berkeley",
-        "Massachusetts Institute of Technology",
-        "Indian Institute of Technology (Various)",
-        "Indian Institute of Science",
-      ],
-      teachingMode: "hybrid",
-    },
-    infrastructure: {
-      library: {
-        name: "Digital Innovation Library",
-        books: 75000,
-        journals: 5000,
-        digitalResources: 250000,
-        seatingCapacity: 300,
-      },
-      labs: {
-        count: 35,
-        majorLabs: [
-          "AI & ML Research Lab",
-          "Quantum Computing Lab",
-          "Blockchain Innovation Lab",
-          "Cybersecurity Operations Center",
-          "IoT & Embedded Systems Lab",
-          "AR/VR Experience Lab",
-          "Cloud Computing Lab",
-          "Data Science Research Center",
+    "fees": {
+        "annual": 0,
+        "total": 0,
+        "hostel": 112000,
+        "mess": 40000,
+        "otherCharges": 25000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Merit-based Scholarships (up to 100% - based on NSET performance)",
+            "Need-based Scholarships",
+            "Women in Tech Scholarship",
+            "Early Admission Scholarship"
         ],
-        equipmentValue: 150000000,
-      },
-      sports: {
-        facilities: [
-          "Indoor Sports Complex",
-          "Swimming Pool",
-          "Rock Climbing Wall",
-          "Gym with Modern Equipment",
-          "Basketball Court",
-          "Tennis Court",
-          "Badminton Courts",
-          "Table Tennis Arena",
-          "Yoga & Meditation Studio",
+        "paymentOptions": [
+            "EMI Options",
+            "Education Loan Assistance",
+            "Online Payment",
+            "Bank Transfer"
+        ]
+    },
+    "placement": {
+        "averagePackage": 2160000,
+        "highestPackage": 17000000,
+        "medianPackage": 0,
+        "percentage": 0,
+        "totalOffers": 0,
+        "totalStudents": 200,
+        "internationalOffers": 12,
+        "dreamOffers": 0,
+        "averagePackageTrend": 0,
+        "topRecruiters": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Adobe",
+            "Zomato",
+            "Swiggy",
+            "1MG",
+            "Apple Developer Academy",
+            "Stash Away",
+            "Neurowyzer",
+            "Digital Product School"
         ],
-        stadium: false,
-        gym: true,
-        swimmingPool: true,
-      },
-      hostel: {
-        boys: true,
-        girls: true,
-        capacity: 1000,
-        rooms: 500,
-        facilities: [
-          "High-speed Fiber Internet",
-          "Smart Rooms with IoT Devices",
-          "Common Study Lounges",
-          "Gaming Zone",
-          "Music Room with Instruments",
-          "Indoor Sports Area",
-          "Laundry with App-based Service",
-          "Pantry with Microwave",
-          "24/7 Security & CCTV",
-          "Medical Room with Nurse",
+        "recruitmentSectors": [
+            "Tech Startups",
+            "Product Companies",
+            "FinTech",
+            "E-commerce",
+            "Global Tech Firms"
         ],
-      },
-      wifi: true,
-      cafeteria: 3,
-      medical: true,
-      transportation: true,
-      auditorium: 2,
+        "placementStats": []
     },
-    admission: {
-      entranceExam: [
-        "Scaler Aptitude Test (SAT)",
-        "JEE Main",
-        "Other National Level Tests",
-      ],
-      cutoff: 85,
-      cutoffTrend: 5,
-      applicationMode: "Online",
-      applicationFee: 1500,
-      selectionProcess: [
-        "Online Application",
-        "Aptitude Test",
-        "Technical Interview",
-        "Personal Interview",
-        "Portfolio Review (for innovators)",
-        "Final Selection",
-      ],
-      eligibility: {
-        minPercentage: 65,
-        subjectsRequired: [
-          "Mathematics",
-          "Physics",
-          "Chemistry/Computer Science",
+    "academics": {
+        "coursesOffered": [
+            "4-Year Residential UG Program in Computer Science & AI",
+            "B.Sc in Computer Science (Dual Degree option with BITS Pilani)",
+            "BS in Data Science & Applications (IIT Madras collaboration)"
         ],
-        ageLimit: 22,
-      },
-      importantDates: {
-        applicationStart: "September 1, 2024",
-        applicationEnd: "December 31, 2024",
-        examDate: "January 2025",
-        resultDate: "February 2025",
-        counsellingStart: "March 2025",
-        counsellingEnd: "April 2025",
-      },
-      documentsRequired: [
-        "10th Marksheet & Certificate",
-        "12th Marksheet & Certificate",
-        "Entrance Exam Scorecard",
-        "Identity Proof",
-        "Passport-size Photographs",
-        "Portfolio (if applicable)",
-        "Achievement Certificates",
-      ],
+        "popularCourses": [
+            "Computer Science & AI",
+            "Specialization in AI/ML",
+            "Specialization in Algo Trading",
+            "Full Stack Development",
+            "Engineering Leadership",
+            "MAANG Track"
+        ],
+        "facultyCount": 85,
+        "studentCount": 600,
+        "studentFacultyRatio": "100:1",
+        "specialization": [
+            "Artificial Intelligence & Machine Learning",
+            "Full Stack Development",
+            "DevOps & Cloud Computing",
+            "Cybersecurity",
+            "Blockchain & Web3",
+            "Algorithmic Trading",
+            "Engineering Leadership",
+            "MAANG Track"
+        ],
+        "departments": [
+            "Computer Science & Engineering"
+        ],
+        "researchCenters": 1,
+        "publications": 0,
+        "collaborations": [
+            "BITS Pilani",
+            "IIT Madras",
+            "Woolf University"
+        ],
+        "teachingMode": "hybrid"
     },
-    campusLife: {
-      clubs: [
-        "Developer Student Clubs",
-        "AI/ML Club",
-        "Blockchain Society",
-        "Entrepreneurship Cell",
-        "Design & UX Club",
-        "Open Source Community",
-        "Competitive Programming Club",
-        "Robotics Club",
-        "Gaming & Esports Club",
-        "Music & Arts Society",
-        "Debate & Oratory Club",
-        "Social Impact Club",
-      ],
-      festivals: [
-        "TechStorm (Annual Tech Festival)",
-        "Innovate (Startup Summit)",
-        "CodeFest (Coding Marathon)",
-        "HackVerse (National Hackathon)",
-      ],
-      technicalEvents: [
-        "24-hour Hackathons",
-        "AI/ML Competitions",
-        "Blockchain Buildathons",
-        "Product Design Sprints",
-        "CTF (Capture The Flag) Events",
-        "Startup Pitch Competitions",
-        "Industry Workshops",
-        "Tech Talks by Industry Leaders",
-      ],
-      culturalEvents: [
-        "Freshers' Party",
-        "Annual Cultural Night",
-        "Music Concerts",
-        "Talent Shows",
-        "Theatre Performances",
-        "Art Exhibitions",
-        "Food Festivals",
-      ],
-      socialInitiatives: [
-        "Tech for Good Projects",
-        "Digital Literacy Drives",
-        "Open Source Contributions",
-        "Women in Tech Mentorship",
-        "Rural Technology Adoption",
-        "Environmental Sustainability Projects",
-      ],
-      annualBudget: 35000000,
+    "infrastructure": {
+        "library": {
+            "name": "Digital Library",
+            "books": 5000,
+            "journals": 500,
+            "digitalResources": 50000,
+            "seatingCapacity": 100
+        },
+        "labs": {
+            "count": 10,
+            "majorLabs": [
+                "AI & ML Lab",
+                "Mac Lab",
+                "Drone Lab",
+                "IoT Lab",
+                "AR/VR Experience Lab",
+                "Innovation Lab"
+            ],
+            "equipmentValue": 50000000
+        },
+        "sports": {
+            "facilities": [
+                "Badminton Courts",
+                "Table Tennis Arena",
+                "Football Turf",
+                "Basketball Court",
+                "Pool Table",
+                "Foosball",
+                "Chess",
+                "Carrom"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 600,
+            "rooms": 300,
+            "facilities": [
+                "High-speed Internet",
+                "Double/Triple Sharing Options",
+                "Common Study Lounges",
+                "Gaming Zone",
+                "Reading Room",
+                "Terrace Cafeteria",
+                "Laundry",
+                "24/7 Security & CCTV",
+                "Medical Room"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 2,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 1
     },
-    faculty: {
-      total: 85,
-      phdHolders: 65,
-      professor: 25,
-      associateProfessor: 30,
-      assistantProfessor: 30,
-      industryExperience: 12.5,
-      internationalFaculty: 20,
-      awards: [
-        "Google Developer Expert Awards",
-        "Microsoft MVP Awards",
-        "Forbes 30 Under 30",
-        "Industry Innovation Awards",
-        "Open Source Contribution Awards",
-      ],
+    "admission": {
+        "entranceExam": [
+            "Scaler National Scholarship & Entrance Test (NSET)"
+        ],
+        "cutoff": 0,
+        "cutoffTrend": 0,
+        "applicationMode": "Online",
+        "applicationFee": 1000,
+        "selectionProcess": [
+            "Online Application",
+            "Scaler NSET",
+            "Personal Interview",
+            "Group Discussion",
+            "Final Selection"
+        ],
+        "eligibility": {
+            "minPercentage": 60,
+            "subjectsRequired": [
+                "Mathematics"
+            ],
+            "ageLimit": 20
+        },
+        "importantDates": {
+            "applicationStart": "Rolling Admissions",
+            "applicationEnd": "Rolling Admissions",
+            "examDate": "Multiple Rounds Throughout Year",
+            "resultDate": "Within 10 days of interview",
+            "counsellingStart": "Rolling Admissions",
+            "counsellingEnd": "Rolling Admissions"
+        },
+        "documentsRequired": [
+            "10th Marksheet & Certificate",
+            "12th Marksheet & Certificate",
+            "NSET Scorecard",
+            "Identity Proof",
+            "Passport-size Photographs",
+            "Achievement Certificates"
+        ]
     },
-    alumni: {
-      notableAlumni: [
+    "campusLife": {
+        "clubs": [
+            "Competitive Programming Club",
+            "AI/ML Club",
+            "Entrepreneurship Cell",
+            "Open Source Community",
+            "Robotics Club",
+            "Gaming & Esports Club",
+            "Music & Arts Society",
+            "Media & Cultural Club",
+            "Sports Club"
+        ],
+        "festivals": [
+            "TechStorm",
+            "HackVerse",
+            "Rise Up",
+            "DJ Nights"
+        ],
+        "technicalEvents": [
+            "24-hour Hackathons",
+            "AI/ML Competitions",
+            "Product Design Sprints",
+            "CTF Events",
+            "Startup Pitch Competitions",
+            "Industry Workshops",
+            "Tech Talks by Industry Leaders"
+        ],
+        "culturalEvents": [
+            "Freshers' Party",
+            "Annual Cultural Night",
+            "DJ Nights",
+            "Talent Shows",
+            "Food Festivals"
+        ],
+        "socialInitiatives": [
+            "Tech for Good Projects",
+            "Bhashini Project",
+            "Open Source Contributions",
+            "Women in Tech Mentorship"
+        ],
+        "annualBudget": 0
+    },
+    "faculty": {
+        "total": 85,
+        "phdHolders": 5,
+        "professor": 10,
+        "associateProfessor": 15,
+        "assistantProfessor": 60,
+        "industryExperience": 12.5,
+        "internationalFaculty": 5,
+        "awards": []
+    },
+    "alumni": {
+        "notableAlumni": [],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Adobe",
+            "Zomato",
+            "Swiggy"
+        ],
+        "networkStrength": 88
+    },
+    "international": {
+        "collaborations": 1,
+        "studentExchange": false,
+        "facultyExchange": false,
+        "partnerUniversities": [
+            "Woolf University"
+        ],
+        "foreignStudents": 0
+    },
+    "contact": {
+        "phone": [
+            "+91-8448440101"
+        ],
+        "email": [
+            "admissions@scaler.com",
+            "support@scaler.com"
+        ],
+        "website": "https://www.scaler.com/school-of-technology/",
+        "socialMedia": {
+            "facebook": "https://facebook.com/scalerschool",
+            "twitter": "https://twitter.com/scalerschool",
+            "linkedin": "https://linkedin.com/school/scaler-school-of-technology",
+            "instagram": "https://instagram.com/scalerschool",
+            "youtube": "https://youtube.com/scalerschool"
+        },
+        "admissionContact": {
+            "phone": "+91-8448440101",
+            "email": "admissions@scaler.com"
+        }
+    },
+    "facilities": [
+        "Smart Classrooms with Personalized Screens",
+        "High-speed Internet",
+        "24x7 Access Labs",
+        "Innovation Lab",
+        "Career Development Center",
+        "Cafeteria",
+        "Fitness Center",
+        "Makerspace & Prototyping Lab",
+        "Mac Lab",
+        "Drone Lab",
+        "Collaboration Spaces",
+        "Reading Rooms",
+        "Terrace Cafeteria",
+        "Indoor Games Arena"
+    ],
+    "achievements": [
+        "96.3% internship placement for first batch (2023-27)",
+        "Highest monthly stipend: ₹2,00,070",
+        "Average stipend: ₹31,264",
+        "Top 10% average stipend: ₹92,000",
+        "12 global internships across Singapore, Germany, Indonesia, Finland",
+        "36% students received multiple internship offers",
+        "240% surge in applications for 2025 admission cycle",
+        "3.8% selection rate",
+        "10+ startups incubated on campus",
+        "Students developed app for Government of India's Bhashini project showcased at G20",
+        "First-year team qualified for ICPC"
+    ],
+    "newsUpdates": [
         {
-          name: "Anshuman Singh",
-          designation: "Co-founder",
-          company: "InterviewBit & Scaler",
+            "title": "Scaler School of Technology reports 96.3% internship placement for first batch with highest stipend of ₹2,00,070",
+            "date": "2025-05-28",
+            "link": "https://www.scaler.com/blog/scaler-school-of-technology-reports-96-3-internship-placement-for-first-batch-backed-by-strong-industry-and-global-participation/"
         },
         {
-          name: "Abhimanyu Saxena",
-          designation: "Co-founder",
-          company: "InterviewBit & Scaler",
+            "title": "Scaler School of Technology sees 240% surge in applications for CS and AI programme",
+            "date": "2025-06-17",
+            "link": "https://www.financialexpress.com/jobs-career/education-scaler-school-of-technology-sees-240-surge-in-applications-for-cs-and-ai-programme-3880007/"
         },
         {
-          name: "Vineet Singh",
-          designation: "Lead Engineer",
-          company: "Google",
+            "title": "Scaler School of Technology launches its first campus in Bengaluru",
+            "date": "2023-07-17",
+            "link": "https://www.scaler.com/blog/scaler-school-of-technology-launches-its-first-campus-in-bengaluru/"
         },
         {
-          name: "Priya Sharma",
-          designation: "Product Manager",
-          company: "Microsoft",
+            "title": "Scaler acquires Pepcoding to strengthen undergraduate program",
+            "date": "2023-05-30",
+            "link": "https://inc42.com/buzz/scaler-acquires-delhi-based-edtech-startup-pepcoding/"
+        }
+    ],
+    "gallery": [],
+    "faqs": [
+        {
+            "question": "What makes Scaler School of Technology different from traditional engineering colleges?",
+            "answer": "Scaler focuses on industry-relevant curriculum designed by experts from Google, Meta, Microsoft; 1:1 mentorship from industry practitioners; mandatory 1-year paid industry internship; 50+ real-world product building; and 3.8% selection rate matching Ivy League standards. Faculty includes engineers who built Facebook Messenger, Uber, and more."
         },
         {
-          name: "Rohan Mehta",
-          designation: "Founder",
-          company: "Tech Startup (Acquired)",
+            "question": "What is the fee structure and scholarship opportunities?",
+            "answer": "Year 1: ₹3,40,000 + ₹50,000 admission fee; Year 2: ₹4,64,000; Year 3: ₹5,04,000; Year 4: ₹3,40,000. Hostel and mess: approx ₹1,52,000 per year. Merit-based scholarships ranging from 25-100% of tuition fee are available based on NSET performance."
         },
-      ],
-      placementCompanies: [
-        "Google",
-        "Microsoft",
-        "Amazon",
-        "Meta",
-        "Uber",
-        "Stripe",
-        "Goldman Sachs",
-        "McKinsey",
-        "Directi",
-        "Razorpay",
-        "Swiggy",
-        "Zomato",
-      ],
-      networkStrength: 88,
-    },
-    international: {
-      collaborations: 25,
-      studentExchange: true,
-      facultyExchange: true,
-      partnerUniversities: [
-        "Carnegie Mellon University",
-        "University of California, Berkeley",
-        "University of Texas at Austin",
-        "National University of Singapore",
-      ],
-      foreignStudents: 50,
-    },
-    contact: {
-      phone: ["+91-8448440101", "+91-9876543210"],
-      email: [
-        "admissions@scalerschool.com",
-        "info@scalerschool.com",
-        "placements@scalerschool.com",
-      ],
-      website: "https://www.scalerschool.com",
-      socialMedia: {
-        facebook: "https://facebook.com/scalerschool",
-        twitter: "https://twitter.com/scalerschool",
-        linkedin: "https://linkedin.com/school/scaler-school-of-technology",
-        instagram: "https://instagram.com/scalerschool",
-        youtube: "https://youtube.com/scalerschool",
-      },
-      admissionContact: {
-        phone: "+91-8448440101",
-        email: "admissions@scalerschool.com",
-      },
-    },
-    facilities: [
-      "State-of-the-art Smart Classrooms",
-      "High-speed Internet (1 Gbps)",
-      "24x7 Access Labs",
-      "Startup Incubation Center",
-      "Career Development Center",
-      "Mental Wellness Center",
-      "Cafeteria with Multiple Cuisines",
-      "Fitness Center",
-      "Music & Arts Studio",
-      "Conference Rooms",
-      "Makerspace & Prototyping Lab",
-      "Video Recording Studio",
-      "Podcast Studio",
-      "Quiet Study Zones",
-      "Collaboration Spaces",
-      "Indoor Games Arena",
-    ],
-    achievements: [
-      "100% placement record since inception",
-      "Highest package: ₹75 LPA (2024)",
-      "Average package: ₹32 LPA (2024)",
-      "Ranked #1 among new-age tech colleges",
-      "Winner of National Hackathon 2023",
-      "Recognized as 'Most Innovative Tech School' by Times of India",
-      "Industry-academia collaboration award",
-      "Maximum patents per student among new institutions",
-    ],
-    newsUpdates: [
-      {
-        title:
-          "Scaler School achieves 100% placement with highest package of ₹75 LPA",
-        date: "2024-03-15",
-        link: "https://scalerschool.com/news/placement-2024",
-      },
-      {
-        title:
-          "Launches India's first undergraduate program in Web3 & Blockchain",
-        date: "2023-11-20",
-        link: "https://scalerschool.com/news/web3-program",
-      },
-      {
-        title:
-          "Partners with Carnegie Mellon for research in Quantum Computing",
-        date: "2023-09-10",
-        link: "https://scalerschool.com/news/cmu-partnership",
-      },
-      {
-        title:
-          "Students develop AI solution that wins National Innovation Award",
-        date: "2023-07-05",
-        link: "https://scalerschool.com/news/ai-innovation-award",
-      },
-    ],
-    gallery: [
-      {
-        type: "campus",
-        url: "/gallery/scaler-campus1.jpg",
-        caption: "Modern Campus Architecture",
-      },
-      {
-        type: "campus",
-        url: "/gallery/scaler-campus2.jpg",
-        caption: "Innovation Hub",
-      },
-      {
-        type: "lab",
-        url: "/gallery/scaler-lab1.jpg",
-        caption: "AI & ML Research Lab",
-      },
-      {
-        type: "lab",
-        url: "/gallery/scaler-lab2.jpg",
-        caption: "Blockchain Innovation Center",
-      },
-      {
-        type: "hostel",
-        url: "/gallery/scaler-hostel1.jpg",
-        caption: "Smart Student Hostels",
-      },
-      {
-        type: "sports",
-        url: "/gallery/scaler-sports1.jpg",
-        caption: "Indoor Sports Complex",
-      },
-      {
-        type: "event",
-        url: "/gallery/scaler-event1.jpg",
-        caption: "TechStorm Festival",
-      },
-      {
-        type: "event",
-        url: "/gallery/scaler-event2.jpg",
-        caption: "Startup Pitch Competition",
-      },
-    ],
-    faqs: [
-      {
-        question:
-          "What makes Scaler School of Technology different from traditional engineering colleges?",
-        answer:
-          "Scaler focuses on industry-relevant curriculum, 1:1 mentorship, project-based learning, and strong placement support with direct industry connections. The program is designed to create job-ready software engineers from day one.",
-      },
-      {
-        question: "What is the fee structure and scholarship opportunities?",
-        answer:
-          "Annual fees are ₹9,00,000 with multiple scholarship options covering up to 100% of tuition fees based on merit, need, and diversity. EMI options and education loan assistance are also available.",
-      },
-      {
-        question: "What are the placement statistics?",
-        answer:
-          "Scaler has maintained 100% placement record since inception with average package of ₹32 LPA and highest package of ₹75 LPA in 2024. Top recruiters include Google, Microsoft, Amazon, and leading startups.",
-      },
-      {
-        question: "Is Scaler School recognized by UGC/AICTE?",
-        answer:
-          "Yes, Scaler School of Technology is approved by UGC and AICTE, offering a recognized B.Tech degree in Computer Science & Engineering.",
-      },
-      {
-        question: "What is the admission process?",
-        answer:
-          "Admission is based on Scaler Aptitude Test (SAT) or JEE Main scores, followed by technical interview and personal interview. Portfolio review is considered for exceptional candidates.",
-      },
-      {
-        question: "Does Scaler provide hostel facilities?",
-        answer:
-          "Yes, Scaler provides modern, smart hostel facilities on campus with high-speed internet, recreational areas, and 24/7 security. Separate hostels are available for boys and girls.",
-      },
-      {
-        question: "What specializations are offered?",
-        answer:
-          "Specializations include AI & ML, Data Science, Full Stack Development, DevOps, Cybersecurity, Blockchain, Product Management, and Entrepreneurship.",
-      },
-      {
-        question: "Are there opportunities for entrepreneurship?",
-        answer:
-          "Yes, Scaler has a dedicated Entrepreneurship Cell, startup incubation center, mentorship from successful founders, and opportunities to work on real startup projects.",
-      },
-    ],
-  },
+        {
+            "question": "What are the placement statistics?",
+            "answer": "The first graduating batch is currently in progress. For internship placements (Year 2): 96.3% placement rate across 96 companies, highest stipend ₹2,00,070, average stipend ₹31,264, top 10% average stipend ₹92,000, 12 international internships across Singapore, Germany, Indonesia, Finland. For Scaler's online programs: verified average package of ₹21.6 LPA and highest package of ₹1.7 CR."
+        },
+        {
+            "question": "Is Scaler School recognized by UGC/AICTE?",
+            "answer": "No, Scaler School of Technology is not approved by AICTE/UGC as it is a private institute. However, students have the option to simultaneously pursue a formal B.Sc degree from BITS Pilani (Hons) or BS Degree from IIT Madras to meet UGC recognition requirements for higher studies. The master's degree through Woolf carries European Credit Transfer System (ECTS) accreditation."
+        },
+        {
+            "question": "What is the admission process?",
+            "answer": "Admission is based on Scaler National Scholarship & Entrance Test (NSET) followed by 2-3 interview rounds with industry experts/staff. Eligibility: Age ≤20 years, minimum 60% in 10+2 with Mathematics. NSET qualifying criteria: >20% overall OR >40% in a particular subject."
+        },
+        {
+            "question": "Where is the campus located?",
+            "answer": "The campus is located in Electronic City, Bengaluru, Karnataka - not in Noida. Address: 14, 3rd cross, Parappana Agrahar, Electronic City Phase 1, Bengaluru 560100."
+        },
+        {
+            "question": "Does Scaler provide hostel facilities?",
+            "answer": "Yes, Scaler provides hostel facilities with double-sharing and triple-sharing options. Facilities include high-speed internet, reading rooms, terrace cafeteria, gaming zone, laundry, 24/7 security, and medical room. Hostel timings: 4:00 AM to 10:30 PM."
+        },
+        {
+            "question": "What specializations are offered?",
+            "answer": "Specializations include AI/ML Track, MAANG Track, Algo Trading Track, Engineering Leadership Track. Students can choose any two specializations in Phase 3."
+        },
+        {
+            "question": "Are there opportunities for entrepreneurship?",
+            "answer": "Yes, Scaler has a dedicated Innovation Lab that has incubated 10+ student-led startups including Aether Labs and Health Nivaran, with one startup making it to Shark Tank. Students have opportunities to receive funding from top investors."
+        }
+    ]
+},
   {
     id: "17",
     slug: "newton-school-of-technology",
