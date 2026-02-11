@@ -1405,7 +1405,7 @@ export const colleges: College[] = [
     stream: "engineering",
     type: "government",
     category: "premier",
-    ranking: 1,
+    ranking: 3,
     rating: 4.8,
     nirfRank: 1,
     googleRating: 4.7,
