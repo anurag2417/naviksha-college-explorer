@@ -6345,7 +6345,7 @@ export const colleges: College[] = [
   },
 
   {
-    "id": "16",
+    "id": "1401",
     "slug": "scaler-school-of-technology",
     "name": "Scaler School of Technology",
     "shortName": "SST",
@@ -6356,7 +6356,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "new-age",
     "category": "tier2",
-    "ranking": 0,
+    "ranking": 1,
     "rating": 4.6,
     //"nirfRank": 0,
     "googleRating": 4.7,
