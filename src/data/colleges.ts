@@ -8174,6 +8174,432 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1115",
+    "slug": "mcet-murshidabad",
+    "name": "Murshidabad College of Engineering & Technology",
+    "shortName": "MCET",
+    "tagline": "Empowering Rural India Through Technical Education",
+    "overview": "A prominent engineering college in Murshidabad district, established in 1998 to bring quality technical education to a historically significant but economically backward region, offering B.Tech programs affiliated to MAKAUT.",
+    "description": "Murshidabad College of Engineering & Technology (MCET) was established in 1998 with the vision of providing quality engineering education to the students of Murshidabad district and surrounding areas [citation:5]. Located in Banjetia, approximately 5 km from Berhampore town, the college was founded with the active support of Shri Nripen Chowdhury, the then Sabhadhipati of Murshidabad Zilla Parishad, and formally inaugurated by Dr. Asim Dasgupta, the then Finance Minister of West Bengal [citation:5][citation:10]. The institution shifted to its own sprawling 11-acre campus in 2001, which was inaugurated by the then Chief Minister of West Bengal, Mr. Buddhadeb Bhattacharjee [citation:5][citation:10]. Affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT) and approved by AICTE, MCET offers B.Tech programs in Civil, Computer Science, Electronics & Communication, and Electrical Engineering [citation:5][citation:9]. The college serves as a beacon of technical education in a predominantly agricultural district, providing opportunities for local students to pursue engineering careers without leaving their home region [citation:2][citation:10]. While placement records vary by department, with CSE students achieving packages up to ₹15 LPA, the institution continues to fulfill its mission of making engineering education accessible in rural West Bengal [citation:6][citation:10].",
+    "logo": "/logos/mcet-murshidabad.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "tier1",
+    "ranking": 5,
+    "rating": 3.4,
+    //"nirfRank": 90,
+    "googleRating": 3.5,
+    "reviews": {
+        "count": 125,
+        "average": 3.4,
+        "academics": 3.3,
+        "infrastructure": 3.1,
+        "placement": 3.0,
+        "faculty": 3.5
+    },
+    "established": 1998,
+    "accreditation": "AICTE Approved",
+    //"naacGrade": null,
+    "affiliations": ["Maulana Abul Kalam Azad University of Technology (MAKAUT)"],
+    "recognition": ["AICTE", "Government of West Bengal"],
+    "location": {
+        "city": "Berhampore",
+        "state": "West Bengal",
+        "country": "India",
+        "pincode": "742102",
+        "campusSize": "11 acres",
+        "campusType": "rural",
+        "latitude": 24.1015,
+        "longitude": 88.2846,
+        "address": "ITI MORE, Raninagar, Banjetia, P.O. Cossimbazar Raj, Berhampore, Murshidabad, West Bengal - 742102"
+    },
+    "fees": {
+        "annual": 66750,
+        "total": 267000,
+        "hostel": 36000,
+        "mess": 30000,
+        "otherCharges": 12000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "SC/ST scholarship schemes from Government of West Bengal",
+            "Book bank facility for SC/ST students sponsored by State Government [citation:5]",
+            "Merit-based scholarships for eligible students",
+            "Financial aid for economically weaker sections"
+        ],
+        "paymentOptions": [
+            "Online Payment",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 320000,
+        "highestPackage": 1500000,
+        "medianPackage": 400000,
+        "percentage": 45.00,
+        "totalOffers": 110,
+        "totalStudents": 245,
+        "internationalOffers": 0,
+        "dreamOffers": 5,
+        "averagePackageTrend": 2,
+        "topRecruiters": [
+            "TCS",
+            "Infosys",
+            "Cognizant",
+            "IBM",
+            "Capgemini",
+            "Wipro",
+            "Accenture",
+            "L&T",
+            "Tech Mahindra",
+            "Havells",
+            "Crompton",
+            "Siemens"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Manufacturing",
+            "Construction"
+        ],
+        "placementStats": [
+            {
+                "year": 2024,
+                "averagePackage": 320000,
+                "highestPackage": 1500000,
+                "percentage": 45.0
+            },
+            {
+                "year": 2023,
+                "averagePackage": 400000,
+                "highestPackage": 900000,
+                "percentage": 55.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 600000,
+                "highestPackage": 800000,
+                "percentage": 60.0
+            },
+            {
+                "year": 2021,
+                "averagePackage": 300000,
+                "highestPackage": 900000,
+                "percentage": 75.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech Civil Engineering"
+        ],
+        "facultyCount": 32,
+        "studentCount": 457,
+        "studentFacultyRatio": "14:1",
+        "specialization": [
+            "Computer Science & Engineering",
+            "Electronics & Communication Engineering",
+            "Electrical Engineering",
+            "Civil Engineering"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Information Technology (discontinued after 2017) [citation:5]",
+            "Electronics & Communication Engineering",
+            "Electrical Engineering",
+            "Civil Engineering",
+            "Applied Electronics & Instrumentation Engineering",
+            "Basic Science & Humanities"
+        ],
+        "researchCenters": 0,
+        "publications": 25,
+        "collaborations": [],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 11000,
+            "journals": 25,
+            "digitalResources": 11000,
+            "seatingCapacity": 100
+        },
+        "labs": {
+            "count": 20,
+            "majorLabs": [
+                "Computer Center (100+ systems)",
+                "Electronics Lab",
+                "Electrical Machines Lab",
+                "Civil Engineering Workshop",
+                "Physics & Chemistry Labs",
+                "Communication Engineering Lab"
+            ],
+            "equipmentValue": 25000000
+        },
+        "sports": {
+            "facilities": [
+                "Playground",
+                "Indoor Games (Chess, Carrom)",
+                "Table Tennis"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 200,
+            "rooms": 100,
+            "facilities": [
+                "Separate boys and girls hostels",
+                "Wi-Fi connectivity",
+                "24/7 security with CCTV",
+                "Medical assistance with ambulance",
+                "Mess facilities",
+                "Common room",
+                "Annual health check-up camps",
+                "Professional gymnasium with trainers [citation:9]"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 1,
+        "medical": true,
+        "transportation": false,
+        "auditorium": 1
+    },
+    "admission": {
+        "entranceExam": ["WBJEE", "JEE Main", "JELET"],
+        "cutoff": 8721,
+        "cutoffTrend": -56,
+        "applicationMode": "Online",
+        "applicationFee": 500,
+        "selectionProcess": [
+            "WBJEE Score",
+            "JEE Main Score (optional)",
+            "WBJEEB Central Counseling",
+            "JELET for Lateral Entry"
+        ],
+        "eligibility": {
+            "minPercentage": 45,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "January 15, 2026",
+            "applicationEnd": "February 15, 2026",
+            "examDate": "April 27, 2026",
+            "resultDate": "June 10, 2026",
+            "counsellingStart": "July 5, 2026",
+            "counsellingEnd": "August 15, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "WBJEE Scorecard",
+            "Category Certificate",
+            "Income Certificate (if applicable)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Cultural Club",
+            "Sports Club",
+            "Technical Club"
+        ],
+        "festivals": [
+            "Annual Cultural Fest",
+            "Techno-management Fest",
+            "Freshers' Welcome",
+            "Farewell Ceremony"
+        ],
+        "technicalEvents": [
+            "Workshops",
+            "Seminars",
+            "Technical Quizzes"
+        ],
+        "culturalEvents": [
+            "Music Competitions",
+            "Dance Performances",
+            "Drama",
+            "Rangoli Competition"
+        ],
+        "socialInitiatives": [
+            "Blood Donation Camps",
+            "Health Check-up Camps",
+            "Awareness Programs"
+        ],
+        "annualBudget": 2000000
+    },
+    "faculty": {
+        "total": 32,
+        "phdHolders": 5,
+        "professor": 8,
+        "associateProfessor": 10,
+        "assistantProfessor": 14,
+        "industryExperience": 3,
+        "internationalFaculty": 0,
+        "awards": []
+    },
+    "alumni": {
+        "notableAlumni": [],
+        "placementCompanies": [
+            "TCS",
+            "Infosys",
+            "Cognizant",
+            "IBM",
+            "Capgemini"
+        ],
+        "networkStrength": 45
+    },
+    "international": {
+        "collaborations": 0,
+        "studentExchange": false,
+        "facultyExchange": false,
+        "partnerUniversities": [],
+        "foreignStudents": 0
+    },
+    "contact": {
+        "phone": [
+            "+91-3482-275867"
+        ],
+        "email": [
+            "mcet696@gmail.com",
+            "principal@mcetbhb.net"
+        ],
+        "website": "http://www.mcetbhb.net",
+        "socialMedia": {
+            //"facebook": null,
+            //"twitter": null,
+            //"linkedin": null,
+            //"instagram": null,
+            //"youtube": null
+        },
+        "admissionContact": {
+            "phone": "+91-3482-275867",
+            "email": "mcet696@gmail.com"
+        }
+    },
+    "facilities": [
+        "11-acre rural campus near Berhampore",
+        "Separate boys and girls hostels",
+        "Central Library with 11,000+ books",
+        "Book bank facility for SC/ST students",
+        "Computer center with 100+ systems",
+        "Wi-Fi enabled campus (2 Mbps broadband)",
+        "Professional gymnasium with trainers",
+        "Medical clinic with 24/7 ambulance",
+        "Annual health check-up camps",
+        "Cafeteria serving hygienic food",
+        "Playground for outdoor sports",
+        "Indoor games facilities",
+        "24/7 security with CCTV surveillance",
+        "Guest rooms for visitors"
+    ],
+    "achievements": [
+        "Established in 1998 as one of the first engineering colleges in Murshidabad district",
+        "Inaugurated by Chief Minister of West Bengal in 2001",
+        "Aided by Government of West Bengal through non-recurring grants",
+        "Approved by AICTE and affiliated to MAKAUT",
+        "Highest package of ₹15 LPA achieved in placements",
+        "Serving rural students with affordable engineering education",
+        "Book bank scheme for underprivileged SC/ST students"
+    ],
+    "newsUpdates": [
+        {
+            "title": "WB JELET 2025 Notification Released for Lateral Entry Admissions",
+            "date": "2025-09-04",
+            "link": "https://wbjeeb.nic.in"
+        },
+        {
+            "title": "MCET CSE cutoff at 8721 in WBJEE 2023 counseling",
+            "date": "2023-08-15",
+            "link": "https://wbjeeb.nic.in"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/mcet-campus1.jpg",
+            "caption": "Main Academic Building - MCET"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/mcet-campus2.jpg",
+            "caption": "College Entrance"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/mcet-lab1.jpg",
+            "caption": "Computer Science Lab"
+        },
+        
+        {
+            "type": "hostel",
+            "url": "/gallery/mcet-hostel1.jpg",
+            "caption": "Boys Hostel"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/mcet-ground.jpg",
+            "caption": "College Playground"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is Murshidabad College of Engineering & Technology a government or private college?",
+            "answer": "MCET is a government-aided private college established by a voluntary society. It receives non-recurring grants from the Government of West Bengal from time to time. The college is approved by AICTE and affiliated to MAKAUT, Kolkata [citation:1][citation:10]."
+        },
+        {
+            "question": "What is the highest package offered at MCET?",
+            "answer": "The highest package offered at MCET is approximately ₹15 LPA, achieved by students in the Computer Science and Engineering branch. Average packages vary by department, with CSE students typically securing better offers [citation:6][citation:10]."
+        },
+        {
+            "question": "What is the average package at MCET?",
+            "answer": "The average package at MCET ranges from ₹3.2 LPA to ₹6 LPA depending on the branch and batch. According to placement data, CSE students have achieved average packages around ₹6 LPA, while other branches may have lower averages [citation:6][citation:10]."
+        },
+        {
+            "question": "What is the WBJEE cutoff for MCET?",
+            "answer": "For 2023, the WBJEE cutoff ranks were: Computer Science & Engineering - 8721, Information Technology - 11877, Electronics & Communication Engineering - 14551, and Electronics & Instrumentation Engineering - 27180. Cutoffs vary by category and year [citation:3]."
+        },
+        {
+            "question": "What is the campus size of MCET?",
+            "answer": "MCET is situated on an 11-acre campus in Banjetia, approximately 5 km from Berhampore town in Murshidabad district. The campus houses academic buildings, hostels, a playground, and other facilities [citation:5][citation:9]."
+        },
+        {
+            "question": "Does MCET have hostel facilities?",
+            "answer": "Yes, MCET has separate hostel facilities for boys and girls. Hostels are equipped with Wi-Fi, 24/7 security with CCTV, medical assistance with ambulance, mess facilities, and a professional gymnasium with trainers. Hostel fees are approximately ₹36,000 per year [citation:4][citation:9]."
+        },
+        {
+            "question": "Which courses are offered at MCET?",
+            "answer": "MCET offers B.Tech programs in Civil Engineering, Computer Science & Engineering, Electronics & Communication Engineering, and Electrical Engineering. Each program has an intake of 30-60 students. Information Technology was discontinued after 2017 [citation:5][citation:9]."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at MCET?",
+            "answer": "The total tuition fee for the complete B.Tech program is approximately ₹2.67 Lakhs. Annual fees are around ₹66,750, with hostel fees of approximately ₹36,000 per year. There are additional one-time charges like admission fees and caution deposit [citation:3][citation:4]."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "Top recruiters include TCS, Infosys, Cognizant, IBM, Capgemini, Wipro, Accenture, L&T, Tech Mahindra for IT and core sectors. For electrical branches, companies like Havells, Crompton, and Siemens also visit campus [citation:6]."
+        },
+        {
+            "question": "Is there a library facility at MCET?",
+            "answer": "Yes, the institute has a central library with over 11,000 books, including textbooks and reference materials. There is also a special 'Book Bank' facility for SC/ST students sponsored by the Government of West Bengal. The library subscribes to technical journals and provides access to e-journals [citation:5][citation:9]."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
