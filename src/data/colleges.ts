@@ -8600,6 +8600,473 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1126",
+    "slug": "gkciet-malda",
+    "name": "Ghani Khan Choudhury Institute of Engineering & Technology",
+    "shortName": "GKCIET",
+    "tagline": "Transforming Rural India Through Technical Education and Skill Development",
+    "overview": "A Centrally Funded Technical Institute (CFTI) established in 2010 under the Ministry of Education, Government of India, with mentorship from NIT Durgapur, located in Malda, West Bengal, offering multi-level technical education from certificate to degree programs.",
+    "description": "Ghani Khan Choudhury Institute of Engineering & Technology (GKCIET), Malda, was established in 2010 by the Ministry of Human Resource Development (now Ministry of Education), Government of India, in memory of the visionary leader Sri A.B.A. Ghani Khan Choudhury who contributed immensely to the societal development of the region [citation:1]. Mentored by the National Institute of Technology (NIT), Durgapur, the institute is located at Narayanpur, Malda, on a sprawling 101-acre campus surrounded by green land and mango trees with beautiful landscapes [citation:1][citation:2]. As a Centrally Funded Technical Institute (CFTI), GKCIET's unique mandate is to create multi-layered, interdisciplinary technical manpower while catering to the specific needs of women, school dropouts, and disadvantaged sections of society through short and long-term skill orientation programmes [citation:1]. The institute offers a vertically integrated education system where Certificate programmes (2 years) can lead to Diploma (2 years) and further to Degree (2 years) programmes based on entrance tests [citation:6]. Affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT) for B.Tech programs and to the West Bengal State Council of Technical & Vocational Education and Skill Development (WBSCT&VE&SD) for diploma and certificate courses, GKCIET serves as a bridge between formal technical education and grassroots skill development in the border districts of West Bengal, Bihar, Jharkhand, and the North Eastern states [citation:1][citation:2][citation:6]. With its focus on inclusive growth through technical education, the institute is gradually developing into a regional hub for engineering education and vocational training [citation:5][citation:8].",
+    "logo": "/logos/gkciet-malda.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "tier2",
+    "ranking": 5,
+    "rating": 3.5,
+    //"nirfRank": null,
+    "googleRating": 3.8,
+    "reviews": {
+        "count": 85,
+        "average": 3.5,
+        "academics": 3.4,
+        "infrastructure": 3.2,
+        "placement": 2.8,
+        "faculty": 3.6
+    },
+    "established": 2010,
+    "accreditation": "AICTE Approved",
+    //"naacGrade": null,
+    "affiliations": ["Maulana Abul Kalam Azad University of Technology (MAKAUT)", "West Bengal State Council of Technical & Vocational Education and Skill Development (WBSCT&VE&SD)"],
+    "recognition": ["AICTE", "Ministry of Education (formerly MHRD), Government of India", "UGC (as CFTI)"],
+    "location": {
+        "city": "Malda",
+        "state": "West Bengal",
+        "country": "India",
+        "pincode": "732141",
+        "campusSize": "101 acres",
+        "campusType": "rural",
+        "latitude": 24.9989,
+        "longitude": 88.1415,
+        "address": "Narayanpur, PO: C.D.A, Malda, West Bengal - 732141"
+    },
+    "fees": {
+        "annual": 52773,
+        "total": 211092,
+        "hostel": 12000,
+        "mess": 24000,
+        "otherCharges": 8000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Aikashree: For minority students (family income < ₹2 Lakhs) from West Bengal Minorities' Development & Finance Corporation [citation:2][citation:8]",
+            "Oasis: Post-Matric & Merit-cum-Means scholarship for SC/ST/OBC students from Backward Classes Welfare Department, West Bengal [citation:2][citation:8]",
+            "Kanyashree: One-time grant of ₹25,000 for unmarried girls (age 18-19, family income < ₹1.2 Lakhs) from Government of West Bengal [citation:2][citation:8]",
+            "Swami Vivekananda Merit-cum-Means Scholarship: Up to ₹8,000/month for meritorious students from economically weaker sections (family income < ₹2.5 Lakhs) [citation:2][citation:8]",
+            "Pragati Scholarship: For girl students from AICTE [citation:2]",
+            "Saksham Scholarship: For differently-abled students from AICTE [citation:2]",
+            "Chief Minister Relief Fund (Nabanna Scholarship): From Office of Chief Minister, Govt. of West Bengal [citation:2]",
+            "West Bengal Student Credit Card (WBSCC): Loan-cum-scholarship scheme for eligible students [citation:2]"
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 400000,
+        "highestPackage": 1500000,
+        "medianPackage": 212000,
+        "percentage": 75.38,
+        "totalOffers": 49,
+        "totalStudents": 65,
+        "internationalOffers": 0,
+        "dreamOffers": 2,
+        "averagePackageTrend": 5,
+        "topRecruiters": [
+            "Tech Mahindra",
+            "Reliance",
+            "Oracle",
+            "Adani Solar",
+            "Pinnacle Infotech",
+            "ASC International",
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Cognizant",
+            "HCL",
+            "Capgemini",
+            "L&T",
+            "Indian Oil (unconfirmed)",
+            "NTPC (unconfirmed)"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Manufacturing",
+            "Renewable Energy",
+            "Food Processing",
+            "Construction"
+        ],
+        "placementStats": [
+            {
+                "year": 2023,
+                "averagePackage": 212000,
+                "highestPackage": 1500000,
+                "percentage": 75.38
+            },
+            {
+                "year": 2022,
+                "averagePackage": 300000,
+                "highestPackage": 800000,
+                "percentage": 60.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "Diploma Engineering",
+            "Certificate Programs",
+            "B.Tech (Lateral Entry)"
+        ],
+        "popularCourses": [
+            "B.Tech Artificial Intelligence & Machine Learning",
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech Mechanical Engineering",
+            "B.Tech Food Technology",
+            "B.Tech Civil & Environmental Engineering"
+        ],
+        "facultyCount": 45,
+        "studentCount": 570,
+        "studentFacultyRatio": "12:1",
+        "specialization": [
+            "Artificial Intelligence & Machine Learning",
+            "Food Processing Technology",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Civil & Environmental Engineering",
+            "Computer Science & Engineering",
+            "Sericulture & Textile Technology (Certificate)"
+        ],
+        "departments": [
+            "Civil Engineering",
+            "Computer Science & Engineering",
+            "Electrical Engineering",
+            "Food Technology",
+            "Mechanical Engineering",
+            "Chemical Technology",
+            "Sericulture & Textile Technology",
+            "Basic Science & Humanities"
+        ],
+        "researchCenters": 2,
+        "publications": 15,
+        "collaborations": [
+            "NIT Durgapur (Mentorship)",
+            "Power Grid Corporation of India (Temporary Campus Partnership)"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 17454,
+            "journals": 45,
+            "digitalResources": 5000,
+            "seatingCapacity": 200
+        },
+        "labs": {
+            "count": 40,
+            "majorLabs": [
+                "IGNITE Lab (Innovation Center)",
+                "MLSB Research Lab",
+                "Computer Science Labs (270+ computers)",
+                "AutoCAD Lab",
+                "Electrical Machines Lab",
+                "Food Processing Technology Lab",
+                "Mechanical Workshop (881 sq. ft.)",
+                "Civil Engineering Lab"
+            ],
+            "equipmentValue": 35000000
+        },
+        "sports": {
+            "facilities": [
+                "Large Playground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Court",
+                "Indoor Games (Carrom, Chess)"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 567,
+            "rooms": 204,
+            "facilities": [
+                "Swami Vivekananda Hall (Boys) - G+3 building with 109 rooms (95 twin-sharing, 14 triple-sharing) accommodating 267 students [citation:2][citation:7]",
+                "S.C. Bose Hall (Girls) - G+3 building accommodating approximately 260 students [citation:2][citation:7]",
+                "Single/Double/Triple-sharing rooms",
+                "Wi-Fi connectivity",
+                "Common rooms",
+                "24/7 security with CCTV",
+                "Mess facilities",
+                "RO drinking water"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 1,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 1
+    },
+    "admission": {
+        "entranceExam": ["JEE Main", "WBJEE", "JEXPO", "JELET", "VOCLET", "GKCIET Entrance Test (GET)"],
+        "cutoff": 110055,
+        "cutoffTrend": -5,
+        "applicationMode": "Online and Offline",
+        "applicationFee": 1000,
+        "selectionProcess": [
+            "JEE Main Score (for All India candidates) + JoSAA/CSAB Counseling",
+            "WBJEE Score (for West Bengal candidates) + WBJEEB Counseling",
+            "JEXPO Score (for Diploma) + WBSCT&VE&SD Counseling",
+            "JELET Score (for B.Tech Lateral Entry) + WBJEEB Counseling",
+            "GKCIET Entrance Test (GET) for Certificate Programs",
+            "50% seats reserved for West Bengal candidates, 25% for North-Eastern states [citation:8]"
+        ],
+        "eligibility": {
+            "minPercentage": 45,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "January 22, 2026",
+            "applicationEnd": "February 23, 2026",
+            "examDate": "May 17, 2026",
+            "resultDate": "June 15, 2026",
+            "counsellingStart": "June 20, 2026",
+            "counsellingEnd": "July 30, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "JEE Main/WBJEE Scorecard",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs",
+            "Aadhar Card"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Robotics Club",
+            "NCC (National Cadet Corps)",
+            "IGNITE Innovation Club",
+            "Cultural Club",
+            "Sports Club"
+        ],
+        "festivals": [
+            "Annual Technical Fest",
+            "Cultural Fest",
+            "Freshers' Welcome",
+            "Farewell Ceremony"
+        ],
+        "technicalEvents": [
+            "Workshops",
+            "Seminars",
+            "Hackathons",
+            "Project Exhibitions",
+            "IGNITE Innovation Challenges"
+        ],
+        "culturalEvents": [
+            "Music Competitions",
+            "Dance Performances",
+            "Drama",
+            "Rangoli Competitions"
+        ],
+        "socialInitiatives": [
+            "Blood Donation Camps",
+            "Health Check-up Camps",
+            "Skill Development Programs for Rural Youth",
+            "Women Empowerment Drives",
+            "Swachh Bharat Abhiyan"
+        ],
+        "annualBudget": 2500000
+    },
+    "faculty": {
+        "total": 45,
+        "phdHolders": 12,
+        "professor": 8,
+        "associateProfessor": 12,
+        "assistantProfessor": 25,
+        "industryExperience": 8,
+        "internationalFaculty": 0,
+        "awards": []
+    },
+    "alumni": {
+        "notableAlumni": [],
+        "placementCompanies": [
+            "Tech Mahindra",
+            "Reliance",
+            "Oracle",
+            "Adani Solar",
+            "TCS",
+            "Infosys"
+        ],
+        "networkStrength": 35
+    },
+    "international": {
+        "collaborations": 0,
+        "studentExchange": false,
+        "facultyExchange": false,
+        "partnerUniversities": [],
+        "foreignStudents": 0
+    },
+    "contact": {
+        "phone": [
+            "+91-3512-222044",
+            "+91-7866931440"
+        ],
+        "email": [
+            "director@gkciet.ac.in",
+            "ar_est@gkciet.ac.in",
+            "info@gkciet.ac.in"
+        ],
+        "website": "https://www.gkciet.ac.in",
+        "socialMedia": {
+            // "facebook": null,
+            // "twitter": null,
+            // "linkedin": null,
+            // "instagram": null,
+            // "youtube": null
+        },
+        "admissionContact": {
+            "phone": "+91-3512-222044",
+            "email": "ar_est@gkciet.ac.in"
+        }
+    },
+    "facilities": [
+        "101-acre campus surrounded by mango orchards and green landscapes",
+        "Permanent campus at Narayanpur with completed Academic Block A",
+        "Central Library with 17,454+ books and digital resources",
+        "40 well-equipped laboratories including IGNITE Research Lab",
+        "Swami Vivekananda Boys Hostel (267 capacity)",
+        "S.C. Bose Girls Hostel (260 capacity)",
+        "Fully Wi-Fi campus with 270+ computers in Computer Centre",
+        "Medical facility with M.B.B.S. doctor and MoU with Moulik Nursing Home for 24/7 emergencies",
+        "Fitness club with gym and yoga sessions",
+        "Large playground for outdoor sports",
+        "Bus transportation from Malda City (Rathbari and Arabinda Park pick-up points)",
+        "Cafeteria serving hygienic food at affordable prices",
+        "IGNITE Center for Innovation and Incubation",
+        "NCC unit for students",
+        "Smart classrooms with projectors and smart boards"
+    ],
+    "achievements": [
+        "Centrally Funded Technical Institute (CFTI) under Ministry of Education, Government of India",
+        "Mentored by NIT Durgapur since inception",
+        "Only CFTI in the Malda region serving border districts of West Bengal, Bihar, Jharkhand, and North Eastern states",
+        "Unique vertically integrated education system: Certificate → Diploma → Degree with multiple entry/exit options",
+        "Dedicated focus on skill development for women, school dropouts, and disadvantaged sections of society",
+        "Academic Block A inaugurated by Former President of India",
+        "Foundation stone laid by Former Prime Minister of India",
+        "IGNITE Lab for fostering innovation and entrepreneurship among students",
+        "40+ laboratories with state-of-the-art equipment",
+        "NCC enrollment opportunities for students"
+    ],
+    "newsUpdates": [
+        {
+            "title": "GKCIET JEE Main Cutoff 2025 Released: CSE at 110055, Mechanical at 156355 in Round 1",
+            "date": "2025-12-18",
+            "link": "https://collegedunia.com/college/60074-ghani-khan-choudhury-institute-of-engineering-and-technology-gkciet-malda"
+        },
+        {
+            "title": "GKCIET JELET 2025 Cutoff Announced: AI & ML at 771 for General Category",
+            "date": "2025-12-17",
+            "link": "https://collegedunia.com/college/60074-ghani-khan-choudhury-institute-of-engineering-and-technology-gkciet-malda/jelet-2025-cutoff"
+        },
+        {
+            "title": "GKCIET WBJEE Cutoff 2025 Expected to Release Soon",
+            "date": "2025-08-15",
+            "link": "https://www.gkciet.ac.in"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/gkciet-campus1.jpg",
+            "caption": "Academic Block A - GKCIET Malda"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/gkciet-campus2.jpg",
+            "caption": "Institute Entrance - Narayanpur Campus"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/gkciet-lab1.jpg",
+            "caption": "IGNITE Innovation Lab"
+        },
+        // {
+        //     "type": "library",
+        //     "url": "/gallery/gkciet-library.jpg",
+        //     "caption": "Central Library"
+        // },
+        {
+            "type": "hostel",
+            "url": "/gallery/gkciet-hostel1.jpg",
+            "caption": "Swami Vivekananda Boys Hostel"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/gkciet-ground.jpg",
+            "caption": "College Playground"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is GKCIET Malda a government or private institute?",
+            "answer": "GKCIET Malda is a Centrally Funded Technical Institute (CFTI) under the Ministry of Education, Government of India. It is a fully government institute established in 2010 and mentored by NIT Durgapur. The institute is approved by AICTE and offers affordable technical education with government fee structure [citation:1][citation:2][citation:5]."
+        },
+        {
+            "question": "What is the highest package offered at GKCIET?",
+            "answer": "The highest package offered at GKCIET ranges between ₹12-15 LPA for top performers, particularly in Computer Science and IT branches. However, as per NIRF 2024 data, the median package for B.Tech students in 2023 was ₹2.12 LPA, with 75.38% of students placed [citation:5][citation:8]."
+        },
+        {
+            "question": "What is the average package at GKCIET?",
+            "answer": "The average package at GKCIET is approximately ₹4.0-5.5 LPA according to placement trends. However, official NIRF data shows a median package of ₹2.12 LPA for the 2023 batch. Placement rates vary by branch, with CSE and IT students typically securing better packages [citation:5][citation:8]."
+        },
+        {
+            "question": "What is the JEE Main cutoff for GKCIET?",
+            "answer": "For 2025, the JEE Main Round 1 cutoff for General category was: B.Tech Artificial Intelligence & Machine Learning - 110055 rank, B.Tech Mechanical Engineering - 156355 rank, B.Tech Electrical Engineering - 164368 rank, B.Tech Civil & Environmental Engineering - 204687 rank, and B.Tech Food Technology - 237344 rank [citation:8]."
+        },
+        {
+            "question": "What is the campus size of GKCIET?",
+            "answer": "GKCIET is located on a sprawling 101-acre campus at Narayanpur, Malda, surrounded by green land and mango trees. The institute was temporarily located at Power Grid Corporation's Training Institute and has now shifted to its permanent campus with one Academic Block already completed [citation:1][citation:5][citation:7]."
+        },
+        {
+            "question": "Does GKCIET have hostel facilities?",
+            "answer": "Yes, GKCIET has separate hostel facilities for boys and girls. Swami Vivekananda Hall (Boys) is a G+3 building with 109 rooms accommodating 267 students in twin/triple sharing. S.C. Bose Hall (Girls) accommodates approximately 260 students. Hostels are equipped with Wi-Fi, mess facilities, and 24/7 security [citation:2][citation:7][citation:8]."
+        },
+        {
+            "question": "Which courses are offered at GKCIET?",
+            "answer": "GKCIET offers B.Tech programs in Computer Science & Engineering, Electronics & Communication Engineering, Electrical Engineering, Mechanical Engineering, Civil & Environmental Engineering, and Food Technology. The institute also offers Diploma programs and Certificate courses in various engineering disciplines, along with skill development programs for rural youth and women [citation:2][citation:5][citation:6]."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at GKCIET?",
+            "answer": "The first semester fee for B.Tech programs is approximately ₹35,541, with annual fees ranging from ₹50,000 to ₹80,000 depending on the branch. The total fee for the complete B.Tech program is approximately ₹2.1-3.2 Lakhs. Hostel fees are around ₹6,000 per semester with a caution deposit of ₹8,000 [citation:2][citation:8]."
+        },
+        {
+            "question": "Who are the top recruiters at GKCIET?",
+            "answer": "Top recruiters include Tech Mahindra, Reliance, Oracle, Adani Solar, Pinnacle Infotech, ASC International, TCS, Infosys, Wipro, Cognizant, HCL, Capgemini, and L&T. Some students have also been recruited by Indian Oil and NTPC in previous years [citation:2][citation:5][citation:8]."
+        },
+        {
+            "question": "What scholarships are available at GKCIET?",
+            "answer": "GKCIET students can avail various West Bengal government scholarships including Aikashree (for minorities), Oasis (for SC/ST/OBC), Kanyashree (for girl students), Swami Vivekananda Merit-cum-Means Scholarship, and Pragati/Saksham scholarships from AICTE. The institute also facilitates the West Bengal Student Credit Card scheme for eligible students [citation:2][citation:8]."
+        },
+        {
+            "question": "Is GKCIET approved by AICTE and affiliated to any university?",
+            "answer": "Yes, GKCIET is approved by AICTE. For B.Tech programs, it is affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT), Kolkata. For Diploma and Certificate programs, it is affiliated to the West Bengal State Council of Technical & Vocational Education and Skill Development (WBSCT&VE&SD), Kolkata [citation:2][citation:6][citation:8]."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
