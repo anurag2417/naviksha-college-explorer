@@ -10763,6 +10763,576 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1130",
+    "slug": "dbatu-lonere",
+    "name": "Dr. Babasaheb Ambedkar Technological University",
+    "shortName": "DBATU",
+    "tagline": "न हि ज्ञानेन सदृशम् पवित्रमिह विद्यते (Nothing in this world purifies like knowledge)",
+    "overview": "A premier state technical university established in 1989, located in Lonere, Maharashtra, functioning as an affiliating university for over 100 engineering colleges with a sprawling 468-acre main campus.",
+    "description": "Dr. Babasaheb Ambedkar Technological University (DBATU), established in 1989 by the Government of Maharashtra under Act No. XXII of 1989, stands as a premier institution for technical education in the state [citation:7]. Located in the serene rural landscape of Lonere, Taluka Mangaon, District Raigad, the university operates as an affiliating state university, guiding and governing over 100 engineering colleges across Maharashtra [citation:1][citation:7]. Approved by UGC and accredited with NAAC B+ grade, DBATU offers a comprehensive range of programs from Diploma to Ph.D. levels across engineering, pharmacy, management, and computer applications [citation:4][citation:7]. The university's sprawling 468-acre campus houses state-of-the-art infrastructure including a computer centre with 600+ computers, central library with 30,000+ books, and separate hostels for boys and girls [citation:1][citation:7]. With an IIRF ranking of 120 in India for engineering in 2024 and NIRF Innovation ranking in the 151-300 band in 2023, DBATU continues to shape technical education through its affiliated colleges while maintaining its own academic rigour [citation:2][citation:7]. The university's placement cell facilitates recruitment with top companies like TCS, Infosys, Wipro, and Capgemini, offering median packages around ₹4-5 LPA [citation:8].",
+    "logo": "/logos/dbatu-lonere.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "tier2",
+    "ranking": 120,
+    "rating": 3.9,
+    "nirfRank": 300,
+    "googleRating": 4.0,
+    "reviews": {
+        "count": 729,
+        "average": 3.9,
+        "academics": 4.1,
+        "infrastructure": 4.1,
+        "placement": 3.5,
+        "faculty": 4.1
+    },
+    "established": 1989,
+    "accreditation": "UGC Approved",
+    "naacGrade": "B+",
+    "affiliations": ["University Grants Commission (UGC)"],
+    "recognition": ["UGC", "AICTE", "Government of Maharashtra", "Pharmacy Council of India"],
+    "location": {
+        "city": "Lonere",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "402103",
+        "campusSize": "468 acres",
+        "campusType": "rural",
+        "latitude": 18.0625,
+        "longitude": 73.3269,
+        "address": "Dr. Babasaheb Ambedkar Technological University, Lonere, Taluka Mangaon, District Raigad, Maharashtra - 402103"
+    },
+    "fees": {
+        "annual": 44000,
+        "total": 167000,
+        "hostel": 9000,
+        "mess": 24000,
+        "otherCharges": 19000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Government of India Post-Matric Scholarship: For SC/ST/OBC students meeting eligibility criteria [citation:7]",
+            "Merit Scholarship: For students with excellent academic records and meeting income limits [citation:7]",
+            "Financial Aid/Assistance Schemes: For students seeking financial help for their studies [citation:7]",
+            "Tuition Fee Waiver: For economically weaker sections as per Maharashtra government norms",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech students with valid GATE score",
+            "MAHA DBT Scholarships: For students from reserved categories through Government of Maharashtra"
+        ],
+        "paymentOptions": [
+            "Online Payment (University Portal)",
+            "NEFT/RTGS",
+            "Demand Draft in favor of DBATU, Lonere",
+            "Credit/Debit Card",
+            "Cash at designated branches"
+        ]
+    },
+    "placement": {
+        "averagePackage": 450000,
+        "highestPackage": 1200000,
+        "medianPackage": 400000,
+        "percentage": 10.83,
+        "totalOffers": 52,
+        "totalStudents": 480,
+        "internationalOffers": 0,
+        "dreamOffers": 5,
+        "averagePackageTrend": 5,
+        "topRecruiters": [
+            "Tata Consultancy Services (TCS)",
+            "Infosys",
+            "Wipro",
+            "Capgemini",
+            "IBM",
+            "Persistent Systems",
+            "Sandoz",
+            "Galaxy Surfactants",
+            "Sulzer India Ltd.",
+            "Torrent Power Limited",
+            "Zensar Technologies",
+            "Seed InfoTech",
+            "CC Tech",
+            "Sarvaha Systems",
+            "Kirloskar",
+            "Endurance",
+            "Bajaj Auto",
+            "Tata Motors"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Pharmaceuticals",
+            "Manufacturing",
+            "Automobile",
+            "Consulting",
+            "Power & Energy"
+        ],
+        "placementStats": [
+            {
+                "year": 2024,
+                "averagePackage": 450000,
+                "highestPackage": 1200000,
+                "percentage": 10.83
+            },
+            {
+                "year": 2023,
+                "averagePackage": 400000,
+                "highestPackage": 1000000,
+                "percentage": 12.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "M.Tech",
+            "Diploma Engineering",
+            "B.Pharm",
+            "M.Pharm",
+            "MBA",
+            "MCA",
+            "PhD",
+            "Lateral B.Tech",
+            "Lateral Polytechnic"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Chemical Engineering",
+            "B.Tech Electronics & Telecommunication Engineering",
+            "B.Tech Mechanical Engineering",
+            "M.Tech Cyber Security"
+        ],
+        "facultyCount": 120,
+        "studentCount": 3200,
+        "studentFacultyRatio": "26:1",
+        "specialization": [
+            "Computer Engineering",
+            "Information Technology",
+            "Chemical Engineering",
+            "Cyber Security",
+            "VLSI Design",
+            "Petrochemical Engineering",
+            "Automobile Engineering",
+            "Innovation, Entrepreneurship & Venture Development"
+        ],
+        "departments": [
+            "Computer Engineering",
+            "Information Technology",
+            "Chemical Engineering",
+            "Electronics & Telecommunication Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Petrochemical Engineering",
+            "Instrumentation Engineering",
+            "Automobile Engineering",
+            "Pharmacy",
+            "Management Studies",
+            "Computer Applications (MCA)",
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "English"
+        ],
+        "researchCenters": 15,
+        "publications": 350,
+        "collaborations": [
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Persistent Systems",
+            "Galaxy Surfactants"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 30000,
+            "journals": 200,
+            "digitalResources": 10000,
+            "seatingCapacity": 400
+        },
+        "labs": {
+            "count": 45,
+            "majorLabs": [
+                "Computer Centre (600+ computers, 350+ desktops with high-speed internet) [citation:7]",
+                "Departmental Research Labs for each program [citation:7]",
+                "Chemical Engineering Labs",
+                "VLSI Design Lab",
+                "Electronics & Communication Labs",
+                "Electrical Machines Lab",
+                "Mechanical Engineering Workshop",
+                "Civil Engineering Materials Lab",
+                "Pharmacy Labs",
+                "Biotechnology Lab"
+            ],
+            "equipmentValue": 250000000
+        },
+        "sports": {
+            "facilities": [
+                "Cricket Ground",
+                "Football Ground",
+                "Basketball Court",
+                "Volleyball Court",
+                "Badminton Courts (Indoor)",
+                "Table Tennis",
+                "Carrom",
+                "Chess",
+                "Gymnasium"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 1200,
+            "rooms": 600,
+            "facilities": [
+                "Separate hostels for boys and girls at affordable cost [citation:7]",
+                "Single/Double sharing rooms",
+                "24/7 stable Wi-Fi connectivity [citation:7]",
+                "Mess facilities with hygienic food (veg and non-veg options) [citation:3]",
+                "Common rooms with TV",
+                "24/7 security with CCTV",
+                "RO drinking water",
+                "24/7 water and electricity supply",
+                "Medical assistance available"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 3,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["MHT CET", "JEE Main", "GATE", "MAH MCA CET", "MAH MBA CET", "GPAT"],
+        "cutoff": 67.05,
+        "cutoffTrend": -2,
+        "applicationMode": "Online and Offline",
+        "applicationFee": 800,
+        "selectionProcess": [
+            "MHT CET Score (for Maharashtra candidates) + Centralized Admission Process",
+            "JEE Main Score (for All India Quota)",
+            "GATE Score (for M.Tech) + COAP Counseling",
+            "MAH MBA CET Score (for MBA)",
+            "MAH MCA CET Score (for MCA)",
+            "GPAT Score (for M.Pharm)",
+            "Merit-based admission for Diploma programs based on 10th marks"
+        ],
+        "eligibility": {
+            "minPercentage": 50,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "May 1, 2026",
+            "applicationEnd": "June 30, 2026",
+            "examDate": "April 11-19, 2026 (MHT CET)",
+            "resultDate": "June 15, 2026",
+            "counsellingStart": "July 5, 2026",
+            "counsellingEnd": "September 13, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "MHT CET/JEE Main Scorecard",
+            "Domicile Certificate (for Maharashtra candidates)",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs (4 copies) [citation:7]",
+            "Aadhar Card",
+            "Graduation Marksheet (for PG admissions)"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell (Entrepreneurship Cell)",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Quizzing Club",
+            "Sports Club"
+        ],
+        "festivals": [
+            "Annual Technical Fest",
+            "Cultural Fest",
+            "Ganesh Utsav [citation:3]",
+            "Chhatrapati Shivaji Maharaj Jayanti [citation:3]",
+            "Annual Gathering",
+            "Freshers' Party",
+            "Teachers' Day",
+            "Sports Day",
+            "National Science Exhibition [citation:3]"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Technical Workshops",
+            "Seminars by Industry Experts",
+            "Project Exhibitions",
+            "Research Conclave",
+            "Tifan Competition [citation:3]",
+            "BAJA National Competition under SAE India [citation:3]",
+            "Locopilot Training Programs [citation:3]"
+        ],
+        "culturalEvents": [
+            "Pro Shows",
+            "Music Competitions",
+            "Dance Performances",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events",
+            "Rangoli Competitions"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "Blood Donation Camps",
+            "Health Check-up Camps",
+            "Swachh Bharat Abhiyan",
+            "Environmental Awareness Programs",
+            "Women Empowerment Drives"
+        ],
+        "annualBudget": 8000000
+    },
+    "faculty": {
+        "total": 120,
+        "phdHolders": 70,
+        "professor": 30,
+        "associateProfessor": 35,
+        "assistantProfessor": 55,
+        "industryExperience": 25,
+        "internationalFaculty": 3,
+        "awards": [
+            "Best Teacher Award by Government of Maharashtra",
+            "Young Scientist Award",
+            "Distinguished Educator Award",
+            "Excellent Research Award"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Vijay Shivtare",
+                "designation": "Member of Maharashtra Assembly",
+                "company": "Government of Maharashtra"
+            },
+            {
+                "name": "Manan Joshi",
+                "designation": "Indian Television Actor",
+                "company": "Entertainment Industry"
+            },
+            {
+                "name": "S. Patil",
+                "designation": "Researcher",
+                "company": "Academic/Research Institution"
+            }
+        ],
+        "placementCompanies": [
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Capgemini",
+            "IBM"
+        ],
+        "networkStrength": 65
+    },
+    "international": {
+        "collaborations": 3,
+        "studentExchange": false,
+        "facultyExchange": true,
+        "partnerUniversities": [],
+        "foreignStudents": 5
+    },
+    "contact": {
+        "phone": [
+            "+91-2140-275142",
+            "+91-2140-275101 (Vice Chancellor)",
+            "+91-2140-275142 (Fax)"
+        ],
+        "email": [
+            "registrar@dbatu.ac.in",
+            "vc@dbatu.ac.in",
+            "iqac.dir@dbatu.ac.in"
+        ],
+        "website": "https://dbatu.ac.in",
+        "socialMedia": {
+            // "facebook": null,
+            // "twitter": null,
+            // "linkedin": null,
+            // "instagram": null,
+            // "youtube": null
+        },
+        "admissionContact": {
+            "phone": "+91-2140-275142",
+            "email": "registrar@dbatu.ac.in"
+        }
+    },
+    "facilities": [
+        "468-acre rural campus in Lonere, Raigad district [citation:1][citation:7]",
+        "Central Library with 30,000+ books and research publications [citation:7]",
+        "Computer Centre with 600+ computers and 350+ desktops with high-speed internet [citation:7]",
+        "Departmental research labs for all programs [citation:7]",
+        "High-speed Wi-Fi connectivity across entire campus [citation:3][citation:7]",
+        "Three cafeterias/canteens serving hygienic food [citation:7]",
+        "Health centre with experienced doctors available 24/7 [citation:7]",
+        "Sports Complex with indoor and outdoor facilities [citation:7]",
+        "Cricket, football, basketball, and volleyball grounds",
+        "Indoor games facilities including carrom and badminton [citation:7]",
+        "Gymnasium for students",
+        "Separate boys and girls hostels with 1200 capacity [citation:7]",
+        "Transport facility within campus for hostlers and day scholars [citation:7]",
+        "Guest rooms for visiting faculty and student families [citation:7]",
+        "Bank and ATM facilities inside the campus [citation:7]",
+        "Auditorium with decent seating capacity for events [citation:7]",
+        "E-learning enabled smart classrooms [citation:3]",
+        "Modern laboratory equipment for practical training"
+    ],
+    "achievements": [
+        "Established in 1989 as a state technological university by Government of Maharashtra",
+        "One of the largest affiliating universities for engineering in Maharashtra with 100+ affiliated colleges",
+        "468-acre campus - one of the largest technical university campuses in Maharashtra [citation:1]",
+        "NAAC B+ Grade accreditation",
+        "NIRF Innovation Ranking 2023: Ranked in 151-300 band in India [citation:7]",
+        "IIRF Rankings 2024: Ranked 120 out of 160 in India for Engineering [citation:2]",
+        "IIRF Rankings 2024: Ranked 11th in Maharashtra for Engineering [citation:2]",
+        "UGC recognition under Section 2(f) and 12(B) since 2005 [citation:1]",
+        "Students participate in national competitions like BAJA (SAE India) and Tifan [citation:3]",
+        "Strong research output with multiple departmental research labs",
+        "Comprehensive course offerings from Diploma to Ph.D. across 12+ engineering disciplines",
+        "Modern computer centre with 600+ computers supporting technical education [citation:7]"
+    ],
+    "newsUpdates": [
+        {
+            "title": "DBATU releases Fee Structure 2025-26: B.Tech academic fee set at ₹1.24 Lakhs to ₹1.67 Lakhs",
+            "date": "2025-07-11",
+            "link": "https://collegedunia.com/university/25696-dr-babasaheb-ambedkar-technological-university-dbatu-lonere/courses-fees"
+        },
+        {
+            "title": "MHT CET 2026 Session 1 exam to be held from April 11 to April 19, 2026 for DBATU admissions",
+            "date": "2025-10-24",
+            "link": "https://www.shiksha.com/university/dr-babasaheb-ambedkar-technological-university-dbatu-raigad-24948/fees"
+        },
+        {
+            "title": "DBATU M.Tech Cyber Security fees set at ₹64,100 for 2025-26 academic year",
+            "date": "2025-09-30",
+            "link": "https://www.kollegeapply.com/college/dr-babasaheb-ambedkar-technological-university-dbatu-pune"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/dbatu-campus1.jpg",
+            "caption": "Main Administrative Building - DBATU Lonere"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/dbatu-campus2.jpg",
+            "caption": "Academic Complex - DBATU"
+        },
+        // {
+        //     "type": "library",
+        //     "url": "/gallery/dbatu-library.jpg",
+        //     "caption": "Central Library with Digital Resources"
+        // },
+        {
+            "type": "lab",
+            "url": "/gallery/dbatu-lab1.jpg",
+            "caption": "Computer Centre with 600+ Systems"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/dbatu-lab2.jpg",
+            "caption": "Chemical Engineering Laboratory"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/dbatu-ground.jpg",
+            "caption": "Cricket Ground and Sports Complex"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/dbatu-hostel1.jpg",
+            "caption": "Boys Hostel - DBATU"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/dbatu-event1.jpg",
+            "caption": "Annual Technical Fest"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is DBATU a government or private university?",
+            "answer": "DBATU is a State Government University established in 1989 by the Government of Maharashtra under Act No. XXII of 1989 [citation:7]. It is a fully government-funded state technical university, approved by UGC and accredited by NAAC with B+ grade [citation:4][citation:7]. The university operates as an affiliating institution governing over 100 engineering colleges across Maharashtra [citation:1]."
+        },
+        {
+            "question": "What is the highest package offered at DBATU?",
+            "answer": "The highest package offered at DBATU ranges between ₹10-12 LPA according to student reviews and placement data [citation:3]. For the 2023-24 academic year, over 500 students were placed with an average package of ₹4-5 LPA [citation:7]. Top recruiters include TCS, Infosys, Wipro, Capgemini, and Persistent Systems [citation:8]."
+        },
+        {
+            "question": "What is the average package at DBATU?",
+            "answer": "The average package at DBATU is approximately ₹4.5 LPA according to 2024 placement data [citation:7]. The median salary offered for B.Tech graduates is ₹4 LPA [citation:8]. For the 2023-24 academic year, 52 students out of 480 graduating students were placed through campus placements, with many others opting for higher studies [citation:8]."
+        },
+        {
+            "question": "What is the MHT CET cutoff for DBATU?",
+            "answer": "For 2024, the MHT CET Round 1 cutoff percentiles for DBATU were: B.Tech Information Technology - 81.77 percentile, B.Tech Computer Engineering - 67.05 percentile, B.Tech Electronics & Telecommunication Engineering - 65.72 percentile, B.Tech Chemical Engineering - 64.47 percentile, and B.Tech Electrical Engineering - 60.50 percentile [citation:5]. Cutoffs vary by category and round of counseling."
+        },
+        {
+            "question": "What is the campus size of DBATU?",
+            "answer": "DBATU is located on a sprawling 468-acre rural campus in Lonere, Taluka Mangaon, District Raigad, Maharashtra [citation:1][citation:7]. The campus houses academic buildings, separate boys and girls hostels, sports facilities, library, computer centre, and other amenities, making it one of the largest technical university campuses in Maharashtra [citation:7]."
+        },
+        {
+            "question": "Does DBATU have hostel facilities?",
+            "answer": "Yes, DBATU has separate hostel facilities for boys and girls at affordable costs [citation:7]. Hostels offer single/double sharing rooms, 24/7 stable Wi-Fi connectivity, mess facilities with hygienic food (both veg and non-veg options), common rooms, 24/7 security with CCTV, and RO drinking water [citation:3][citation:7]. Hostel fees range from ₹7,000 to ₹9,000 per year [citation:2][citation:4]."
+        },
+        {
+            "question": "Which courses are offered at DBATU?",
+            "answer": "DBATU offers B.Tech programs in Computer Engineering, Information Technology, Chemical Engineering, Electronics & Telecommunication Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, Petrochemical Engineering, Instrumentation Engineering, Automobile Engineering, and VLSI Design [citation:4]. It also offers M.Tech, M.Pharm, MBA, MCA, Diploma, and Ph.D. programs across various disciplines [citation:4][citation:7]."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at DBATU?",
+            "answer": "The total fee for B.Tech at DBATU is approximately ₹1.67 Lakhs for the complete four-year program [citation:4]. Yearly fees are structured as: Year 1 - ₹44,000, Year 2 - ₹40,900, Year 3 - ₹40,900, and Year 4 - ₹40,900 [citation:4]. Hostel fees are extra, ranging from ₹7,000 to ₹9,000 per year [citation:4]. The fees are affordable as it is a government university [citation:7]."
+        },
+        {
+            "question": "Who are the top recruiters at DBATU?",
+            "answer": "Top recruiters at DBATU include Tata Consultancy Services (TCS), Infosys, Wipro, Capgemini, IBM, Persistent Systems, Sandoz, Galaxy Surfactants, Sulzer India Ltd., Torrent Power Limited, Zensar Technologies, Seed InfoTech, CC Tech, Sarvaha Systems, Kirloskar, Endurance, Bajaj Auto, and Tata Motors [citation:3][citation:7][citation:8]. Over 200+ recruiters visit the campus annually [citation:7]."
+        },
+        {
+            "question": "What is the NIRF ranking of DBATU?",
+            "answer": "DBATU has been ranked in the 151-300 band in the National Institutional Ranking Framework (NIRF) under the 'Innovation' Category in 2023 [citation:7]. According to IIRF Rankings 2024 for Engineering, DBATU ranks 120 out of 160 in India and 11th in Maharashtra [citation:2]. The university was ranked 128 out of 170 institutes in India in 2023 [citation:2]."
+        },
+        {
+            "question": "Does DBATU have good faculty?",
+            "answer": "Yes, DBATU is known for its qualified and supportive faculty members. According to student reviews, teachers are well-educated with masters and Ph.D. degrees, helpful, and knowledgeable [citation:3]. Faculty members provide guidance regarding future careers, industrial knowledge, and life skills, making students industry-ready [citation:3]. The teaching quality is interactive with a mix of lectures, practical sessions, and project-based learning [citation:3]."
+        },
+        {
+            "question": "Is DBATU approved by UGC and AICTE?",
+            "answer": "Yes, DBATU is approved by UGC and recognized under Section 2(f) and 12(B) of the UGC Act since December 27, 2005 [citation:1][citation:6]. The university is also approved by AICTE and the Pharmacy Council of India for its pharmacy programs [citation:7]. It is a state university established by the Government of Maharashtra and certified by NAAC with B+ grade [citation:7]."
+        },
+        {
+            "question": "What are the placement statistics for DBATU?",
+            "answer": "According to available data, for the B.Tech graduating batch, 52 students out of 480 were placed through campus placements, with 38 students pursuing higher studies [citation:8]. The median salary offered is ₹4 LPA [citation:8]. Over 200+ recruiters participate in the placement process, and the university maintains ongoing relationships with corporate partners across IT, core engineering, and pharmaceutical sectors [citation:7][citation:8]."
+        },
+        {
+            "question": "What scholarships are available at DBATU?",
+            "answer": "DBATU offers various scholarships including Government of India Post-Matric Scholarship for SC/ST/OBC students, Merit Scholarship for students with good academic records and income limits, and Financial Aid/Assistance schemes for students seeking financial help [citation:7]. Students can also avail MAHA DBT scholarships through the Government of Maharashtra portal and GATE stipends for M.Tech students [citation:7]."
+        },
+        {
+            "question": "How can I reach DBATU campus?",
+            "answer": "DBATU is located in Lonere, Taluka Mangaon, District Raigad, Maharashtra [citation:1]. By Air: Nearest airport is Chhatrapati Shivaji International Airport, Mumbai (~150 km); taxis/cabs available [citation:7]. By Train: Nearest station is Mangaon Railway Station (~11 km); autos and cabs easily accessible [citation:7]. By Road: Well-connected via NH66; buses, taxis, and private vehicles available from nearby towns and Mumbai [citation:7]."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
