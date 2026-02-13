@@ -8175,7 +8175,7 @@ export const colleges: College[] = [
     ]
 },
 {
-    "id": "1115",
+    "id": "1205",
     "slug": "mcet-murshidabad",
     "name": "Murshidabad College of Engineering & Technology",
     "shortName": "MCET",
