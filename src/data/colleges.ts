@@ -8601,7 +8601,7 @@ export const colleges: College[] = [
     ]
 },
 {
-    "id": "1126",
+    "id": "1206",
     "slug": "gkciet-malda",
     "name": "Ghani Khan Choudhury Institute of Engineering & Technology",
     "shortName": "GKCIET",
@@ -9068,7 +9068,7 @@ export const colleges: College[] = [
     ]
 },
 {
-    "id": "1127",
+    "id": "1207",
     "slug": "rcciit-kolkata",
     "name": "RCC Institute of Information Technology",
     "shortName": "RCCIIT",
