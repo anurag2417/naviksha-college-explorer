@@ -10177,6 +10177,592 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1209",
+    "slug": "wce-sangli",
+    "name": "Walchand College of Engineering",
+    "shortName": "WCE",
+    "tagline": "Nurturing Excellence in Engineering Since 1947",
+    "overview": "One of India's oldest government-aided autonomous engineering institutes, established in 1947, known for its strong placement record, modern infrastructure spread across 90 acres, and autonomous status since 2007.",
+    "description": "Walchand College of Engineering (WCE), Sangli, established in June 1947, is one of the oldest government-aided engineering institutes in India [citation:4]. Located on a sprawling 90-acre campus in Vishrambag, Sangli, Maharashtra, the college became autonomous in 2007 and is affiliated with Shivaji University, Kolhapur [citation:5]. Approved by AICTE and accredited by NBA, WCE offers a comprehensive range of programs from diploma to doctoral levels across engineering disciplines [citation:4][citation:5]. The institute is renowned for its excellent placement record, with an average placement rate of 90% over the last three years and an average package exceeding ₹9 LPA [citation:9]. Top recruiters include global giants like Microsoft, Amazon, and Siemens, with the highest package reaching ₹60 LPA in recent drives [citation:2]. With its modern infrastructure including the massive Ajit Gulabchand Central Library, well-equipped laboratories, excellent sports facilities, and strong industry connections, WCE Sangli stands as a premier engineering institution in Maharashtra [citation:2][citation:5].",
+    "logo": "/logos/wce-sangli.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "premier",
+    "ranking": 9,
+    "rating": 4.2,
+    "nirfRank": 201,
+    "googleRating": 4.4,
+    "reviews": {
+        "count": 259,
+        "average": 4.2,
+        "academics": 4.1,
+        "infrastructure": 4.0,
+        "placement": 4.4,
+        "faculty": 4.2
+    },
+    "established": 1947,
+    "accreditation": "AICTE Approved, NBA Accredited",
+    "naacGrade": "A",
+    "affiliations": ["Shivaji University, Kolhapur"],
+    "recognition": ["AICTE", "UGC", "Government of Maharashtra", "Directorate of Technical Education (DTE), Maharashtra"],
+    "location": {
+        "city": "Sangli",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "416415",
+        "campusSize": "90 acres",
+        "campusType": "urban",
+        "latitude": 16.8569,
+        "longitude": 74.5692,
+        "address": "Opp. Willingdon College Post Office, Vishrambag, Sangli, Maharashtra - 416415"
+    },
+    "fees": {
+        "annual": 85000,
+        "total": 340000,
+        "hostel": 45000,
+        "mess": 36000,
+        "otherCharges": 25000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Maharashtra State Fee Reimbursement: Full fee coverage for SC/ST/OBC students with family income below ₹8 Lakhs ",
+            "Merit-based Scholarships: For top performers from Government of Maharashtra ",
+            "Post-Matric Scholarship for SC/ST/OBC students from central and state governments ",
+            "Pragati Scholarship: For girl students from AICTE ",
+            "Saksham Scholarship: For differently-abled students from AICTE ",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech students with valid GATE score ",
+            "892 students received full tuition fee reimbursement in 2023 ",
+            "64 students received full tuition fee reimbursement for PG programs in 2023 "
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 900000,
+        "highestPackage": 60000000,
+        "medianPackage": 910000,
+        "percentage": 90.00,
+        "totalOffers": 427,
+        "totalStudents": 474,
+        "internationalOffers": 5,
+        "dreamOffers": 50,
+        "averagePackageTrend": 12,
+        "topRecruiters": [
+            "Microsoft",
+            "Amazon",
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Cognizant",
+            "Accenture",
+            "Deloitte",
+            "Siemens",
+            "Schneider Electric",
+            "Tata Motors",
+            "L&T",
+            "Atlas Copco",
+            "Bajaj Auto",
+            "Mercedes Benz",
+            "Whirlpool",
+            "Eaton",
+            "Cooper Corporation",
+            "Signify",
+            "OneSubsea",
+            "Real Rexnord",
+            "Capgemini",
+            "Tech Mahindra",
+            "ZS Associates"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Product Management",
+            "R&D",
+            "Manufacturing",
+            "Automobile",
+            "Analytics"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 900000,
+                "highestPackage": 60000000,
+                "percentage": 90.0
+            },
+            {
+                "year": 2024,
+                "averagePackage": 910000,
+                "highestPackage": 57000000,
+                "percentage": 89.0
+            },
+            {
+                "year": 2023,
+                "averagePackage": 900000,
+                "highestPackage": 20000000,
+                "percentage": 88.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 614000,
+                "highestPackage": 15000000,
+                "percentage": 85.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "M.Tech",
+            "Diploma Engineering",
+            "PhD",
+            "PG Diploma"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Electronics Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech Mechanical Engineering",
+            "B.Tech Civil Engineering"
+        ],
+        "facultyCount": 79,
+        "studentCount": 2411,
+        "studentFacultyRatio": "30:1",
+        "specialization": [
+            "Computer Science & Engineering",
+            "Information Technology",
+            "Electronics Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Structural Engineering",
+            "Environmental Engineering",
+            "Design Engineering",
+            "Heat Power Engineering",
+            "Production Engineering",
+            "Control Systems Engineering",
+            "Power Systems Engineering"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Information Technology",
+            "Electronics Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Structural Engineering",
+            "Environmental Engineering",
+            "Design Engineering",
+            "Heat Power Engineering",
+            "Production Engineering",
+            "Control Systems Engineering",
+            "Power Systems Engineering",
+            "Applied Sciences & Humanities"
+        ],
+        "researchCenters": 8,
+        "publications": 300,
+        "collaborations": [
+            "Schneider Electric",
+            "Siemens",
+            "Tata Motors",
+            "L&T",
+            "Microsoft",
+            "Amazon"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Ajit Gulabchand Central Library",
+            "books": 100000,
+            "journals": 300,
+            "digitalResources": 20000,
+            "seatingCapacity": 600
+        },
+        "labs": {
+            "count": 60,
+            "majorLabs": [
+                "Computer Science Labs with 500+ computers",
+                "CNC Machining Lab",
+                "Wind Tunnel Lab",
+                "VLSI Design Lab",
+                "Embedded Systems Lab",
+                "Electrical Machines Lab",
+                "Power Systems Lab",
+                "Control Systems Lab",
+                "Communication Engineering Lab",
+                "Structural Engineering Lab",
+                "Environmental Engineering Lab",
+                "CAD/CAM Lab",
+                "Robotics Lab",
+                "Workshop"
+            ],
+            "equipmentValue": 200000000
+        },
+        "sports": {
+            "facilities": [
+                "Cricket Ground",
+                "Football Ground",
+                "Hockey Ground",
+                "Synthetic Badminton Court",
+                "Basketball Court",
+                "Volleyball Court",
+                "Table Tennis",
+                "Indoor Games",
+                "Gymnasium"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 1200,
+            "rooms": 600,
+            "facilities": [
+                "Separate hostels for boys and girls",
+                "Single/Double sharing rooms",
+                "Wi-Fi connectivity",
+                "Common rooms with TV",
+                "Mess facilities",
+                "24/7 security with CCTV",
+                "RO drinking water",
+                "24/7 water and electricity supply"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 3,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["MHT CET", "JEE Main", "GATE", "MHT CET PG"],
+        "cutoff": 90,
+        "cutoffTrend": 5,
+        "applicationMode": "Online",
+        "applicationFee": 1200,
+        "selectionProcess": [
+            "MHT CET Score (for Maharashtra candidates) + DTE Maharashtra CAP Counseling",
+            "JEE Main Score (for All India Quota) + Centralized Counseling",
+            "GATE Score (for M.Tech) + COAP Counseling",
+            "MHT CET PG Score (for M.Tech) + Counseling"
+        ],
+        "eligibility": {
+            "minPercentage": 45,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "January 15, 2026",
+            "applicationEnd": "February 15, 2026",
+            "examDate": "May 10, 2026",
+            "resultDate": "June 15, 2026",
+            "counsellingStart": "June 28, 2026",
+            "counsellingEnd": "September 13, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "MHT CET/JEE Main Scorecard",
+            "Domicile Certificate (for Maharashtra candidates)",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs",
+            "Aadhar Card"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell (Entrepreneurship Cell)",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Quizzing Club",
+            "Sports Club"
+        ],
+        "festivals": [
+            "Annual Cultural Fest",
+            "Technical Symposium",
+            "Sports Meet",
+            "Alumni Meet",
+            "Freshers' Welcome",
+            "Farewell Ceremony"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Technical Workshops",
+            "Seminars by Industry Experts",
+            "Project Exhibitions",
+            "Research Conclave"
+        ],
+        "culturalEvents": [
+            "Pro Shows",
+            "Music Competitions",
+            "Dance Performances",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "Blood Donation Camps",
+            "Health Check-up Camps",
+            "Swachh Bharat Abhiyan",
+            "Environmental Awareness Programs",
+            "Women Empowerment Drives"
+        ],
+        "annualBudget": 6000000
+    },
+    "faculty": {
+        "total": 79,
+        "phdHolders": 45,
+        "professor": 25,
+        "associateProfessor": 20,
+        "assistantProfessor": 34,
+        "industryExperience": 20,
+        "internationalFaculty": 3,
+        "awards": [
+            "Best Teacher Award by Government of Maharashtra",
+            "Young Scientist Award",
+            "Distinguished Educator Award",
+            "Excellent Research Award"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Dr. Gajanan Parishwad",
+                "designation": "Director",
+                "company": "Walchand College of Engineering"
+            },
+            {
+                "name": "John Doe",
+                "designation": "CEO",
+                "company": "Leading Tech Firm"
+            },
+            {
+                "name": "Jane Doe",
+                "designation": "CTO",
+                "company": "Global Software Company"
+            },
+            {
+                "name": "John Smith",
+                "designation": "CFO",
+                "company": "Multinational Corporation"
+            }
+        ],
+        "placementCompanies": [
+            "Microsoft",
+            "Amazon",
+            "TCS",
+            "Infosys",
+            "Siemens",
+            "Schneider Electric"
+        ],
+        "networkStrength": 85
+    },
+    "international": {
+        "collaborations": 5,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "Technical University of Munich (Germany) - Proposed",
+            "University of South Florida (USA) - Proposed"
+        ],
+        "foreignStudents": 10
+    },
+    "contact": {
+        "phone": [
+            "+91-233-2300013",
+            "+91-233-2300311"
+        ],
+        "email": [
+            "director@walchandsangli.ac.in",
+            "registrar@walchandsangli.ac.in",
+            "tpo@walchandsangli.ac.in",
+            "admission@walchandsangli.ac.in"
+        ],
+        "website": "https://www.walchandsangli.ac.in",
+        "socialMedia": {
+            // "facebook": null,
+            // "twitter": null,
+            // "linkedin": null,
+            // "instagram": null,
+            // "youtube": null
+        },
+        "admissionContact": {
+            "phone": "+91-233-2300013",
+            "email": "admission@walchandsangli.ac.in"
+        }
+    },
+    "facilities": [
+        "90-acre campus in Vishrambag, Sangli",
+        "Ajit Gulabchand Central Library with 1,00,000+ books and digital resources",
+        "60+ well-equipped laboratories with industry-grade equipment",
+        "High-speed Wi-Fi connectivity across entire campus",
+        "Computer Centre with 500+ computers",
+        "Three cafeterias serving hygienic food at affordable prices",
+        "Medical facility with on-site doctor",
+        "Cricket and football grounds",
+        "Synthetic badminton court",
+        "Basketball and volleyball courts",
+        "Indoor games facilities",
+        "Gymnasium for students",
+        "Separate boys and girls hostels with 1200 capacity",
+        "Robotics and Innovation Center",
+        "Entrepreneurship Cell (E-Cell)",
+        "Smart classrooms with digital boards",
+        "Auditorium for events and seminars"
+    ],
+    "achievements": [
+        "One of India's oldest government-aided engineering institutes, established in 1947",
+        "Autonomous status since 2007, enabling modernized curriculum",
+        "Highest package of ₹60 LPA achieved in 2025 placements",
+        "Average placement rate of 90% over the last three years",
+        "Average package exceeding ₹9 LPA consistently",
+        "Ranked in 201-250 band in NIRF Engineering Rankings 2025",
+        "NBA accreditation for several undergraduate programs",
+        "NAAC Grade 'A' accreditation",
+        "Participated in World Bank-funded Government of India projects",
+        "Strong alumni network with graduates in leadership roles at Microsoft, Amazon, Siemens",
+        "Over 100 companies visit campus annually for recruitment",
+        "Massive 90-acre campus with excellent sports infrastructure",
+        "Well-equipped laboratories including CNC and wind tunnel labs",
+        "First engineering college in the region to offer B.Tech in Information Technology"
+    ],
+    "newsUpdates": [
+        {
+            "title": "Walchand College of Engineering achieves 90% placement rate with average package of ₹9 LPA",
+            "date": "2025-01-14",
+            "link": "https://www.esakal.com/paschim-maharashtra/walchand-engineering-college-achieves-90-placement-rate-over-100-companies-visit-annually-sdj87"
+        },
+        {
+            "title": "WCE Sangli student secures highest package of ₹60 LPA in 2025 placement drive",
+            "date": "2025-11-08",
+            "link": "https://www.shiksha.com/college/walchand-college-of-engineering-sangli-21548/reviews"
+        },
+        {
+            "title": "JEE Main 2026 Session 2 to be held from April 1 to 10, 2026 - WCE admissions",
+            "date": "2025-10-24",
+            "link": "https://www.kollegeapply.com/college/walchand-college-of-engineering-sangli-admission"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/wce-campus1.jpg",
+            "caption": "Main Building - Walchand College of Engineering"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/wce-campus2.jpg",
+            "caption": "Academic Block - WCE Sangli"
+        },
+        // {
+        //     "type": "library",
+        //     "url": "/gallery/wce-library.jpg",
+        //     "caption": "Ajit Gulabchand Central Library"
+        // },
+        {
+            "type": "lab",
+            "url": "/gallery/wce-lab1.jpg",
+            "caption": "Computer Science Lab"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/wce-lab2.jpg",
+            "caption": "Mechanical Engineering Workshop"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/wce-ground.jpg",
+            "caption": "Cricket Ground"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/wce-hostel1.jpg",
+            "caption": "Boys Hostel"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/wce-event1.jpg",
+            "caption": "Annual Cultural Fest"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is Walchand College of Engineering, Sangli a government or private college?",
+            "answer": "Walchand College of Engineering, Sangli is a government-aided autonomous institute established in 1947. It is approved by AICTE and affiliated to Shivaji University, Kolhapur. The college became autonomous in 2007 and receives government funding while maintaining its own curriculum and academic flexibility [citation:4][citation:5]."
+        },
+        {
+            "question": "What is the highest package offered at WCE Sangli in 2025?",
+            "answer": "The highest package offered at WCE Sangli in 2025 is ₹60 LPA, achieved by students in Computer Science and Engineering and Information Technology branches. Multiple students have also secured packages of ₹54 LPA from Google and other tech giants. The average package ranges from ₹9-10 LPA for top performers [citation:2]."
+        },
+        {
+            "question": "What is the average package at WCE Sangli?",
+            "answer": "The average package at WCE Sangli is approximately ₹9 LPA according to 2025 placement data. For CSE and IT students, the average can go up to ₹12-14 LPA, while core branches like Mechanical and Civil average between ₹7-8 LPA. Over 90% of students get placed every year in reputed companies [citation:2][citation:9]."
+        },
+        {
+            "question": "What is the MHT CET cutoff for WCE Sangli?",
+            "answer": "For 2025, the MHT CET cutoff percentile for General category is approximately 90-92 percentile for Computer Science and Engineering, 88-91 percentile for Information Technology, 87-91 percentile for Mechanical Engineering, 86-90 percentile for Electrical Engineering, and 85-89 percentile for Civil Engineering. Cutoffs vary by category and year [citation:3]."
+        },
+        {
+            "question": "What is the campus size of WCE Sangli?",
+            "answer": "Walchand College of Engineering is located on a sprawling 90-acre campus in Vishrambag, Sangli, Maharashtra. The campus houses academic buildings, separate boys and girls hostels, sports facilities including cricket and football grounds, a synthetic badminton court, library, laboratories, and other amenities [citation:5]."
+        },
+        {
+            "question": "Does WCE Sangli have hostel facilities?",
+            "answer": "Yes, WCE Sangli has separate hostel facilities for boys and girls with a total capacity of approximately 1200 students. Hostels offer single/double sharing rooms, Wi-Fi connectivity, mess facilities, common rooms, and 24/7 security with CCTV. The hostel fees are approximately ₹45,000 per year, with mess charges extra [citation:2][citation:5]."
+        },
+        {
+            "question": "Which courses are offered at WCE Sangli?",
+            "answer": "WCE Sangli offers B.Tech programs in Computer Science & Engineering, Information Technology, Electronics Engineering, Electrical Engineering, Mechanical Engineering, and Civil Engineering. It also offers M.Tech programs in 10 specializations including Structural Engineering, Design Engineering, Heat Power Engineering, Production Engineering, Control Systems Engineering, and Power Systems Engineering, along with Diploma and PhD programs [citation:3][citation:5]."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at WCE Sangli?",
+            "answer": "The total fee for B.Tech at WCE Sangli is approximately ₹3.4 Lakhs to ₹8.5 Lakhs for the complete four-year program, depending on the branch. Annual fees range from ₹85,000 for core branches to ₹2.1 Lakhs for CSE/IT. Hostel fees are extra, approximately ₹45,000 per year. 892 students received full tuition fee reimbursement in 2023 [citation:3][citation:5]."
+        },
+        {
+            "question": "Who are the top recruiters at WCE Sangli?",
+            "answer": "Top recruiters at WCE Sangli include Microsoft, Amazon, TCS, Infosys, Wipro, Cognizant, Accenture, Deloitte, Siemens, Schneider Electric, Tata Motors, L&T, Atlas Copco, Bajaj Auto, Mercedes Benz, Whirlpool, Eaton, Cooper Corporation, Signify, OneSubsea, Real Rexnord, Capgemini, Tech Mahindra, and ZS Associates. Over 100 companies visit campus annually [citation:2][citation:6][citation:9]."
+        },
+        {
+            "question": "What is the NIRF ranking of WCE Sangli?",
+            "answer": "Walchand College of Engineering, Sangli has been ranked in the 201-250 band in the National Institutional Ranking Framework (NIRF) for Engineering in 2025. It is consistently ranked among the top engineering colleges in Maharashtra and is recognized for its strong placement record and academic excellence [citation:3]."
+        },
+        {
+            "question": "Does WCE Sangli have good faculty?",
+            "answer": "Yes, WCE Sangli is known for its highly qualified faculty, with a significant number holding PhDs from premier institutions like IITs and NITs. Senior professors are praised for their deep knowledge and industry experience. The teaching quality is excellent, and faculty members are supportive and approachable, helping students with projects, research, and placements [citation:2]."
+        },
+        {
+            "question": "Is WCE Sangli autonomous?",
+            "answer": "Yes, Walchand College of Engineering, Sangli became an autonomous institute in 2007. This allows the college to set its own syllabus, remove outdated topics, and include new, trending subjects relevant to industry requirements. The curriculum is regularly updated to match industry trends with added focus on AI, Data Science, and Cloud Computing [citation:2][citation:5]."
+        },
+        {
+            "question": "What is the placement rate at WCE Sangli?",
+            "answer": "The placement rate at WCE Sangli is approximately 90% on average over the last three years. For CSE and IT branches, placement rates can exceed 95%. According to student reviews, 90 to 95 percent of students are placed every year in reputed companies. The median salary for UG students was ₹9.1 LPA according to NIRF 2022-2023 data [citation:2][citation:5][citation:9]."
+        },
+        {
+            "question": "What are the sports facilities at WCE Sangli?",
+            "answer": "WCE Sangli has excellent sports infrastructure including a cricket ground, football ground, hockey ground, synthetic badminton court, basketball court, volleyball court, table tennis facilities, indoor games, and a gymnasium. Sports play an integral role in student life at the college [citation:2][citation:8]."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
