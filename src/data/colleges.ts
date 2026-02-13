@@ -11333,6 +11333,8 @@ export const colleges: College[] = [
         }
     ]
 },
+
+// Top - 10 Private Engineering Colleges
   {
     id: "2",
     slug: "aiims-delhi",
