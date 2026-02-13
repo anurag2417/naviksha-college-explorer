@@ -6437,6 +6437,658 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1112",
+    "slug": "delhi-technological-university",
+    "name": "Delhi Technological University",
+    "shortName": "DTU",
+    "tagline": "नव चेतना, नव निर्माण (New Consciousness, New Construction)",
+    "overview": "Delhi's premier engineering university, formerly Delhi College of Engineering (DCE), established in 1941. Ranked #30 in NIRF Engineering 2025, DTU is known for its excellent placements with a median package of ₹13 LPA and a vibrant 164-acre campus in Rohini, Delhi [citation:1][citation:2][citation:5].",
+    "description": "Delhi Technological University (DTU), established in 1941 as Delhi Polytechnic and later renamed Delhi College of Engineering (DCE), is one of India's oldest and most prestigious engineering institutions. It was converted to a university in 2009 under the Delhi Act 6 of 2009 and is now a non-affiliating teaching and research university funded by the Government of NCT of Delhi [citation:7][citation:8]. Spread across a sprawling 164-acre campus in Rohini, North-West Delhi, DTU combines an 80+ year legacy with modern infrastructure and cutting-edge research facilities [citation:1][citation:5][citation:8]. The university is accredited with 'A+' Grade (CGPA 3.47 out of 4.0) by NAAC and is ISO 9001:2015 certified [citation:7]. With over 12,800 students and 306 faculty members, DTU offers a diverse and inclusive environment with 70% of students hailing from outside Delhi [citation:1][citation:5]. The university has two campuses: the main 164-acre campus in Rohini and the East Delhi Campus in Vivek Vihar, which focuses on management and entrepreneurship programs [citation:8]. DTU is particularly renowned for its strong industry connections, excellent placement record, and vibrant student life with over 50 technical, cultural, and literary societies [citation:8].",
+    "logo": "/logos/dtu.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "tier1",
+    "ranking": 30,
+    "rating": 4.2,
+    "nirfRank": 30,
+    "googleRating": 4.1,
+    "reviews": {
+        "count": 4200,
+        "average": 4.2,
+        "academics": 4.0,
+        "infrastructure": 4.2,
+        "placement": 4.5,
+        "faculty": 4.1
+    },
+    "established": 1941,
+    "accreditation": "NAAC A+",
+    "naacGrade": "A+",
+    "affiliations": ["UGC", "AICTE", "Government of NCT of Delhi"],
+    "recognition": ["UGC", "AICTE", "NAAC", "Ministry of Education", "Government of NCT of Delhi"],
+    "location": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "pincode": "110042",
+        "campusSize": "164 acres",
+        "campusType": "urban",
+        "latitude": 28.7495,
+        "longitude": 77.1175,
+        "address": "Delhi Technological University, Shahbad Daulatpur, Main Bawana Road, Delhi - 110042"
+    },
+    "fees": {
+        "annual": 204000,
+        "total": 896000,
+        "hostel": 56000,
+        "mess": 34800,
+        "otherCharges": 81700,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Top Class Education Scheme for SC/ST students",
+            "Post Matric Scholarship for SC/ST/OBC candidates",
+            "Central Sector Scholarship Scheme for meritorious students",
+            "Merit-based institutional freeships",
+            "Financial assistance for students from low-income groups",
+            "Delhi Government scholarships",
+            "GATE stipends for M.Tech students"
+        ],
+        "paymentOptions": [
+            "Online Payment (University ERP Portal)",
+            "NEFT/RTGS",
+            "Credit Card/Debit Card",
+            "Demand Draft"
+        ]
+    },
+    "placement": {
+        "averagePackage": 1545000,
+        "highestPackage": 8530000,
+        "medianPackage": 1300000,
+        "percentage": 100,
+        "totalOffers": 246,
+        "totalStudents": 300,
+        "internationalOffers": 15,
+        "dreamOffers": 30,
+        "averagePackageTrend": 21,
+        "topRecruiters": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Flipkart",
+            "Goldman Sachs",
+            "Texas Instruments",
+            "Qualcomm",
+            "Cisco",
+            "Adobe",
+            "Uber",
+            "Ola",
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Cognizant",
+            "Deloitte",
+            "PwC",
+            "KPMG",
+            "Bajaj Auto",
+            "Tata Motors",
+            "Maruti Suzuki",
+            "L&T",
+            "Samsung",
+            "Intel",
+            "Oracle",
+            "IBM",
+            "HCL",
+            "NVIDIA",
+            "Atlassian",
+            "Apple"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Product Management",
+            "Quantitative Finance",
+            "Consulting",
+            "Core Engineering",
+            "Research & Development",
+            "Analytics",
+            "Fintech",
+            "Automobile",
+            "Manufacturing"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 1545000,
+                "highestPackage": 8530000,
+                "percentage": 100
+            },
+            {
+                "year": 2024,
+                "averagePackage": 1545000,
+                "highestPackage": 8530000,
+                "percentage": 69.5
+            },
+            {
+                "year": 2023,
+                "averagePackage": 1617000,
+                "highestPackage": 8200000,
+                "percentage": 69.2
+            },
+            {
+                "year": 2022,
+                "averagePackage": 1537000,
+                "highestPackage": 18400000,
+                "percentage": 73.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "B.Des",
+            "BBA",
+            "BA Economics (Hons)",
+            "M.Tech",
+            "MBA",
+            "M.Des",
+            "M.Sc",
+            "PhD",
+            "Integrated Dual Degree"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Mechanical Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech Software Engineering",
+            "B.Tech Mathematics & Computing",
+            "MBA (Delhi School of Management)"
+        ],
+        "facultyCount": 306,
+        "studentCount": 12850,
+        "studentFacultyRatio": "42:1",
+        "specialization": [
+            "Computer Science & Engineering (Highest placements)",
+            "Information Technology",
+            "Electronics & Communication Engineering",
+            "Mechanical Engineering",
+            "Electrical Engineering",
+            "Software Engineering",
+            "Mathematics & Computing",
+            "Biotechnology",
+            "Environmental Engineering",
+            "Production & Industrial Engineering"
+        ],
+        "departments": [
+            "Applied Chemistry",
+            "Applied Mathematics",
+            "Applied Physics",
+            "Biotechnology",
+            "Civil Engineering",
+            "Computer Science & Engineering",
+            "Delhi School of Management",
+            "Electrical Engineering",
+            "Electronics & Communication Engineering",
+            "Environmental Engineering",
+            "Humanities",
+            "Information Technology",
+            "Mechanical Engineering",
+            "Polymer Science & Engineering",
+            "Production & Industrial Engineering",
+            "Software Engineering",
+            "Management Studies",
+            "Design"
+        ],
+        "researchCenters": 15,
+        "publications": 1500,
+        "collaborations": [
+            "ISRO",
+            "DRDO",
+            "BHEL",
+            "Infosys",
+            "IBM",
+            "Samsung (Innovation Lab)",
+            "University of Alberta (Canada)",
+            "Ryerson University (Canada)",
+            "Technical University of Munich (Germany)",
+            "Cranfield University (UK)",
+            "University of Johannesburg (South Africa)"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 150000,
+            "journals": 15000,
+            "digitalResources": 20000,
+            "seatingCapacity": 500
+        },
+        "labs": {
+            "count": 60,
+            "majorLabs": [
+                "EDUSAT Studio for lecture recording",
+                "VLSI Design Lab",
+                "Robotics Lab",
+                "Advanced Manufacturing Lab",
+                "CAD/CAM Lab",
+                "Biotechnology Research Lab",
+                "Environmental Engineering Lab",
+                "Samsung Innovation Lab",
+                "Central Instrumentation Facility",
+                "200+ Dell Computer Systems with CAD workstations"
+            ],
+            "equipmentValue": 400000000
+        },
+        "sports": {
+            "facilities": [
+                "450m Athletic Track",
+                "Football Ground",
+                "Cricket Ground",
+                "Hockey Ground",
+                "Tennis Court (3 courts)",
+                "Basketball Court (2 courts)",
+                "Volleyball Court (2 courts)",
+                "Badminton Court (5 courts)",
+                "Table Tennis Room",
+                "Gymnasium (ultra-modern with digital treadmills)"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 2600,
+            "rooms": 1300,
+            "facilities": [
+                "13 Hostels (10 Boys, 3 Girls)",
+                "AC hostels available",
+                "Wi-Fi enabled campus",
+                "Common rooms with TV",
+                "Gymnasium in every hostel",
+                "Magazines and newspapers subscription",
+                "Mess services",
+                "CCTV security",
+                "24/7 medical assistance (20-bed hospital block)",
+                "Bhaskaracharya Hostel",
+                "Sir C.V. Raman Hostel",
+                "Sir J.C. Bose Hostel",
+                "Varahmihir Hostel",
+                "Sir Vishveshwarya Hostel",
+                "Homi Jehangir Bhabha Hostel",
+                "Aryabhatt Hostel",
+                "Ramanujan Hostel",
+                "Dr. APJ Abdul Kalam Hostel (AC)",
+                "Sister Nivedita Hostel (Girls)",
+                "Kalpana Chawla Hostel (Girls)"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 6,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["JEE Main", "GATE", "CUET PG", "UCEED", "CEED", "CAT"],
+        "cutoff": 1400,
+        "cutoffTrend": 5,
+        "applicationMode": "Online",
+        "applicationFee": 1500,
+        "selectionProcess": [
+            "JEE Main Score + JAC Delhi Counseling for B.Tech [citation:1][citation:5]",
+            "UCEED Score + Interview for B.Des [citation:1]",
+            "12th Merit for BBA/BA Economics [citation:1]",
+            "GATE Score + Counseling for M.Tech [citation:1]",
+            "CAT Score + GD/PI for MBA [citation:7]",
+            "CEED Score + Interview for M.Des [citation:1]",
+            "CUET PG for M.Sc [citation:1]",
+            "Entrance Test + Interview for PhD [citation:1]"
+        ],
+        "eligibility": {
+            "minPercentage": 60,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "February 1, 2026",
+            "applicationEnd": "March 31, 2026",
+            "examDate": "May 1, 2026",
+            "resultDate": "June 15, 2026",
+            "counsellingStart": "June 20, 2026",
+            "counsellingEnd": "July 30, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "JEE Main Scorecard",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Migration Certificate",
+            "Passport size photographs"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell (Entrepreneurship Cell)",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Quizzing Club",
+            "Film Society",
+            "Fine Arts Club",
+            "Literary Society",
+            "Spic Macay (Indian Classical Music)"
+        ],
+        "festivals": [
+            "Invictus (Annual Technical Festival) [citation:8]",
+            "Engifest (Annual Cultural Festival) [citation:8]",
+            "Yuvaan (Literary Festival) [citation:8]",
+            "Aarambh (Freshers' Welcome) [citation:8]",
+            "Sanedo (Cultural Extravaganza) [citation:8]"
+        ],
+        "technicalEvents": [
+            "Execute Hackathon [citation:8]",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Cryptic Hunts",
+            "Guesstimates",
+            "Designing Competitions",
+            "Quizzes",
+            "Case Study Competitions"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events",
+            "Slam Poetry",
+            "Kavi Sammelan",
+            "Sufi Sangeet",
+            "Dandiya Night"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Blood Connect (Blood Donation Camps)",
+            "Sustainability Cell",
+            "Teach for Delhi",
+            "Swachhata Drives"
+        ],
+        "annualBudget": 45000000
+    },
+    "faculty": {
+        "total": 306,
+        "phdHolders": 250,
+        "professor": 100,
+        "associateProfessor": 90,
+        "assistantProfessor": 116,
+        "industryExperience": 12,
+        "internationalFaculty": 15,
+        "awards": [
+            "Young Scientist Award",
+            "SERB Distinguished Fellowship",
+            "Ramanujan Fellowship",
+            "DAAD Fellowship",
+            "Commonwealth Fellowship",
+            "Humboldt Fellowship",
+            "Best Teacher Award from Government of NCT Delhi"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Rajeev Suri",
+                "designation": "Former CEO",
+                "company": "Nokia"
+            },
+            {
+                "name": "Vineet Nayar",
+                "designation": "Former CEO",
+                "company": "HCL Technologies"
+            },
+            {
+                "name": "Sanjeev Bikhchandani",
+                "designation": "Founder",
+                "company": "Info Edge (Naukri.com)"
+            },
+            {
+                "name": "Rakesh Sharma",
+                "designation": "Vice Chairman",
+                "company": "Adobe"
+            },
+            {
+                "name": "Anant Maheshwari",
+                "designation": "President",
+                "company": "Microsoft India"
+            },
+            {
+                "name": "Rajesh Gopinathan",
+                "designation": "Former CEO & MD",
+                "company": "TCS"
+            },
+            {
+                "name": "Pawan Munjal",
+                "designation": "Chairman & CEO",
+                "company": "Hero MotoCorp"
+            },
+            {
+                "name": "Ajay Relan",
+                "designation": "Managing Partner",
+                "company": "CX Partners"
+            },
+            {
+                "name": "Saurabh Srivastava",
+                "designation": "Co-founder",
+                "company": "Indian Angel Network"
+            }
+        ],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Goldman Sachs",
+            "Texas Instruments",
+            "Adobe",
+            "Flipkart",
+            "Uber",
+            "Atlassian",
+            "Apple"
+        ],
+        "networkStrength": 92
+    },
+    "international": {
+        "collaborations": 25,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "University of Alberta (Canada)",
+            "Ryerson University (Canada)",
+            "Technical University of Munich (Germany)",
+            "Cranfield University (UK)",
+            "University of Johannesburg (South Africa)",
+            "University of Melbourne (Australia)"
+        ],
+        "foreignStudents": 150
+    },
+    "contact": {
+        "phone": [
+            "+91-11-27871018",
+            "+91-11-27871023"
+        ],
+        "email": [
+            "registrar@dtu.ac.in",
+            "admission@dtu.ac.in",
+            "placement@dtu.ac.in",
+            "dean.ia@dtu.ac.in"
+        ],
+        "website": "https://www.dtu.ac.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/dtu.delhi",
+            "twitter": "https://twitter.com/dtu_delhi",
+            "linkedin": "https://linkedin.com/school/delhi-technological-university",
+            "instagram": "https://instagram.com/dtu_delhi",
+            "youtube": "https://youtube.com/DTUDelhi"
+        },
+        "admissionContact": {
+            "phone": "+91-11-27871018",
+            "email": "admission@dtu.ac.in"
+        }
+    },
+    "facilities": [
+        "164-acre lush green campus in Rohini, Delhi [citation:1][citation:5][citation:8]",
+        "East Delhi Campus at Vivek Vihar for management programs [citation:8]",
+        "Central Library with 1.5 lakh+ books and digital resources [citation:7]",
+        "EDUSAT Studio for recording lectures and events [citation:8]",
+        "20-bed hospital block with full-time medical practitioners [citation:7]",
+        "13 Hostels (10 Boys, 3 Girls) with capacity of 2600 students [citation:5][citation:7]",
+        "Ultra-modern gymnasium with digital electronic treadmills",
+        "Sports complex with 450m track, multiple courts",
+        "Wi-Fi enabled campus with 95+ access points [citation:7]",
+        "State Bank of India branch and ATM on campus",
+        "Post office within campus",
+        "Guest house for visitors",
+        "500-seat auditorium",
+        "Multiple canteens and convenience stores",
+        "Samsung Innovation Lab [citation:3]",
+        "Computer centre with 200+ Dell systems and servers"
+    ],
+    "achievements": [
+        "Ranked #30 in NIRF Engineering Rankings 2025 [citation:2][citation:6]",
+        "Ranked #42 in NIRF University category 2025 [citation:2]",
+        "Ranked #9 by India Today under Engineering category 2025 [citation:2]",
+        "NAAC 'A+' Grade accredited institution [citation:7]",
+        "ISO 9001:2015 Certified Institution [citation:7]",
+        "100% placement rate for eligible students in 2025 [citation:1][citation:5]",
+        "21.12% increase in median salary to ₹13 LPA in 2025 [citation:5]",
+        "One of India's oldest engineering institutions (established 1941 as Delhi Polytechnic) [citation:7]",
+        "Highest domestic package of ₹85.30 LPA offered by Atlassian [citation:6]",
+        "Alumni network with global leaders including CEOs of Nokia, HCL, and founders of Naukri.com",
+        "Over 50 student societies and clubs for holistic development [citation:8]",
+        "70% students from outside Delhi, creating diverse campus culture [citation:5]",
+        "Ranked 700 in QS Asian University Rankings 2026 [citation:2][citation:6]"
+    ],
+    "newsUpdates": [
+        {
+            "title": "Samsung to set up innovation lab at DTU through MoU for collaborative projects",
+            "date": "2026-02-04",
+            "link": "https://gadgetsnow.indiatimes.com/topic/DTU/news"
+        },
+        {
+            "title": "Delhi boy gets Rs 1.27 crore offer from Google, setting new international placement record for DTU",
+            "date": "2026-02-04",
+            "link": "https://gadgetsnow.indiatimes.com/topic/DTU/news"
+        },
+        {
+            "title": "DTU achieves 100% placements with median package of ₹13 LPA in 2025",
+            "date": "2025-07-14",
+            "link": "https://www.vedantu.com/university/dtu-delhi-technological-university"
+        },
+        {
+            "title": "DTU ranked 30th in NIRF Engineering 2025",
+            "date": "2025-09-04",
+            "link": "https://ask.shiksha.com/what-is-the-dtu-rank-qna-12548596"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/dtu-campus1.jpg",
+            "caption": "DTU Main Building - Administrative Block"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/dtu-campus2.jpg",
+            "caption": "DTU Academic Complex"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/dtu-lab1.jpg",
+            "caption": "Computer Science Engineering Lab"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/dtu-sports1.jpg",
+            "caption": "DTU Cricket Ground and Sports Complex"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/dtu-hostel1.jpg",
+            "caption": "Boys' Hostel - Aryabhatt Hostel"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/dtu-event1.jpg",
+            "caption": "Engifest - Annual Cultural Festival"
+        },
+        
+        {
+            "type": "hostel",
+            "url": "/gallery/dtu-hostel2.jpg",
+            "caption": "Girls' Hostel - Kalpana Chawla Hostel"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is DTU a government or private university?",
+            "answer": "Delhi Technological University (DTU) is a government university, established by the Government of NCT of Delhi under the Delhi Act 6 of 2009. It is fully recognized by UGC and AICTE, and is one of India's premier public technical universities [citation:5][citation:7]."
+        },
+        {
+            "question": "What is the highest package at DTU?",
+            "answer": "The highest domestic package at DTU in recent years is ₹85.30 Lakh per annum, offered by Atlassian. The highest international package has reached ₹1.8 Crore per annum (offered by Palantir London in 2022) and ₹1.27 Crore (offered by Google in recent placements) [citation:3][citation:6]."
+        },
+        {
+            "question": "What is the average package at DTU?",
+            "answer": "As of 2025, the median package at DTU stands at ₹13 Lakh per annum, reflecting a 21.12% increase from previous years. For top branches like CSE and IT, the average package ranges from ₹17-24 LPA [citation:5][citation:6]."
+        },
+        {
+            "question": "What is the JEE Main cutoff for DTU?",
+            "answer": "For 2023, the cutoff ranks (JEE Main AIR) for top branches were approximately: CSE closing rank around 1,800, IT around 3,800, ECE around 6,000 for General category students. Cutoffs vary by category and change yearly based on competition [citation:7]."
+        },
+        {
+            "question": "What is the campus size of DTU?",
+            "answer": "DTU's main campus in Rohini spans 164 acres of lush green area. The university also has an East Delhi Campus in Vivek Vihar, Phase II, which has been functional since 2017 for management and entrepreneurship programs [citation:1][citation:5][citation:8]."
+        },
+        {
+            "question": "Does DTU have hostel facilities?",
+            "answer": "Yes, DTU has 13 hostels (10 for boys, 3 for girls) with a total capacity of approximately 2,600 students. Hostels include AC options with varying fees. Each hostel has Wi-Fi, common rooms, gymnasium, and 24/7 security [citation:6][citation:7]."
+        },
+        {
+            "question": "Is DTU better than IIT?",
+            "answer": "IITs generally rank higher nationally and internationally regarding research output, faculty, and global reputation. However, DTU's CSE and IT branches have placement statistics comparable to some IITs, especially for software roles. DTU offers excellent ROI with affordable fees compared to private institutions, making it a top choice after IITs in India [citation:1][citation:5]."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at DTU?",
+            "answer": "The B.Tech tuition fee at DTU is approximately ₹2,04,000 per year, with total fees for the 4-year program around ₹8-9 lakhs. Hostel and mess charges are additional (approximately ₹52,000-72,000 per year for hostel and ₹34,800 for mess) [citation:6][citation:7]."
+        },
+        {
+            "question": "What are the top recruiting companies at DTU?",
+            "answer": "Top recruiters at DTU include Google, Microsoft, Amazon, Flipkart, Goldman Sachs, Texas Instruments, Qualcomm, Cisco, Adobe, Uber, Ola, TCS, Infosys, Wipro, Deloitte, PwC, Bajaj Auto, Tata Motors, Maruti Suzuki, L&T, Samsung, Intel, Oracle, IBM, HCL, NVIDIA, Atlassian, and Apple [citation:6][citation:7]."
+        },
+        {
+            "question": "Does DTU offer MBA programs?",
+            "answer": "Yes, DTU offers MBA programs through the Delhi School of Management at the East Delhi Campus (Vivek Vihar). The total fees for the 2-year MBA program is approximately ₹3.8-4.0 lakhs. Admission is based on CAT scores followed by Group Discussion and Personal Interview [citation:7]."
+        },
+        {
+            "question": "What is the student diversity at DTU?",
+            "answer": "DTU has a highly diverse student body with approximately 70% of students hailing from outside Delhi. The gender ratio is 76% male and 24% female. The university has over 12,800 students enrolled in undergraduate, postgraduate, and doctoral programs [citation:1][citation:5]."
+        },
+        {
+            "question": "What are the major fests at DTU?",
+            "answer": "DTU hosts several major festivals: Invictus (annual technical festival in February), Engifest (annual cultural festival in February), Yuvaan (literary festival in November), Aarambh (freshers' welcome in August), and Sanedo (cultural extravaganza in October) [citation:8]."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
