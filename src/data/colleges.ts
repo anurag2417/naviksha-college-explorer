@@ -7660,7 +7660,7 @@ export const colleges: College[] = [
     "description": "Indira Gandhi Delhi Technical University for Women (IGDTUW), established by the Govt. of Delhi in May 2013, is a non-affiliating teaching and research University. It is the first all-women technical university in India. Its predecessor, the Indira Gandhi Institute of Technology (IGIT), was established in 1998 as the first engineering college for women only. Located in the historic Kashmere Gate area of Delhi, the university aims to achieve excellence in Engineering, Technology, Applied Sciences, Architecture, and Management. In a short span, IGDTUW has achieved a NAAC 'A+' Grade in its first assessment cycle. The university is renowned for its strong placement record, with students securing top packages in leading multinational corporations, reflecting its commitment to producing 'work-ready' graduates. IGDTUW fosters a vibrant research culture with projects sponsored by leading industry and government organizations and supports entrepreneurship through its incubation centre, 'Anveshan' [citation:1].",
     "logo": "/logos/igdtuw.png",
     "stream": "engineering",
-    "type": "government",
+    "type": "semi",
     "category": "premier",
     "ranking": 4,
     "rating": 4.2,
