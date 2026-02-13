@@ -5861,6 +5861,582 @@ export const colleges: College[] = [
 },
 
   // Top 10 - Semi Government Engineering Colleges
+
+  {
+    "id": "1201",
+    "slug": "jadavpur-university-kolkata",
+    "name": "Jadavpur University",
+    "shortName": "JU",
+    "tagline": "To Know Is To Grow",
+    "overview": "West Bengal's premier public technical university, ranked #1 among State Public Universities and #9 among all Universities in India by NIRF 2025. Known for its strong research output, it is recognized as the top university in India by the Nature Index and is one of the few state universities with an 'A+' NAAC grade.",
+    "description": "Jadavpur University, established in 1906 as the Bengal Technical Institute, is a testament to the Swadeshi movement's vision for indigenous education. It was officially converted into Jadavpur University in 1955 and has since grown into a prestigious research university. The university has a unique distinction of being a state university with a national impact, consistently ranked among the top 10 universities in India . In 2025, JU celebrated a major achievement by being ranked 1st in the State Public University category by NIRF, a testament to its academic excellence, research output, and affordable education model . Its strong research focus is highlighted by its Experimental High Energy Physics Group being part of the CERN ALICE-INDIA Collaboration, which shared the prestigious 2025 Breakthrough Prize in Fundamental Physics . With a sprawling main campus in South Kolkata and a modern second campus in Salt Lake, JU blends a rich heritage with cutting-edge research, particularly in engineering, science, and interdisciplinary studies.",
+    "logo": "/logos/jadavpur-university.png",
+    "stream": "engineering",
+    "type": "government",
+    "category": "tier1",
+    "ranking": 1,
+    "rating": 4.2,
+    "nirfRank": 1,
+    "googleRating": 4.1,
+    "reviews": {
+        "count": 3800,
+        "average": 4.2,
+        "academics": 4.5,
+        "infrastructure": 3.5,
+        "placement": 4.1,
+        "faculty": 4.4
+    },
+    "established": 1906,
+    "accreditation": "NAAC A++",
+    "naacGrade": "A++",
+    "affiliations": ["UGC", "AICTE", "AIU"],
+    "recognition": ["UGC", "AICTE", "Ministry of Education", "Government of West Bengal"],
+    "location": {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "country": "India",
+        "pincode": "700032",
+        "campusSize": "93.6 acres",
+        "campusType": "urban",
+        "latitude": 22.4996,
+        "longitude": 88.3712,
+        "address": "188, Raja Subodh Chandra Mallick Rd, Jadavpur, Kolkata, West Bengal 700032"
+    },
+    "fees": {
+        "annual": 2400,
+        "total": 9600,
+        "hostel": 9000,
+        "mess": 25000,
+        "otherCharges": 1000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Swami Vivekananda Merit-cum-Means Scholarship (SVMCM) for West Bengal students",
+            "OASIS Scholarship for SC/ST/OBC candidates",
+            "National Scholarship Portal (NSP) schemes",
+            "Merit-cum-means fee waivers for deserving students",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech/ME students"
+        ],
+        "paymentOptions": [
+            "Online Payment (University Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 1100000,
+        "highestPackage": 18000000,
+        "medianPackage": 910000,
+        "percentage": 88.70,
+        "totalOffers": 830,
+        "totalStudents": 936,
+        "internationalOffers": 8,
+        "dreamOffers": 15,
+        "averagePackageTrend": 10,
+        "topRecruiters": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Adobe",
+            "Disney Hotstar",
+            "TCS",
+            "Infosys",
+            "Wipro",
+            "Cognizant",
+            "PwC",
+            "Deloitte",
+            "HSBC",
+            "Visa",
+            "Texas Instruments",
+            "Cisco",
+            "L&T",
+            "Tata Motors",
+            "ITC Limited",
+            "Bose Corporation",
+            "DRDO"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Finance & Banking",
+            "Research & Development",
+            "Pharmaceuticals",
+            "Public Sector"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 1200000,
+                "highestPackage": 18000000,
+                "percentage": 88.5
+            },
+            {
+                "year": 2024,
+                "averagePackage": 1100000,
+                "highestPackage": 14000000,
+                "percentage": 88.9
+            },
+            {
+                "year": 2023,
+                "averagePackage": 1000000,
+                "highestPackage": 5800000,
+                "percentage": 85.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 950000,
+                "highestPackage": 5400000,
+                "percentage": 84.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.E.",
+            "B.Arch",
+            "B.Pharm",
+            "M.E./M.Tech",
+            "M.Pharm",
+            "M.Sc",
+            "M.A.",
+            "MCA",
+            "MBA",
+            "PhD",
+            "Integrated PhD"
+        ],
+        "popularCourses": [
+            "B.E. Computer Science & Engineering",
+            "B.E. Information Technology",
+            "B.E. Electronics & Telecommunication",
+            "B.E. Electrical Engineering",
+            "B.E. Mechanical Engineering",
+            "B.E. Chemical Engineering"
+        ],
+        "facultyCount": 934,
+        "studentCount": 13351,
+        "studentFacultyRatio": "14:1",
+        "specialization": [
+            "Computer Science & Engineering (Consistently high placements)",
+            "Laser Science & Engineering (Unique program)",
+            "Metallurgical Engineering",
+            "Power Engineering (Salt Lake Campus)",
+            "Instrumentation Engineering",
+            "Printing Engineering",
+            "Construction Engineering",
+            "Interdisciplinary Schools (21 schools)"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Information Technology",
+            "Electronics & Telecommunication Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Chemical Engineering",
+            "Civil Engineering",
+            "Metallurgical Engineering",
+            "Power Engineering",
+            "Instrumentation Engineering",
+            "Printing Engineering",
+            "Construction Engineering",
+            "Pharmaceutical Technology",
+            "Food Technology & Biochemical Engineering",
+            "Jute & Fibre Technology",
+            "Architecture",
+            "Physics",
+            "Chemistry",
+            "Mathematics",
+            "Economics",
+            "English",
+            "Bengali",
+            "History",
+            "Political Science",
+            "Sociology",
+            "International Relations",
+            "Business Management"
+        ],
+        "researchCenters": 50,
+        "publications": 2100,
+        "collaborations": [
+            "CERN (ALICE-INDIA Collaboration)",
+            "DRDO (Jagadish Chandra Bose Centre for Advanced Technology)",
+            "CSIR",
+            "Saha Institute of Nuclear Physics",
+            "Bose Institute",
+            "Variable Energy Cyclotron Centre (VECC)",
+            "Indian Institute of Chemical Biology",
+            "S.N. Bose National Centre for Basic Sciences",
+            "Max Planck Institute (Germany) - through collaborative projects"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 646296,
+            "journals": 1159,
+            "digitalResources": 11000,
+            "seatingCapacity": 500
+        },
+        "labs": {
+            "count": 70,
+            "majorLabs": [
+                "Computer Aided Design (CAD) Lab",
+                "IC Design and Fabrication Centre",
+                "VLSI Design Lab",
+                "Laser Science & Engineering Lab",
+                "Welding Technology Centre",
+                "School of Materials Science & Nanotechnology Lab",
+                "DRDO-funded Research Labs",
+                "Central Instrumentation Facility"
+            ],
+            "equipmentValue": 350000000
+        },
+        "sports": {
+            "facilities": [
+                "Cricket Ground",
+                "Football Ground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Courts",
+                "Volleyball Court",
+                "Table Tennis Room",
+                "Gymnasium",
+                "Kabaddi Court"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 2500,
+            "rooms": 1200,
+            "facilities": [
+                "Single/Double occupancy rooms",
+                "Separate hostels for boys and girls",
+                "WiFi connectivity",
+                "Common rooms",
+                "Indoor games",
+                "Laundry service",
+                "Medical assistance (University Health Centre)",
+                "CCTV security"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 6,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 7
+    },
+    "admission": {
+        "entranceExam": ["WBJEE", "GATE", "JAM", "GPAT", "JECA", "UGC-NET", "CSIR-NET"],
+        "cutoff": 150,
+        "cutoffTrend": 5,
+        "applicationMode": "Online",
+        "applicationFee": 500,
+        "selectionProcess": [
+            "WBJEE Rank for B.E./B.Pharm",
+            "GATE Score + Interview/Counseling for M.E./M.Tech",
+            "GPAT + Interview for M.Pharm",
+            "JECA for MCA",
+            "University Entrance Test for some PG courses"
+        ],
+        "eligibility": {
+            "minPercentage": 75,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "February 1, 2026",
+            "applicationEnd": "March 31, 2026",
+            "examDate": "April 28, 2026",
+            "resultDate": "May 30, 2026",
+            "counsellingStart": "June 15, 2026",
+            "counsellingEnd": "July 30, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "WBJEE Scorecard",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Migration Certificate"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Quizzing Club",
+            "Film Society"
+        ],
+        "festivals": [
+            "Technovation (Annual Techno-Management Festival)",
+            "Srijan (Annual Cultural Festival)",
+            "Cognitio (Departmental Fests)"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robowars",
+            "Research Conclave",
+            "Industry-Academia Meets"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events",
+            "Open Air Theatre performances"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Teach for India",
+            "Sustainability Cell",
+            "Blood Donation Camps"
+        ],
+        "annualBudget": 35000000
+    },
+    "faculty": {
+        "total": 934,
+        "phdHolders": 820,
+        "professor": 300,
+        "associateProfessor": 280,
+        "assistantProfessor": 354,
+        "industryExperience": 8,
+        "internationalFaculty": 30,
+        "awards": [
+            "Shanti Swarup Bhatnagar Prize",
+            "J.C. Bose Fellowship",
+            "Ramanujan Fellowship",
+            "Swarnajayanti Fellowship",
+            "Young Scientist Award",
+            "Commonwealth Fellowship",
+            "DAAD Fellowship",
+            "Humboldt Fellowship"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Rajat Taneja",
+                "designation": "Executive Vice President, Technology and Operations",
+                "company": "Visa Inc."
+            },
+            {
+                "name": "Subir Raha",
+                "designation": "Promoter-CEO",
+                "company": "Team Raha Ideation Private Limited"
+            },
+            {
+                "name": "Anupam Roy",
+                "designation": "Singer, Songwriter, Music Director",
+                "company": "Bengali Film Industry"
+            },
+            {
+                "name": "Shyamal Bhattacharya",
+                "designation": "Chief Technology Officer",
+                "company": "PricewaterhouseCoopers"
+            },
+            {
+                "name": "Sameer Marwa",
+                "designation": "Asst. Vice President Strategy, Innovation and Solutions",
+                "company": "AT&T"
+            },
+            {
+                "name": "Sumit Dutta",
+                "designation": "Country Manager and Chief Executive",
+                "company": "HSBC India"
+            },
+            {
+                "name": "Tanushree Mallick",
+                "designation": "CEO",
+                "company": "Various Corporates"
+            },
+            {
+                "name": "Debabrata Goswami",
+                "designation": "Professor",
+                "company": "Indian Institute of Science"
+            }
+        ],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Adobe",
+            "Visa",
+            "HSBC"
+        ],
+        "networkStrength": 85
+    },
+    "international": {
+        "collaborations": 20,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "CERN (Switzerland)",
+            "Max Planck Institute (Germany)",
+            "University of Liberal Arts Bangladesh",
+            "KU Leuven (Belgium)"
+        ],
+        "foreignStudents": 120
+    },
+    "contact": {
+        "phone": [
+            "+91-33-2414-6666",
+            "+91-33-2414-6902"
+        ],
+        "email": [
+            "registrar@jadavpuruniversity.in",
+            "dean.fet@jadavpuruniversity.in",
+            "placement@jadavpuruniversity.in",
+            "admission@jadavpuruniversity.in"
+        ],
+        "website": "https://jadavpuruniversity.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/jadavpur.university",
+            "twitter": "https://twitter.com/jadavpuruni",
+            "linkedin": "https://linkedin.com/school/jadavpur-university",
+            "instagram": "https://instagram.com/jadavpur_university",
+            "youtube": "https://youtube.com/JadavpurUniversity"
+        },
+        "admissionContact": {
+            "phone": "+91-33-2414-6666",
+            "email": "admission@jadavpuruniversity.in"
+        }
+    },
+    "facilities": [
+        "60-acre main campus in South Kolkata",
+        "26-acre Salt Lake campus for specialized engineering",
+        "7.6-acre West Annexe campus for research (DRDO collaboration)",
+        "7 well-equipped auditoriums",
+        "Open Air Theatre with 3000 seating capacity",
+        "Central Library with over 6.4 lakh books",
+        "High-speed WiFi campus",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic (University Health Centre)",
+        "Banking complex and post office",
+        "Shopping center and multiple canteens",
+        "Guest houses and Day Care Centre",
+        "Sports complex with multiple courts",
+        "Technology Bhawan (under construction)"
+    ],
+    "achievements": [
+        "Ranked #1 in NIRF State Public University category 2025",
+        "Ranked #9 among all Universities in India by NIRF 2025",
+        "Experimental High Energy Physics Group part of CERN ALICE-INDIA Collaboration, shared 2025 Breakthrough Prize in Fundamental Physics ",
+        "Top-ranked university in India by Nature Index for research output (2023-2024) ",
+        "NAAC A++ grade with CGPA 3.46 ",
+        "NBA accreditation for CSE, ETCE (6 years) and IT, IEE, PE (3 years) ",
+        "One of the most affordable top-tier engineering education in India (₹2,400 per year tuition)",
+        "Record-breaking highest package of ₹1.8 crore in 2025",
+        "Recognized by UGC as an institute with 'Potential for Excellence' "
+    ],
+    "newsUpdates": [
+        {
+            "title": "Jadavpur University tops NIRF 2025 State Public University rankings",
+            "date": "2025-09-04",
+            "link": "https://education.economictimes.indiatimes.com/news/higher-education/jadavpur-university-tops-nirf-rankings-for-state-universities-cm-banerjee-lauds-teachers-students/123709838"
+        },
+        {
+            "title": "Jadavpur University CSE student receives ₹1.8 crore package in 2025 placements",
+            "date": "2025-07-14",
+            "link": "https://www.vedantu.com/university/jadavpur-university-kolkata-placement"
+        },
+        {
+            "title": "JU's CERN team shares 2025 Breakthrough Prize in Fundamental Physics",
+            "date": "2025-04-10",
+            "link": "https://jadavpuruniversity.in/about/facilities/"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/ju-campus1.jpg",
+            "caption": "Jadavpur University Main Gate (Gate 4)"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/ju-campus2.jpg",
+            "caption": "Arts Faculty Building"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/ju-lab1.jpg",
+            "caption": "School of Laser Science & Engineering"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/ju-sports1.jpg",
+            "caption": "JU Sports Ground"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/ju-hostel1.jpg",
+            "caption": "Boys' Hostel"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/ju-event1.jpg",
+            "caption": "Srijan - Cultural Festival"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is Jadavpur University a government or private university?",
+            "answer": "Jadavpur University is a public state university, funded and run by the Government of West Bengal. It is recognized by the UGC and AICTE, and holds the prestigious 'Institute of National Importance' status in terms of its legacy and impact, though it is officially categorized as a State University ."
+        },
+        {
+            "question": "What is the highest package at Jadavpur University in 2025?",
+            "answer": "The highest package in 2025 is ₹1.8 crore per annum, offered to a student from the Computer Science and Engineering (CSE) branch. The highest international package in 2024 was ₹1.4 crore ."
+        },
+        {
+            "question": "What is the average package at Jadavpur University for CSE?",
+            "answer": "The average package for CSE students is approximately ₹12-21 LPA, with the overall university average being around ₹11-12 LPA in 2025. The CSE department consistently achieves 100% placement ."
+        },
+        {
+            "question": "What is the WBJEE cutoff for Jadavpur University?",
+            "answer": "For 2025, the cutoff rank for CSE is typically under 150, IT under 300, Electronics under 500, Electrical under 800, and Mechanical under 1200 (General category West Bengal domicile). Cutoffs vary slightly each year based on exam difficulty and applicant pool."
+        },
+        {
+            "question": "What is the campus size of Jadavpur University?",
+            "answer": "Jadavpur University operates across multiple campuses: the main campus at Jadavpur is 60 acres, the Salt Lake campus (Bidhannagar) is 26 acres, and the West Annexe campus (research hub) is 7.6 acres, totaling approximately 93.6 acres ."
+        },
+        {
+            "question": "Is Jadavpur University better than IITs or NITs?",
+            "answer": "While IITs have a stronger national brand, Jadavpur University CSE is widely considered better than many new IITs and most NITs due to its excellent faculty, consistent top-10 university ranking, strong alumni network, and unbeatable ROI with extremely low fees (₹2,400/year). It offers quality education at a fraction of the cost ."
+        },
+        {
+            "question": "What is unique about Jadavpur University's curriculum?",
+            "answer": "JU offers a flexible interdisciplinary curriculum through its 21 Schools of interdisciplinary studies. Students can pursue research across traditional boundaries, with access to 50+ research centers. The university has strong industry-academia collaboration, including a dedicated DRDO research centre on campus ."
+        },
+        {
+            "question": "What are the research achievements of Jadavpur University?",
+            "answer": "JU is the top-ranked university in India by the Nature Index for research output. Its Experimental High Energy Physics Group is part of the CERN ALICE-INDIA Collaboration, which shared the 2025 Breakthrough Prize in Fundamental Physics. The university has 50+ research centers and collaborations with top national labs like DRDO, CSIR, and Bose Institute ."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "For core branches, top recruiters include Texas Instruments, Cisco, L&T, Tata Motors, ITC Limited, Bosch, and various PSUs. The university has strong legacy departments in Chemical, Mechanical, Electrical, and Metallurgical Engineering with dedicated recruitment drives ."
+        },
+        {
+            "question": "What is the fee structure at Jadavpur University?",
+            "answer": "Jadavpur University offers one of the most affordable quality education in India. The B.E. tuition fee is approximately ₹2,400 per year, with total course fees around ₹9,600. Hostel fees are around ₹9,000 annually, and mess charges approximately ₹25,000. Generous scholarships are available for eligible students ."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
