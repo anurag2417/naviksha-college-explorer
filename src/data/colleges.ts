@@ -10764,7 +10764,7 @@ export const colleges: College[] = [
     ]
 },
 {
-    "id": "1130",
+    "id": "1210",
     "slug": "dbatu-lonere",
     "name": "Dr. Babasaheb Ambedkar Technological University",
     "shortName": "DBATU",
@@ -10775,7 +10775,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "semi",
     "category": "tier2",
-    "ranking": 120,
+    "ranking": 10,
     "rating": 3.9,
     "nirfRank": 300,
     "googleRating": 4.0,
