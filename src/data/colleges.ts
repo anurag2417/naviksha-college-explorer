@@ -9606,6 +9606,577 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1208",
+    "slug": "vjti-mumbai",
+    "name": "Veermata Jijabai Technological Institute",
+    "shortName": "VJTI",
+    "tagline": "Empowering Generations Through Technological Excellence Since 1887",
+    "overview": "One of India's oldest and most prestigious engineering institutes, established in 1887, offering a rich legacy of technical education, strong industry connections, and a sprawling 16-acre campus in the heart of Mumbai.",
+    "description": "Veermata Jijabai Technological Institute (VJTI), founded in 1887 as the Victoria Jubilee Technical Institute, stands as a landmark institution in India's engineering education landscape [citation:5]. Located on a 16-acre campus in Matunga, Mumbai, it operates as an autonomous government-aided institute affiliated with the University of Mumbai [citation:1][citation:5]. Renowned for its 135+ year legacy, VJTI offers a comprehensive range of programs from diploma to doctoral levels across engineering and technology [citation:5]. The institute boasts a robust training and placement record, with the 2025 placement season witnessing a record-breaking international package of ₹72.3 LPA, surpassing the previous year's highest of ₹57 LPA [citation:8]. VJTI's strong industry connections, modern curriculum, and influential alumni network, with graduates in leadership roles at global tech giants like Google and Microsoft, cement its status as a top-tier engineering institution in Maharashtra and India [citation:5][citation:7].",
+    "logo": "/logos/vjti-mumbai.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "premier",
+    "ranking": 125,
+    "rating": 4.4,
+    "nirfRank": 125,
+    "googleRating": 4.4,
+    "reviews": {
+        "count": 985,
+        "average": 4.4,
+        "academics": 4.2,
+        "infrastructure": 3.8,
+        "placement": 4.3,
+        "faculty": 4.0
+    },
+    "established": 1887,
+    "accreditation": "AICTE Approved, NBA Accredited",
+    //"naacGrade": null,
+    "affiliations": ["University of Mumbai"],
+    "recognition": ["AICTE", "UGC", "Government of Maharashtra", "Directorate of Technical Education (DTE), Maharashtra"],
+    "location": {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "400019",
+        "campusSize": "16 acres",
+        "campusType": "urban",
+        "latitude": 19.0275,
+        "longitude": 72.8545,
+        "address": "H.R. Mahajani Marg, Matunga, Mumbai, Maharashtra - 400019"
+    },
+    "fees": {
+        "annual": 83101,
+        "total": 337101,
+        "hostel": 80000,
+        "mess": 36000,
+        "otherCharges": 28000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Maharashtra State Fee Reimbursement: Full fee coverage for SC/ST students with family income below ₹8 Lakhs ",
+            "Merit-based Scholarships: ₹10,000 to ₹50,000 yearly for top performers from Government of Maharashtra ",
+            "Post-Matric Scholarship for SC/ST/OBC students from central and state governments ",
+            "Pragati Scholarship: For girl students from AICTE ",
+            "Saksham Scholarship: For differently-abled students from AICTE ",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech students with valid GATE score "
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 2000000,
+        "highestPackage": 72300000,
+        "medianPackage": 1100000,
+        "percentage": 90.00,
+        "totalOffers": 600,
+        "totalStudents": 667,
+        "internationalOffers": 1,
+        "dreamOffers": 40,
+        "averagePackageTrend": 12,
+        "topRecruiters": [
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "Goldman Sachs",
+            "Deloitte",
+            "Accenture",
+            "Wipro",
+            "Infosys",
+            "Tata Consultancy Services (TCS)",
+            "Reliance",
+            "Flipkart",
+            "SIEMENS",
+            "Tata Motors",
+            "Larsen & Toubro (L&T)",
+            "PhonePe",
+            "JP Morgan Chase",
+            "Schneider Electric",
+            "SAP Labs",
+            "Uber",
+            "CITI Bank"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Product Management",
+            "Quantitative Finance",
+            "R&D",
+            "Manufacturing",
+            "Automobile"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 2000000,
+                "highestPackage": 72300000,
+                "percentage": 90.0
+            },
+            {
+                "year": 2024,
+                "averagePackage": 2000000,
+                "highestPackage": 57000000,
+                "percentage": 88.0
+            },
+            {
+                "year": 2023,
+                "averagePackage": 2000000,
+                "highestPackage": 57000000,
+                "percentage": 85.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "M.Tech",
+            "Diploma Engineering",
+            "PhD",
+            "PG Diploma"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Electronics & Telecommunication Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech Mechanical Engineering",
+            "B.Tech Civil Engineering"
+        ],
+        "facultyCount": 200,
+        "studentCount": 3200,
+        "studentFacultyRatio": "16:1",
+        "specialization": [
+            "Computer Engineering",
+            "Information Technology",
+            "Electronics & Telecommunication",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Production Engineering",
+            "Textile Technology",
+            "Civil Engineering",
+            "VLSI & Embedded Systems",
+            "Control Systems"
+        ],
+        "departments": [
+            "Computer Engineering",
+            "Information Technology",
+            "Electronics & Telecommunication Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Production Engineering",
+            "Textile Technology",
+            "Civil Engineering",
+            "Structural Engineering",
+            "Environmental Engineering",
+            "Power Systems",
+            "Control Systems",
+            "Machine Design",
+            "Mechatronics",
+            "Software Engineering",
+            "Network Infrastructure Management",
+            "Construction Management"
+        ],
+        "researchCenters": 12,
+        "publications": 450,
+        "collaborations": [
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "TCS",
+            "L&T",
+            "SIEMENS"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 100000,
+            "journals": 300,
+            "digitalResources": 15000,
+            "seatingCapacity": 500
+        },
+        "labs": {
+            "count": 50,
+            "majorLabs": [
+                "Computer Science Labs (15+ labs with 800+ computers)",
+                "VLSI Design Lab",
+                "Embedded Systems Lab",
+                "Robotics & Automation Lab",
+                "Electrical Machines Lab",
+                "Power Systems Lab",
+                "Control Systems Lab",
+                "Communication Engineering Lab",
+                "Structural Engineering Lab",
+                "Environmental Engineering Lab",
+                "Textile Technology Lab",
+                "Workshop"
+            ],
+            "equipmentValue": 150000000
+        },
+        "sports": {
+            "facilities": [
+                "Playground",
+                "Basketball Court",
+                "Badminton Courts",
+                "Table Tennis",
+                "Indoor Games",
+                "Gymnasium"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 500,
+            "rooms": 250,
+            "facilities": [
+                "Separate hostels for boys and girls",
+                "Single/Double sharing rooms",
+                "Wi-Fi connectivity",
+                "Common rooms with TV",
+                "Mess facilities",
+                "24/7 security with CCTV",
+                "RO drinking water"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 3,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["MHT CET", "JEE Main", "GATE", "MAH MCA CET"],
+        "cutoff": 112,
+        "cutoffTrend": -5,
+        "applicationMode": "Online",
+        "applicationFee": 1000,
+        "selectionProcess": [
+            "MHT CET Score (for Maharashtra candidates) + DTE Maharashtra CAP Counseling",
+            "JEE Main Score (for All India Quota) + Centralized Counseling",
+            "GATE Score (for M.Tech) + COAP Counseling",
+            "MAH MCA CET Score (for MCA) + Counseling"
+        ],
+        "eligibility": {
+            "minPercentage": 50,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "December 30, 2025",
+            "applicationEnd": "February 15, 2026",
+            "examDate": "May 15, 2026",
+            "resultDate": "June 10, 2026",
+            "counsellingStart": "June 28, 2026",
+            "counsellingEnd": "September 13, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "MHT CET/JEE Main Scorecard",
+            "Domicile Certificate (for Maharashtra candidates)",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs",
+            "Aadhar Card"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell (Entrepreneurship Cell)",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Quizzing Club",
+            "Sports Club"
+        ],
+        "festivals": [
+            "Enthusia (Annual Cultural Festival)",
+            "Pratibimb (Annual Technical Festival)",
+            "Sports Day",
+            "Alumni Meet"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Technical Workshops",
+            "Seminars by Industry Experts",
+            "Project Exhibitions"
+        ],
+        "culturalEvents": [
+            "Pro Shows",
+            "Music Competitions",
+            "Dance Performances",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "Blood Donation Camps",
+            "Health Check-up Camps",
+            "Swachh Bharat Abhiyan",
+            "Women Empowerment Drives"
+        ],
+        "annualBudget": 5000000
+    },
+    "faculty": {
+        "total": 200,
+        "phdHolders": 120,
+        "professor": 50,
+        "associateProfessor": 60,
+        "assistantProfessor": 90,
+        "industryExperience": 30,
+        "internationalFaculty": 5,
+        "awards": [
+            "Best Teacher Award by Government of Maharashtra",
+            "Young Scientist Award",
+            "Distinguished Educator Award"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Nitin Gulhane",
+                "designation": "Professor-in-charge of Placements",
+                "company": "VJTI"
+            },
+            {
+                "name": "Dr. Omprakash Kakde",
+                "designation": "Director",
+                "company": "VJTI"
+            },
+            {
+                "name": "Prachi Doshi",
+                "designation": "Software Engineer",
+                "company": "Microsoft"
+            },
+            {
+                "name": "Anaya Channe",
+                "designation": "GET at Schneider Electric",
+                "company": "Schneider Electric"
+            },
+            {
+                "name": "Keyur Doshi",
+                "designation": "Data Scientist",
+                "company": "NPCI"
+            },
+            {
+                "name": "Mrudul Joshi",
+                "designation": "Software Engineer-I",
+                "company": "JP Morgan Chase"
+            },
+            {
+                "name": "Ayusha Jagtap",
+                "designation": "Developer Associate",
+                "company": "SAP Labs"
+            },
+            {
+                "name": "Smit Shah",
+                "designation": "Data Scientist",
+                "company": "NPCI"
+            },
+            {
+                "name": "Kshitij Shah",
+                "designation": "Google Summer of Code Mentor",
+                "company": "Google"
+            }
+        ],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Goldman Sachs",
+            "JP Morgan",
+            "TCS"
+        ],
+        "networkStrength": 85
+    },
+    "international": {
+        "collaborations": 8,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "Technical University of Munich (Germany)",
+            "University of South Florida (USA)",
+            "Queensland University of Technology (Australia)",
+            "University of West England (UK)"
+        ],
+        "foreignStudents": 15
+    },
+    "contact": {
+        "phone": [
+            "+91-22-24198101",
+            "+91-22-24198102"
+        ],
+        "email": [
+            "director@vjti.ac.in",
+            "registrar@vjti.ac.in",
+            "tpo@vjti.ac.in",
+            "admission@vjti.ac.in"
+        ],
+        "website": "https://vjti.ac.in",
+        "socialMedia": {
+            //"facebook": null,
+            //"twitter": null,
+            "linkedin": "https://linkedin.com/school/vjti-tpo",
+            //"instagram": null,
+            //"youtube": null
+        },
+        "admissionContact": {
+            "phone": "+91-22-24198101",
+            "email": "admission@vjti.ac.in"
+        }
+    },
+    "facilities": [
+        "16-acre heritage campus in prime location of Mumbai at Matunga",
+        "Central Library with over 1,00,000 books and extensive digital resources",
+        "50+ well-equipped laboratories with industry-grade equipment",
+        "High-speed Wi-Fi connectivity across entire campus",
+        "Computer Centre with 800+ computers",
+        "Three cafeterias serving hygienic food at affordable prices",
+        "Medical facility with on-site doctor",
+        "Sports ground and indoor games facilities",
+        "Two auditoriums for events, seminars, and cultural programs",
+        "Separate boys and girls hostels",
+        "Gymnasium for students",
+        "Robotics and Innovation Center",
+        "Entrepreneurship Cell (E-Cell)",
+        "Alumni Association for networking and mentorship"
+    ],
+    "achievements": [
+        "One of India's oldest engineering institutes, established in 1887 with 135+ years of legacy",
+        "Record-breaking highest international package of ₹72.3 LPA in 2025 placements",
+        "Three students bagged offers of ₹54 LPA each from Google in 2025",
+        "Over 40 students secured packages above ₹20 LPA in 2025",
+        "Ranked in 101-150 band in NIRF Engineering Rankings 2024",
+        "NBA accreditation for several undergraduate and postgraduate programs",
+        "Strong alumni network with graduates in leadership roles at Google, Microsoft, Amazon",
+        "Autonomous institute affiliated to University of Mumbai",
+        "Only institute in Maharashtra offering specialized programs in Textile Technology and Production Engineering",
+        "Over 600 placement offers and 400+ internship offers in 2023-24",
+        "Top recruiters include Microsoft, Google, Amazon, Goldman Sachs, and TCS"
+    ],
+    "newsUpdates": [
+        {
+            "title": "VJTI student bags record Rs 72.3 lakh per year package from American company in 2025 placements",
+            "date": "2025-10-29",
+            "link": "https://education.economictimes.indiatimes.com/news/higher-education/vjti-student-bags-record-rs-72-lakh-per-year-package-but-hiring-in-mumbai-slow/124895541"
+        },
+        {
+            "title": "Three VJTI students secure Rs 54 LPA packages from Google in 2025 placement drive",
+            "date": "2025-10-28",
+            "link": "https://education.economictimes.indiatimes.com/news/higher-education/vjti-student-bags-record-rs-72-lakh-per-year-package-but-hiring-in-mumbai-slow/124895541"
+        },
+        {
+            "title": "VJTI graduates placed at Microsoft: Training and Placement Office announces placements",
+            "date": "2025-05-23",
+            "link": "https://www.linkedin.com/posts/vjti-tpo_vjti-vjtitpo-microsoftcareers-activity-7332020046011039744-_OXB"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/vjti-campus1.jpg",
+            "caption": "Main Building - VJTI Mumbai"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/vjti-campus2.jpg",
+            "caption": "Heritage Structure - VJTI"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/vjti-lab1.jpg",
+            "caption": "Computer Science Lab"
+        },
+        // {
+        //     "type": "library",
+        //     "url": "/gallery/vjti-library.jpg",
+        //     "caption": "Central Library"
+        // },
+        // {
+        //     "type": "auditorium",
+        //     "url": "/gallery/vjti-auditorium.jpg",
+        //     "caption": "College Auditorium"
+        // },
+        {
+            "type": "sports",
+            "url": "/gallery/vjti-ground.jpg",
+            "caption": "Sports Ground"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/vjti-event1.jpg",
+            "caption": "Enthusia - Annual Cultural Festival"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is VJTI a government or private college?",
+            "answer": "VJTI is a government-aided autonomous institute under the ownership of the Maharashtra State Government. It is affiliated to the University of Mumbai and receives robust governmental support for research, infrastructure, and faculty development [citation:1][citation:5]."
+        },
+        {
+            "question": "What is the highest package offered at VJTI in 2025?",
+            "answer": "The highest package offered at VJTI in 2025 is a record-breaking ₹72.3 LPA from an American company, surpassing the previous year's highest of ₹57 LPA. Three students also secured offers of ₹54 LPA each from Google [citation:8]."
+        },
+        {
+            "question": "What is the average package at VJTI?",
+            "answer": "The average package at VJTI is approximately ₹20 LPA according to 2024-25 placement data. For CSE and IT students, the average can go up to ₹25-30 LPA, while other branches average between ₹15-20 LPA. Over 90% of students get placed every year in reputed companies [citation:1][citation:4]."
+        },
+        {
+            "question": "What is the MHT CET cutoff for VJTI?",
+            "answer": "For 2025, the MHT CET Round 1 cutoff for General category was: Computer Engineering - 112 rank, Information Technology - 209 rank, Electronics Engineering - 1200 rank, Electronics & Telecommunication - 756 rank, Electrical Engineering - 1866 rank, Mechanical Engineering - 919 rank, and Civil Engineering - 4617 rank [citation:4]."
+        },
+        {
+            "question": "What is the campus size of VJTI?",
+            "answer": "VJTI is located on a 16-acre campus in the well-connected Matunga area of Mumbai. The campus houses academic buildings, administrative blocks, hostels, sports facilities, and research centers, making it one of the largest engineering campuses in Mumbai [citation:5]."
+        },
+        {
+            "question": "Does VJTI have hostel facilities?",
+            "answer": "Yes, VJTI has separate hostel facilities for boys and girls, with a total capacity of approximately 500 students. Hostels offer single/double sharing rooms, Wi-Fi connectivity, mess facilities, common rooms, and 24/7 security. However, hostel seats are limited and allotted based on merit [citation:10]."
+        },
+        {
+            "question": "Which courses are offered at VJTI?",
+            "answer": "VJTI offers B.Tech programs in Computer Engineering, Information Technology, Electronics & Telecommunication Engineering, Electrical Engineering, Mechanical Engineering, Production Engineering, Textile Technology, and Civil Engineering. It also offers M.Tech programs, Diploma courses, PhD, and PG Diploma programs in various engineering disciplines [citation:5][citation:6]."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at VJTI?",
+            "answer": "The total fee for B.Tech at VJTI is approximately ₹3.37 Lakhs for the complete four-year program. Annual fees are around ₹83,101 for the first year and ₹81,475 for subsequent years. Hostel fees are extra, approximately ₹80,000 per year [citation:9]."
+        },
+        {
+            "question": "Who are the top recruiters at VJTI?",
+            "answer": "Top recruiters at VJTI include Microsoft, Google, Amazon, Goldman Sachs, Deloitte, Accenture, Wipro, Infosys, TCS, Reliance, Flipkart, SIEMENS, Tata Motors, L&T, PhonePe, JP Morgan Chase, Schneider Electric, SAP Labs, and Uber [citation:4][citation:7]."
+        },
+        {
+            "question": "What is the NIRF ranking of VJTI?",
+            "answer": "VJTI has been ranked in the 101-150 band in the National Institutional Ranking Framework (NIRF) for Engineering in 2024. It is consistently ranked among the top engineering colleges in Maharashtra and India [citation:1]."
+        },
+        {
+            "question": "Does VJTI have good faculty?",
+            "answer": "Yes, VJTI is known for its highly qualified faculty, with over 120 PhD holders among 200 faculty members. Faculty members are experienced engineers and researchers who guide students through hands-on projects and industry-relevant curriculum. However, some M.Tech students find faculty less approachable for research guidance [citation:10]."
+        },
+        {
+            "question": "Is VJTI autonomous?",
+            "answer": "Yes, VJTI operates as an autonomous institution under the ownership of the Maharashtra State Government and affiliation to the University of Mumbai. Autonomy allows the institute to regularly revise its curriculum, incorporate new technologies, and tailor academic programs to keep pace with evolving industry standards [citation:1][citation:5]."
+        }
+    ]
+},
   {
     id: "2",
     slug: "aiims-delhi",
