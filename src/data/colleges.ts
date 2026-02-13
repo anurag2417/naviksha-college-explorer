@@ -9618,7 +9618,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "semi",
     "category": "premier",
-    "ranking": 125,
+    "ranking": 8,
     "rating": 4.4,
     "nirfRank": 125,
     "googleRating": 4.4,
