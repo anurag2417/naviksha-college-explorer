@@ -5872,7 +5872,7 @@ export const colleges: College[] = [
     "description": "Jadavpur University, established in 1906 as the Bengal Technical Institute, is a testament to the Swadeshi movement's vision for indigenous education. It was officially converted into Jadavpur University in 1955 and has since grown into a prestigious research university. The university has a unique distinction of being a state university with a national impact, consistently ranked among the top 10 universities in India . In 2025, JU celebrated a major achievement by being ranked 1st in the State Public University category by NIRF, a testament to its academic excellence, research output, and affordable education model . Its strong research focus is highlighted by its Experimental High Energy Physics Group being part of the CERN ALICE-INDIA Collaboration, which shared the prestigious 2025 Breakthrough Prize in Fundamental Physics . With a sprawling main campus in South Kolkata and a modern second campus in Salt Lake, JU blends a rich heritage with cutting-edge research, particularly in engineering, science, and interdisciplinary studies.",
     "logo": "/logos/jadavpur-university.png",
     "stream": "engineering",
-    "type": "government",
+    "type": "semi",
     "category": "tier1",
     "ranking": 1,
     "rating": 4.2,
