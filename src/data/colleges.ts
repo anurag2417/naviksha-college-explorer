@@ -6438,7 +6438,7 @@ export const colleges: College[] = [
     ]
 },
 {
-    "id": "1112",
+    "id": "1202",
     "slug": "delhi-technological-university",
     "name": "Delhi Technological University",
     "shortName": "DTU",
@@ -7086,6 +7086,1091 @@ export const colleges: College[] = [
         {
             "question": "What are the major fests at DTU?",
             "answer": "DTU hosts several major festivals: Invictus (annual technical festival in February), Engifest (annual cultural festival in February), Yuvaan (literary festival in November), Aarambh (freshers' welcome in August), and Sanedo (cultural extravaganza in October) [citation:8]."
+        }
+    ]
+},
+{
+    "id": "1203",
+    "slug": "netaji-subhas-university-of-technology",
+    "name": "Netaji Subhas University of Technology",
+    "shortName": "NSUT",
+    "tagline": "एक्शन ही मेरा धर्म है (Action is my religion)",
+    "overview": "Delhi's premier engineering institution, formerly NSIT, known for its strong industry linkages, consistent NIRF ranking of #8 in Engineering 2025, and a sprawling 145-acre campus in Dwarka. It is a top choice for JEE Main aspirants in the capital.",
+    "description": "Netaji Subhas University of Technology (NSUT), established in 1983 as Delhi Institute of Technology, is a prestigious government institution in the heart of the national capital. Renamed in 2018, NSUT has a rich history of producing industry-ready engineers and technocrats. Spread across a lush green 145-acre campus in Dwarka, the university blends rigorous academics with a vibrant campus life [citation:5]. It is consistently ranked as the #8 engineering college in India by India Today and holds an impressive NAAC A++ grade with a CGPA of 3.62 [citation:1][citation:4]. The university is a hub of innovation, housing the NSUT Incubation and Innovation Foundation (NSUT-IIF), which has been recognized by NITI Aayog for its support of startups [citation:5]. With a strong placement record, the highest package reached ₹65 LPA in 2025, driven by top recruiters from the tech and core sectors [citation:8]. Its strategic location and robust alumni network make it a launchpad for successful careers in engineering and management.",
+    "logo": "/logos/nsut-delhi.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "tier1",
+    "ranking": 8,
+    "rating": 4.2,
+    "nirfRank": 70,
+    "googleRating": 4.1,
+    "reviews": {
+        "count": 3200,
+        "average": 4.2,
+        "academics": 4.1,
+        "infrastructure": 4.0,
+        "placement": 4.3,
+        "faculty": 4.0
+    },
+    "established": 1983,
+    "accreditation": "AICTE, NBA, NAAC A++",
+    "naacGrade": "A++",
+    "affiliations": ["Govt. of NCT of Delhi"],
+    "recognition": ["UGC", "AICTE"],
+    "location": {
+        "city": "New Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "pincode": "110078",
+        "campusSize": "145 acres",
+        "campusType": "urban",
+        "latitude": 28.5901,
+        "longitude": 77.0729,
+        "address": "Netaji Subhas University of Technology, Azad Hind Fauj Marg, Sector 3, Dwarka, New Delhi, Delhi 110078"
+    },
+    "fees": {
+        "annual": 190000,
+        "total": 760000,
+        "hostel": 20000,
+        "mess": 35000,
+        "otherCharges": 5000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Single Child Girl Child Scholarship (Tuition fee waiver for the entire course)",
+            "SC/ST Scholarship (Post Matric) by Government of Delhi",
+            "Merit-cum-Means Scholarship for eligible students",
+            "GATE: Monthly stipend of ₹12,400 for M.Tech students",
+            "Teaching Assistantship for PhD scholars"
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester-wise Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 1793000,
+        "highestPackage": 65000000,
+        "medianPackage": 1400000,
+        "percentage": 88.00,
+        "totalOffers": 850,
+        "totalStudents": 965,
+        "internationalOffers": 8,
+        "dreamOffers": 30,
+        "averagePackageTrend": 15,
+        "topRecruiters": [
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "Apple",
+            "Uber",
+            "Goldman Sachs",
+            "Deloitte",
+            "KPMG",
+            "SAP Labs",
+            "Flipkart",
+            "Zomato",
+            "Meesho",
+            "Texas Instruments",
+            "Qualcomm",
+            "Maruti Suzuki",
+            "Tata Motors",
+            "BHEL",
+            "NTPC",
+            "Accenture",
+            "DE Shaw"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Quantitative Finance",
+            "Core Engineering (VLSI, Embedded)",
+            "Consulting",
+            "Product Management",
+            "Automobile",
+            "Public Sector Undertakings (PSUs)",
+            "Startups"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 1793000,
+                "highestPackage": 65000000,
+                "percentage": 88.0
+            },
+            {
+                "year": 2024,
+                "averagePackage": 1500000,
+                "highestPackage": 62000000,
+                "percentage": 87.5
+            },
+            {
+                "year": 2023,
+                "averagePackage": 1250000,
+                "highestPackage": 45000000,
+                "percentage": 86.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 1100000,
+                "highestPackage": 42000000,
+                "percentage": 85.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "B.Arch",
+            "M.Tech",
+            "MBA",
+            "BBA",
+            "M.Sc",
+            "PhD",
+            "MCA"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Mathematics & Computing",
+            "B.Tech Electrical Engineering",
+            "M.Tech VLSI Design & Embedded System"
+        ],
+        "facultyCount": 250,
+        "studentCount": 4250,
+        "studentFacultyRatio": "17:1",
+        "specialization": [
+            "VLSI Design & Embedded Systems",
+            "Signal Processing",
+            "Information Security",
+            "Robotics & Automation",
+            "Artificial Intelligence & Machine Learning",
+            "Biotechnology"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Electronics & Communication Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Information Technology",
+            "Biotechnology",
+            "Mathematics",
+            "Physics",
+            "Chemistry",
+            "Humanities & Social Sciences",
+            "Management Studies"
+        ],
+        "researchCenters": 12,
+        "publications": 950,
+        "collaborations": [
+            "NVIDIA (GPU Computing)",
+            "Texas Instruments (VLSI Lab)",
+            "Maruti Suzuki (Smart Mobility Research Park)",
+            "NTPC",
+            "BHEL",
+            "DRDO",
+            "ISRO"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 120000,
+            "journals": 8000,
+            "digitalResources": 15000,
+            "seatingCapacity": 600
+        },
+        "labs": {
+            "count": 45,
+            "majorLabs": [
+                "Centre for Electronics Design & Technology (CEDT)",
+                "NVIDIA GPU Lab",
+                "VLSI Design Lab",
+                "Robotics & Automation Lab",
+                "Advanced Manufacturing Workshop",
+                "Language Lab",
+                "Computer Centre"
+            ],
+            "equipmentValue": 250000000
+        },
+        "sports": {
+            "facilities": [
+                "Sports Complex",
+                "Football Ground",
+                "Cricket Ground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Courts",
+                "Volleyball Court",
+                "Table Tennis Room",
+                "Gymnasium",
+                "Chess & Carrom Facilities"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 2800,
+            "rooms": 1400,
+            "facilities": [
+                "Four Boys' Hostels (BH1-BH4)",
+                "Two Girls' Hostels (GH)",
+                "Single/Double occupancy rooms",
+                "24x7 WiFi",
+                "In-premises mess with varied menu",
+                "Common rooms with TV",
+                "Indoor games (TT, Carrom, Chess)",
+                "24x7 power backup",
+                "Laundry service",
+                "24x7 security with lady guards",
+                "Parking lot",
+                "Nearby metro station (walking distance)"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 5,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["JEE Main", "GATE", "IPU CET", "CAT", "CUET"],
+        "cutoff": 4889,
+        "cutoffTrend": -3,
+        "applicationMode": "Online",
+        "applicationFee": 1500,
+        "selectionProcess": [
+            "JEE Main Score for B.Tech",
+            "JAC Delhi Counseling",
+            "GATE Score for M.Tech",
+            "IPU CET for Management Courses",
+            "CUET for PhD"
+        ],
+        "eligibility": {
+            "minPercentage": 75,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "May 1, 2026",
+            "applicationEnd": "June 15, 2026",
+            "examDate": "Already conducted (JEE Main)",
+            "resultDate": "April 15, 2026",
+            "counsellingStart": "June 20, 2026",
+            "counsellingEnd": "July 30, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "JEE Main Scorecard",
+            "Category Certificate",
+            "Income Certificate (if applicable)",
+            "Domicile Certificate (for Delhi quota)",
+            "Medical Fitness Certificate",
+            "Transfer Certificate"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "IEEE Student Branch",
+            "SAE Collegiate Club",
+            "ISA (Instrumentation Society of America)",
+            "CSI (Computer Society of India)",
+            "Robotics Club",
+            "Programming Club",
+            "E-Cell",
+            "Music Society",
+            "Dance Society",
+            "Dramatics Club",
+            "Photography Club",
+            "Debating Society",
+            "Quiz Club",
+            "Astronomy Club"
+        ],
+        "festivals": [
+            "Moksha (Annual Cultural Festival)",
+            "TechWardh (Annual Techno-Management Festival)",
+            "Spardha (Annual Sports Festival of Hostels)"
+        ],
+        "technicalEvents": [
+            "Hackathons (24-hour coding events)",
+            "Robotics Challenges",
+            "AI/ML Workshops",
+            "Industry Conclaves",
+            "NVIDIA GPU Workshops"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Street Plays (Nukkad Natak)",
+            "Fashion Show (Rampage)",
+            "Literary Fest",
+            "Delhi Heritage Tours"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Enactus NSUT",
+            "Blood Connect",
+            "Teach for Delhi"
+        ],
+        "annualBudget": 25000000
+    },
+    "faculty": {
+        "total": 250,
+        "phdHolders": 210,
+        "professor": 80,
+        "associateProfessor": 70,
+        "assistantProfessor": 100,
+        "industryExperience": 8,
+        "internationalFaculty": 10,
+        "awards": [
+            "Young Scientist Award",
+            "SERB Early Career Research Award",
+            "Visiting Professor Fellowships (International)",
+            "Best Teacher Award by Government of Delhi"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Sachin Bansal",
+                "designation": "Co-founder",
+                "company": "Flipkart"
+            },
+            {
+                "name": "Binny Bansal",
+                "designation": "Co-founder",
+                "company": "Flipkart"
+            },
+            {
+                "name": "Ritesh Arora",
+                "designation": "Co-founder & CEO",
+                "company": "BrowserStack"
+            },
+            {
+                "name": "Abhishek Goyal",
+                "designation": "Co-founder",
+                "company": "Tracxn"
+            },
+            {
+                "name": "Vivek Gupta",
+                "designation": "Co-founder",
+                "company": "LetsTransport"
+            },
+            {
+                "name": "Ankush Sachdeva",
+                "designation": "Co-founder & CEO",
+                "company": "ShareChat"
+            },
+            {
+                "name": "Bhanu Pratap Singh",
+                "designation": "Co-founder",
+                "company": "ShareChat"
+            },
+            {
+                "name": "Farid Ahsan",
+                "designation": "Co-founder",
+                "company": "ShareChat"
+            }
+        ],
+        "placementCompanies": [
+            "Microsoft",
+            "Google",
+            "Amazon",
+            "Apple",
+            "Goldman Sachs",
+            "Uber"
+        ],
+        "networkStrength": 92
+    },
+    "international": {
+        "collaborations": 15,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "University of Alberta (Canada)",
+            "University of California (USA)",
+            "Technical University of Munich (Germany)",
+            "Nanyang Technological University (Singapore)"
+        ],
+        "foreignStudents": 76
+    },
+    "contact": {
+        "phone": [
+            "+91-11-25099021",
+            "+91-11-25099022"
+        ],
+        "email": [
+            "registrar@nsut.ac.in",
+            "admission@nsut.ac.in",
+            "placement@nsut.ac.in",
+            "info@nsut.ac.in"
+        ],
+        "website": "https://www.nsut.ac.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/nsutdelhi",
+            "twitter": "https://twitter.com/nsut_delhi",
+            "linkedin": "https://linkedin.com/school/nsut-delhi",
+            "instagram": "https://instagram.com/nsut_delhi",
+            "youtube": "https://youtube.com/nsutdelhi"
+        },
+        "admissionContact": {
+            "phone": "+91-11-25099021",
+            "email": "admission@nsut.ac.in"
+        }
+    },
+    "facilities": [
+        "145-acre lush green campus in Dwarka",
+        "NSUT Incubation and Innovation Foundation (NSUT-IIF) for startups",
+        "Centre for Electronics Design & Technology (CEDT)",
+        "NVIDIA GPU Lab for AI/ML research",
+        "High-speed WiFi across campus",
+        "Modern gymnasium",
+        "Medical facility with Physiotherapy & Homeopathy",
+        "Two banks & ATM",
+        "Post office",
+        "Amul milk booth",
+        "Shopping complex",
+        "Central Library with 1.2L+ books",
+        "Rainwater harvesting & sustainability initiatives",
+        "Yoga & Meditation Centre",
+        "Metro station within walking distance"
+    ],
+    "achievements": [
+        "Ranked #8 by India Today Engineering Rankings 2025 (consistent top 10 for years) [citation:1][citation:4]",
+        "NAAC A++ grade with CGPA 3.62 in first accreditation cycle (2024) [citation:1]",
+        "Highest domestic package of ₹65 LPA in 2025 (Apple & Google Silicon) [citation:8]",
+        "Average package surge to ₹17.93 LPA in 2025 [citation:8]",
+        "First prize in 'Institution Supporting Start-ups' by NITI Aayog & AICTE (2017) [citation:5]",
+        "Strong alumni network including founders of Flipkart, BrowserStack, ShareChat, Tracxn",
+        "NBA accreditation valid till March 2026 [citation:1]",
+        "76+ international students enrolled [citation:1]",
+        "Strategic location in Delhi's tech hub with excellent industry connections"
+    ],
+    "newsUpdates": [
+        {
+            "title": "NSUT achieves record-breaking ₹65 LPA highest package and ₹17.93 LPA average in 2025 placements",
+            "date": "2025-09-05",
+            "link": "https://www.kollegeapply.com/college/netaji-subhas-university-of-technology-delhi-placement"
+        },
+        {
+            "title": "NSUT maintains 8th rank in India Today Engineering Rankings 2025, NIRF rank at 70",
+            "date": "2025-09-04",
+            "link": "https://timesofindia.indiatimes.com/education/news/nirf-rankings-2025-iit-delhi-leads-capitals-engineering-colleges"
+        },
+        {
+            "title": "JAC Delhi 2025: NSUT CSE closing rank at 4889 (Round 1)",
+            "date": "2025-07-20",
+            "link": "https://www.vedantu.com/jee-advanced/top-engineering-colleges-in-delhi"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/nsut-campus1.jpg",
+            "caption": "Main Administrative Block - NSUT"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/nsut-campus2.jpg",
+            "caption": "Academic Complex"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/nsut-lab1.jpg",
+            "caption": "Centre for Electronics Design & Technology (CEDT)"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/nsut-sports1.jpg",
+            "caption": "Sports Complex & Football Ground"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/nsut-hostel1.jpg",
+            "caption": "Boys' Hostel (BH-1 Ramanujan Hostel)"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/nsut-event1.jpg",
+            "caption": "Moksha - Cultural Festival"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is NSUT a government college?",
+            "answer": "Yes, NSUT (Netaji Subhas University of Technology) is a fully government-funded institution under the Government of NCT of Delhi. It was formerly known as NSIT (Netaji Subhas Institute of Technology) and was upgraded to a university in 2018 [citation:1][citation:6]."
+        },
+        {
+            "question": "What is the highest package at NSUT in 2025?",
+            "answer": "The highest package in 2025 is ₹65 LPA, offered by Apple and Google Silicon to students from the Computer Science branch. This is a significant jump from previous years [citation:8]."
+        },
+        {
+            "question": "What is the average package at NSUT?",
+            "answer": "As of 2025, the overall average CTC stands at ₹17.93 Lakh per annum, with CSE students averaging between ₹12-18 LPA. The median package is ₹14 LPA [citation:3][citation:8]."
+        },
+        {
+            "question": "What is the JEE Main cutoff for NSUT?",
+            "answer": "For JAC Delhi 2025 (Round 1), the closing rank for CSE was 4889, ECE was around 8000-9000, and Mechanical Engineering was approximately 25,000+. Cutoffs vary by category and home state quota [citation:7]."
+        },
+        {
+            "question": "What is the campus size of NSUT?",
+            "answer": "NSUT is spread across a sprawling 145-acre campus in Sector 3, Dwarka, New Delhi. It is a fully residential campus with lush green landscaping and modern infrastructure [citation:5]."
+        },
+        {
+            "question": "Does NSUT have hostel facilities?",
+            "answer": "Yes, NSUT has four boys' hostels (BH1-BH4) and two girls' hostels (GH) with a total capacity of approximately 2,800 students. Facilities include 24x7 WiFi, power backup, in-premises mess, common rooms, indoor games, and 24x7 security [citation:10]."
+        },
+        {
+            "question": "What is unique about NSUT's curriculum?",
+            "answer": "NSUT offers a flexible curriculum with strong industry integration. It has mandatory summer internships, hackathon-focused clubs, and specialized centers like the NVIDIA GPU lab for AI/ML projects. The NSUT Incubation and Innovation Foundation (NSUT-IIF) actively supports student startups [citation:3][citation:5]."
+        },
+        {
+            "question": "What is the NSUT Incubation and Innovation Foundation?",
+            "answer": "NSUT-IIF is a Section 8 company that incubates startups founded by students, alumni, and faculty. It has incubated successful ventures like Readers Crib, CacheFi, and Triposse. NSUT won the first prize for 'Institution Supporting Start-ups' from NITI Aayog and AICTE in 2017 [citation:5]."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "For core branches, top recruiters include Texas Instruments, Qualcomm, Maruti Suzuki, Tata Motors, BHEL, NTPC, and Bosch. PSUs like Power Grid Corporation also recruit electrical engineering graduates through GATE scores [citation:3]."
+        },
+        {
+            "question": "What is the fee structure at NSUT?",
+            "answer": "The total B.Tech course fee is approximately ₹7.6 Lakhs for four years, with an annual hostel fee of around ₹20,000. M.Tech fees are approximately ₹3.47 Lakhs for the full course. Scholarships are available for SC/ST students and single child girl children [citation:1][citation:4]."
+        },
+        {
+            "question": "Does NSUT have an East Campus?",
+            "answer": "Yes, NSUT has an East Campus (formerly Ambedkar Institute of Technology). Placements for both main and east campus are conducted together, with the same average package of ₹12-13 LPA applicable to both [citation:8]."
+        }
+    ]
+},
+{
+    "id": "1204",
+    "slug": "igdtuw-delhi",
+    "name": "Indira Gandhi Delhi Technical University for Women",
+    "shortName": "IGDTUW",
+    "tagline": "Empowering Women Through Technical Excellence",
+    "overview": "India's first all-women technical university, established to facilitate studies and research in emerging areas of professional education among women, blending its legacy as IGIT with modern university dynamism since 2013.",
+    "description": "Indira Gandhi Delhi Technical University for Women (IGDTUW), established by the Govt. of Delhi in May 2013, is a non-affiliating teaching and research University. It is the first all-women technical university in India. Its predecessor, the Indira Gandhi Institute of Technology (IGIT), was established in 1998 as the first engineering college for women only. Located in the historic Kashmere Gate area of Delhi, the university aims to achieve excellence in Engineering, Technology, Applied Sciences, Architecture, and Management. In a short span, IGDTUW has achieved a NAAC 'A+' Grade in its first assessment cycle. The university is renowned for its strong placement record, with students securing top packages in leading multinational corporations, reflecting its commitment to producing 'work-ready' graduates. IGDTUW fosters a vibrant research culture with projects sponsored by leading industry and government organizations and supports entrepreneurship through its incubation centre, 'Anveshan' [citation:1].",
+    "logo": "/logos/igdtuw.png",
+    "stream": "engineering",
+    "type": "government",
+    "category": "premier",
+    "ranking": 4,
+    "rating": 4.2,
+    "nirfRank": 250,
+    "googleRating": 4.2,
+    "reviews": {
+        "count": 1250,
+        "average": 4.2,
+        "academics": 4.3,
+        "infrastructure": 3.9,
+        "placement": 4.5,
+        "faculty": 4.2
+    },
+    "established": 1998,
+    "accreditation": "AICTE, COA Approved",
+    "naacGrade": "A+",
+    "affiliations": ["Delhi State Legislature Act 9, 2012"],
+    "recognition": ["UGC", "AICTE", "Council of Architecture (COA)", "Govt. of NCT of Delhi"],
+    "location": {
+        "city": "Delhi",
+        "state": "Delhi",
+        "country": "India",
+        "pincode": "110006",
+        "campusSize": "6 acres",
+        "campusType": "urban",
+        "latitude": 28.6655,
+        "longitude": 77.2343,
+        "address": "Madrasa Road, Opposite St. James Church, Kashmere Gate, Delhi - 110006"
+    },
+    "fees": {
+        "annual": 158000,
+        "total": 707000,
+        "hostel": 160000,
+        "mess": 60000,
+        "otherCharges": 7000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Merit-based scholarships for top performers (Delhi Govt. & Private)",
+            "Scholarships for SC/ST/OBC categories as per government norms",
+            "Pragati Scholarship for Girl Students (AICTE)",
+            "Reliance Foundation Scholarships (based on application & selection)",
+            "Financial aid for students with family income < ₹1 Lakh",
+            "GATE: Monthly stipend for M.Tech students with valid score"
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Credit/Debit Card"
+        ]
+    },
+    "placement": {
+        "averagePackage": 2100000,
+        "highestPackage": 56000000,
+        "medianPackage": 1847000,
+        "percentage": 87.30,
+        "totalOffers": 571,
+        "totalStudents": 654,
+        "internationalOffers": 8,
+        "dreamOffers": 45,
+        "averagePackageTrend": 12,
+        "topRecruiters": [
+            "Adobe",
+            "Microsoft",
+            "Amazon",
+            "Google",
+            "Intel",
+            "Qualcomm",
+            "Cisco",
+            "Oracle",
+            "IBM",
+            "TCS",
+            "Accenture",
+            "Maruti Suzuki",
+            "Mahindra & Mahindra",
+            "Hero MotoCorp",
+            "Samsung",
+            "Flipkart",
+            "Uber",
+            "Barclays",
+            "Standard Chartered",
+            "Honeywell"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Product Management",
+            "Core Engineering",
+            "Consulting",
+            "Finance & Analytics",
+            "R&D",
+            "Automobile",
+            "EdTech"
+        ],
+        "placementStats": [
+            {
+                "year": 2024,
+                "averagePackage": 2100000,
+                "highestPackage": 56000000,
+                "percentage": 87.3
+            },
+            {
+                "year": 2023,
+                "averagePackage": 2336000,
+                "highestPackage": 5600000,
+                "percentage": 91.3
+            },
+            {
+                "year": 2022,
+                "averagePackage": 1972000,
+                "highestPackage": 12000000,
+                "percentage": 92.8
+            },
+            {
+                "year": 2021,
+                "averagePackage": 1900000,
+                "highestPackage": 10000000,
+                "percentage": 90.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "B.Arch",
+            "M.Tech",
+            "MCA",
+            "PhD",
+            "MBA"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Computer Science Engineering (AI)",
+            "B.Tech Information Technology",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Mechanical & Automation Engineering",
+            "B.Tech Mathematics & Computing"
+        ],
+        "facultyCount": 120,
+        "studentCount": 3000,
+        "studentFacultyRatio": "25:1",
+        "specialization": [
+            "Artificial Intelligence & Machine Learning",
+            "Cyber Security",
+            "VLSI Design",
+            "Robotics & Automation",
+            "Mobile Pervasive Computing",
+            "Information Security Management"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Information Technology",
+            "Electronics & Communication Engineering",
+            "Mechanical & Automation Engineering",
+            "Applied Sciences & Humanities",
+            "Architecture & Planning",
+            "Management Studies"
+        ],
+        "researchCenters": 8,
+        "publications": 650,
+        "collaborations": [
+            "Microsoft",
+            "Atmel",
+            "Nokia",
+            "Intel",
+            "ARM",
+            "Texas Instruments",
+            "Department of Science & Technology (DST)",
+            "IITs"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Learning Resource Centre (LRC)",
+            "books": 45000,
+            "journals": 200,
+            "digitalResources": 5000,
+            "seatingCapacity": 300
+        },
+        "labs": {
+            "count": 30,
+            "majorLabs": [
+                "Computer Centre (24x7)",
+                "VLSI Design Lab",
+                "Robotics & Automation Lab",
+                "AI & Machine Learning Lab",
+                "Embedded Systems Lab",
+                "Central Computing Facility"
+            ],
+            "equipmentValue": 150000000
+        },
+        "sports": {
+            "facilities": [
+                "Common Room with Fitness Equipment",
+                "Yoga Facility",
+                "Indoor Games",
+                "Badminton Court",
+                "Table Tennis"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": false,
+            "girls": true,
+            "capacity": 300,
+            "rooms": 150,
+            "facilities": [
+                "Krishna and Kaveri Hostels",
+                "Twin/Triple sharing basis",
+                "High-speed WiFi",
+                "Co-operative Mess System (No Profit No Loss)",
+                "RO Purified Drinking Water",
+                "Common Room with LCD TV & AC",
+                "Washing Machines",
+                "Paid Laundry Service",
+                "24/7 Security with CCTV",
+                "Guest Rooms"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 2,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["JEE Main", "GATE", "NATA", "JAC Delhi", "CUET-PG"],
+        "cutoff": 16659,
+        "cutoffTrend": -5,
+        "applicationMode": "Online",
+        "applicationFee": 1500,
+        "selectionProcess": [
+            "JEE Main Score",
+            "JAC Delhi Counseling",
+            "NATA/JEE Paper II for B.Arch",
+            "GATE Score for M.Tech",
+            "CUET-PG for MCA/MBA"
+        ],
+        "eligibility": {
+            "minPercentage": 75,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "June 10, 2025",
+            "applicationEnd": "June 19, 2025",
+            "examDate": "January 22-30, 2026",
+            "resultDate": "February 19, 2026",
+            "counsellingStart": "June 25, 2026",
+            "counsellingEnd": "July 30, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "JEE Main Scorecard",
+            "JAC Delhi Registration Printout",
+            "Category Certificate (if applicable)",
+            "Income Certificate (for Fee Waiver)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Society",
+            "E-Cell (Anveshan)",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Art & Craft Club",
+            "Literary Society"
+        ],
+        "festivals": [
+            "Anweshan (Annual Technical Festival)",
+            "Anandam (Annual Cultural Festival)",
+            "Abhivyakti (Architecture Department Festival)"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robo-Wars",
+            "Paper Presentations",
+            "Industry Conclaves",
+            "Workshops by Industry Experts"
+        ],
+        "culturalEvents": [
+            "Pro Shows",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events",
+            "Delhi Heritage Walks"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Women Empowerment Drives",
+            "Sustainability Cell",
+            "Blood Donation Camps"
+        ],
+        "annualBudget": 15000000
+    },
+    "faculty": {
+        "total": 120,
+        "phdHolders": 85,
+        "professor": 25,
+        "associateProfessor": 40,
+        "assistantProfessor": 55,
+        "industryExperience": 15,
+        "internationalFaculty": 5,
+        "awards": [
+            "Young Scientist Award",
+            "Best Teacher Award by Govt. of Delhi",
+            "Women Excellence Award",
+            "SERB Fellowship",
+            "Visiting Professorships at International Universities"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Anjali Bansal",
+                "designation": "Founder",
+                "company": "Avaani Spa"
+            },
+            {
+                "name": "Akanksha Arora",
+                "designation": "Product Manager",
+                "company": "Google"
+            },
+            {
+                "name": "Divya Goyal",
+                "designation": "Software Engineer",
+                "company": "Microsoft"
+            },
+            {
+                "name": "Nidhi Singh",
+                "designation": "Co-founder",
+                "company": "Samosa Party"
+            },
+            {
+                "name": "Shivani Mehta",
+                "designation": "Associate Partner",
+                "company": "McKinsey & Company"
+            }
+        ],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Adobe",
+            "Intel",
+            "Qualcomm"
+        ],
+        "networkStrength": 75
+    },
+    "international": {
+        "collaborations": 12,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "Technical University of Munich (Germany)",
+            "University of South Florida (USA)",
+            "Queensland University of Technology (Australia)",
+            "University of West England (UK)"
+        ],
+        "foreignStudents": 0
+    },
+    "contact": {
+        "phone": [
+            "+91-11-23869525",
+            "+91-11-23900261",
+            "+91-11-23900253"
+        ],
+        "email": [
+            "vc@igdtuw.ac.in",
+            "admission@igdtuw.ac.in",
+            "placement@igdtuw.ac.in",
+            "dasaadmission@igdtuw.ac.in"
+        ],
+        "website": "https://www.igdtuw.ac.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/igdtuw",
+            "twitter": "https://twitter.com/IGDTUW",
+            "linkedin": "https://linkedin.com/school/igdtuw",
+            "instagram": "https://instagram.com/igdtuw",
+            "youtube": "https://youtube.com/IGDTUWOfficial"
+        },
+        "admissionContact": {
+            "phone": "+91-11-23869525",
+            "email": "admission@igdtuw.ac.in"
+        }
+    },
+    "facilities": [
+        "First all-women technical university in India",
+        "NAAC A+ Grade in first assessment cycle",
+        "24x7 Learning Resource Centre (LRC)",
+        "High-speed 1 Gbps NKN & 50 Mbps MTNL leased lines",
+        "Fully Wi-Fi campus with Cisco switches",
+        "State-of-the-art Computer Centre (24x7)",
+        "On-campus dispensary with medical officers",
+        "Punjab & Sindh Bank branch on campus",
+        "Incubation Centre 'Anveshan' for women entrepreneurs",
+        "Two Girls Hostels: Krishna & Kaveri",
+        "Fitness center and yoga facilities",
+        "Guest house with modern amenities"
+    ],
+    "achievements": [
+        "First engineering college exclusively for women in India (est. 1998), converted to a University in 2013",
+        "NAAC A+ Grade in the first assessment cycle (2023)",
+        "Highest package of ₹56 LPA in 2024 by Adobe",
+        "Average package consistently above ₹20 LPA",
+        "Ranked #20 in India Today Engineering Rankings 2025",
+        "100% placement record in multiple departments (CSE, IT)",
+        "First University to offer niche M.Tech programs like Mobile Pervasive Computing & Information Security Management",
+        "Incubation Centre 'Anveshan' supporting women-led startups",
+        "Only all-women technical university with NIRF ranking within top 250"
+    ],
+    "newsUpdates": [
+        {
+            "title": "IGDTUW achieves highest package of ₹56 LPA in 2024 placements, average crosses ₹21 LPA",
+            "date": "2025-09-15",
+            "link": "https://www.careers360.com/university/indira-gandhi-delhi-technical-university-for-women-delhi/placement"
+        },
+        {
+            "title": "IGDTUW maintains top 25 rank in India Today Engineering rankings 2025, ranked 20th overall",
+            "date": "2025-09-08",
+            "link": "https://www.kollegeapply.com/college/indira-gandhi-delhi-technical-university-for-women-igdtuw-delhi-ranking"
+        },
+        {
+            "title": "JAC Delhi 2025: IGDTUW CSE closing rank at 16659, IT at 17453 for spot round",
+            "date": "2025-07-30",
+            "link": "https://collegedunia.com/university/13801-indira-gandhi-delhi-technical-university-for-women-igdtuw-new-delhi"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/igdtuw-campus1.jpg",
+            "caption": "Main Academic Block - IGDTUW"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/igdtuw-campus2.jpg",
+            "caption": "Administrative Building"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/igdtuw-lab1.jpg",
+            "caption": "Computer Centre (24x7)"
+        },
+        
+        {
+            "type": "hostel",
+            "url": "/gallery/igdtuw-hostel1.jpg",
+            "caption": "Krishna Girls Hostel"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/igdtuw-event1.jpg",
+            "caption": "Anandam - Annual Cultural Festival"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is IGDTUW a government or private university?",
+            "answer": "IGDTUW is a State Government University established by the Government of NCT of Delhi vide Act 9 of 2012. It is a fully government-funded institution, making it one of the most affordable yet high-quality technical universities for women in India [citation:1]."
+        },
+        {
+            "question": "What is the highest package at IGDTUW in 2024?",
+            "answer": "The highest domestic package in 2024 was ₹56 Lakhs per annum, offered by Adobe. The university has consistently seen top packages from companies like Microsoft, Amazon, and Intel [citation:3][citation:8]."
+        },
+        {
+            "question": "What is the average package at IGDTUW?",
+            "answer": "As per NIRF 2025 data, the median package for B.Tech graduates in 2024 was ₹18.47 LPA. However, department-wise averages vary, with CSE and IT averaging between ₹20-25 LPA. The overall average package is approximately ₹21 LPA [citation:4][citation:8]."
+        },
+        {
+            "question": "What is the JEE Main cutoff for IGDTUW?",
+            "answer": "Admissions are conducted through JAC Delhi. For 2025, the closing rank for B.Tech CSE was around 16,659 (CRL rank). For Information Technology, it was approximately 17,453. These cutoffs vary by category and are based on JEE Main scores [citation:4]."
+        },
+        {
+            "question": "What is the campus size of IGDTUW?",
+            "answer": "IGDTUW is located in the heart of Delhi at Kashmere Gate, spread across approximately 6 acres. While compact, it is well-equipped with modern facilities, including 24x7 libraries, computer centres, and two girls' hostels within the campus [citation:5]."
+        },
+        {
+            "question": "Does IGDTUW allow branch change?",
+            "answer": "Branch change is generally not permitted at IGDTUW as admissions are based on JEE Main rank and JAC Delhi counseling, with seats allocated branch-wise. Students must choose their specialization at the time of admission based on their rank and preference."
+        },
+        {
+            "question": "What is unique about IGDTUW's curriculum?",
+            "answer": "IGDTUW follows a Choice Based Credit System (CBCS) aligned with NEP 2020, offering flexibility to choose interdisciplinary and multidisciplinary courses. Students can opt for Project, Research, or Entrepreneur Tracks. The curriculum is regularly updated with industry input to produce 'work-ready' graduates [citation:1]."
+        },
+        {
+            "question": "Does IGDTUW have hostel facilities?",
+            "answer": "Yes, IGDTUW has two girls' hostels within the campus: Krishna Hostel and Kaveri Hostel, accommodating approximately 300 students. Rooms are on twin/triple sharing basis with facilities like Wi-Fi, co-operative mess, RO water, washing machines, and gym [citation:5][citation:10]."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "For core branches like ECE and MAE, top recruiters include Qualcomm, Texas Instruments, Samsung, Maruti Suzuki, Mahindra & Mahindra, Bosch, Honeywell, and Cummins. For CSE/IT, top recruiters are Adobe, Microsoft, Google, Amazon, Intel, and Oracle [citation:3][citation:8]."
+        },
+        {
+            "question": "What are the scholarship options at IGDTUW?",
+            "answer": "Scholarships include Merit-cum-Means scholarships for students with family income < ₹1 Lakh, Pragati Scholarship for girl students (AICTE), Reliance Foundation Scholarships, and category-based scholarships for SC/ST/OBC students. GATE-qualified M.Tech students receive monthly stipends [citation:4]."
         }
     ]
 },
