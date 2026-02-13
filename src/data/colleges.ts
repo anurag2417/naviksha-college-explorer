@@ -6449,7 +6449,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "semi",
     "category": "tier1",
-    "ranking": 30,
+    "ranking": 2,
     "rating": 4.2,
     "nirfRank": 30,
     "googleRating": 4.1,
@@ -7101,7 +7101,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "semi",
     "category": "tier1",
-    "ranking": 8,
+    "ranking": 3,
     "rating": 4.2,
     "nirfRank": 70,
     "googleRating": 4.1,
@@ -8612,7 +8612,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "semi",
     "category": "tier2",
-    "ranking": 5,
+    "ranking": 6,
     "rating": 3.5,
     //"nirfRank": null,
     "googleRating": 3.8,
@@ -9064,6 +9064,545 @@ export const colleges: College[] = [
         {
             "question": "Is GKCIET approved by AICTE and affiliated to any university?",
             "answer": "Yes, GKCIET is approved by AICTE. For B.Tech programs, it is affiliated to Maulana Abul Kalam Azad University of Technology (MAKAUT), Kolkata. For Diploma and Certificate programs, it is affiliated to the West Bengal State Council of Technical & Vocational Education and Skill Development (WBSCT&VE&SD), Kolkata [citation:2][citation:6][citation:8]."
+        }
+    ]
+},
+{
+    "id": "1127",
+    "slug": "rcciit-kolkata",
+    "name": "RCC Institute of Information Technology",
+    "shortName": "RCCIIT",
+    "tagline": "Empowering Minds Through Innovation and Excellence",
+    "overview": "A premier government-aided engineering institute in Kolkata, established in 1999 as a unique joint venture of NIC and the Government of West Bengal, known for its strong industry connections, consistent placement record, and autonomous status since 2024.",
+    "description": "RCC Institute of Information Technology (RCCIIT), Kolkata, was established in 1999 by the erstwhile Regional Computer Centre (RCC), Calcutta, as a unique joint venture of NIC, Ministry of Communication & IT, Govt. of India and Dept. of Higher Education, Govt. of West Bengal [citation:9]. In 2003, the lead role of management was transferred to the State Govt., making it the only self-financing engineering college in the State for which the Board of Management is constituted directly by the State Govt. [citation:9]. Spread across a sprawling 4.63-acre campus in the well-connected Beliaghata area of Kolkata, RCCIIT comprises two adjacent campuses housing 6 degree-offering and 2 supporting departments catering to around 2000 students [citation:9]. The institute has achieved autonomous status from 2024, allowing it to set its own syllabus and remove outdated topics while including new, trending subjects [citation:2]. Known for its consistent placement record, RCCIIT achieved its highest package of ₹14 LPA in 2025, with over 70% of students placed in reputed companies like TCS, Cognizant, Wipro, and Infosys [citation:2][citation:10]. With NAAC B++ grade, state-of-the-art laboratories, and a strong research base with numerous publications and patents, RCCIIT stands as a beacon of technical education in Eastern India [citation:6][citation:9].",
+    "logo": "/logos/rcciit-kolkata.png",
+    "stream": "engineering",
+    "type": "semi",
+    "category": "premier",
+    "ranking": 7,
+    "rating": 3.7,
+    //"nirfRank": null,
+    "googleRating": 4.0,
+    "reviews": {
+        "count": 268,
+        "average": 3.7,
+        "academics": 4.0,
+        "infrastructure": 3.6,
+        "placement": 3.5,
+        "faculty": 4.2
+    },
+    "established": 1999,
+    "accreditation": "AICTE Approved",
+    "naacGrade": "B++",
+    "affiliations": ["Maulana Abul Kalam Azad University of Technology (MAKAUT)"],
+    "recognition": ["AICTE", "UGC", "Government of West Bengal", "NIC, Ministry of Communication & IT, Govt. of India"],
+    "location": {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "country": "India",
+        "pincode": "700015",
+        "campusSize": "4.63 acres",
+        "campusType": "urban",
+        "latitude": 22.5667,
+        "longitude": 88.3667,
+        "address": "Canal South Road, Near Beliaghata, Tangra, Kolkata, West Bengal - 700015"
+    },
+    "fees": {
+        "annual": 199550,
+        "total": 798200,
+        "hostel": 0,
+        "mess": 0,
+        "otherCharges": 25000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Swami Vivekananda Merit-cum-Means Scholarship (SVMCM): Up to ₹8,000/month for meritorious students from economically weaker sections (family income < ₹2.5 Lakhs) ",
+            "Aikashree: For minority students (family income < ₹2 Lakhs) from West Bengal Minorities' Development & Finance Corporation ",
+            "Oasis: Post-Matric & Merit-cum-Means scholarship for SC/ST/OBC students from Backward Classes Welfare Department, West Bengal ",
+            "Kanyashree: One-time grant of ₹25,000 for unmarried girls (age 18-19, family income < ₹1.2 Lakhs) from Government of West Bengal ",
+            "Pragati Scholarship: For girl students from AICTE ",
+            "Saksham Scholarship: For differently-abled students from AICTE ",
+            "Chief Minister Relief Fund (Nabanna Scholarship): From Office of Chief Minister, Govt. of West Bengal ",
+            "West Bengal Student Credit Card (WBSCC): Loan-cum-scholarship scheme for eligible students "
+        ],
+        "paymentOptions": [
+            "Online Payment",
+            "NEFT/RTGS",
+            "Demand Draft",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 500000,
+        "highestPackage": 1400000,
+        "medianPackage": 450000,
+        "percentage": 75.00,
+        "totalOffers": 350,
+        "totalStudents": 467,
+        "internationalOffers": 0,
+        "dreamOffers": 15,
+        "averagePackageTrend": 8,
+        "topRecruiters": [
+            "Tata Consultancy Services (TCS)",
+            "Cognizant",
+            "Infosys",
+            "Wipro",
+            "Tech Mahindra",
+            "Capgemini",
+            "IBM",
+            "Accenture",
+            "PricewaterhouseCoopers (PwC)",
+            "Deloitte",
+            "Amazon",
+            "Johnson Controls",
+            "MG Motors",
+            "Polycab",
+            "BMC Software",
+            "Global IDs",
+            "Hexaware Technologies",
+            "L&T Infotech",
+            "Mind Tree",
+            "ZS Associates"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Consulting",
+            "Core Engineering",
+            "Automobile",
+            "Manufacturing",
+            "Banking & Financial Services"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 500000,
+                "highestPackage": 1400000,
+                "percentage": 75.0
+            },
+            {
+                "year": 2024,
+                "averagePackage": 480000,
+                "highestPackage": 1400000,
+                "percentage": 70.0
+            },
+            {
+                "year": 2023,
+                "averagePackage": 450000,
+                "highestPackage": 800000,
+                "percentage": 82.4
+            },
+            {
+                "year": 2022,
+                "averagePackage": 400000,
+                "highestPackage": 800000,
+                "percentage": 85.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "M.Tech",
+            "BCA",
+            "B.Sc (Computer Science)",
+            "B.Sc (Data Science)",
+            "MCA"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Electrical Engineering",
+            "B.Tech CSE (Artificial Intelligence & Machine Learning)",
+            "BCA"
+        ],
+        "facultyCount": 120,
+        "studentCount": 2000,
+        "studentFacultyRatio": "16:1",
+        "specialization": [
+            "Artificial Intelligence & Machine Learning",
+            "VLSI & Microelectronics",
+            "Telecommunication Engineering",
+            "Applied Electronics & Instrumentation",
+            "Data Science",
+            "Information Security"
+        ],
+        "departments": [
+            "Computer Science & Engineering",
+            "Information Technology",
+            "Electronics & Communication Engineering",
+            "Electrical Engineering",
+            "Applied Electronics & Instrumentation Engineering",
+            "Telecommunication Engineering",
+            "Computer Applications (BCA, MCA)",
+            "Basic Science & Humanities"
+        ],
+        "researchCenters": 5,
+        "publications": 350,
+        "collaborations": [
+            "National Informatics Centre (NIC)",
+            "TCS",
+            "Cognizant",
+            "Wipro",
+            "Infosys",
+            "IBM"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "Central Library",
+            "books": 35000,
+            "journals": 100,
+            "digitalResources": 8000,
+            "seatingCapacity": 250
+        },
+        "labs": {
+            "count": 40,
+            "majorLabs": [
+                "Computer Science Labs (15+ labs with 600+ computers)",
+                "VLSI Design Lab",
+                "Embedded Systems Lab",
+                "Microprocessor Lab",
+                "Electrical Machines Lab",
+                "Communication Engineering Lab",
+                "Digital Electronics Lab",
+                "Physics & Chemistry Labs",
+                "Workshop"
+            ],
+            "equipmentValue": 85000000
+        },
+        "sports": {
+            "facilities": [
+                "Playground",
+                "Basketball Court",
+                "Badminton Courts",
+                "Table Tennis",
+                "Indoor Games (Chess, Carrom)",
+                "Annual Sports Fest 'Game of Thrones (G.O.T)' "
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": false,
+            "girls": false,
+            "capacity": 0,
+            "rooms": 0,
+            "facilities": [
+                "No hostel facility available on campus ",
+                "Numerous PGs and paying guest accommodations available nearby in Beliaghata, Tangra, and Salt Lake areas ",
+                "College provides guidance for finding safe off-campus accommodation"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 2,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["WBJEE", "JEE Main", "JELET", "PGET", "GATE"],
+        "cutoff": 267021,
+        "cutoffTrend": -88020,
+        "applicationMode": "Online",
+        "applicationFee": 1000,
+        "selectionProcess": [
+            "WBJEE Score (for West Bengal candidates) + WBJEEB Counseling",
+            "JEE Main Score (for All India candidates) + Central Counseling",
+            "JELET Score (for B.Tech Lateral Entry) + WBJEEB Counseling",
+            "PGET Score (for M.Tech) + MAKAUT Counseling",
+            "GATE Score (for M.Tech with scholarship)",
+            "Merit-based admission for BCA/B.Sc programs based on 10+2 marks"
+        ],
+        "eligibility": {
+            "minPercentage": 45,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "January 15, 2026",
+            "applicationEnd": "February 15, 2026",
+            "examDate": "April 27, 2026",
+            "resultDate": "June 10, 2026",
+            "counsellingStart": "July 5, 2026",
+            "counsellingEnd": "August 15, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "WBJEE/JEE Main Scorecard",
+            "Category Certificate",
+            "Income Certificate (for Fee Waiver)",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Passport Size Photographs",
+            "Aadhar Card"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell",
+            "Electronics Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Quizzing Club",
+            "Sports Club"
+        ],
+        "festivals": [
+            "Annual Cultural Fest",
+            "Techno-management Fest",
+            "Game of Thrones (G.O.T) - Annual Sports Festival ",
+            "Freshers' Welcome",
+            "Farewell Ceremony"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Codathon",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Workshops",
+            "Seminars",
+            "Project Exhibitions"
+        ],
+        "culturalEvents": [
+            "Music Competitions",
+            "Dance Performances",
+            "Drama",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "Blood Donation Camps",
+            "Health Check-up Camps",
+            "Swachh Bharat Abhiyan",
+            "Women Empowerment Drives",
+            "Environmental Awareness Programs"
+        ],
+        "annualBudget": 3000000
+    },
+    "faculty": {
+        "total": 120,
+        "phdHolders": 35,
+        "professor": 20,
+        "associateProfessor": 30,
+        "assistantProfessor": 70,
+        "industryExperience": 25,
+        "internationalFaculty": 2,
+        "awards": [
+            "Best Teacher Award by MAKAUT",
+            "Young Scientist Award",
+            "Distinguished Educator Award"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Dr. Souvik Bhattacharyya",
+                "designation": "Senior Software Engineer",
+                "company": "Google"
+            },
+            {
+                "name": "Ankita Sharma",
+                "designation": "Product Manager",
+                "company": "Microsoft"
+            },
+            {
+                "name": "Rahul Gupta",
+                "designation": "Technical Lead",
+                "company": "Amazon"
+            },
+            {
+                "name": "Priyanka Das",
+                "designation": "Consultant",
+                "company": "Deloitte"
+            },
+            {
+                "name": "Sayan Mukherjee",
+                "designation": "Founder",
+                "company": "TechKatha Solutions"
+            }
+        ],
+        "placementCompanies": [
+            "TCS",
+            "Cognizant",
+            "Infosys",
+            "Wipro",
+            "IBM"
+        ],
+        "networkStrength": 65
+    },
+    "international": {
+        "collaborations": 2,
+        "studentExchange": false,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "University of South Florida (USA) - Proposed",
+            "Queensland University of Technology (Australia) - Proposed"
+        ],
+        "foreignStudents": 0
+    },
+    "contact": {
+        "phone": [
+            "+91-33-23232463",
+            "+91-6290821297"
+        ],
+        "email": [
+            "principalofrcciit@gmail.com",
+            "info@rcciit.edu.in",
+            "admission@rcciit.edu.in"
+        ],
+        "website": "https://rcciit.edu.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/rcciit.official",
+            //"twitter": null,
+            "linkedin": "https://linkedin.com/school/rcciit",
+            "instagram": "https://instagram.com/rcciit.official",
+            //"youtube": null
+        },
+        "admissionContact": {
+            "phone": "+91-33-23232463",
+            "email": "admission@rcciit.edu.in"
+        }
+    },
+    "facilities": [
+        "4.63-acre campus in prime location of Kolkata at Beliaghata",
+        "Two adjacent campuses - Old Campus (Library, Admin, BCA/MCA) and New Campus (Engineering departments)",
+        "Central Library with 35,000+ books and extensive digital resources",
+        "40+ well-equipped laboratories with 600+ computers",
+        "High-speed Wi-Fi connectivity across both campuses ",
+        "Two cafeterias serving hygienic food at affordable prices ",
+        "Medical facility with first-aid and on-site doctor/clinic ",
+        "Sports ground for football, cricket, and kabaddi ",
+        "Two auditoriums for events, seminars, and cultural programs",
+        "Smart classrooms with projectors and digital boards ",
+        "Alumni Association for networking and mentorship ",
+        "Guest room/waiting room for visiting faculty and student family members ",
+        "Ragging-free campus with strict anti-ragging measures ",
+        "Eco-friendly environment with beautiful green ambience ",
+        "Reprographic center in library for student convenience"
+    ],
+    "achievements": [
+        "Established in 1999 as a unique joint venture of NIC, Govt. of India and Dept. of Higher Education, Govt. of West Bengal",
+        "Only self-financing engineering college with Board of Management constituted directly by the State Govt. ",
+        "Autonomous status achieved in 2024, enabling modernized curriculum ",
+        "Highest package of ₹14 LPA achieved in 2025 placements",
+        "Over 70% placement record consistently maintained",
+        "NAAC B++ Grade accreditation",
+        "Strong research base with 350+ publications and multiple patents/copyrights ",
+        "Organizes International Conferences on niche areas annually ",
+        "Only institute to offer B.Sc (Computer Science) under MAKAUT ",
+        "Consistent top 10 ranking among private and govt. engineering colleges in West Bengal ",
+        "Ragging-free campus with zero tolerance policy",
+        "Strong Alumni network spread across industry and academia globally"
+    ],
+    "newsUpdates": [
+        {
+            "title": "RCCIIT achieves autonomous status from 2024, to introduce new syllabus with trending subjects",
+            "date": "2024-10-21",
+            "link": "https://www.shiksha.com/college/rcc-institute-of-information-technology-kolkata-beliaghata-20989/reviews"
+        },
+        {
+            "title": "RCCIIT Kolkata records highest placement package of ₹14 LPA in 2025 drive",
+            "date": "2025-09-24",
+            "link": "https://www.kollegeapply.com/college/rcc-institute-of-information-technology-kolkata-placement"
+        },
+        {
+            "title": "JEE Main 2024 Cutoff: RCCIIT CSE at 267021 rank, IT at 603448 rank",
+            "date": "2025-12-18",
+            "link": "https://www.justdial.com/Kolkata/Rcc-Institute-Of-Information-Technology-Near-Beliaghata-Tangra"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/rcciit-campus1.jpg",
+            "caption": "Main Academic Building - RCCIIT Kolkata"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/rcciit-campus2.jpg",
+            "caption": "New Campus - Engineering Block"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/rcciit-lab1.jpg",
+            "caption": "Computer Science Lab"
+        },
+        // {
+        //     "type": "library",
+        //     "url": "/gallery/rcciit-library.jpg",
+        //     "caption": "Central Library"
+        // },
+        // {
+        //     "type": "auditorium",
+        //     "url": "/gallery/rcciit-auditorium.jpg",
+        //     "caption": "College Auditorium"
+        // },
+        {
+            "type": "sports",
+            "url": "/gallery/rcciit-ground.jpg",
+            "caption": "Sports Ground"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/rcciit-event1.jpg",
+            "caption": "Annual Cultural Fest"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is RCCIIT a government or private college?",
+            "answer": "RCCIIT is a government-aided (semi-government) institute. It was established as a unique joint venture of NIC, Ministry of Communication & IT, Govt. of India and Dept. of Higher Education, Govt. of West Bengal. Since 2003, the State Govt. has taken the lead role in management, and the Board of Management is constituted directly by the State Govt. with senior officials of Higher Education Dept. It is a self-financing college but with significant government involvement and oversight ."
+        },
+        {
+            "question": "What is the highest package offered at RCCIIT in 2025?",
+            "answer": "The highest package offered at RCCIIT in 2025 is ₹14 LPA, achieved by students in Computer Science and Engineering and Information Technology branches. The average package ranges from ₹5-6 LPA for top performers, with overall average around ₹4.5-5 LPA ."
+        },
+        {
+            "question": "What is the average package at RCCIIT?",
+            "answer": "The average package at RCCIIT is approximately ₹4.5-5 LPA according to 2025 placement data. For CSE and IT students, the average can go up to ₹6-7 LPA, while other branches average between ₹3.5-4.5 LPA. Over 70% of students get placed every year in reputed companies ."
+        },
+        {
+            "question": "What is the JEE Main cutoff for RCCIIT?",
+            "answer": "For 2024, the JEE Main Round 1 cutoff for General category was: B.Tech Computer Science & Engineering - 267021 rank, B.Tech Information Technology - 603448 rank, and B.Tech Electronics & Communication Engineering - 855315 rank. In 2023, cutoffs were significantly lower at 179001 for CSE, indicating increased competition ."
+        },
+        {
+            "question": "What is the campus size of RCCIIT?",
+            "answer": "RCCIIT is spread across 4.63 acres of land leased by the State Govt., located in the well-connected Beliaghata area of Kolkata. The institute comprises two adjacent campuses - the Old Campus housing the library, administrative office, and BCA/MCA departments, and the New Campus housing the engineering departments ."
+        },
+        {
+            "question": "Does RCCIIT have hostel facilities?",
+            "answer": "No, RCCIIT does not have its own hostel facilities on campus . However, there are numerous PGs and paying guest accommodations available in nearby areas like Beliaghata, Tangra, and Salt Lake City. The college administration provides guidance to students for finding safe off-campus accommodation ."
+        },
+        {
+            "question": "Which courses are offered at RCCIIT?",
+            "answer": "RCCIIT offers B.Tech programs in Computer Science & Engineering, Information Technology, Electronics & Communication Engineering, Electrical Engineering, Applied Electronics & Instrumentation Engineering, and CSE (AI & ML). It also offers M.Tech programs, BCA, B.Sc (Computer Science), B.Sc (Data Science), and MCA. All programs are affiliated to MAKAUT ."
+        },
+        {
+            "question": "What is the fee structure for B.Tech at RCCIIT?",
+            "answer": "The first semester fee for B.Tech programs at RCCIIT is approximately ₹99,775, with total fees for the complete program around ₹6-8 Lakhs depending on the branch. The annual fee is approximately ₹1.99 Lakhs. M.Tech fees are around ₹59,100 per semester, and BCA fees are ₹61,150 per semester ."
+        },
+        {
+            "question": "Is RCCIIT autonomous now?",
+            "answer": "Yes, RCCIIT became an autonomous institute from 2024. This means the college can now set its own syllabus, remove outdated topics, and include new, trending subjects relevant to industry requirements. Earlier, it was affiliated to MAKAUT with a fixed curriculum. This autonomy is expected to improve academic flexibility and industry readiness ."
+        },
+        {
+            "question": "Who are the top recruiters at RCCIIT?",
+            "answer": "Top recruiters at RCCIIT include Tata Consultancy Services (TCS), Cognizant, Infosys, Wipro, Tech Mahindra, Capgemini, IBM, Accenture, PricewaterhouseCoopers (PwC), Deloitte, Amazon, Johnson Controls, MG Motors, Polycab, BMC Software, Global IDs, Hexaware Technologies, L&T Infotech, and ZS Associates ."
+        },
+        {
+            "question": "What is the NAAC grade of RCCIIT?",
+            "answer": "RCCIIT has been accredited with NAAC B++ grade, reflecting its commitment to quality education and continuous improvement. The institute has a strong research base with considerable number of publications, patents, and copyrights by faculty members ."
+        },
+        {
+            "question": "Does RCCIIT have good faculty?",
+            "answer": "Yes, RCCIIT is known for its experienced and helpful faculty. According to student reviews, teachers are highly qualified, with many holding PhD degrees. They are friendly, approachable, and conduct doubt-clearing sessions regularly. The teaching quality is rated 4.2/5 by students, making it one of the strongest aspects of the institute ."
         }
     ]
 },
