@@ -12360,6 +12360,568 @@ export const colleges: College[] = [
         }
     ]
 },
+{
+    "id": "1701",
+    "slug": "srm-ist-chennai",
+    "name": "SRM Institute of Science and Technology",
+    "shortName": "SRM IST",
+    "tagline": "India's Premier Private Engineering & Research University",
+    "overview": "A top-tier private deemed university near Chennai, renowned for its vast 250-acre campus, diverse student community, and a strong focus on industry-aligned education with excellent placement records.",
+    "description": "SRM Institute of Science and Technology (SRM IST), formerly known as SRM University, is one of India's largest and most prestigious private higher education institutions. Established in 1985 as SRM Engineering College in Kattankulathur, it has grown into a multi-disciplinary deemed university with campuses across India [citation:4]. The Kattankulathur campus, located near Chennai, is the flagship campus, spread over 250 acres and home to over 53,000 students and 3,000+ faculty [citation:1][citation:2]. SRM IST is accredited with the highest grade, NAAC A++, and its engineering program is consistently ranked among the top 15 in India by NIRF, securing the 13th position in 2024 [citation:1][citation:7]. The institute offers a wide array of undergraduate, postgraduate, and doctoral programs across engineering, management, medicine, law, and sciences. It is particularly known for its robust placement record, with over 97% of students placed in 2024, a highest package of ₹55 LPA, and a strong network of over 900 recruiting companies [citation:1][citation:2]. With students from across India and the world, SRM provides a vibrant, multicultural campus life, state-of-the-art infrastructure, and significant opportunities for research and global exposure [citation:1].",
+    "logo": "/logos/srm-ist-chennai.png",
+    "stream": "engineering",
+    "type": "private",
+    "category": "premier",
+    "ranking": 13,
+    "rating": 4.1,
+    "nirfRank": 13,
+    "googleRating": 4.1,
+    "reviews": {
+        "count": 9100,
+        "average": 4.1,
+        "academics": 4.1,
+        "infrastructure": 4.3,
+        "placement": 4.3,
+        "faculty": 3.9
+    },
+    "established": 1985,
+    "accreditation": "Deemed to be University",
+    "naacGrade": "A++",
+    "affiliations": ["UGC", "AICTE"],
+    "recognition": ["UGC", "AICTE", "NAAC", "NBA"],
+    "location": {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "pincode": "603203",
+        "campusSize": "250 acres",
+        "campusType": "suburban",
+        "latitude": 12.8231,
+        "longitude": 80.0442,
+        "address": "SRM Nagar, Kattankulathur, Chengalpattu District, Tamil Nadu 603203"
+    },
+    "fees": {
+        "annual": 325000,
+        "total": 1300000,
+        "hostel": 150000,
+        "mess": 60000,
+        "otherCharges": 35000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "SRMJEE-M Scholarship: Full tuition fee waiver for Top 10 rank holders in SRMJEEE (BTech) [citation:1]",
+            "Merit-based scholarships for top performers in national exams (CAT, XAT, MAT, etc.) [citation:6]",
+            "MTS Vembu Subramanian Scholarship: ₹1.25 lakh award [citation:1][citation:6]",
+            "PG Indira Gandhi Scholarship for Single Girl Child: ₹36,200/year [citation:1]",
+            "Ishan Uday Scholarship for students from North East Region: ₹5,400/month [citation:1][citation:6]",
+            "Scholarships for students maintaining high CGPA (e.g., >9.0 GPA qualifies for fee waiver) [citation:5]",
+            "Founder's Scholarship for department toppers [citation:5]",
+            "Sports scholarships for national-level achievers [citation:5]"
+        ],
+        "paymentOptions": [
+            "Online Payment (SRM Portal)",
+            "Net Banking / Debit Card / Credit Card",
+            "UPI",
+            "Demand Draft",
+            "NEFT/RTGS",
+            "Semester Installments"
+        ]
+    },
+    "placement": {
+        "averagePackage": 715000,
+        "highestPackage": 55000000,
+        "medianPackage": 620000,
+        "percentage": 97.90,
+        "totalOffers": 7788,
+        "totalStudents": 7950,
+        "internationalOffers": 45,
+        "dreamOffers": 3250,
+        "averagePackageTrend": 10,
+        "topRecruiters": [
+            "Amazon",
+            "Cognizant",
+            "TCS",
+            "Wipro",
+            "Infosys",
+            "HCL",
+            "Capgemini",
+            "Microsoft",
+            "Google",
+            "Intel",
+            "Siemens",
+            "L&T",
+            "Tata",
+            "Accenture"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Product Management",
+            "Analytics",
+            "Research & Development",
+            "Manufacturing"
+        ],
+        "placementStats": [
+            {
+                "year": 2024,
+                "averagePackage": 715000,
+                "highestPackage": 55000000,
+                "percentage": 97.9
+            },
+            {
+                "year": 2023,
+                "averagePackage": 758000,
+                "highestPackage": 57000000,
+                "percentage": 95.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 650000,
+                "highestPackage": 40000000,
+                "percentage": 94.0
+            },
+            {
+                "year": 2021,
+                "averagePackage": 500000,
+                "highestPackage": 39000000,
+                "percentage": 92.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "B.Arch",
+            "B.Des",
+            "B.Sc",
+            "BCA",
+            "BBA",
+            "B.Com",
+            "LL.B",
+            "MBBS",
+            "M.Tech",
+            "MBA",
+            "MCA",
+            "M.Sc",
+            "M.Com",
+            "MA",
+            "LL.M",
+            "PhD"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Artificial Intelligence & Machine Learning",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Mechanical Engineering",
+            "MBA"
+        ],
+        "facultyCount": 3194,
+        "studentCount": 53777,
+        "studentFacultyRatio": "17:1",
+        "specialization": [
+            "Computer Science",
+            "Artificial Intelligence",
+            "Data Science",
+            "Electronics",
+            "Biotechnology",
+            "Aerospace Engineering",
+            "Genetic Engineering",
+            "VLSI Design",
+            "Cyber Security",
+            "Automotive Engineering"
+        ],
+        "departments": ["36"],
+        "researchCenters": 20,
+        "publications": 5200,
+        "collaborations": [
+            "University of Queensland (Australia)",
+            "Carnegie Mellon University (USA)",
+            "Technical University of Munich (Germany)",
+            "University of California (USA)",
+            "Nanyang Technological University (Singapore)"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "SRM Central Library",
+            "books": 175000,
+            "journals": 900,
+            "digitalResources": 30000,
+            "seatingCapacity": 1500
+        },
+        "labs": {
+            "count": 120,
+            "majorLabs": [
+                "VLSI Design Lab",
+                "Robotics & Automation Lab",
+                "Advanced Computing Lab",
+                "Biotechnology Research Centre",
+                "Nano Technology Lab",
+                "Centre for Climate Change",
+                "Data Science Lab",
+                "Aerospace Engineering Lab"
+            ],
+            "equipmentValue": 600000000
+        },
+        "sports": {
+            "facilities": [
+                "Football Ground",
+                "Cricket Ground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Courts",
+                "Volleyball Court",
+                "Swimming Pool",
+                "Table Tennis Room",
+                "Gymnasium",
+                "Athletic Track"
+            ],
+            "stadium": true,
+            "gym": true,
+            "swimmingPool": true
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 15000,
+            "rooms": 7500,
+            "facilities": [
+                "Single/Double/Triple occupancy rooms",
+                "AC and Non-AC options",
+                "High-speed WiFi",
+                "Common rooms with TV",
+                "Indoor games",
+                "Laundry service",
+                "24/7 medical assistance",
+                "CCTV security",
+                "Mess with multiple cuisine options"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 10,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 6
+    },
+    "admission": {
+        "entranceExam": ["SRMJEEE", "JEE Main", "NEET", "CAT", "MAT", "XAT", "CMAT", "NMAT", "CLAT", "CUET UG", "GATE"],
+        "cutoff": 950,
+        "cutoffTrend": -3,
+        "applicationMode": "Online",
+        "applicationFee": 1200,
+        "selectionProcess": [
+            "SRMJEEE/JEE Main for B.Tech",
+            "NEET for MBBS",
+            "CAT/MAT/XAT/CMAT/NMAT for MBA",
+            "CLAT for Law programs",
+            "GATE/SRMJEE PG for M.Tech",
+            "Merit-based for select programs"
+        ],
+        "eligibility": {
+            "minPercentage": 60,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics/Biology"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "December 1, 2025",
+            "applicationEnd": "April 16, 2026",
+            "examDate": "April 23-28, 2026",
+            "resultDate": "May 10, 2026",
+            "counsellingStart": "May 15, 2026",
+            "counsellingEnd": "July 15, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "SRMJEEE/JEE Main Scorecard",
+            "Category Certificate",
+            "Income Certificate",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Passport-size photographs"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell",
+            "AI & ML Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Astronomy Club",
+            "Quizzing Club",
+            "Fine Arts Club",
+            "International Students Club"
+        ],
+        "festivals": [
+            "Milan (Annual Cultural Fest)",
+            "Aarudhra (Technical Fest)",
+            "Sports Fest"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Research Conclave",
+            "Industry Conclave"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Rotaract Club",
+            "Sustainability Cell",
+            "Blood Connect",
+            "Teach for India"
+        ],
+        "annualBudget": 45000000
+    },
+    "faculty": {
+        "total": 3194,
+        "phdHolders": 2000,
+        "professor": 1000,
+        "associateProfessor": 1100,
+        "assistantProfessor": 1094,
+        "industryExperience": 6,
+        "internationalFaculty": 120,
+        "awards": [
+            "Young Scientist Award",
+            "Ramanujan Fellowship",
+            "SERB Distinguished Fellowship",
+            "Visiting Professor positions at international universities"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Indira Nooyi",
+                "designation": "Former CEO",
+                "company": "PepsiCo (Honorary)"
+            },
+            {
+                "name": "Sridhar Vembu",
+                "designation": "CEO & Co-founder",
+                "company": "Zoho Corporation"
+            },
+            {
+                "name": "Rahul Raj",
+                "designation": "Co-founder",
+                "company": "Unacademy"
+            },
+            {
+                "name": "Prashant Nair",
+                "designation": "Co-founder",
+                "company": "Unacademy"
+            },
+            {
+                "name": "Sriram Jagannathan",
+                "designation": "Vice President",
+                "company": "Goldman Sachs"
+            },
+            {
+                "name": "Vijay Kumar",
+                "designation": "Senior Director",
+                "company": "Microsoft"
+            },
+            {
+                "name": "Harishankar V.",
+                "designation": "Engineering Manager",
+                "company": "Google"
+            },
+            {
+                "name": "Deepak Natarajan",
+                "designation": "Managing Director",
+                "company": "Morgan Stanley"
+            }
+        ],
+        "placementCompanies": [
+            "Amazon",
+            "Microsoft",
+            "Google",
+            "Intel",
+            "TCS",
+            "Cognizant",
+            "Infosys"
+        ],
+        "networkStrength": 92
+    },
+    "international": {
+        "collaborations": 45,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "University of Queensland",
+            "Carnegie Mellon University",
+            "Technical University of Munich",
+            "University of California",
+            "Nanyang Technological University"
+        ],
+        "foreignStudents": 1200
+    },
+    "contact": {
+        "phone": [
+            "+91-44-27417000",
+            "+91-44-27417499"
+        ],
+        "email": [
+            "admissions.india@srmist.edu.in",
+            "international.relations@srmist.edu.in",
+            "registrar@srmist.edu.in"
+        ],
+        "website": "https://www.srmist.edu.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/SRMUniversityOfficial",
+            "twitter": "https://twitter.com/SRM_Univ",
+            "linkedin": "https://linkedin.com/school/srm-university",
+            "instagram": "https://instagram.com/srmuniversity",
+            "youtube": "https://youtube.com/SRMOfficial"
+        },
+        "admissionContact": {
+            "phone": "+91-44-27417000",
+            "email": "admissions.india@srmist.edu.in"
+        }
+    },
+    "facilities": [
+        "250-acre sprawling campus with modern infrastructure",
+        "Technology Tower with state-of-the-art labs",
+        "Central Library with 1.75 lakh+ books and digital resources",
+        "International hostels with AC and non-AC options",
+        "Olympic-size swimming pool",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic with ambulance service",
+        "Multiple food courts and cafes",
+        "Shopping complex and bank branches",
+        "Wi-Fi enabled campus with high-speed connectivity",
+        "Research Park with incubation centre",
+        "Smart classrooms with AI-powered learning tools",
+        "Auditoriums and open-air theatres",
+        "Transportation services for commuting"
+    ],
+    "achievements": [
+        "Ranked #13 in Engineering by NIRF 2024, #12 among Universities [citation:1][citation:2]",
+        "NAAC A++ Grade accreditation [citation:1][citation:2]",
+        "QS World University Rankings 2026: 1001-1200 globally [citation:1][citation:2]",
+        "Highest placement package in 2024: ₹55 LPA [citation:1][citation:2]",
+        "97.9% placement rate in 2024 with 7,788+ offers from 928+ companies [citation:1][citation:2]",
+        "3,250+ dream offers (>₹7 LPA) in 2024 [citation:7]",
+        "Over 53,000 students and 3,200 faculty across campuses [citation:1][citation:2]",
+        "Ranked #4 in NIRF Sustainable Development Goals (SDG) category 2025 [citation:7]",
+        "Recognized as Category-I university by UGC",
+        "Strong international collaborations with 45+ global universities"
+    ],
+    "newsUpdates": [
+        {
+            "title": "SRM IST Chennai achieves 97.9% placement in 2024, highest package at ₹55 LPA",
+            "date": "2024-12-15",
+            "link": "https://www.srmist.edu.in/placement"
+        },
+        {
+            "title": "NIRF 2024: SRM IST ranked 13th in Engineering, 12th among Universities",
+            "date": "2024-09-04",
+            "link": "https://www.srmist.edu.in/nirf"
+        },
+        {
+            "title": "SRMJEEE 2026 registration begins: Apply now for B.Tech admissions",
+            "date": "2025-11-01",
+            "link": "https://www.srmist.edu.in/admissions"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/srm-campus1.jpg",
+            "caption": "SRM Main Academic Block - Technology Tower"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/srm-campus2.jpg",
+            "caption": "Central Library"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/srm-lab1.jpg",
+            "caption": "VLSI Design Lab"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/srm-sports1.jpg",
+            "caption": "Olympic-size Swimming Pool"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/srm-hostel1.jpg",
+            "caption": "Boys Hostel Complex"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/srm-event1.jpg",
+            "caption": "Milan - Cultural Fest"
+        },
+        
+    ],
+    "faqs": [
+        {
+            "question": "Is SRM IST Chennai a good college for placements?",
+            "answer": "Yes, SRM IST Chennai is among the top private universities in India for placements. In 2024, it achieved a 97.9% placement rate with over 7,788 offers from 928+ companies. The highest package was ₹55 LPA, and the CSE average package was approximately ₹8-10 LPA. Top recruiters include Amazon, Microsoft, Google, Intel, TCS, Cognizant, and Infosys [citation:1][citation:2][citation:6]."
+        },
+        {
+            "question": "What is the highest package at SRM IST Chennai in 2024?",
+            "answer": "The highest package offered in 2024 was ₹55 lakhs per annum, secured by students from Computer Science and Engineering and related branches [citation:1][citation:2]. In 2023, the highest package was ₹57 LPA [citation:7]."
+        },
+        {
+            "question": "What is the average package for CSE at SRM IST Chennai?",
+            "answer": "The CSE average package at SRM IST Chennai in 2024 was approximately ₹8-10 LPA. The overall average package across all branches was ₹6.5-7.5 LPA, with top performers securing significantly higher packages [citation:1][citation:2][citation:7]."
+        },
+        {
+            "question": "What is the SRMJEEE cutoff for CSE at SRM IST Chennai?",
+            "answer": "For B.Tech CSE at SRM IST Chennai, the cutoff rank in SRMJEEE varies by category and specializations. Generally, a rank under 10,000-12,000 is required for admission to CSE and related branches. For core CSE, a rank around 5,000 is preferred. The university conducts counseling in multiple phases based on rank [citation:3][citation:5]."
+        },
+        {
+            "question": "What is the campus size of SRM IST Chennai?",
+            "answer": "SRM IST Chennai (Kattankulathur) campus spans 250 acres and features state-of-the-art infrastructure including the Technology Tower, modern labs, international hostels, Olympic-size swimming pool, and extensive sports facilities [citation:1][citation:2][citation:7]."
+        },
+        {
+            "question": "What are the fees for B.Tech at SRM IST Chennai?",
+            "answer": "B.Tech fees at SRM IST Chennai range from ₹2.5 lakh to ₹4.1 lakh per year, depending on the branch and specialization. CSE and AI/ML branches typically have higher fees (around ₹4.1 lakh/year). Hostel fees range from ₹1.1 lakh to ₹2.25 lakh per year depending on AC/non-AC and occupancy [citation:2][citation:6]."
+        },
+        {
+            "question": "Does SRM IST Chennai have 100% placement?",
+            "answer": "SRM IST Chennai has a strong placement record with over 97% of eligible students placed in 2024. While IT and CSE branches achieve near 100% placement, core engineering branches may have slightly lower percentages, typically between 85-95% for eligible candidates [citation:1][citation:2]."
+        },
+        {
+            "question": "What is unique about SRM's curriculum?",
+            "answer": "SRM follows a flexible credit system with a strong focus on industry-aligned curriculum. It offers 50+ engineering specializations and was one of the first private universities to introduce B.Tech in AI & ML, Genetic Engineering, and Aerospace Engineering. The institute emphasizes project-based learning, mandatory internships, and has collaborations with over 45 international universities for student exchange programs [citation:1][citation:6]."
+        },
+        {
+            "question": "What scholarships are available at SRM IST Chennai?",
+            "answer": "SRM offers various scholarships including: SRMJEE-M Scholarship (full tuition fee waiver for top 10 rankers), MTS Vembu Subramanian Scholarship (₹1.25 lakh), PG Indira Gandhi Scholarship for Single Girl Child (₹36,200/year), Ishan Uday for NE students (₹5,400/month), merit-based scholarships for high CGPA (>9.0 GPA qualifies for fee waiver), and Founder's Scholarship for department toppers [citation:1][citation:5][citation:6]."
+        },
+        {
+            "question": "Which is better: SRM IST Chennai or VIT Vellore?",
+            "answer": "Both SRM IST Chennai and VIT Vellore are top-ranked private universities in South India. VIT generally has higher NIRF rankings (VIT: #16, SRM: #13 in Engineering 2024) and is known for research and placements, particularly for CSE. SRM is renowned for its diverse course offerings, campus life, and strong industry connections. The best choice often depends on branch preference, campus facilities, specific placement trends, and entrance exam performance [citation:2]."
+        },
+        {
+            "question": "What is the total SRM fees for 4 years B.Tech with hostel?",
+            "answer": "The total SRM IST Chennai fees for 4 years B.Tech with hostel typically ranges from ₹14 lakh to ₹22 lakh, depending on the branch and choice of hostel (AC or non-AC). This includes tuition fees (₹10-16 lakh for 4 years), hostel fees (₹4.4-9 lakh for 4 years), and mess charges [citation:2][citation:3]."
+        },
+        {
+            "question": "What entrance exams are accepted for B.Tech at SRM?",
+            "answer": "For B.Tech admissions at SRM IST Chennai, the primary entrance exams accepted are SRMJEEE (UG) and JEE Main scores. Candidates must also have minimum 60% aggregate in 10+2 with Physics, Chemistry, and Mathematics as compulsory subjects [citation:1][citation:2][citation:6]."
+        }
+    ]
+},
 
 // Top New - Age Engineering Colleges
 
