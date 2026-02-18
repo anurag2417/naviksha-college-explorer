@@ -11578,7 +11578,7 @@ export const colleges: College[] = [
     },
   },
   {
-    id: "3",
+    id: "1301",
     slug: "bits-pilani",
     name: "Birla Institute of Technology and Science Pilani",
     shortName: "BITS Pilani",
@@ -11590,7 +11590,7 @@ export const colleges: College[] = [
     stream: "engineering",
     type: "private",
     category: "tier1",
-    ranking: 15,
+    ranking: 1,
     rating: 4.5,
     nirfRank: 25,
     googleRating: 4.4,
@@ -11817,6 +11817,549 @@ export const colleges: College[] = [
       foreignStudents: undefined,
     },
   },
+  {
+    "id": "1302",
+    "slug": "vit-vellore",
+    "name": "Vellore Institute of Technology",
+    "shortName": "VIT",
+    "tagline": "Placement Powerhouse of India",
+    "overview": "A premier private deemed university in India, renowned for its sprawling 372-acre campus, exceptional placement record, and a pioneering 'category-based' admission system through VITEEE, attracting students from across the globe.",
+    "description": "Vellore Institute of Technology (VIT), established in 1984 as Vellore Engineering College, has grown into a multidisciplinary institution of eminence, consistently ranked among the top private universities in India [citation:1]. With a sprawling 372-acre campus in Vellore, Tamil Nadu, VIT is recognized for its world-class infrastructure, NAAC A++ grade, and a strong focus on research and industry partnerships [citation:1][citation:2]. In 2025, VIT was ranked 16th in the engineering category by NIRF, solidifying its position as a leader in private technical education [citation:6]. The institute offers over 47 undergraduate programs across 17 schools and is particularly famous for its 'VIT Engineering Entrance Examination' (VITEEE) and the subsequent category-based counseling, which draws over 40,000 students [citation:1][citation:2]. Its placement record is a hallmark of its success, with a 99.2% placement rate in 2025, featuring a ₹1.02 crore highest package and over 10,000 offers from 632 companies [citation:2][citation:7]. VIT's global recognition is evident from its QS World University Ranking, where it is placed 691 globally, and its subject rank of 51-100 in Data Science and AI [citation:1][citation:2].",
+    "logo": "/logos/vit-vellore.png",
+    "stream": "engineering",
+    "type": "private",
+    "category": "premier",
+    "ranking": 2,
+    "rating": 4.2,
+    "nirfRank": 16,
+    "googleRating": 4.2,
+    "reviews": {
+        "count": 8200,
+        "average": 4.2,
+        "academics": 4.2,
+        "infrastructure": 4.4,
+        "placement": 4.5,
+        "faculty": 4.0
+    },
+    "established": 1984,
+    "accreditation": "Deemed to be University",
+    "naacGrade": "A++",
+    "affiliations": ["UGC", "AICTE"],
+    "recognition": ["UGC", "AICTE", "NAAC"],
+    "location": {
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "pincode": "632014",
+        "campusSize": "372 acres",
+        "campusType": "urban",
+        "latitude": 12.9692,
+        "longitude": 79.1559,
+        "address": "Vellore Institute of Technology, Vellore, Tamil Nadu 632014"
+    },
+    "fees": {
+        "annual": 198000,
+        "total": 792000,
+        "hostel": 110000,
+        "mess": 60000,
+        "otherCharges": 25000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "GV School Development Programme (GVSDP): Full tuition fee waiver for VITEEE rankers 1-50 [citation:4]",
+            "Merit-based scholarships for top performers in VITEEE [citation:2]",
+            "Sports scholarships for national-level achievers [citation:2]",
+            "Scholarships for reserved category students as per government norms",
+            "Need-based financial aid available for deserving candidates [citation:4]"
+        ],
+        "paymentOptions": [
+            "Online Payment (VIT Portal)",
+            "Net Banking / Debit Card / Credit Card",
+            "UPI",
+            "Demand Draft",
+            "NEFT/RTGS"
+        ]
+    },
+    "placement": {
+        "averagePackage": 990000,
+        "highestPackage": 10200000,
+        "medianPackage": 900000,
+        "percentage": 99.20,
+        "totalOffers": 10027,
+        "totalStudents": 10108,
+        "internationalOffers": 45,
+        "dreamOffers": 2862,
+        "averagePackageTrend": 10,
+        "topRecruiters": [
+            "Microsoft",
+            "Amazon",
+            "Google",
+            "TCS",
+            "Intel",
+            "Qualcomm",
+            "Adobe",
+            "Deloitte",
+            "Cisco",
+            "PayPal",
+            "Bank of America",
+            "Morgan Stanley",
+            "Texas Instruments",
+            "Infosys",
+            "Wipro"
+        ],
+        "recruitmentSectors": [
+            "Information Technology",
+            "Core Engineering",
+            "Consulting",
+            "Product Management",
+            "Fintech",
+            "Analytics",
+            "Research & Development"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 990000,
+                "highestPackage": 10200000,
+                "percentage": 99.2
+            },
+            {
+                "year": 2024,
+                "averagePackage": 990000,
+                "highestPackage": 8800000,
+                "percentage": 91.0
+            },
+            {
+                "year": 2023,
+                "averagePackage": 960000,
+                "highestPackage": 10200000,
+                "percentage": 90.0
+            },
+            {
+                "year": 2022,
+                "averagePackage": 900000,
+                "highestPackage": 10000000,
+                "percentage": 89.0
+            }
+        ]
+    },
+    "academics": {
+        "coursesOffered": [
+            "B.Tech",
+            "B.Arch",
+            "B.Des",
+            "B.Sc",
+            "BCA",
+            "BBA",
+            "LL.B",
+            "M.Tech",
+            "MBA",
+            "MCA",
+            "M.Sc",
+            "PhD"
+        ],
+        "popularCourses": [
+            "B.Tech Computer Science & Engineering",
+            "B.Tech Electronics & Communication Engineering",
+            "B.Tech Information Technology",
+            "B.Tech Artificial Intelligence & Machine Learning",
+            "B.Tech Mechanical Engineering"
+        ],
+        "facultyCount": 2633,
+        "studentCount": 40000,
+        "studentFacultyRatio": "15:1",
+        "specialization": [
+            "Computer Science",
+            "Artificial Intelligence",
+            "Data Science",
+            "Electronics",
+            "Biotechnology",
+            "VLSI Design",
+            "Cyber Security",
+            "Automotive Engineering"
+        ],
+        "departments": ["17"],
+        "researchCenters": 11,
+        "publications": 4500,
+        "collaborations": [
+            "University of Queensland (Australia)",
+            "Technical University of Munich (Germany)",
+            "North Carolina State University (USA)",
+            "KAIST (South Korea)",
+            "Nanyang Technological University (Singapore)"
+        ],
+        "teachingMode": "offline"
+    },
+    "infrastructure": {
+        "library": {
+            "name": "VIT Central Library",
+            "books": 150000,
+            "journals": 800,
+            "digitalResources": 25000,
+            "seatingCapacity": 1200
+        },
+        "labs": {
+            "count": 100,
+            "majorLabs": [
+                "VLSI Design Lab",
+                "Robotics & Automation Lab",
+                "Advanced Computing Lab",
+                "Biotechnology Research Centre",
+                "Nano Technology Lab",
+                "Centre for Climate Change",
+                "Data Science Lab"
+            ],
+            "equipmentValue": 500000000
+        },
+        "sports": {
+            "facilities": [
+                "Football Ground",
+                "Cricket Ground",
+                "Tennis Court",
+                "Basketball Court",
+                "Badminton Courts",
+                "Volleyball Court",
+                "Swimming Pool",
+                "Table Tennis Room",
+                "Gymnasium",
+                "Athletic Track"
+            ],
+            "stadium": true,
+            "gym": true,
+            "swimmingPool": true
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 15000,
+            "rooms": 7500,
+            "facilities": [
+                "Single/Double/Triple occupancy rooms",
+                "AC and Non-AC options",
+                "High-speed WiFi",
+                "Common rooms with TV",
+                "Indoor games",
+                "Laundry service",
+                "24/7 medical assistance",
+                "CCTV security",
+                "Mess with multiple cuisine options"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 8,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 5
+    },
+    "admission": {
+        "entranceExam": ["VITEEE", "NATA", "UCEED", "VITMEE", "CAT", "MAT", "XAT"],
+        "cutoff": 950,
+        "cutoffTrend": -5,
+        "applicationMode": "Online",
+        "applicationFee": 1350,
+        "selectionProcess": [
+            "VITEEE Examination",
+            "Category-based Counseling (Category 1-5 based on rank)",
+            "Document Verification",
+            "Fee Payment"
+        ],
+        "eligibility": {
+            "minPercentage": 60,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics/Biology"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "November 1, 2025",
+            "applicationEnd": "March 31, 2026",
+            "examDate": "April 15-25, 2026",
+            "resultDate": "May 10, 2026",
+            "counsellingStart": "May 15, 2026",
+            "counsellingEnd": "July 15, 2026"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet",
+            "VITEEE Scorecard",
+            "Category Certificate",
+            "Income Certificate",
+            "Domicile Certificate",
+            "Medical Fitness Certificate",
+            "Passport-size photographs"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell",
+            "AI & ML Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Astronomy Club",
+            "Quizzing Club",
+            "Fine Arts Club",
+            "International Students Club"
+        ],
+        "festivals": [
+            "Riviera (Annual International Sports and Cultural Fest)",
+            "Vibrance (Technical Fest)",
+            "Gravitas (Annual Techno-Management Fest)"
+        ],
+        "technicalEvents": [
+            "Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Research Conclave",
+            "Industry Conclave"
+        ],
+        "culturalEvents": [
+            "Pro Shows (Celebrity nights)",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "National Service Scheme (NSS)",
+            "National Cadet Corps (NCC)",
+            "Rotaract Club",
+            "Sustainability Cell",
+            "Blood Connect",
+            "Teach for Vellore"
+        ],
+        "annualBudget": 50000000
+    },
+    "faculty": {
+        "total": 2633,
+        "phdHolders": 1800,
+        "professor": 800,
+        "associateProfessor": 900,
+        "assistantProfessor": 933,
+        "industryExperience": 7,
+        "internationalFaculty": 150,
+        "awards": [
+            "90 professors among Top 2% Scientists in the world (Stanford University 2025) [citation:1]",
+            "Shanti Swarup Bhatnagar Prize",
+            "J.C. Bose Fellowship",
+            "Ramanujan Fellowship",
+            "Swarnajayanti Fellowship"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [
+            {
+                "name": "Srini Vasan",
+                "designation": "Founder & CEO",
+                "company": "Lumiere Education"
+            },
+            {
+                "name": "Ankit Fadia",
+                "designation": "Ethical Hacker & Author",
+                "company": "Independent"
+            },
+            {
+                "name": "Prashant Nair",
+                "designation": "Co-founder",
+                "company": "Unacademy"
+            },
+            {
+                "name": "Rahul Raj",
+                "designation": "Co-founder",
+                "company": "Unacademy"
+            },
+            {
+                "name": "Sriram Jagannathan",
+                "designation": "Vice President",
+                "company": "Goldman Sachs"
+            },
+            {
+                "name": "Vijay Kumar",
+                "designation": "Senior Director",
+                "company": "Microsoft"
+            },
+            {
+                "name": "Harishankar V.",
+                "designation": "Engineering Manager",
+                "company": "Google"
+            },
+            {
+                "name": "Deepak Natarajan",
+                "designation": "Managing Director",
+                "company": "Morgan Stanley"
+            }
+        ],
+        "placementCompanies": [
+            "Microsoft",
+            "Amazon",
+            "Google",
+            "Intel",
+            "TCS",
+            "Adobe",
+            "Qualcomm"
+        ],
+        "networkStrength": 94
+    },
+    "international": {
+        "collaborations": 50,
+        "studentExchange": true,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "University of Queensland",
+            "Technical University of Munich",
+            "North Carolina State University",
+            "KAIST",
+            "Nanyang Technological University"
+        ],
+        "foreignStudents": 1500
+    },
+    "contact": {
+        "phone": [
+            "+91-416-2202222",
+            "+91-416-2243091"
+        ],
+        "email": [
+            "ugadmission@vit.ac.in",
+            "pgadmission@vit.ac.in",
+            "international@vit.ac.in",
+            "registrar@vit.ac.in"
+        ],
+        "website": "https://vit.ac.in",
+        "socialMedia": {
+            "facebook": "https://facebook.com/VIT.university",
+            "twitter": "https://twitter.com/VIT_univ",
+            "linkedin": "https://linkedin.com/school/vit-university",
+            "instagram": "https://instagram.com/vit.university",
+            "youtube": "https://youtube.com/vituniversity"
+        },
+        "admissionContact": {
+            "phone": "+91-416-2202222",
+            "email": "ugadmission@vit.ac.in"
+        }
+    },
+    "facilities": [
+        "372-acre sprawling campus with smart infrastructure",
+        "Solar-powered walkways and battery-powered vehicles [citation:5]",
+        "International hostels with AC and non-AC options",
+        "Olympic-size swimming pool",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic with ambulance service",
+        "Multiple food courts and cafes",
+        "Central library with digital resources",
+        "Green Vellore project for sustainable greenery [citation:5]",
+        "Shopping complex and bank branches",
+        "Research Park (planned under long-term goals) [citation:5]",
+        "Wi-Fi enabled campus with 1 Gbps connectivity",
+        "Smart classrooms with AI-powered learning tools"
+    ],
+    "achievements": [
+        "Ranked #1 Private University in India by QS World University Rankings 2025 [citation:10]",
+        "NIRF 2025 Engineering Rank: 16, University Rank: 14 [citation:1][citation:6]",
+        "QS World University Rankings 2025: 691 globally [citation:1]",
+        "QS Subject Rankings 2025: Computer Science - 110, Data Science & AI - 51-100 globally [citation:1]",
+        "Shanghai Ranking of World Universities 2024: 501-600 rank band [citation:1]",
+        "90 professors among Top 2% Scientists in the world (Stanford University 2025) [citation:1]",
+        "Highest placement package in 2025: ₹1.02 crore [citation:2]",
+        "99.2% placement rate in 2025 with 10,027 offers from 632 companies [citation:2]",
+        "3,337 Super Dream Offers (>₹10 LPA) in 2025 [citation:2]",
+        "NAAC A++ Grade with CGPA of 3.66 on a four-point scale [citation:1]",
+        "Established 19 research centres across Vellore and Chennai campuses [citation:1]",
+        "International student community of over 1,500 students from 50+ countries"
+    ],
+    "newsUpdates": [
+        {
+            "title": "VIT Vellore achieves 99.2% placement in 2025, highest package at ₹1.02 crore",
+            "date": "2025-09-15",
+            "link": "https://www.kollegeapply.com/college/vit-vellore-vellore-placement"
+        },
+        {
+            "title": "NIRF 2025: VIT Vellore ranked 16th in Engineering, 14th among Universities",
+            "date": "2025-09-04",
+            "link": "https://education.sakshi.com/en/general-knowledge/education-news/nirf-2025-rankings-top-20-engineering-colleges-india-181583"
+        },
+        {
+            "title": "90 VIT professors among world's top 2% scientists, announces Stanford University study",
+            "date": "2025-10-01",
+            "link": "https://vit.ac.in/ranking-and-recognition"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/vit-campus1.jpg",
+            "caption": "VIT Main Academic Block"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/vit-campus2.jpg",
+            "caption": "Technology Tower"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/vit-lab1.jpg",
+            "caption": "VLSI Design Lab"
+        },
+        {
+            "type": "sports",
+            "url": "/gallery/vit-sports1.jpg",
+            "caption": "Olympic-size Swimming Pool"
+        },
+        {
+            "type": "hostel",
+            "url": "/gallery/vit-hostel1.jpg",
+            "caption": "Boys Hostel Complex"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/vit-event1.jpg",
+            "caption": "Riviera - International Sports Fest"
+        },
+        
+    ],
+    "faqs": [
+        {
+            "question": "Is VIT Vellore a good college for placements?",
+            "answer": "Yes, VIT Vellore is among the best private universities in India for placements. In 2025, it achieved a 99.2% placement rate with over 10,000 offers from 632 companies. The highest package was ₹1.02 crore, and the CSE average package was ₹14.8 LPA. Top recruiters include Microsoft, Amazon, Google, Intel, and TCS [citation:2][citation:7]."
+        },
+        {
+            "question": "What is the highest package at VIT Vellore in 2025?",
+            "answer": "The highest package offered in 2025 is ₹1.02 crore per annum, secured by a student from the Computer Science and Engineering branch [citation:2][citation:8]. In 2023 and 2022, the highest package was also ₹1.02 crore and ₹1 crore respectively [citation:7]."
+        },
+        {
+            "question": "What is the average package for CSE at VIT Vellore?",
+            "answer": "The CSE average package at VIT Vellore in 2025 was approximately ₹14.8 LPA [citation:2]. The overall average package across all branches was ₹9.9 LPA in 2024-25, showing consistent growth from ₹9.6 LPA in 2023 and ₹9 LPA in 2022 [citation:8]."
+        },
+        {
+            "question": "What is the VITEEE cutoff for CSE at VIT Vellore?",
+            "answer": "For B.Tech CSE at VIT Vellore, the cutoff rank varies by category. Under Category 1, candidates need a VITEEE rank under 950. Category 2 cutoff is around 3,500, Category 3 is around 19,000, Category 4 is around 22,000, and Category 5 up to 25,500. For CSE specializations, Category 1 cutoff is around 2,800 [citation:2]."
+        },
+        {
+            "question": "What is the campus size of VIT Vellore?",
+            "answer": "VIT Vellore campus spans 372 acres and features state-of-the-art infrastructure including smart classrooms, AC hostels, Olympic-size swimming pool, solar-powered walkways, and battery-powered vehicles for internal transport [citation:2][citation:4][citation:5]."
+        },
+        {
+            "question": "What are the fees for B.Tech at VIT Vellore?",
+            "answer": "B.Tech fees at VIT Vellore depend on the category of admission. Category 1: ₹1,98,000 per year, Category 2: ₹3,07,000, Category 3: ₹4,05,000, Category 4: ₹4,48,000, and Category 5: ₹5,00,000 per year. Hostel fees range from ₹1.1 lakh to ₹1.95 lakh per year depending on AC/non-AC and occupancy [citation:4]."
+        },
+        {
+            "question": "Does VIT Vellore have 100% placement?",
+            "answer": "While VIT advertises near 100% placement for eligible students in select branches like CSE, IT, and ECE, the actual placement percentage varies by branch. In 2025, the overall placement rate was 99.2% [citation:2]. Core branches may have slightly lower percentages, typically between 85-100% for eligible candidates [citation:2]."
+        },
+        {
+            "question": "What is unique about VIT's curriculum?",
+            "answer": "VIT follows a flexible credit system with a strong focus on industry-aligned curriculum. It offers 30+ engineering specializations and was one of the first private universities to introduce B.Tech in AI & Data Science. The institute emphasizes project-based learning, mandatory internships, and has collaborations with over 50 international universities for student exchange programs [citation:10]."
+        },
+        {
+            "question": "What scholarships are available at VIT Vellore?",
+            "answer": "VIT offers the GV School Development Programme (GVSDP) providing full tuition fee waivers to VITEEE rankers 1-50 [citation:4]. Merit-based scholarships for top performers, sports scholarships for national-level achievers, and need-based financial aid are also available. In 2025, over 3,000 students benefited from scholarships totaling ₹4.98 crore [citation:2]."
+        },
+        {
+            "question": "Who are the top recruiters for core engineering branches?",
+            "answer": "For core engineering branches like Mechanical, Civil, and Electrical, top recruiters include Intel, Texas Instruments, Qualcomm, Bosch, Ashok Leyland, Hyundai Motors, and Samsung. IT and consulting firms like Microsoft, Amazon, Google, Deloitte, and TCS recruit heavily from CSE, IT, and ECE branches [citation:7][citation:8]."
+        }
+    ]
+},
 
 // Top New - Age Engineering Colleges
 
@@ -13766,7 +14309,7 @@ export const colleges: College[] = [
     ],
   },
   {
-    "id": "1501",
+    "id": "1405",
     "slug": "mirai-school-of-technology",
     "name": "Mirai School of Technology",
     "shortName": "MSOT",
