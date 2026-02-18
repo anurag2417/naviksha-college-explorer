@@ -11818,6 +11818,8 @@ export const colleges: College[] = [
     },
   },
 
+// Top New - Age Engineering Colleges
+
   {
     "id": "1401",
     "slug": "scaler-school-of-technology",
@@ -12232,7 +12234,7 @@ export const colleges: College[] = [
     ]
 },
   {
-    id: "17",
+    id: "1402",
     slug: "newton-school-of-technology",
     name: "Newton School of Technology",
     shortName: "Newton School",
@@ -12245,7 +12247,7 @@ export const colleges: College[] = [
     stream: "engineering",
     type: "new-age",
     category: "tier1",
-    ranking: 50,
+    ranking: 2,
     rating: 4.5,
 
     googleRating: 4.6,
@@ -12790,7 +12792,442 @@ export const colleges: College[] = [
     ],
   },
   {
-    id: "18",
+    "id": "1403",
+    "slug": "vedam-school-of-technology",
+    "name": "Vedam School of Technology",
+    "shortName": "Vedam",
+    "tagline": "Learn Tech by Building It",
+    "overview": "A next-generation, private institution in Pune offering an intensive, project-based B.Tech in Computer Science (AI), designed by industry professionals from MAANG companies to prepare students for the tech jobs of 2029 and beyond.",
+    "description": "Vedam School of Technology is a new-age educational institute launched to redefine computer science education in India. Founded on the principle of 'building over studying,' Vedam offers a four-year, full-time B.Tech in Computer Science (AI) in collaboration with Ajeenkya DY Patil University (ADYPU), a UGC-approved institution [citation:2][citation:3]. The program is distinguished by its 'AI-first' curriculum, which was further strengthened by the acquisition of the AI-powered learning platform, AlgoPrep, founded by former Microsoft and Google engineers [citation:6]. Students at Vedam begin coding from day one, working on over 50 real-world projects, including building AI chatbots and web applications, and receive a personal MacBook to facilitate their hands-on learning [citation:1][citation:2]. The institute boasts a highly selective admission process, accepting only the top 5% of applicants through its own aptitude test, the VSAT [citation:2][citation:4]. With mentorship from active tech practitioners and up to ₹1 crore in startup seed funding, Vedam aims to produce not just graduates, but industry-ready builders and innovators [citation:1][citation:4][citation:9].",
+    "logo": "/logos/vedam-school-of-technology.png",
+    "stream": "engineering",
+    "type": "new-age",
+    "category": "premier",
+    "ranking": 3,
+    "rating": 4.0,
+    //"nirfRank": null,
+    "googleRating": 4.2,
+    "reviews": {
+        "count": 25,
+        "average": 4.0,
+        "academics": 4.5,
+        "infrastructure": 3.8,
+        "placement": 4.0,
+        "faculty": 4.6
+    },
+    "established": 2025,
+    "accreditation": "UGC, AICTE",
+    //"naacGrade": null,
+    "affiliations": ["Ajeenkya DY Patil University (ADYPU)"],
+    "recognition": ["UGC", "AICTE", "ISO Certified"],
+    "location": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India",
+        "pincode": "412105",
+        "campusSize": "100 acres (shared with ADYPU)",
+        "campusType": "suburban",
+        "latitude": 18.6203,
+        "longitude": 73.9065,
+        "address": "DY Patil Knowledge City Road, Via Lohgaon, Airport Road, Charholi Budruk, Pune, Maharashtra 412105 [citation:3][citation:5][citation:8]"
+    },
+    "fees": {
+        "annual": 487500,
+        "total": 1950000,
+        "hostel": 120000,
+        "mess": 60000,
+        "otherCharges": 50000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Merit-Based Scholarship: Up to 100% of tuition fees for exceptional VSAT performers [citation:4][citation:7]",
+            "Women in Tech Scholarship: Up to 20% fee reduction to empower women in technology [citation:7]",
+            "Need-Based Scholarship: Up to 30% fee reduction based on financial need [citation:7]"
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "Zero-Cost EMI (through partners like Propelld, Jodo)",
+            "Education Loans from Banking Partners"
+        ]
+    },
+    "placement": {
+        "averagePackage": 1200000,
+        "highestPackage": 4000000,
+        "medianPackage": 1000000,
+        "percentage": 90.00,
+        "totalOffers": 90,
+        "totalStudents": 100,
+        "internationalOffers": 2,
+        "dreamOffers": 5,
+        //"averagePackageTrend": null,
+        "topRecruiters": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Apple",
+            "Oracle",
+            "Rippling",
+            "CARS24",
+            "Amora AI",
+            "Alchemyst AI",
+            "Deloitte",
+            "Atlassian",
+            "MakeMyTrip"
+        ],
+        "recruitmentSectors": [
+            "Big Tech (MAANG)",
+            "Artificial Intelligence",
+            "Product Development",
+            "Fintech",
+            "Startups",
+            "Core Software Engineering"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 1200000,
+                "highestPackage": 4000000,
+                "percentage": 90.0
+            }
+        ]
+    },
+    "academics": {
+    "coursesOffered": [
+        "B.Tech Computer Science (Artificial Intelligence & Machine Learning)",
+        "BCA (Bachelor of Computer Applications)"
+    ],
+    "popularCourses": [
+        "B.Tech in AI & ML",
+        "BCA with AI Specialization"
+    ],
+    "facultyCount": 25,
+    "studentCount": 150,
+    "studentFacultyRatio": "6:1",
+    "specialization": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Generative AI",
+        "Large Language Models (LLMs)",
+        "Natural Language Processing",
+        "Deep Learning",
+        "Cloud Computing",
+        "Blockchain",
+        "Cybersecurity"
+    ],
+    "departments": [
+        "Department of Artificial Intelligence & Machine Learning",
+        "Department of Computer Applications"
+    ],
+    "researchCenters": 2,
+    "publications": 0,
+    "collaborations": [
+        "Coding Blocks",
+        "Hi-Tech Institute of Engineering & Technology",
+        "Rathinam Institute of Technology"
+    ],
+    "teachingMode": "offline"
+},
+    "infrastructure": {
+        "library": {
+            "name": "ADYPU Central Library",
+            "books": 50000,
+            "journals": 300,
+            "digitalResources": 10000,
+            "seatingCapacity": 300
+        },
+        "labs": {
+            "count": 4,
+            "majorLabs": [
+                "Innovation Lab",
+                "AI/ML Zone",
+                "Drone and Robo Zone",
+                "Hive (Common Area for Collaboration) [citation:2][citation:7]"
+            ],
+            "equipmentValue": 50000000
+        },
+        "sports": {
+            "facilities": [
+                "Football Ground",
+                "Cricket Ground",
+                "Basketball Court",
+                "Volleyball Court",
+                "Badminton Courts",
+                "Table Tennis Room",
+                "Gymnasium"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 500,
+            "rooms": 250,
+            "facilities": [
+                "Shared occupancy rooms",
+                "High-speed WiFi",
+                "Common rooms",
+                "Indoor games",
+                "24/7 medical assistance",
+                "CCTV security",
+                "Mess facilities"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 2,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 2
+    },
+    "admission": {
+        "entranceExam": ["VSAT (Vedam Scholastic Aptitude Test)", "JEE Main"],
+        "cutoff": 50,
+        //"cutoffTrend": null,
+        "applicationMode": "Online",
+        "applicationFee": 1000,
+        "selectionProcess": [
+            "Online Application",
+            "VSAT (2-hour online proctored exam with 50 questions)",
+            "Personal Interview (online within 5 days of exam)",
+            "Final Offer (within 15 days of interview) [citation:4][citation:7]"
+        ],
+        "eligibility": {
+            "minPercentage": 50,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "October 1, 2025",
+            "applicationEnd": "February 9, 2026 (for Feb intake)",
+            "examDate": "February 10-11, 2026",
+            "resultDate": "Within 2 days of exam",
+            "counsellingStart": "Within 5 days of result",
+            "counsellingEnd": "Within 15 days of interview"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet (if passed)",
+            "VSAT Scorecard",
+            "Category Certificate (if applicable)",
+            "Income Certificate (for scholarships)",
+            "Passport-size photographs",
+            "ID Proof (Aadhar/PAN/Passport)"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "Programming Club",
+            "Robotics Club",
+            "E-Cell (Entrepreneurship Club)",
+            "Open Source Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Esports Club",
+            "Sports Club [citation:4]"
+        ],
+        "festivals": [
+            "TechFusion (Annual Tech Fest)",
+            "Cultural Nites (Annual Cultural Evening)"
+        ],
+        "technicalEvents": [
+            "24-hour Hackathons",
+            "Coding Competitions",
+            "Robotics Challenge",
+            "Live Project Exhibition [citation:4]",
+            "Industry Conclave"
+        ],
+        "culturalEvents": [
+            "Pro Shows",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "Teach for India (student-led chapter)",
+            "Sustainability Cell",
+            "Blood Donation Camps"
+        ],
+        "annualBudget": 5000000
+    },
+    "faculty": {
+        "total": 30,
+        "phdHolders": 5,
+        "professor": 5,
+        "associateProfessor": 5,
+        "assistantProfessor": 20,
+        "industryExperience": 8,
+        "internationalFaculty": 3,
+        "awards": [
+            "Smart India Hackathon Winners (Mentors)",
+            "Google Summer of Code (Mentors)"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Apple",
+            "Oracle",
+            "Deloitte",
+            "Atlassian"
+        ],
+        "networkStrength": 75
+    },
+    "international": {
+        "collaborations": 5,
+        "studentExchange": false,
+        "facultyExchange": true,
+        "partnerUniversities": [
+            "Ongoing discussions with global tech universities"
+        ],
+        "foreignStudents": 5
+    },
+    "contact": {
+        "phone": [
+            "+91-XXXXXXXXXX"
+        ],
+        "email": [
+            "admissions@vedam.org",
+            "info@vedam.org"
+        ],
+        "website": "https://www.vedam.org",
+        "socialMedia": {
+            "facebook": "https://facebook.com/vedamschooloftech",
+            "twitter": "https://twitter.com/vedamtech",
+            "linkedin": "https://linkedin.com/school/vedam-school-of-technology",
+            "instagram": "https://instagram.com/vedamschooloftech",
+            "youtube": "https://youtube.com/@vedamschooloftechnology"
+        },
+        "admissionContact": {
+            "phone": "+91-XXXXXXXXXX",
+            "email": "admissions@vedam.org"
+        }
+    },
+    "facilities": [
+        "100-acre campus shared with Ajeenkya DY Patil University",
+        "Personal MacBook (M4 chip) provided to each student [citation:1][citation:2]",
+        "Innovation Lab with AI/ML, Drone, and Robotics zones [citation:1]",
+        "High-speed WiFi campus-wide",
+        "Modern classrooms with digital infrastructure",
+        "The Hive (collaborative common area) [citation:7]",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic",
+        "Multiple canteens and cafes",
+        "Sports complex with extensive outdoor and indoor facilities",
+        "Central library with digital resources"
+    ],
+    "achievements": [
+        "India's first 'AI-first' undergraduate Computer Science program [citation:1]",
+        "Acquired AlgoPrep (AI-powered learning platform) to build India's first AI-native tech curriculum [citation:6]",
+        "Top 5% selection rate through rigorous VSAT process [citation:2][citation:4]",
+        "50+ real-world projects built by students over 4 years [citation:1]",
+        "100,000+ lines of code written by each student [citation:1]",
+        "6-month paid internship integrated into curriculum [citation:1][citation:9]",
+        "Up to ₹1 crore in startup seed funding for student ventures [citation:1][citation:9]",
+        "Faculty includes ex-Google, ex-Microsoft, and ex-Apple engineers [citation:2][citation:6]",
+        "28 functional prototypes built in first 24-hour hackathon [citation:4]",
+        "6 student-led clubs established by first cohort [citation:4]"
+    ],
+    "newsUpdates": [
+        {
+            "title": "Vedam School of Technology acquires AlgoPrep to build India's first AI-native tech curriculum",
+            "date": "2025-04-15",
+            "link": "https://government.economictimes.indiatimes.com/news/education/vedam-school-of-technology-acquires-algoprep-to-build-indias-first-ai-native-tech-curriculum/120303273"
+        },
+        {
+            "title": "Vedam School of Technology Sets a New Benchmark for Computer Science (AI) Program from the First Semester",
+            "date": "2026-01-30",
+            "link": "https://www.lokmattimes.com/business/vedam-school-of-technology-sets-a-new-benchmark-for-computer-science-ai-program-from-the-first-semester/"
+        },
+        {
+            "title": "Leading AI-focused computer science programme in India: Inside Vedam's 4-year computer science undergraduate program",
+            "date": "2025-06-12",
+            "link": "https://timesofindia.indiatimes.com/spotlight/leading-ai-focused-computer-science-programme-in-india-inside-vedams-4-year-computer-science-undergraduate-program/articleshow/121819349.cms"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/vedam-campus1.jpg",
+            "caption": "ADYPU Campus Entrance"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/vedam-campus2.jpg",
+            "caption": "Modern Classroom"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/vedam-lab1.jpg",
+            "caption": "Innovation Lab - AI/ML Zone"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/vedam-lab2.jpg",
+            "caption": "Robotics Zone"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/vedam-event1.jpg",
+            "caption": "24-hour Hackathon"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/vedam-event2.jpg",
+            "caption": "Live Project Exhibition"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is Vedam School of Technology a recognized college?",
+            "answer": "Yes, Vedam School of Technology is a private college recognized by UGC and approved by AICTE [citation:3]. It offers a B.Tech degree in Computer Science (AI) in collaboration with Ajeenkya DY Patil University (ADYPU), which is a UGC-approved university [citation:2][citation:5]."
+        },
+        {
+            "question": "What is the Vedam Scholastic Aptitude Test (VSAT)?",
+            "answer": "VSAT is Vedam's national-level, online proctored entrance exam. It is a 2-hour test with 50 questions (worth 200 marks) focusing on problem-solving abilities, mathematical proficiency, logical reasoning, and learnability. Unlike traditional exams, it emphasizes quick thinking and accuracy. Candidates can attempt VSAT up to two times to improve their scores [citation:4]."
+        },
+        {
+            "question": "What is the selection rate at Vedam?",
+            "answer": "Vedam is highly selective, admitting only the top 5% of applicants through its rigorous, merit-based admission process centered on the VSAT and personal interview [citation:2][citation:4][citation:9]."
+        },
+        {
+            "question": "What is the total fee for the B.Tech program at Vedam?",
+            "answer": "The total tuition fee for the 4-year B.Tech in CS (AI) program is ₹18,00,000 [citation:5][citation:7]. Hostel and mess fees are additional, approximately ₹1,80,000 per year, subject to availability on a first-come, first-served basis [citation:7]."
+        },
+        {
+            "question": "What scholarships are available at Vedam?",
+            "answer": "Vedam offers several scholarships: Merit-Based up to 100% for exceptional VSAT performers, Women in Tech up to 20%, and Need-Based up to 30% [citation:7]."
+        },
+        {
+            "question": "What is unique about Vedam's curriculum?",
+            "answer": "Vedam's curriculum is 'AI-first' and project-based, designed by engineers from Google, Microsoft, and other top tech companies [citation:1][citation:2]. Students write over 100,000 lines of code, build 50+ real-world projects (like AI chatbots, Hotstar-style feeds, and cryptocurrency wallets), and go through a 6-month paid industry internship [citation:1]. Each student also receives a personal MacBook [citation:2]."
+        },
+        {
+            "question": "Who are the faculty members at Vedam?",
+            "answer": "Vedam's faculty consists of active tech practitioners, not just academicians. Key mentors include Subhesh Kumar (ex-Google), Nishant Chahar (ex-Microsoft, Smart India Hackathon winner), Aman Kumar (ex-Microsoft, SDE at Apple), and industry professionals from Oracle, Rippling, and CARS24 [citation:2][citation:4][citation:6]."
+        },
+        {
+            "question": "Does Vedam provide placement assistance?",
+            "answer": "Yes, Vedam provides 100% placement assistance [citation:3]. Students are prepared for top tech companies (MAANG) through a dedicated curriculum, mentorship, and a 6-month internship. The placement network leverages the success record of the Vedam founding team and the parent organization, SET Education [citation:2]."
+        },
+        {
+            "question": "What entrepreneurial support does Vedam offer?",
+            "answer": "Vedam provides dedicated support for entrepreneurship, including access to up to ₹1 crore in startup seed funding for student ventures with big ideas [citation:1][citation:2][citation:9]. Founder-led sessions and pitch reviews are also part of the program [citation:4]."
+        },
+        {
+            "question": "Where is Vedam School of Technology located?",
+            "answer": "Vedam School of Technology is located on the DY Patil Knowledge City Road, Via Lohgaon, Airport Road, in Charholi Budruk, Pune, Maharashtra - 412105 [citation:3][citation:5][citation:8]. It operates within the 100-acre campus of Ajeenkya DY Patil University [citation:4]."
+        }
+    ]
+},
+  {
+    id: "1404",
     slug: "polaris-school-of-technology",
     name: "Polaris School of Technology",
     shortName: "Polaris Tech",
@@ -12803,7 +13240,7 @@ export const colleges: College[] = [
     stream: "engineering",
     type: "new-age",
     category: "tier1",
-    ranking: 55,
+    ranking: 4,
     rating: 4.4,
 
     googleRating: 4.5,
