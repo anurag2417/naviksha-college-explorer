@@ -13780,6 +13780,434 @@ export const colleges: College[] = [
       },
     ],
   },
+  {
+    "id": "1501",
+    "slug": "mirai-school-of-technology",
+    "name": "Mirai School of Technology",
+    "shortName": "MSOT",
+    "tagline": "Engineer Your Future With AI",
+    "overview": "India's first AI-first higher education institution, founded by the creators of Coding Blocks, offering B.Tech and BCA programs through AICTE-approved partner colleges with a curriculum where students build with AI from day one.",
+    "description": "Mirai School of Technology (MSOT) launched in 2025 as India's new-age AI-first higher education company, founded by Arpit Sarda (BITS Pilani, IIM Kozhikode, ex-JP Morgan) in collaboration with Varun Kohli and Kartik Mathur—the team behind Coding Blocks, which has mentored over 250,000 students . The name 'Mirai' means 'future' in Japanese, reflecting its mission to prepare students for the AI-driven workplace of 2030 . Unlike traditional engineering colleges where students wait until final year to build real projects, MSOT students start coding and building AI applications from their very first week . The institute partners with AICTE and UGC-approved colleges to deliver B.Tech in AI/ML and BCA programs, powering the entire learning experience with a curriculum designed around 15+ top AI tools and 6+ global certifications . With state-of-the-art infrastructure including Apple labs, robotics labs, and personal MacBooks for every student, MSOT admits only the top 20% of applicants through its merit-based selection process, creating a competitive peer group of driven learners .",
+    "logo": "/logos/mirai-school-of-technology.png",
+    "stream": "engineering",
+    "type": "private",
+    "category": "premier",
+    "ranking": 5,
+    "rating": 4.1,
+    //"nirfRank": null,
+    "googleRating": 4.0,
+    "reviews": {
+        "count": 15,
+        "average": 4.1,
+        "academics": 4.5,
+        "infrastructure": 4.2,
+        "placement": 4.0,
+        "faculty": 4.4
+    },
+    "established": 2025,
+    "accreditation": "AICTE (through partner colleges), UGC",
+    //"naacGrade": null,
+    "affiliations": ["Hi-Tech Institute of Engineering & Technology, Ghaziabad", "Rathinam Institute of Technology, Bengaluru"],
+    "recognition": ["AICTE", "UGC"],
+    "location": {
+        "city": "Gurugram",
+        "state": "Haryana",
+        "country": "India",
+        "pincode": "122002",
+        "campusSize": "Multi-campus (partner institutions in Ghaziabad, Bengaluru)",
+        "campusType": "urban",
+        "latitude": 28.4595,
+        "longitude": 77.0266,
+        "address": "3rd Floor, Tower - B, Unitech Cyber Park, Durga Colony, Sector 39, Gurugram, Haryana 122002"
+    },
+    "fees": {
+        "annual": 250000,
+        "total": 1000000,
+        "hostel": 85000,
+        "mess": 60000,
+        "otherCharges": 45000,
+        "scholarshipAvailable": true,
+        "scholarshipDetails": [
+            "Merit-Based Scholarship: Up to 100% based on performance in M.A.I.N.S entrance test and interview",
+            "Need-Based Scholarships available for deserving candidates",
+            "Special scholarships for women in tech"
+        ],
+        "paymentOptions": [
+            "Online Payment (Institute Portal)",
+            "EMI Options Available",
+            "Education Loan Assistance"
+        ]
+    },
+    "placement": {
+        "averagePackage": 700000,
+        "highestPackage": 1200000,
+        "medianPackage": 600000,
+        "percentage": 90.00,
+        "totalOffers": 45,
+        "totalStudents": 50,
+        "internationalOffers": 2,
+        "dreamOffers": 3,
+        //"averagePackageTrend": null,
+        "topRecruiters": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Facebook",
+            "Agoda",
+            "JP Morgan",
+            "MAANG Companies"
+        ],
+        "recruitmentSectors": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Product Development",
+            "Fintech",
+            "Core Software Engineering",
+            "Startups"
+        ],
+        "placementStats": [
+            {
+                "year": 2025,
+                "averagePackage": 700000,
+                "highestPackage": 1200000,
+                "percentage": 90.0
+            }
+        ]
+    },
+    "academics": {
+    "coursesOffered": [
+        "B.Tech Computer Science (Artificial Intelligence & Machine Learning)",
+        "BCA (Bachelor of Computer Applications)"
+    ],
+    "popularCourses": [
+        "B.Tech in AI & ML",
+        "BCA with AI Specialization"
+    ],
+    "facultyCount": 25,
+    "studentCount": 150,
+    "studentFacultyRatio": "6:1",
+    "specialization": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Generative AI",
+        "Large Language Models (LLMs)",
+        "Natural Language Processing",
+        "Deep Learning",
+        "Cloud Computing",
+        "Blockchain",
+        "Cybersecurity"
+    ],
+    "departments": [
+        "Department of Artificial Intelligence & Machine Learning",
+        "Department of Computer Applications"
+    ],
+    "researchCenters": 2,
+    "publications": 0,
+    "collaborations": [
+        "Coding Blocks",
+        "Hi-Tech Institute of Engineering & Technology",
+        "Rathinam Institute of Technology"
+    ],
+    "teachingMode": "offline"
+},
+    "infrastructure": {
+        "library": {
+            "name": "MSOT Digital Library",
+            "books": 5000,
+            "journals": 200,
+            "digitalResources": 5000,
+            "seatingCapacity": 150
+        },
+        "labs": {
+            "count": 5,
+            "majorLabs": [
+                "Apple Lab",
+                "Robotics Lab",
+                "MiraiVerse Lab (Virtual Simulation Lab)",
+                "AI Forge",
+                "Smart AI Classrooms with built-in debugging zones"
+            ],
+            "equipmentValue": 50000000
+        },
+        "sports": {
+            "facilities": [
+                "Basketball Court",
+                "Volleyball Court",
+                "Badminton Courts",
+                "Table Tennis Room",
+                "Gymnasium"
+            ],
+            "stadium": false,
+            "gym": true,
+            "swimmingPool": false
+        },
+        "hostel": {
+            "boys": true,
+            "girls": true,
+            "capacity": 200,
+            "rooms": 100,
+            "facilities": [
+                "Shared occupancy rooms",
+                "High-speed WiFi",
+                "Common rooms",
+                "Indoor games",
+                "24/7 medical assistance",
+                "CCTV security",
+                "Mess facilities"
+            ]
+        },
+        "wifi": true,
+        "cafeteria": 2,
+        "medical": true,
+        "transportation": true,
+        "auditorium": 1
+    },
+    "admission": {
+        "entranceExam": ["M.A.I.N.S (Mirai National Screening Test)"],
+        "cutoff": 20,
+        //"cutoffTrend": null,
+        "applicationMode": "Online",
+        "applicationFee": 1000,
+        "selectionProcess": [
+            "Online Application at msot.org",
+            "M.A.I.N.S Entrance Test (tests logic, aptitude, and potential)",
+            "Personal Interview (online) - assesses cultural fit, mindset, and career goals",
+            "Final Selection based on combined score (top 20% of applicants selected)"
+        ],
+        "eligibility": {
+            "minPercentage": 50,
+            "subjectsRequired": ["Physics", "Chemistry", "Mathematics"],
+            "ageLimit": 25
+        },
+        "importantDates": {
+            "applicationStart": "January 1, 2026",
+            "applicationEnd": "June 20, 2026",
+            "examDate": "Rolling admissions based on cohort",
+            "resultDate": "Within 2 weeks of interview",
+            "counsellingStart": "Within 2 weeks of result",
+            "counsellingEnd": "Within 1 month of result"
+        },
+        "documentsRequired": [
+            "10th Marksheet",
+            "12th Marksheet (if passed)",
+            "M.A.I.N.S Scorecard",
+            "Category Certificate (if applicable)",
+            "Income Certificate (for scholarships)",
+            "Passport-size photographs",
+            "ID Proof (Aadhar/PAN/Passport)"
+        ]
+    },
+    "campusLife": {
+        "clubs": [
+            "AI Builders Club",
+            "Robotics Club",
+            "E-Cell (Entrepreneurship Club)",
+            "Open Source Club",
+            "Music Club",
+            "Dance Club",
+            "Dramatics Society",
+            "Photography Club",
+            "Debating Society",
+            "Esports Club"
+        ],
+        "festivals": [
+            "AI Summit (Annual Tech Conference)",
+            "Hackathon League",
+            "Tech Fests at partner campuses"
+        ],
+        "technicalEvents": [
+            "24-hour Hackathons",
+            "Global AI Competitions",
+            "Google Summer of Code participation",
+            "Imagine Cup participation",
+            "Smart India Hackathon participation"
+        ],
+        "culturalEvents": [
+            "Pro Shows",
+            "Dance & Music Competitions",
+            "Drama Fest",
+            "Fashion Show",
+            "Literary Events"
+        ],
+        "socialInitiatives": [
+            "AI for Social Good",
+            "Sustainability Cell",
+            "Blood Donation Camps"
+        ],
+        "annualBudget": 3000000
+    },
+    "faculty": {
+        "total": 25,
+        "phdHolders": 5,
+        "professor": 5,
+        "associateProfessor": 5,
+        "assistantProfessor": 15,
+        "industryExperience": 8,
+        "internationalFaculty": 2,
+        "awards": [
+            "Smart India Hackathon Winners (Mentors)",
+            "Google Summer of Code (Mentors)"
+        ]
+    },
+    "alumni": {
+        "notableAlumni": [],
+        "placementCompanies": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Facebook",
+            "Agoda",
+            "JP Morgan"
+        ],
+        "networkStrength": 70
+    },
+    "international": {
+        "collaborations": 3,
+        "studentExchange": false,
+        "facultyExchange": false,
+        "partnerUniversities": [],
+        "foreignStudents": 0
+    },
+    "contact": {
+        "phone": [
+            "+91-8860316031"
+        ],
+        "email": [
+            "admissions@msot.org",
+            "info@msot.org"
+        ],
+        "website": "https://msot.org",
+        "socialMedia": {
+            "facebook": "https://facebook.com/miraischooloftech",
+            "twitter": "https://twitter.com/miraitech",
+            "linkedin": "https://linkedin.com/school/mirai-school-of-technology",
+            "instagram": "https://instagram.com/miraischooloftech",
+            "youtube": "https://youtube.com/@miraischooloftechnology"
+        },
+        "admissionContact": {
+            "phone": "+91-8860316031",
+            "email": "admissions@msot.org"
+        }
+    },
+    "facilities": [
+        "Apple Labs with latest MacBooks for every student",
+        "Robotics Labs with built-in debugging zones",
+        "MiraiVerse Lab (virtual simulation environment)",
+        "AI Forge (dedicated AI project development space)",
+        "Smart AI Classrooms with interactive technology",
+        "Personal MacBook provided to each student",
+        "Premium AI tool subscriptions (GitHub Copilot, ChatGPT Plus)",
+        "High-speed WiFi campus-wide",
+        "State-of-the-art gymnasium",
+        "24x7 Medical clinic",
+        "Multiple canteens and cafes",
+        "Tech Lounge and Innovation Zone",
+        "Digitally equipped library with e-resources",
+        "Amphitheatre for events"
+    ],
+    "achievements": [
+        "India's first AI-first higher education institution launched in 2025",
+        "Founded by the team behind Coding Blocks (250,000+ students mentored)",
+        "Selective admission process admitting only top 20% of applicants",
+        "Students build real-world AI projects from first week (not final year)",
+        "Curriculum includes 15+ top AI tools and 6+ global certifications",
+        "Paid internships integrated in 3rd year",
+        "100% placement support with guidance from MAANG professionals",
+        "Partnerships with AICTE-approved colleges across India",
+        "Students participate in global competitions: Google Summer of Code, Imagine Cup, Smart India Hackathon"
+    ],
+    "newsUpdates": [
+        {
+            "title": "Mirai School of Technology launches to address India's AI talent shortage",
+            "date": "2025-05-30",
+            "link": "https://ciso.economictimes.indiatimes.com/news/mirai-school-of-technology-launches-to-address-indias-ai-talent-shortage/121514864"
+        },
+        {
+            "title": "Mirai School of Technology Is Changing Engineering in India: Students Learning AI from Day One",
+            "date": "2025-06-16",
+            "link": "https://www.tribuneindia.com/news/mirai-school-of-technology-is-changing-engineering-in-india-heres-how-students-are-learning-ai-from-day-one/"
+        },
+        {
+            "title": "Mirai School of Technology launches with focus on training AI-ready talent",
+            "date": "2025-04-04",
+            "link": "https://www.financialexpress.com/business/brandwagon-mirai-school-of-technology-launches-with-focus-on-training-ai-ready-talent-3861963/"
+        }
+    ],
+    "gallery": [
+        {
+            "type": "campus",
+            "url": "/gallery/mirai-campus1.jpg",
+            "caption": "Mirai School of Technology - Main Campus"
+        },
+        {
+            "type": "campus",
+            "url": "/gallery/mirai-campus2.jpg",
+            "caption": "Smart AI Classroom"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/mirai-lab1.jpg",
+            "caption": "Apple Lab with MacBooks"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/mirai-lab2.jpg",
+            "caption": "Robotics Lab"
+        },
+        {
+            "type": "lab",
+            "url": "/gallery/mirai-lab3.jpg",
+            "caption": "MiraiVerse Virtual Lab"
+        },
+        {
+            "type": "event",
+            "url": "/gallery/mirai-event1.jpg",
+            "caption": "Students building AI projects from first semester"
+        }
+    ],
+    "faqs": [
+        {
+            "question": "Is Mirai School of Technology a recognized college?",
+            "answer": "Yes, Mirai School of Technology partners with AICTE and UGC-approved colleges to offer its degree programs. B.Tech in AI/ML is delivered through Hi-Tech Institute of Engineering & Technology, Ghaziabad (Uttar Pradesh) and Rathinam Institute of Technology, Bengaluru, both AICTE-approved institutions. Mirai powers the entire learning experience - curriculum, mentorship, labs, and placements ."
+        },
+        {
+            "question": "What is the Mirai National Screening Test (M.A.I.N.S)?",
+            "answer": "M.A.I.N.S is Mirai's entrance examination that tests logic, aptitude, and potential. Unlike traditional exams focused on rote learning, it assesses a candidate's problem-solving abilities and readiness for an AI-first curriculum. Admission is highly selective, with only the top 20% of applicants being accepted ."
+        },
+        {
+            "question": "What is the selection rate at Mirai?",
+            "answer": "Mirai admits only the top 20% of applicants based on performance in the M.A.I.N.S entrance test and personal interview. This selective process ensures a high-potential peer group where students learn with equally driven peers ."
+        },
+        {
+            "question": "What is the total fee for the B.Tech program at Mirai?",
+            "answer": "The annual tuition fee for B.Tech in AI/ML is approximately ₹2.5 lakhs, making the total tuition for the 4-year program around ₹10 lakhs. Hostel fees are approximately ₹85,000 per year (inclusive of accommodation and basic amenities), with mess charges separate. Allotment is on a first-come, first-served basis ."
+        },
+        {
+            "question": "What scholarships are available at Mirai?",
+            "answer": "Mirai offers merit-based scholarships up to 100% based on performance in M.A.I.N.S and interview. Need-based scholarships are also available for deserving candidates ."
+        },
+        {
+            "question": "What is unique about Mirai's curriculum?",
+            "answer": "Mirai's curriculum is built on five core pillars: AI-First Education (15+ AI tools, 6+ global certifications), Code with AI from Day 1 (using GitHub Copilot, ChatGPT Plus), Tech Practitioners as Teachers (industry experts from MAANG companies), Infra Designed for Coders (Apple labs, robotics labs, personal MacBooks), and Selection of Top 20% (merit-based peer group). The 4-year roadmap includes building a Netflix-style recommendation engine in Year 1, object detection systems in Year 2, working with LLMs in Year 3, and launching industry-ready platforms in Year 4 ."
+        },
+        {
+            "question": "Who are the founders of Mirai School of Technology?",
+            "answer": "Mirai was founded by Arpit Sarda (BITS Pilani, IIM Kozhikode, ex-JP Morgan) in collaboration with Varun Kohli (CEO & Co-Founder, Coding Blocks) and Kartik Mathur (NSIT, Co-Founder, Coding Blocks). Together, they've mentored over 250,000 students through Coding Blocks ."
+        },
+        {
+            "question": "Does Mirai provide placement assistance?",
+            "answer": "Yes, Mirai offers 100% placement support with guidance from MAANG professionals. Students receive resume and interview guidance, access to over 20 career mentors, and opportunities for paid internships from the 3rd year onwards. Monthly sessions are conducted by industry mentors from organizations like Amazon, Agoda, and Facebook ."
+        },
+        {
+            "question": "Do I need to know coding before joining Mirai?",
+            "answer": "No, Mirai teaches coding, problem-solving, and AI foundations from scratch. The program is designed for students who are passionate about technology, regardless of their prior coding experience ."
+        },
+        {
+            "question": "Where is Mirai School of Technology located?",
+            "answer": "Mirai's headquarters is in Gurugram, Haryana (3rd Floor, Tower - B, Unitech Cyber Park, Sector 39). The B.Tech program is delivered at partner campuses: Hi-Tech Institute of Engineering & Technology in Ghaziabad (Uttar Pradesh) and Rathinam Institute of Technology in Bengaluru ."
+        }
+    ]
+}
 ];
 
 // Helper functions
