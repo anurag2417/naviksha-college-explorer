@@ -13359,53 +13359,38 @@ export const colleges: College[] = [
         },
       ],
     },
-    academics: {
-      coursesOffered: [
-        "B.Tech in Artificial Intelligence",
-        "B.Tech in Quantum Computing",
-        "B.Tech in Blockchain Technology",
-        "B.Tech in Space Technology",
-        "B.Tech in Robotics & Autonomous Systems",
-      ],
-      popularCourses: [
-        "B.Tech AI",
-        "B.Tech Quantum Computing",
-        "B.Tech Blockchain",
-      ],
-      facultyCount: 65,
-      studentCount: 1000,
-      studentFacultyRatio: "6:1",
-      specialization: [
-        "Artificial Intelligence Research",
-        "Quantum Algorithms",
-        "Blockchain Development",
-        "Space Systems Engineering",
-        "Robotics & Automation",
-        "Cybersecurity (Quantum-safe)",
-        "Climate Tech Solutions",
-        "Biotechnology & Bioinformatics",
-      ],
-      departments: [
-        "Artificial Intelligence Research",
-        "Quantum Computing Center",
-        "Blockchain Innovation Lab",
-        "Space Technology Department",
-        "Robotics & Autonomous Systems",
-        "Emerging Technologies",
-      ],
-      researchCenters: 15,
-      publications: 180,
-      collaborations: [
-        "MIT Media Lab",
-        "Stanford AI Lab",
-        "CERN",
-        "NASA",
-        "ISRO",
-        "European Space Agency",
-        "IBM Quantum",
-        "Google Quantum AI",
-      ],
-    },
+    "academics": {
+    "coursesOffered": [
+        "B.Tech Computer Science (Artificial Intelligence)"
+    ],
+    "popularCourses": [
+        "B.Tech in Computer Science & Engineering (AI)"
+    ],
+    "facultyCount": 30,
+    "studentCount": 360,
+    "studentFacultyRatio": "12:1",
+    "specialization": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Full-Stack Web Development",
+        "Blockchain & Web3",
+        "Cybersecurity",
+        "Cloud Computing & DevOps",
+        "Robotics",
+        "Natural Language Processing (NLP)"
+    ],
+    "departments": [
+        "Department of Computer Science & Engineering (AI)"
+    ],
+    "researchCenters": 3,
+    "publications": 5,
+    "collaborations": [
+        "Ajeenkya DY Patil University",
+        "AlgoPrep (acquired)",
+        "MAANG Industry Mentors Network"
+    ],
+    "teachingMode": "offline"
+},
     infrastructure: {
       library: {
         name: "Future Tech Library",
