@@ -12361,7 +12361,7 @@ export const colleges: College[] = [
     ]
 },
 {
-    "id": "1701",
+    "id": "1303",
     "slug": "srm-ist-chennai",
     "name": "SRM Institute of Science and Technology",
     "shortName": "SRM IST",
@@ -12372,7 +12372,7 @@ export const colleges: College[] = [
     "stream": "engineering",
     "type": "private",
     "category": "premier",
-    "ranking": 13,
+    "ranking": 3,
     "rating": 4.1,
     "nirfRank": 13,
     "googleRating": 4.1,
